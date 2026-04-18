@@ -17,9 +17,9 @@
           "name": "WIP",
           "substatuses": [
             "NOT STARTED",
+            "STARTED",
             "UNDER REVIEW",
-            "FOR APPROVAL",
-            "Started"
+            "FOR APPROVAL"
           ],
           "isCompletion": false,
           "showOnBoard": true,
@@ -27,9 +27,9 @@
           "color": "#2563eb",
           "substatusColors": {
             "NOT STARTED": "#2563eb",
+            "STARTED": "#24eb31",
             "UNDER REVIEW": "#d97706",
-            "FOR APPROVAL": "#0f766e",
-            "Started": "#24eb31"
+            "FOR APPROVAL": "#0f766e"
           }
         },
         {
@@ -465,9 +465,9 @@
   ],
   "statuses": [
     "NOT STARTED",
+    "STARTED",
     "UNDER REVIEW",
     "FOR APPROVAL",
-    "Started",
     "CLOSED",
     "CANCELLED",
     "DROPPED",
@@ -479,9 +479,9 @@
       "name": "WIP",
       "substatuses": [
         "NOT STARTED",
+        "STARTED",
         "UNDER REVIEW",
-        "FOR APPROVAL",
-        "Started"
+        "FOR APPROVAL"
       ],
       "isCompletion": false,
       "showOnBoard": true,
@@ -489,9 +489,9 @@
       "color": "#2563eb",
       "substatusColors": {
         "NOT STARTED": "#2563eb",
+        "STARTED": "#24eb31",
         "UNDER REVIEW": "#d97706",
-        "FOR APPROVAL": "#0f766e",
-        "Started": "#24eb31"
+        "FOR APPROVAL": "#0f766e"
       }
     },
     {
