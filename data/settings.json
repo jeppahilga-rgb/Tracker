@@ -5,13 +5,7 @@
       "name": "Direct Purchase Quotation",
       "tagLabel": "Origin",
       "subTagLabel": "Sub Tag",
-      "origins": [
-        "NUPCO",
-        "Etimad",
-        "E-Purchasing",
-        "Sales",
-        "Engineering"
-      ],
+      "origins": [],
       "statusGroups": [
         {
           "name": "WIP",
@@ -21,8 +15,8 @@
             "UNDER REVIEW",
             "FOR APPROVAL"
           ],
-          "isCompletion": false,
-          "showOnBoard": true,
+          "isCompletion": true,
+          "showOnBoard": false,
           "columnView": "default",
           "color": "#2563eb",
           "substatusColors": {
@@ -66,69 +60,12 @@
       "referenceFormula": "YYMMDD{SEQ}",
       "referenceStartSequence": 6,
       "referenceSequencePad": 2,
-      "originSalesMap": {
-        "NUPCO": [
-          "Adnan",
-          "Sales 2",
-          "Sales 3"
-        ],
-        "Etimad": [
-          "Adnan",
-          "Sales 2"
-        ],
-        "E-Purchasing": [
-          "Customer Code Based"
-        ],
-        "Sales": [
-          "Sales Team A",
-          "Sales Team B"
-        ],
-        "Engineering": [
-          "Engineer 1",
-          "Engineer 2"
-        ]
-      },
+      "originSalesMap": {},
       "tagGroups": [
         {
           "id": "origin",
           "name": "Origin",
-          "tags": [
-            {
-              "name": "NUPCO",
-              "subtags": [
-                "Adnan",
-                "Sales 2",
-                "Sales 3"
-              ]
-            },
-            {
-              "name": "Etimad",
-              "subtags": [
-                "Adnan",
-                "Sales 2"
-              ]
-            },
-            {
-              "name": "E-Purchasing",
-              "subtags": [
-                "Customer Code Based"
-              ]
-            },
-            {
-              "name": "Sales",
-              "subtags": [
-                "Sales Team A",
-                "Sales Team B"
-              ]
-            },
-            {
-              "name": "Engineering",
-              "subtags": [
-                "Engineer 1",
-                "Engineer 2"
-              ]
-            }
-          ]
+          "tags": []
         }
       ],
       "activeTagGroupId": "origin",
@@ -1346,18 +1283,18 @@
         "colSize": 41
       },
       "dashboardWidgets": [
-        "quotes_by_month_line",
-        "weekly_activity_line",
-        "active_vs_completed",
-        "status_count_value_combo",
         "status_distribution",
+        "quotes_by_month_line",
+        "status_count_value_combo",
         "origin_distribution",
         "sales_distribution",
         "pg_distribution",
+        "aging_overview",
+        "completion_ratio",
+        "active_vs_completed",
         "top_customers_by_count",
         "top_customers_by_value",
-        "aging_overview",
-        "completion_ratio"
+        "weekly_activity_line"
       ],
       "dashboardWidgetTypes": {
         "status_distribution": "bar",
@@ -2042,18 +1979,18 @@
         "colSize": 41
       },
       "dashboardWidgets": [
-        "quotes_by_month_line",
-        "weekly_activity_line",
-        "active_vs_completed",
-        "status_count_value_combo",
         "status_distribution",
+        "quotes_by_month_line",
+        "status_count_value_combo",
         "origin_distribution",
         "sales_distribution",
         "pg_distribution",
+        "aging_overview",
+        "completion_ratio",
+        "active_vs_completed",
         "top_customers_by_count",
         "top_customers_by_value",
-        "aging_overview",
-        "completion_ratio"
+        "weekly_activity_line"
       ],
       "dashboardWidgetTypes": {
         "status_distribution": "bar",
@@ -2732,18 +2669,18 @@
         "colSize": 41
       },
       "dashboardWidgets": [
-        "quotes_by_month_line",
-        "weekly_activity_line",
-        "active_vs_completed",
-        "status_count_value_combo",
         "status_distribution",
+        "quotes_by_month_line",
+        "status_count_value_combo",
         "origin_distribution",
         "sales_distribution",
         "pg_distribution",
+        "aging_overview",
+        "completion_ratio",
+        "active_vs_completed",
         "top_customers_by_count",
         "top_customers_by_value",
-        "aging_overview",
-        "completion_ratio"
+        "weekly_activity_line"
       ],
       "dashboardWidgetTypes": {
         "status_distribution": "bar",
@@ -2805,21 +2742,15 @@
       "name": "New Tracker",
       "tagLabel": "Origin",
       "subTagLabel": "Sub Tag",
-      "origins": [
-        "NUPCO",
-        "Etimad",
-        "E-Purchasing",
-        "Sales",
-        "Engineering"
-      ],
+      "origins": [],
       "statusGroups": [
         {
           "name": "WIP",
           "substatuses": [
             "NOT STARTED",
-            "STARTED",
             "UNDER REVIEW",
-            "FOR APPROVAL"
+            "FOR APPROVAL",
+            "STD"
           ],
           "isCompletion": false,
           "showOnBoard": true,
@@ -2827,9 +2758,9 @@
           "color": "#2563eb",
           "substatusColors": {
             "NOT STARTED": "#2563eb",
-            "STARTED": "#24eb31",
             "UNDER REVIEW": "#d97706",
-            "FOR APPROVAL": "#0f766e"
+            "FOR APPROVAL": "#0f766e",
+            "STD": "#16a34a"
           }
         },
         {
@@ -2840,7 +2771,7 @@
             "DROPPED"
           ],
           "isCompletion": true,
-          "showOnBoard": false,
+          "showOnBoard": true,
           "columnView": "default",
           "color": "#dc2626",
           "substatusColors": {
@@ -2855,7 +2786,7 @@
             "SUBMITTED"
           ],
           "isCompletion": true,
-          "showOnBoard": false,
+          "showOnBoard": true,
           "columnView": "default",
           "color": "#16a34a",
           "substatusColors": {
@@ -2866,63 +2797,12 @@
       "referenceFormula": "YYMMDD{SEQ}",
       "referenceStartSequence": 6,
       "referenceSequencePad": 2,
-      "originSalesMap": {
-        "NUPCO": [
-          "Adnan"
-        ],
-        "Etimad": [
-          "Adnan"
-        ],
-        "E-Purchasing": [
-          "Customer Code Based"
-        ],
-        "Sales": [
-          "Sales Team A",
-          "Sales Team B"
-        ],
-        "Engineering": [
-          "Engineer 1",
-          "Engineer 2"
-        ]
-      },
+      "originSalesMap": {},
       "tagGroups": [
         {
           "id": "origin",
           "name": "Origin",
-          "tags": [
-            {
-              "name": "NUPCO",
-              "subtags": [
-                "Adnan"
-              ]
-            },
-            {
-              "name": "Etimad",
-              "subtags": [
-                "Adnan"
-              ]
-            },
-            {
-              "name": "E-Purchasing",
-              "subtags": [
-                "Customer Code Based"
-              ]
-            },
-            {
-              "name": "Sales",
-              "subtags": [
-                "Sales Team A",
-                "Sales Team B"
-              ]
-            },
-            {
-              "name": "Engineering",
-              "subtags": [
-                "Engineer 1",
-                "Engineer 2"
-              ]
-            }
-          ]
+          "tags": []
         }
       ],
       "activeTagGroupId": "origin",
@@ -3518,13 +3398,7 @@
   "activeWorkflowId": "direct_purchase",
   "tagLabel": "Origin",
   "subTagLabel": "Sub Tag",
-  "origins": [
-    "NUPCO",
-    "Etimad",
-    "E-Purchasing",
-    "Sales",
-    "Engineering"
-  ],
+  "origins": [],
   "statuses": [
     "NOT STARTED",
     "STARTED",
@@ -3545,8 +3419,8 @@
         "UNDER REVIEW",
         "FOR APPROVAL"
       ],
-      "isCompletion": false,
-      "showOnBoard": true,
+      "isCompletion": true,
+      "showOnBoard": false,
       "columnView": "default",
       "color": "#2563eb",
       "substatusColors": {
@@ -4173,28 +4047,7 @@
     "height": 300,
     "colSize": 41
   },
-  "originSalesMap": {
-    "NUPCO": [
-      "Adnan",
-      "Sales 2",
-      "Sales 3"
-    ],
-    "Etimad": [
-      "Adnan",
-      "Sales 2"
-    ],
-    "E-Purchasing": [
-      "Customer Code Based"
-    ],
-    "Sales": [
-      "Sales Team A",
-      "Sales Team B"
-    ],
-    "Engineering": [
-      "Engineer 1",
-      "Engineer 2"
-    ]
-  },
+  "originSalesMap": {},
   "ui": {
     "kanbanDensity": "compact"
   }
