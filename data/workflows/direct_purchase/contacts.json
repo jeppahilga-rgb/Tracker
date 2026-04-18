@@ -1,0 +1,2634 @@
+[
+  {
+    "id": "ct_1776492944360_717",
+    "customerCode": "A-9",
+    "name": "-",
+    "phone": "-",
+    "email": "splycrl@ksu.edu.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944360_761",
+    "customerCode": "D-35",
+    "name": "-",
+    "phone": "-",
+    "email": "f.thamer@mod.gov.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944360_762",
+    "customerCode": "K-109",
+    "name": "-",
+    "phone": "0114631111",
+    "email": "PurchasingDpt@swcc-gov.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944360_714",
+    "customerCode": "G-70",
+    "name": "-",
+    "phone": "0114777714",
+    "email": "Dalashi@psmmc.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944360_989",
+    "customerCode": "Q-167",
+    "name": "-",
+    "phone": "0138440000",
+    "email": "mesho540@gmail.com",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944360_113",
+    "customerCode": "284",
+    "name": "-",
+    "phone": "01752573625/0172500001",
+    "email": "mish.ref@hotmail.com",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944360_368",
+    "customerCode": "I-89",
+    "name": "-",
+    "phone": "0502987620",
+    "email": "malsarf@nwafh.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944360_209",
+    "customerCode": "1120",
+    "name": "-",
+    "phone": "545017073",
+    "email": "puchase@rastar-chem.com",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944360_702",
+    "customerCode": "E-41",
+    "name": "A",
+    "phone": "+964949",
+    "email": "",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944360_652",
+    "customerCode": "G-61",
+    "name": "Aadi Al-Dossari",
+    "phone": "0535307732",
+    "email": "ALDAWSARITA@MNGHA.MED.SA",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944360_83",
+    "customerCode": "C-25",
+    "name": "Abdolaziz Yakoub Khan",
+    "phone": "0112158913/503896344",
+    "email": "abkhan@alfaisal.edu",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944361_17",
+    "customerCode": "G-69",
+    "name": "Abdul Aziz Mohammed Fatnan Asiri",
+    "phone": "0554763556",
+    "email": "amfasiri@ub.edu.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944361_957",
+    "customerCode": "696",
+    "name": "Abdul Aziz Mulla",
+    "phone": "0125278861",
+    "email": "amulla@sfhm.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944361_84",
+    "customerCode": "378",
+    "name": "Abdul Jaleel",
+    "phone": "-",
+    "email": "-",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944361_586",
+    "customerCode": "I-83",
+    "name": "Abdul Muttalib Saleh",
+    "phone": "0543883796",
+    "email": "AMSAlHaiti@imamu.edu.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944361_498",
+    "customerCode": "F-52",
+    "name": "Abdul Salam Hamdan Al-Harbi",
+    "phone": "0118401356",
+    "email": "ahharbi@kkesh.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944361_381",
+    "customerCode": "606",
+    "name": "Abdularahman Al-Numay",
+    "phone": "0114783000-80890",
+    "email": "aalnamle@pscc.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944361_92",
+    "customerCode": "D-33",
+    "name": "Abdulaziz",
+    "phone": "0114837777",
+    "email": "",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944361_605",
+    "customerCode": "L-113",
+    "name": "Abdulaziz Al-Asimi",
+    "phone": "0552462445",
+    "email": "ALOSAIMIAB10@MNGHA.MED.SA",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944361_536",
+    "customerCode": "1059",
+    "name": "Abdulaziz Al-Asimi",
+    "phone": "055462445",
+    "email": "alosaimiab10@mngha.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944361_657",
+    "customerCode": "W-230",
+    "name": "Abdulaziz Al-Julaifi",
+    "phone": "0115882831",
+    "email": "aa.aljulifi@psau.edu.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944361_599",
+    "customerCode": "D-33",
+    "name": "Abdulaziz Alshughrud",
+    "phone": "0114837777-6232",
+    "email": "abdulaziz.alshughrud@unified.com",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944361_853",
+    "customerCode": "638",
+    "name": "Abdulaziz Munif Al-Mutairi",
+    "phone": "0548383044",
+    "email": "am.almuteiri@psafhm.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944361_510",
+    "customerCode": "A-9",
+    "name": "Abdulaziz Shabab",
+    "phone": "0508345773",
+    "email": "AALMUTAIRI23@KSU.EDU.SA",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944361_291",
+    "customerCode": "908",
+    "name": "abdulhadi Mohammed Al-Dosari",
+    "phone": "0554333676",
+    "email": "abdalhadima@moh.gov.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944361_14",
+    "customerCode": "I-84",
+    "name": "Abdul-Ilah Al-Mulla",
+    "phone": "053930037",
+    "email": "almullaab1@mngha.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944361_38",
+    "customerCode": "1059",
+    "name": "Abdullad Asiri",
+    "phone": "0125865027",
+    "email": "asiriab14@mngha.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944361_12",
+    "customerCode": "Q-167",
+    "name": "Abdullad Saad Al-Subaie",
+    "phone": "0138532644",
+    "email": "sabaieas@ngha.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944361_54",
+    "customerCode": "A-7",
+    "name": "Abdullah",
+    "phone": "0114292339",
+    "email": "moqhema@ksau-hs.edu.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944361_673",
+    "customerCode": "E-46",
+    "name": "Abdullah Abdulrahman Al-Muharj",
+    "phone": "0118041605",
+    "email": "almuhrejab@mngha.gov.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944361_109",
+    "customerCode": "E-42",
+    "name": "Abdullah Al-Anzi",
+    "phone": "0112437429",
+    "email": "aanzi@moimsd.gov.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944361_756",
+    "customerCode": "I-87",
+    "name": "Abdullah Al-Anzi",
+    "phone": "0112437429",
+    "email": "aanzi@moi.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944361_499",
+    "customerCode": "1059",
+    "name": "Abdullah Al-Mulla",
+    "phone": "0503930037",
+    "email": "almullaab1@MNGHA.MED.SA",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944361_149",
+    "customerCode": "I-84",
+    "name": "Abdullah Al-Mulla",
+    "phone": "0503930037",
+    "email": "almullaab1@MNGHA.MED.SA",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944361_325",
+    "customerCode": "D-33",
+    "name": "Abdullah Alotaibi",
+    "phone": "0114837777-6230",
+    "email": "abdullah.alotaibi@unified.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944361_804",
+    "customerCode": "L-113",
+    "name": "Abdullah Asiri",
+    "phone": "0125865027",
+    "email": "ASIRIAB14@MNGHA.MED.SA",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944361_291",
+    "customerCode": "X-232",
+    "name": "Abdullah bin Jarman Al-Qahtani",
+    "phone": "0556628227",
+    "email": "Jzhc-equip@moh.gov.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944361_973",
+    "customerCode": "A-7",
+    "name": "Abdullah ibn Muhammad ibn Fajiha",
+    "phone": "0551622013",
+    "email": "fataiha@ksau-hs.edu.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944361_194",
+    "customerCode": "838",
+    "name": "abdullah marir",
+    "phone": "0552258875",
+    "email": "",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944361_121",
+    "customerCode": "838",
+    "name": "Abdullah Mohammed Muryer",
+    "phone": "-",
+    "email": "abdullad.mareer@dmf.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944361_367",
+    "customerCode": "712",
+    "name": "Abdullah Rajkhan",
+    "phone": "0126195000",
+    "email": "rajkhan.aa@sgs.gov.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944361_547",
+    "customerCode": "Q-169",
+    "name": "Abdullah Saad Al-Subaie",
+    "phone": "0138532644",
+    "email": "SubaieAS@MNGHA.MED.SA",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944361_815",
+    "customerCode": "G-61",
+    "name": "Abdullah Turkistani",
+    "phone": "0148669999",
+    "email": "turkistaniab1@ngha.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944361_836",
+    "customerCode": "997",
+    "name": "Abdullateef Alomran",
+    "phone": "118274639",
+    "email": "abdullateef.alomran@afmssc.com",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944361_132",
+    "customerCode": "1070",
+    "name": "Abdulwahab Al-Ghamdi",
+    "phone": "0546595456",
+    "email": "afalghamdi@moh.gov.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944361_167",
+    "customerCode": "639",
+    "name": "abdurhman",
+    "phone": "0543855524",
+    "email": "samm992200@gmail.com",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944361_46",
+    "customerCode": "E-49",
+    "name": "Abeer S. Algefari",
+    "phone": "",
+    "email": "",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944361_935",
+    "customerCode": "1119",
+    "name": "Adi Al-Dosari",
+    "phone": "0535307732",
+    "email": "aldawsarita@mngha.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944361_995",
+    "customerCode": "G-61",
+    "name": "Adi Al-Dosari",
+    "phone": "0535307732",
+    "email": "aldawsarita@mngha.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944361_509",
+    "customerCode": "D-33",
+    "name": "Adwa Abdulaziz",
+    "phone": "0114837777-6236",
+    "email": "adwa.abdulaziz@unified.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944361_774",
+    "customerCode": "H-75",
+    "name": "Afaf Al Harbi",
+    "phone": "-",
+    "email": "m1519009@kfshrc.edu.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944361_584",
+    "customerCode": "696",
+    "name": "Ahmed",
+    "phone": "0125278864",
+    "email": "aalkheri@sfhm.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944361_617",
+    "customerCode": "850",
+    "name": "Ahmed Al-Ghamdi",
+    "phone": "0552861184",
+    "email": "ahalghamdi@moi.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944361_508",
+    "customerCode": "1059",
+    "name": "Ahmed Al-Ghamdi",
+    "phone": "0552861184",
+    "email": "ahalghamdi@moi.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944361_471",
+    "customerCode": "517",
+    "name": "Ahmed Alhelou",
+    "phone": "114209700",
+    "email": "ahmed.alhelou@zahranfm.com",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944361_530",
+    "customerCode": "Q-169",
+    "name": "Ahmed Al-Omar",
+    "phone": "0138532640",
+    "email": "omaraa2@ngha.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944361_760",
+    "customerCode": "I-89",
+    "name": "Ahmed Al-Shammari",
+    "phone": "0532599399",
+    "email": "ashamari@nwafh.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944361_6",
+    "customerCode": "W-230",
+    "name": "Ahmed Al-Zeir",
+    "phone": "0555510856",
+    "email": "-",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944361_515",
+    "customerCode": "517",
+    "name": "Ahmed Elgazar",
+    "phone": "0114209700-121",
+    "email": "-",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944361_342",
+    "customerCode": "1107",
+    "name": "Ahmed Hussain Alkaf",
+    "phone": "115121410",
+    "email": "Ahmed.alkaf@alrajhimedicine.com",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944361_542",
+    "customerCode": "1059",
+    "name": "Ahmed Khaled Al-Otaibi",
+    "phone": "0118043207",
+    "email": "otibiah@ngha.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944361_235",
+    "customerCode": "E-46",
+    "name": "Ahmed Khaled Al-Otaibi",
+    "phone": "0118043207",
+    "email": "otibiah@mngha.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944361_442",
+    "customerCode": "776",
+    "name": "Ahmed Khalifa",
+    "phone": "553154860",
+    "email": "-",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944361_519",
+    "customerCode": "I-84",
+    "name": "ahmed Mohammed Al-Habil",
+    "phone": "0135339362",
+    "email": "hubailam@mngha.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944362_572",
+    "customerCode": "847",
+    "name": "Ahmed Sulaiman",
+    "phone": "-",
+    "email": "-",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944362_507",
+    "customerCode": "D-31",
+    "name": "Al Arfaj",
+    "phone": "0118027838",
+    "email": "Marfaj@moi.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944362_128",
+    "customerCode": "1119",
+    "name": "Alaa Asr",
+    "phone": "0556607764",
+    "email": "asral@mngha.med.sA",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944362_898",
+    "customerCode": "E-46",
+    "name": "Alaa Asr",
+    "phone": "0556607764",
+    "email": "asral@mngha.med.sA",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944362_818",
+    "customerCode": "G-61",
+    "name": "Alaa Asr",
+    "phone": "0556607764",
+    "email": "asral@mngha.med.sA",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944362_855",
+    "customerCode": "L-113",
+    "name": "Alaa Asr",
+    "phone": "0556607764",
+    "email": "asral@mngha.med.sA",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944362_648",
+    "customerCode": "H-75",
+    "name": "Alenaza, Radi",
+    "phone": "0500038452",
+    "email": "f75902@kfshrc.edu.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944362_524",
+    "customerCode": "H-75",
+    "name": "ALHODAITHY, Ms. MALAK",
+    "phone": "-",
+    "email": "J1518875@KFSHRC.EDU.SA",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944362_742",
+    "customerCode": "A-9",
+    "name": "Ali Al Sharimi",
+    "phone": "0114698828",
+    "email": "aalshoraimi@ksu.edu.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944362_665",
+    "customerCode": "Q-167",
+    "name": "Ali Al-Omani",
+    "phone": "0138503977",
+    "email": "alalomani@moh.gov.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944362_125",
+    "customerCode": "971",
+    "name": "Ali Alqannas",
+    "phone": "-",
+    "email": "ali.alqannas@flowmedical.com",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944362_841",
+    "customerCode": "B-18",
+    "name": "Ali Y. Alkhider",
+    "phone": "-",
+    "email": "akhider@kacst.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944362_503",
+    "customerCode": "L-113",
+    "name": "AL-MARZOOQI, Mr. MOHAMMED",
+    "phone": "0122266666",
+    "email": "MARZOOQIMM@NGHA.MED.SA",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944362_207",
+    "customerCode": "A-6",
+    "name": "Al-Noud Bint Khalid Al-rashid",
+    "phone": "0118243868",
+    "email": "cn@pnu.edu.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944362_474",
+    "customerCode": "H-75",
+    "name": "Alosaimi Mr. Salem",
+    "phone": "-",
+    "email": "f1516808@kfshrc.edu.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944362_348",
+    "customerCode": "H-75",
+    "name": "AlSudairy, Yaser",
+    "phone": "-",
+    "email": "-",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944362_141",
+    "customerCode": "H-76",
+    "name": "Alzahrani, Amer",
+    "phone": "-",
+    "email": "-",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944362_765",
+    "customerCode": "L-113",
+    "name": "Amer Al-Aboud",
+    "phone": "0557857672",
+    "email": "ALABOUDAM@MNGHA.MED.SA",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944362_241",
+    "customerCode": "H-75",
+    "name": "Amer Alzahrani",
+    "phone": "",
+    "email": "F1510071@kfshrc.edu.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944362_772",
+    "customerCode": "1059",
+    "name": "Amer Bandar Al-Aboud",
+    "phone": "0557857672",
+    "email": "alaboudam@mngha.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944362_611",
+    "customerCode": "E-46",
+    "name": "Amin Al-Ghamdi",
+    "phone": "0118043732",
+    "email": "ghamdia4@mngha.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944363_272",
+    "customerCode": "D-33",
+    "name": "Amir Sabdrat",
+    "phone": "114837777",
+    "email": "amir.sabrat@alhammadi.com",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944363_489",
+    "customerCode": "1116",
+    "name": "Aniket Kadam",
+    "phone": "580319177",
+    "email": "aniket.k@maddalmasane.com",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944363_793",
+    "customerCode": "H-75",
+    "name": "Anupama Vattappillil",
+    "phone": "0558024652",
+    "email": "VATTAPPILLIL@kfshrc.edu.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944363_311",
+    "customerCode": "E-46",
+    "name": "Anwar Al-Anzi",
+    "phone": "0118041720",
+    "email": "alhaidawialanazian@mngha.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944363_584",
+    "customerCode": "H-75",
+    "name": "Areej Ashour",
+    "phone": "-",
+    "email": "aashour@kfshrc.edu.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944363_27",
+    "customerCode": "G-70",
+    "name": "Ayman Alhamdan",
+    "phone": "0114777714",
+    "email": "INFO@PSMMC.MED.SA",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944363_94",
+    "customerCode": "1059",
+    "name": "Badah Al Alayyan",
+    "phone": "0118041821",
+    "email": "ALQAHTANIBA10@MNGHA.MED.SA",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944363_625",
+    "customerCode": "E-46",
+    "name": "Badah Al Alayyan",
+    "phone": "0118041821",
+    "email": "ALQAHTANIBA10@MNGHA.MED.SA",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944363_286",
+    "customerCode": "E-46",
+    "name": "Badah Al-Qahtani",
+    "phone": "0118011111",
+    "email": "ALQAHTANIBA10@MNGHA.MED.SA",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944363_472",
+    "customerCode": "E-46",
+    "name": "Badr",
+    "phone": "0118043069",
+    "email": "alkolaibyba@ngha.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944363_975",
+    "customerCode": "A-6",
+    "name": "Bandar Al-Hamid",
+    "phone": "0118202712",
+    "email": "bjalhumaid@kaauh.edu.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944363_514",
+    "customerCode": "E-46",
+    "name": "Bandar Ibrahim Al-Zahrani",
+    "phone": "0118011111",
+    "email": "ZahraniB@NGHA.MED.SA",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944363_108",
+    "customerCode": "617",
+    "name": "Bashir Lone",
+    "phone": "543321972",
+    "email": "loneb@seder.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944363_214",
+    "customerCode": "M-129",
+    "name": "Dhiab Hussein Qasim Maashi",
+    "phone": "0507339211",
+    "email": "tmaashi@jazanu.edu.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944363_45",
+    "customerCode": "M-129",
+    "name": "Dhiyab Maashi",
+    "phone": "0507339211",
+    "email": "fkhurmei@jazanu.edu.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944363_744",
+    "customerCode": "H-76",
+    "name": "Dina Idris",
+    "phone": "-",
+    "email": "j99791@kfshrc.edu.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944363_268",
+    "customerCode": "A-9",
+    "name": "Dr. Abeer Badri",
+    "phone": "-",
+    "email": "-",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944363_571",
+    "customerCode": "696",
+    "name": "Dr. Ahmed Al-Lahham",
+    "phone": "054365135",
+    "email": "aallaham@sfhm.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944363_792",
+    "customerCode": "779",
+    "name": "Dr. Amer",
+    "phone": "-",
+    "email": "-",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944363_304",
+    "customerCode": "398",
+    "name": "Dr. Essa Al-Dhafiri",
+    "phone": "-",
+    "email": "alalam.director@gmail.com",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944363_846",
+    "customerCode": "F-60",
+    "name": "Dr. FADY",
+    "phone": "-",
+    "email": "-",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944363_675",
+    "customerCode": "1099",
+    "name": "Dr. Ghiath Ali Khamis",
+    "phone": "966509427708",
+    "email": "Ghiathkhamis@alayamedical.com",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944363_70",
+    "customerCode": "C-25",
+    "name": "Dr. Mateen Ahmad Khan",
+    "phone": "-",
+    "email": "-",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944363_496",
+    "customerCode": "993",
+    "name": "Dr. Mohamed Saad",
+    "phone": "0556777987",
+    "email": "procurement-baha-cluster@MOH.GOV.SA",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944363_43",
+    "customerCode": "N-131",
+    "name": "Dr. Nayef",
+    "phone": "0556972518",
+    "email": "alzahrani.na@bu.edu.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944363_354",
+    "customerCode": "N-131",
+    "name": "Dr. Sami Al-Rubai",
+    "phone": "0556616866",
+    "email": "salrobai@bu.edu.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944363_345",
+    "customerCode": "1104",
+    "name": "Dr. Sara",
+    "phone": "534283186",
+    "email": "-",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944364_332",
+    "customerCode": "F-60",
+    "name": "Dr. Tony",
+    "phone": "-",
+    "email": "-",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944364_970",
+    "customerCode": "1004",
+    "name": "Eid Ayed al, Shammari",
+    "phone": "0557978883",
+    "email": "eaalshammri@moh.gov.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944364_345",
+    "customerCode": "617",
+    "name": "Eng. Mubarak Ali Ameer",
+    "phone": "0567753973",
+    "email": "ameerm@seder.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944364_903",
+    "customerCode": "H-79",
+    "name": "Eng. Norah",
+    "phone": "-",
+    "email": "-",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944364_575",
+    "customerCode": "864",
+    "name": "ENG. WAEL ELSHOBAKY",
+    "phone": "560573745",
+    "email": "w.elshobaky@mis.com.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944364_966",
+    "customerCode": "I-81",
+    "name": "Engr. Faisal Ali Al-Omari",
+    "phone": "0598532192",
+    "email": "faalamri@kfmc.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944364_282",
+    "customerCode": "D-33",
+    "name": "Engr. Hassan",
+    "phone": "-",
+    "email": "-",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944364_811",
+    "customerCode": "764",
+    "name": "Engr. Nora",
+    "phone": "-",
+    "email": "-",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944364_567",
+    "customerCode": "L-120",
+    "name": "Fahad Al Asaadi",
+    "phone": "0122328888",
+    "email": "FAlAsaadi@kfafh.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944364_650",
+    "customerCode": "I-89",
+    "name": "Fahd Al-Ghamdi",
+    "phone": "0500274211",
+    "email": "FAlghamdi2@nwafh.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944364_65",
+    "customerCode": "L-120",
+    "name": "Fahd Ibrahim Ghafouri",
+    "phone": "0122328888",
+    "email": "FGhafuri@kfafh.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944364_450",
+    "customerCode": "E-46",
+    "name": "Fahd Moazzi Al-Harbi",
+    "phone": "0595544777",
+    "email": "fmh002018@gmail.com",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944364_944",
+    "customerCode": "Q-167",
+    "name": "Fahd Moazzi Al-Harbi",
+    "phone": "0595544777",
+    "email": "fhm002018@gmail.com",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944364_767",
+    "customerCode": "A-7",
+    "name": "Fahd Saad Ali Al-Safri",
+    "phone": "0122245116",
+    "email": "sefrif@ksau-hs.edu.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944364_752",
+    "customerCode": "A-7",
+    "name": "Faisal Ali Al-Dosari",
+    "phone": "0112930123/0545191999",
+    "email": "dossrif@ksau-hs.edu.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944364_703",
+    "customerCode": "F-52",
+    "name": "Faisal bin Abdulaziz Al-Zaidi",
+    "phone": "0118401343",
+    "email": "fzaidi@kkesh.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944364_164",
+    "customerCode": "E-46",
+    "name": "Faiza Al-Shammari",
+    "phone": "0118041705",
+    "email": "alshammarifa5@mngha.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944364_948",
+    "customerCode": "847",
+    "name": "Faris Al Shakhs",
+    "phone": "-",
+    "email": "-",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944364_805",
+    "customerCode": "R-179",
+    "name": "Fasmin",
+    "phone": "+966501320343",
+    "email": "fmohamed@care.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944364_143",
+    "customerCode": "H-75",
+    "name": "FATEEMAH, Mr. RIYADH",
+    "phone": "0118043102",
+    "email": "FateemahR@MNGHA.MED.SA",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944364_367",
+    "customerCode": "1059",
+    "name": "Fatima Al-Subaie",
+    "phone": "0122264022",
+    "email": "alsobaiefa2@mngha.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944364_583",
+    "customerCode": "E-46",
+    "name": "fatima Riyadh",
+    "phone": "0118011111/0118043102",
+    "email": "fateemahr@mngha.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944364_15",
+    "customerCode": "Q-167",
+    "name": "Fawaz",
+    "phone": "0138440000",
+    "email": "fawaz.alnafesi@kfmmc.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944364_220",
+    "customerCode": "D-35",
+    "name": "Fawaz",
+    "phone": "0507510103",
+    "email": "S.ALDHAFIRI@MOD.GOV.SA",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944364_738",
+    "customerCode": "E-46",
+    "name": "Feras Al-Bassam",
+    "phone": "01180401695",
+    "email": "albassmfe@mngha.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944364_69",
+    "customerCode": "E-46",
+    "name": "Firas Al-Bassam",
+    "phone": "0118041695",
+    "email": "E:albassamfe@mngha.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944365_571",
+    "customerCode": "C-22",
+    "name": "GAgg agaga",
+    "phone": "9696969",
+    "email": "t@gt.com",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944365_368",
+    "customerCode": "E-46",
+    "name": "Ghadeer Al- Ghadeer",
+    "phone": "0118043820",
+    "email": "binghadeergh@mngha.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944365_60",
+    "customerCode": "L-113",
+    "name": "Ghadir Yaseer Saleh Qadi",
+    "phone": "0532762867",
+    "email": "qadigh@mngha.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944365_827",
+    "customerCode": "1091",
+    "name": "Hadi Qirtas",
+    "phone": "138560528",
+    "email": "hadi@btc-ksa.com",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944365_671",
+    "customerCode": "A-9",
+    "name": "Hajar Alsweed",
+    "phone": "0555926024",
+    "email": "halsweed@ksu.edu.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944365_396",
+    "customerCode": "1067",
+    "name": "Hajji Al-Farshan",
+    "phone": "0114902395",
+    "email": "pv11361@pv.gov.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944365_881",
+    "customerCode": "N-131",
+    "name": "Hamed Al-Kathiri",
+    "phone": "0508875464",
+    "email": "halkathiri@bu.edu.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944365_927",
+    "customerCode": "A-7",
+    "name": "Hanan Al-Mutairi",
+    "phone": "0114292371",
+    "email": "almutairihn@ksau-hs.edu.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944365_449",
+    "customerCode": "I-81",
+    "name": "Hassan Al-Shehri",
+    "phone": "0112889999",
+    "email": "haaalsheri@kfmc.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944365_560",
+    "customerCode": "704",
+    "name": "Hassan Eid Hassan",
+    "phone": "-",
+    "email": "-",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944365_947",
+    "customerCode": "1059",
+    "name": "Hassan Farhan Al Zahrani",
+    "phone": "0122264025",
+    "email": "ALZAHRANIHA17@MNGHA.MED.SA",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944365_821",
+    "customerCode": "I-81",
+    "name": "Hassan Ibrahim Al-Asmari",
+    "phone": "0112889000",
+    "email": "hialasmari@kfmc.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944365_831",
+    "customerCode": "A-6",
+    "name": "Hessa Al-Subaie",
+    "phone": "0112803036",
+    "email": "heaalsubaie@kaauh.edu.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944365_108",
+    "customerCode": "773",
+    "name": "Ibrahim",
+    "phone": "0507110490",
+    "email": "-",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944365_10",
+    "customerCode": "1103",
+    "name": "Ibrahim bin Hussein Al-Numai",
+    "phone": "0509489283",
+    "email": "ebrahim.alniemi@moia.gov.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944365_478",
+    "customerCode": "W-230",
+    "name": "Ibrahim Saad Al-Juwair",
+    "phone": "0115882838",
+    "email": "i.algawer@psau.edu.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944365_273",
+    "customerCode": "L-113",
+    "name": "Ibtessam H. Al-Harbi",
+    "phone": "0122266237",
+    "email": "alharbiib10@mngha.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944365_54",
+    "customerCode": "G-61",
+    "name": "Ibtessam H. Al-Harbi",
+    "phone": "0547354557",
+    "email": "alharbiib10@mngha.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944365_642",
+    "customerCode": "850",
+    "name": "Iman Al-Qahtani",
+    "phone": "0138013000",
+    "email": "emalqahtani@moi.meed.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944365_479",
+    "customerCode": "1028",
+    "name": "immortal",
+    "phone": "0539620305",
+    "email": "rdo-2@pssisp.gov.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944365_537",
+    "customerCode": "1263",
+    "name": "Islam Sleem",
+    "phone": "+966544800246",
+    "email": "esaid@hasanah.com.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944365_453",
+    "customerCode": "F-57",
+    "name": "Jabeen Aly",
+    "phone": "509995103",
+    "email": "jabeen.aly@drsulaimanhabib.com",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944365_829",
+    "customerCode": "772",
+    "name": "Joe Hilson",
+    "phone": "+9665408208624",
+    "email": "jgrinn@familycare.com.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944365_574",
+    "customerCode": "722",
+    "name": "Joe Hilson Grinn",
+    "phone": "-",
+    "email": "-",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944365_224",
+    "customerCode": "614",
+    "name": "John Vincent Morojo",
+    "phone": "0569051421",
+    "email": "jvincent@golddenchicken.com.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944365_852",
+    "customerCode": "849",
+    "name": "Johna Marie Diego",
+    "phone": "920033266-1121",
+    "email": "j.diego@akdital.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944365_109",
+    "customerCode": "H-76",
+    "name": "Kashghari, Ayman",
+    "phone": "-",
+    "email": "J98537@kfshrc.edu.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944365_127",
+    "customerCode": "606",
+    "name": "Khaled Al Mutairi",
+    "phone": "0114783000-80090",
+    "email": "kalmutaere@pscc.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944365_53",
+    "customerCode": "Q-169",
+    "name": "Khaled Al-Boubder",
+    "phone": "0138532649",
+    "email": "albobaderkh@ngha.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944365_427",
+    "customerCode": "638",
+    "name": "Khaled Al-Maghdawi",
+    "phone": "0148411181",
+    "email": "KH.ALMUGHAZZAWI@PSAFHM.MED.SA",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944365_834",
+    "customerCode": "D-38",
+    "name": "Khaled Al-Otaibi",
+    "phone": "0133640900",
+    "email": "alotabik398@gmail.com",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944365_462",
+    "customerCode": "1059",
+    "name": "Khaled Daghim Al-Subaie",
+    "phone": "0125865033",
+    "email": "ALSUBAIEKH4@MNGHA.MED.SA",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944365_911",
+    "customerCode": "L-113",
+    "name": "Khaled Hosni Al-Mohammadi",
+    "phone": "0148669887",
+    "email": "almohammadikh@mngha.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944365_813",
+    "customerCode": "923",
+    "name": "Khalid Mohammed Al-Querishy",
+    "phone": "502929838",
+    "email": "k.querishy@rh.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944365_600",
+    "customerCode": "D-31",
+    "name": "Khalil Al-Suwaid",
+    "phone": "0118027836",
+    "email": "kswayed@sfh.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944365_158",
+    "customerCode": "H-76",
+    "name": "King Faisal Naval Base in Jeddah",
+    "phone": "0126090000",
+    "email": "alharbi_al@mod.gov.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944365_184",
+    "customerCode": "H-75",
+    "name": "Kutbi, Mr. Moathe",
+    "phone": "-",
+    "email": "kutbimo1@mngha.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944365_877",
+    "customerCode": "1110",
+    "name": "Lawrence I Belen",
+    "phone": "-",
+    "email": "-",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944366_268",
+    "customerCode": "F-53",
+    "name": "Lenie C. Casumpi",
+    "phone": "0537847887",
+    "email": "L_casumpi@dallah-hospital.com",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944366_488",
+    "customerCode": "F-57",
+    "name": "Maaz Osman",
+    "phone": "5099425854",
+    "email": "maaz.osman@flowmedical.com",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944366_592",
+    "customerCode": "L-120",
+    "name": "Maher Al-Harbi",
+    "phone": "0122328888",
+    "email": "malharbi4@kfafh.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944366_870",
+    "customerCode": "1063",
+    "name": "Mahmoud Al-Mukbil",
+    "phone": "00966508863268 00966547930024",
+    "email": "mahmoud.mukbil@siemens-healthineers.com",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944366_583",
+    "customerCode": "G-61",
+    "name": "Majed Abdullah Al-Jahni",
+    "phone": "0148669999",
+    "email": "aljohanima1@mngha.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944366_415",
+    "customerCode": "L-113",
+    "name": "Manal Al-Omari",
+    "phone": "0122266666",
+    "email": "alamrima@mngha.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944366_489",
+    "customerCode": "L-111",
+    "name": "Mansour Al-Sawat",
+    "phone": "0555541977",
+    "email": "otb11otb@gmail.com",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944366_722",
+    "customerCode": "A-9",
+    "name": "Maram Al-Hanaya",
+    "phone": "0118069057",
+    "email": "Malhanaya@ksu.edu.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944366_688",
+    "customerCode": "Q-167",
+    "name": "Mashhour Hamed Al-Qahtani",
+    "phone": "0531899885",
+    "email": "afhdh.proc@afhdh.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944366_389",
+    "customerCode": "O-144",
+    "name": "Mehdi Shah",
+    "phone": "966565681331",
+    "email": "mahdi.shah@bmc.edu.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944366_136",
+    "customerCode": "732",
+    "name": "Miazamuddin Kinya Abdulla",
+    "phone": "-",
+    "email": "n-kinya@sst-sa.com",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944366_391",
+    "customerCode": "V-215",
+    "name": "Mishaal bin Abdullah Al-Saab",
+    "phone": "0133423497",
+    "email": "saabm@rcjy.gov.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944366_579",
+    "customerCode": "Q-167",
+    "name": "Mishaal Mohammed Al-Dosari",
+    "phone": "0534606424",
+    "email": "afhdh.proc@afhdh.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944366_640",
+    "customerCode": "285",
+    "name": "Mishari Al-Mutairi",
+    "phone": "0563849485",
+    "email": "afhdh.proc@afhdh.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944366_161",
+    "customerCode": "B-18",
+    "name": "Mishari Ibrahim Al-Rabiah",
+    "phone": "0114883555",
+    "email": "mialrabiah@kacst.gov.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944366_136",
+    "customerCode": "946",
+    "name": "Moayed",
+    "phone": "0538718773",
+    "email": "mahmed@sajaya.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944366_885",
+    "customerCode": "E-46",
+    "name": "Moaz Abdelelah Kutbi",
+    "phone": "0118043317",
+    "email": "kutbimo1@mngha.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944366_795",
+    "customerCode": "765",
+    "name": "Mohamed Awad",
+    "phone": "590876686",
+    "email": "mohamed.eldebsi@fgc.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944366_827",
+    "customerCode": "696",
+    "name": "Mohamed Keefi",
+    "phone": "0556663357",
+    "email": "mkaifi@sfhm.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944366_578",
+    "customerCode": "1121",
+    "name": "Mohamed Khaleel",
+    "phone": "0560531432",
+    "email": "kkmohamed@pha.gov.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944366_24",
+    "customerCode": "1105",
+    "name": "Mohamed Mahmoud",
+    "phone": "00966138252302",
+    "email": "-",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944366_993",
+    "customerCode": "1266",
+    "name": "Mohamed Zaafan",
+    "phone": "",
+    "email": "Hany@attayerfactory.com",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944366_939",
+    "customerCode": "808",
+    "name": "Mohammad",
+    "phone": "-",
+    "email": "-",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944366_417",
+    "customerCode": "1122",
+    "name": "Mohammad Sarfaraz",
+    "phone": "531484569",
+    "email": "m.ansari@saneel.org",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944366_990",
+    "customerCode": "1097",
+    "name": "Mohammad Yousaf",
+    "phone": "0590972039",
+    "email": "myousaf@genalive.com",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944366_770",
+    "customerCode": "D-35",
+    "name": "Mohammed",
+    "phone": "0175321536",
+    "email": "malwadaei@msd.gov.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944366_902",
+    "customerCode": "Q-167",
+    "name": "Mohammed",
+    "phone": "0569053153",
+    "email": "malborshid@kfmmc.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944366_878",
+    "customerCode": "H-77",
+    "name": "Mohammed Abdelghani",
+    "phone": "565250529",
+    "email": "mamsaleh@kau.edu.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944366_428",
+    "customerCode": "D-33",
+    "name": "Mohammed Ahmed",
+    "phone": "0114837777-6276",
+    "email": "mohammed.ahmed@alhammadi.com",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944366_485",
+    "customerCode": "514",
+    "name": "Mohammed Al Habri",
+    "phone": "0114066646-302/0546690865",
+    "email": "mohammed.a@ascomed.com",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944366_49",
+    "customerCode": "850",
+    "name": "Mohammed Al Shaikhi",
+    "phone": "0560859996",
+    "email": "mhalshaihi@moi.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944366_247",
+    "customerCode": "712",
+    "name": "Mohammed Al-Daghrir",
+    "phone": "0126195000",
+    "email": "daghreer.mh@sgs.gov.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944366_271",
+    "customerCode": "E-46",
+    "name": "Mohammed Al-Dosari",
+    "phone": "0565623697",
+    "email": "aldossarimo15@mngha.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944366_889",
+    "customerCode": "701",
+    "name": "Mohammed Al-Hajili",
+    "phone": "0582884720",
+    "email": "mk.alhejiali@psafhm.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944366_74",
+    "customerCode": "D-31",
+    "name": "Mohammed Al-Harbi",
+    "phone": "0118027837",
+    "email": "malharbi@moi.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944366_459",
+    "customerCode": "A-7",
+    "name": "Mohammed Al-Harbi",
+    "phone": "0122246591",
+    "email": "harbimohamma@ksau-hs.edu.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944366_277",
+    "customerCode": "D-31",
+    "name": "Mohammed Al-Hasel",
+    "phone": "0580283000",
+    "email": "malhasil@sfh.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944366_269",
+    "customerCode": "D-31",
+    "name": "Mohammed Al-Hasil",
+    "phone": "058028300",
+    "email": "malhasil@SFH.MED.SA",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944366_390",
+    "customerCode": "620",
+    "name": "Mohammed Assiri",
+    "phone": "+966530906277",
+    "email": "m.asiri@alborgdx.com",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944366_362",
+    "customerCode": "1145",
+    "name": "Mohammed Bakr",
+    "phone": "0531657631",
+    "email": "m.bakr@diqh-labs.com",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944366_299",
+    "customerCode": "C-28",
+    "name": "Mohammed Hassan Al-Ghanem",
+    "phone": "0138212888",
+    "email": "malghanem@moh.gov.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944366_283",
+    "customerCode": "E-46",
+    "name": "Mohammed Nasser Al-Harbi",
+    "phone": "0118043381",
+    "email": "alharbimo5@ngha.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944366_56",
+    "customerCode": "949",
+    "name": "Mohammed Raza",
+    "phone": "126170202",
+    "email": "info@mmadar.com",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944366_174",
+    "customerCode": "I-89",
+    "name": "Mohammed Saeed Al-Balawi",
+    "phone": "0567869084",
+    "email": "malbalawi21@NWAFH.MED.SA",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944366_539",
+    "customerCode": "445",
+    "name": "Mohammed Siddiq Nawaz",
+    "phone": "594829097",
+    "email": "siddiq.mohammed@astersanadhospital.com",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944366_732",
+    "customerCode": "E-44",
+    "name": "Mona Bint Abdulrahman Aldahmashi",
+    "phone": "011475300",
+    "email": "maldahmshi@moe.gov.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944366_25",
+    "customerCode": "1059",
+    "name": "Mona Saud Al Otaibi",
+    "phone": "0122265021",
+    "email": "alotaibimo52@mngha.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944366_491",
+    "customerCode": "E-46",
+    "name": "Mr hadi Alshammary",
+    "phone": "-",
+    "email": "-",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944366_673",
+    "customerCode": "H-75",
+    "name": "Mr, Abdullah Aqethami",
+    "phone": "-",
+    "email": "J1517616@kfshrc.edu.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944366_733",
+    "customerCode": "I-89",
+    "name": "Mr. Amer Al-Ahmadi",
+    "phone": "0557944425",
+    "email": "AALAHMADI@nwafh.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944366_679",
+    "customerCode": "E-49",
+    "name": "Mr. Firas ibrahim Alqunayan",
+    "phone": "",
+    "email": "",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944366_622",
+    "customerCode": "1109",
+    "name": "Mr. Mohamad",
+    "phone": "0594257362",
+    "email": "-",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944366_835",
+    "customerCode": "F-54",
+    "name": "Mr. Mohammed",
+    "phone": "0552243184",
+    "email": "-",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944366_950",
+    "customerCode": "1267",
+    "name": "Mr. Najm",
+    "phone": "",
+    "email": "",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944366_864",
+    "customerCode": "F-60",
+    "name": "Mr. SABER",
+    "phone": "-",
+    "email": "-",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944366_194",
+    "customerCode": "D-31",
+    "name": "Ms Lama",
+    "phone": "-",
+    "email": "-",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944366_975",
+    "customerCode": "H-75",
+    "name": "Ms. Malak Alhodaithy",
+    "phone": "-",
+    "email": "J1518875@kfshrc.edu.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944366_341",
+    "customerCode": "F-57",
+    "name": "Muath Osman",
+    "phone": "5099425854",
+    "email": "maaz.osman@flowmedical.com",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944366_418",
+    "customerCode": "712",
+    "name": "Mu'ayyad Ghazi Diri",
+    "phone": "0126195000",
+    "email": "dairi.mg@sgs.gov.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944366_849",
+    "customerCode": "D-35",
+    "name": "?Muhammad Bin Faleh Alrashidi ?",
+    "phone": "0114775083",
+    "email": "M_alrashidi@mod.gov.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944366_806",
+    "customerCode": "O-146",
+    "name": "Musleh Al-Anzi",
+    "phone": "0506011351",
+    "email": "-",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944366_112",
+    "customerCode": "1059",
+    "name": "Nagwa Moamen",
+    "phone": "0122265026",
+    "email": "momenna@mngha.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944366_698",
+    "customerCode": "Q-169",
+    "name": "Nahi Al Shammari",
+    "phone": "0138532648",
+    "email": "shammariN12@mngha.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944367_800",
+    "customerCode": "Q-169",
+    "name": "Nahi Alshammari",
+    "phone": "0138532648",
+    "email": "shammarin12@mngha.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944367_710",
+    "customerCode": "G-61",
+    "name": "Naif Al-fahd",
+    "phone": "0551450145",
+    "email": "alfehaidna1@mngha.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944367_10",
+    "customerCode": "1119",
+    "name": "Naif Maijid Saud Al Fahd",
+    "phone": "0538387767",
+    "email": "Alfehaidna1@mngha.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944367_305",
+    "customerCode": "1119",
+    "name": "Naif Majid Saud Al-Fahd",
+    "phone": "0538387767",
+    "email": "alfehaidna1@mngha.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944367_226",
+    "customerCode": "I-89",
+    "name": "Najah Al-Anzi",
+    "phone": "0597039003",
+    "email": "nalenezi2@nwafh.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944367_407",
+    "customerCode": "1103",
+    "name": "Najla Gharsan Al-Zahrani",
+    "phone": "0557384593",
+    "email": "nalzahrani@moia.gov.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944367_554",
+    "customerCode": "1059",
+    "name": "Najwa Momen",
+    "phone": "0125865026",
+    "email": "momenna@mngha.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944367_318",
+    "customerCode": "961",
+    "name": "Nashi Hanish Al-Dosari",
+    "phone": "0546197070",
+    "email": "Nhn70nhn@gmail.com",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944367_162",
+    "customerCode": "1066",
+    "name": "Nasser Abdullah Al-Shalfan",
+    "phone": "0559902299",
+    "email": "n.shalfan@momah.gov.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944367_201",
+    "customerCode": "I-83",
+    "name": "Nasser Al Wadman",
+    "phone": "0112584559",
+    "email": "nrdoman@imamu.edu.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944367_813",
+    "customerCode": "A-5",
+    "name": "Nasser bin Saud bin Shinan",
+    "phone": "0112038222",
+    "email": "Procurement.Info@sfda.gov.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944367_23",
+    "customerCode": "V-217",
+    "name": "Nasser Mutab Al-Mutairi",
+    "phone": "0548397196",
+    "email": "Nasserma2@moh.gov.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944367_676",
+    "customerCode": "624",
+    "name": "Naveed Ahmad",
+    "phone": "-",
+    "email": "nnahmad@sghgroup.net",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944367_602",
+    "customerCode": "606",
+    "name": "Nawaf Al-Harbi",
+    "phone": "0114783000",
+    "email": "nalhrabi@pscc.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944367_193",
+    "customerCode": "G-61",
+    "name": "Nawaf Al-Omari",
+    "phone": "0148669999",
+    "email": "alomarina2@mngha.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944367_187",
+    "customerCode": "I-88",
+    "name": "Nayef Al-Juraifani",
+    "phone": "0138405949",
+    "email": "NTJ999@HOTMAIL.COM",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944367_19",
+    "customerCode": "Q-167",
+    "name": "Nayef Al-Juraifani",
+    "phone": "0138405949",
+    "email": "NTJ999@HOTMAIL.COM",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944367_471",
+    "customerCode": "Q-169",
+    "name": "Nayef Al-Mutairi",
+    "phone": "0138532645",
+    "email": "Al-mutairina@mngha.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944367_848",
+    "customerCode": "M-125",
+    "name": "Nayef Attia Al Rashidi",
+    "phone": "0148618888",
+    "email": "narashdi@taibahu.edu.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944367_758",
+    "customerCode": "847",
+    "name": "Noraisa Gumampong",
+    "phone": "60530467838",
+    "email": "noraisa.gumampong@almanahospital.com.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944367_619",
+    "customerCode": "617",
+    "name": "Nour ALDeen Hatem Jumaa",
+    "phone": "-",
+    "email": "-",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944367_716",
+    "customerCode": "1113",
+    "name": "Noura Ali Al-Mutawasi",
+    "phone": "-",
+    "email": "almtwasi.sa@expro.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944367_582",
+    "customerCode": "917",
+    "name": "Omar Ahmeed Hassan",
+    "phone": "506850378",
+    "email": "-",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944367_374",
+    "customerCode": "I-81",
+    "name": "Omar ibn Abdul Aziz al-Abbad",
+    "phone": "0112889088",
+    "email": "oalabbad@kfmc.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944367_434",
+    "customerCode": "834",
+    "name": "Omer E. Malik",
+    "phone": "-",
+    "email": "o.malik.p@tbc.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944367_909",
+    "customerCode": "964",
+    "name": "Osama Atiq Al-Jahni",
+    "phone": "0143255374",
+    "email": "johanioam@RCJY.GOV.SA",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944367_740",
+    "customerCode": "A-7",
+    "name": "Owais Jameel Moroccan",
+    "phone": "0114292332",
+    "email": "maghrabio@ksau-hs.edu.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944367_613",
+    "customerCode": "1088",
+    "name": "Purchasing Management",
+    "phone": "0115133804",
+    "email": "Purchases@redf.gov.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944367_787",
+    "customerCode": "1124",
+    "name": "Qusay Basloom",
+    "phone": "0553216152",
+    "email": "qbaselom@jda.gov.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944367_279",
+    "customerCode": "L-113",
+    "name": "Raed Taiba",
+    "phone": "0122266666",
+    "email": "taibhara@mNGHA.MED.SA",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944367_740",
+    "customerCode": "1144",
+    "name": "Rafeek Ahamed",
+    "phone": "133573568",
+    "email": "rahamed@jeccg.com",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944367_63",
+    "customerCode": "386",
+    "name": "Raghad Asiri",
+    "phone": "133590000",
+    "email": "asiriri@saudichevron.com",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944367_551",
+    "customerCode": "1072",
+    "name": "Rahaf Al-Qarni",
+    "phone": "0114638080",
+    "email": "Rahaf.AlQarni@psdsarc.org.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944367_186",
+    "customerCode": "M-129",
+    "name": "Raja Mohammed Moussa Majrashi",
+    "phone": "0550068982/0173298090",
+    "email": "ralmagrashiy@jazanu.edu.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944367_658",
+    "customerCode": "M-130",
+    "name": "Ramzi Al-Hajj Al-Ajimi",
+    "phone": "0532335362",
+    "email": "k.alenezi@uoh.edu.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944367_57",
+    "customerCode": "1085",
+    "name": "Rashid (Purchasing Manager)",
+    "phone": "0574203342",
+    "email": "-",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944367_496",
+    "customerCode": "D-33",
+    "name": "Richelle Mateo",
+    "phone": "0549652967",
+    "email": "richelle.mateo@unified.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944367_16",
+    "customerCode": "1060",
+    "name": "Rodayna Sameh",
+    "phone": "2035853835",
+    "email": "procurement.re@petroleum.com",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944367_61",
+    "customerCode": "D-33",
+    "name": "Rosalia Garcia",
+    "phone": "-",
+    "email": "rosalia.garcia@unified.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944367_633",
+    "customerCode": "378",
+    "name": "Ruth Makabali",
+    "phone": "-",
+    "email": "ruth_makabali@smc.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944367_412",
+    "customerCode": "I-81",
+    "name": "S. Badah Al-Sahli",
+    "phone": "0112889999",
+    "email": "bdalsuhali@kfmc.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944367_970",
+    "customerCode": "D-31",
+    "name": "Saad Al Buhaidel",
+    "phone": "0118027841",
+    "email": "salbehaidel@moi.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944367_137",
+    "customerCode": "G-70",
+    "name": "Saad Al-Shehri",
+    "phone": "0114777714",
+    "email": "ssalshehri@psmmc.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944367_872",
+    "customerCode": "F-60",
+    "name": "Saber Hassan",
+    "phone": "055 738 9544",
+    "email": "shassan@kingdomhospital.com",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944367_576",
+    "customerCode": "I-84",
+    "name": "Saeed Al Shami",
+    "phone": "506892226",
+    "email": "shamisa@mngha.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944367_275",
+    "customerCode": "E-48",
+    "name": "Saeed Jaber Muidh Al Salem",
+    "phone": "0555351955",
+    "email": "sjalsalem@kku.edu.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944367_774",
+    "customerCode": "L-113",
+    "name": "Salah Al-Mutairi",
+    "phone": "0122666666",
+    "email": "MutairiSA02@MNGHA.MED.SA",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944367_140",
+    "customerCode": "E-46",
+    "name": "Saleh Ibrahim Al-Rashid",
+    "phone": "0550695111",
+    "email": "alrasheedsa@mngha.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944367_537",
+    "customerCode": "838",
+    "name": "Salim Alguthmi",
+    "phone": "559997169",
+    "email": "salim.alguthmi@dmf.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944367_998",
+    "customerCode": "838",
+    "name": "Salim Mohammad Alguthmi",
+    "phone": "",
+    "email": "salim.alguthmi@dmf.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944367_885",
+    "customerCode": "732",
+    "name": "Salman Athkam",
+    "phone": "138311700",
+    "email": "s-athkam@sst-sa.com",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944367_847",
+    "customerCode": "R-179",
+    "name": "Salman Sultan Alkhaldi",
+    "phone": "+966508426910",
+    "email": "salkhaldi@care.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944367_248",
+    "customerCode": "B-18",
+    "name": "Sami Ahmed",
+    "phone": "0114815032",
+    "email": "altufail@kacst.edu.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944367_930",
+    "customerCode": "G-61",
+    "name": "Sami Al-Mansour",
+    "phone": "0148669999",
+    "email": "Almansoursa1@NGHA.MED.SA",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944367_405",
+    "customerCode": "E-46",
+    "name": "Samia Al-Ghamdi",
+    "phone": "0122266267",
+    "email": "ALGHAMDISO1@MNGHA.M ED.SA",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944367_283",
+    "customerCode": "L-113",
+    "name": "Samia Al-Ghamdi",
+    "phone": "0122266267",
+    "email": "ALGHAMDISO1@MNGHA.MED.SA",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944368_34",
+    "customerCode": "1101",
+    "name": "sarah Al Hemly",
+    "phone": "-",
+    "email": "salhemly@asoco.com.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944368_588",
+    "customerCode": "1059",
+    "name": "Saud Abdullah Al-Harbi",
+    "phone": "0125865024",
+    "email": "alharbisa57@mngha.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944368_420",
+    "customerCode": "L-113",
+    "name": "Saud Abdullah Al-Harbi",
+    "phone": "0125865024",
+    "email": "alharbisa57@mngha.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944368_653",
+    "customerCode": "B-18",
+    "name": "Saud Al-Farhan",
+    "phone": "0114885025",
+    "email": "salfarhan@kacst.gov.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944368_970",
+    "customerCode": "Q-167",
+    "name": "Saud Al-Houti",
+    "phone": "0138405949",
+    "email": "Saud.alhoti@kfmmc.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944368_109",
+    "customerCode": "L-113",
+    "name": "Sheikha Al-Otaibi",
+    "phone": "0122266791",
+    "email": "otaibish@ngha.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944368_35",
+    "customerCode": "1123",
+    "name": "Shweta Soni",
+    "phone": "-",
+    "email": "-",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944368_566",
+    "customerCode": "Q-169",
+    "name": "Success of Mohammed Al-Saffar",
+    "phone": "0569655405",
+    "email": "NMALSAFFAR@MOH.GOV.SA",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944368_132",
+    "customerCode": "I-89",
+    "name": "Suleiman Matar",
+    "phone": "0506586871",
+    "email": "salatawi1a903a@nwafh.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944368_875",
+    "customerCode": "D-38",
+    "name": "Sultan Al Mansouri",
+    "phone": "0133640900",
+    "email": "sltanalmnswry66@gmail.com",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944368_751",
+    "customerCode": "378",
+    "name": "Syed Ali Bacha",
+    "phone": "053550502",
+    "email": "bacha@smc.com.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944368_916",
+    "customerCode": "I-86",
+    "name": "Tahani Al-Maliki",
+    "phone": "0125549999",
+    "email": "almalki.t@kamc.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944368_947",
+    "customerCode": "R-179",
+    "name": "Taiseer Ameer",
+    "phone": "+966582913292",
+    "email": "t.ameer@smgc.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944368_500",
+    "customerCode": "H-79",
+    "name": "Tamim bin Mohammed Al-Yahyan",
+    "phone": "0135899877",
+    "email": "AALYAHIAN@KFU.EDU.SA",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944368_26",
+    "customerCode": "995",
+    "name": "Taraf Al-Shalaan",
+    "phone": "+966503605572",
+    "email": "t.alshalan@meena-health.com",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944368_993",
+    "customerCode": "L-113",
+    "name": "Turki Al Harbi",
+    "phone": "0122266281",
+    "email": "alharbitru9@mngha.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944368_413",
+    "customerCode": "A-7",
+    "name": "Turki Al-Essa",
+    "phone": "0500196042",
+    "email": "Eisat@ksau-hs.edu.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944368_915",
+    "customerCode": "G-61",
+    "name": "Waleed Mosoud",
+    "phone": "0148669885",
+    "email": "waleedmoh@mngha.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944368_124",
+    "customerCode": "L-113",
+    "name": "Walid Al-Harbi",
+    "phone": "0122266277",
+    "email": "ALHARBIWA4@MNGHA.MED.SA",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944368_735",
+    "customerCode": "E-46",
+    "name": "Walid bin Muhammad al-Sarihi",
+    "phone": "0118041675",
+    "email": "alsuraihiwa@mngha.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944368_683",
+    "customerCode": "A-9",
+    "name": "Warda Al Ghuberi / King Abdullah Institute for Nanotechnology",
+    "phone": "-",
+    "email": "walghouberi@ksu.edu.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944368_535",
+    "customerCode": "Q-170",
+    "name": "Wejdan Ahmed Ayoub",
+    "phone": "-",
+    "email": "Waayoub@fakeeh.care",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944368_519",
+    "customerCode": "Q-167",
+    "name": "Yaqoub Aldulaijan",
+    "phone": "0130000000",
+    "email": "EHC-dpurchae@moh.gov.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944368_698",
+    "customerCode": "H-76",
+    "name": "yaser Al sudiary",
+    "phone": "-",
+    "email": "f1502969@kfshrc.edu.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944368_983",
+    "customerCode": "H-75",
+    "name": "Yaser Alsudairy",
+    "phone": "",
+    "email": "F1502969@kfshrc.edu.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944368_535",
+    "customerCode": "A-9",
+    "name": "Yasser Al-Anzi",
+    "phone": "0500608894",
+    "email": "Yaalanazi@ksu.edu.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944368_325",
+    "customerCode": "285",
+    "name": "Yasser Saeed",
+    "phone": "0599880001",
+    "email": "afhdh.proc@AFHDH.MED.SA",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944368_665",
+    "customerCode": "Q-167",
+    "name": "Yasser Saeed",
+    "phone": "0599880001",
+    "email": "afhdh.proc@AFHDH.MED.SA",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944368_730",
+    "customerCode": "Q-162",
+    "name": "Yousef Al-Rewainy",
+    "phone": "966505881853",
+    "email": "ymelrewainy@sghgroup.com",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944368_366",
+    "customerCode": "I-81",
+    "name": "Zafer",
+    "phone": "0112889999",
+    "email": "dalshahrani@kfmc.med.sa",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944368_904",
+    "customerCode": "E-49",
+    "name": "AASULIHEM@nupco.com",
+    "phone": "",
+    "email": "",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944368_926",
+    "customerCode": "798",
+    "name": "Dr. Fekri Radi",
+    "phone": "055 050 8729",
+    "email": "f_radi@i-qlab.com",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944368_257",
+    "customerCode": "E-49",
+    "name": "kabalawi-c@NUPCO.com",
+    "phone": "",
+    "email": "",
+    "workflowId": "direct_purchase"
+  },
+  {
+    "id": "ct_1776492944368_54",
+    "customerCode": "E-49",
+    "name": "skholan@nupco.com",
+    "phone": "",
+    "email": "",
+    "workflowId": "direct_purchase"
+  }
+]
