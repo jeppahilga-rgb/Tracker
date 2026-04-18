@@ -1,0 +1,3245 @@
+[
+  {
+    "id": "qtn_1776492971533_746",
+    "sn": 1,
+    "reference": "26010406",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-05-01",
+    "dueDate": "2026-05-01",
+    "customerCode": "1263",
+    "customerName": "Hasanah Laboratory",
+    "pgType": "P",
+    "origin": "Sales",
+    "salesPerson": "Zainab",
+    "rfq": "",
+    "bid": "",
+    "quoteTime": "09:59",
+    "status": "NOT STARTED",
+    "contactName": "Islam Sleem",
+    "phone": "9.66545E+11",
+    "email": "esaid@hasanah.com.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Various Items",
+    "items": [
+      {
+        "description": "Various Items",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971533_431",
+    "sn": 2,
+    "reference": "26010706",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-07-01",
+    "dueDate": "2026-07-01",
+    "customerCode": "838",
+    "customerName": "DR. MOHAMMAD ALFAGIH HOSPITAL",
+    "pgType": "P",
+    "origin": "Etimad",
+    "salesPerson": "Osama",
+    "rfq": "",
+    "bid": "",
+    "quoteTime": "09:59",
+    "status": "NOT STARTED",
+    "contactName": "Salim Mohammad Alguthmi",
+    "phone": "",
+    "email": "salim.alguthmi@dmf.med.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "0101050 Cover glass QTY: 3000pcs",
+    "items": [
+      {
+        "description": "0101050 Cover glass QTY: 3000pcs",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971534_247",
+    "sn": 3,
+    "reference": "26010707",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-07-01",
+    "dueDate": "2026-07-01",
+    "customerCode": "E-46",
+    "customerName": "KING ABDULAZIZ MEDICAL CITY- RIYADH ( NGHA )",
+    "pgType": "G",
+    "origin": "Etimad",
+    "salesPerson": "",
+    "rfq": "",
+    "bid": "200",
+    "quoteTime": "09:59",
+    "status": "NOT STARTED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "",
+    "items": [],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971534_428",
+    "sn": 4,
+    "reference": "26010708",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-07-01",
+    "dueDate": "2026-07-01",
+    "customerCode": "1263",
+    "customerName": "Hasanah Laboratory",
+    "pgType": "P",
+    "origin": "Sales",
+    "salesPerson": "Zainab",
+    "rfq": "",
+    "bid": "",
+    "quoteTime": "09:59",
+    "status": "NOT STARTED",
+    "contactName": "Islam Sleem",
+    "phone": "9.66545E+11",
+    "email": "esaid@hasanah.com.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Various Items",
+    "items": [
+      {
+        "description": "Various Items",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971534_939",
+    "sn": 5,
+    "reference": "26010806",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-01-13",
+    "dueDate": "2026-01-15",
+    "customerCode": "E-49",
+    "customerName": "National Unified Procurement Company for Medical Supplies ( NUPCO )",
+    "pgType": "P",
+    "origin": "NUPCO",
+    "salesPerson": "",
+    "rfq": "NDP0046/26",
+    "bid": "",
+    "quoteTime": "16:00",
+    "status": "NOT STARTED",
+    "contactName": "Mr. Firas ibrahim Alqunayan",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Various items",
+    "items": [
+      {
+        "description": "Various items",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971534_760",
+    "sn": 6,
+    "reference": "26010807",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-01-17",
+    "dueDate": "2026-01-19",
+    "customerCode": "E-49",
+    "customerName": "National Unified Procurement Company for Medical Supplies ( NUPCO )",
+    "pgType": "P",
+    "origin": "NUPCO",
+    "salesPerson": "",
+    "rfq": "NDP0047/26",
+    "bid": "",
+    "quoteTime": "15:00",
+    "status": "DROPPED",
+    "contactName": "Abeer S. Algefari",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "No confirmation of available stock",
+    "itemText": "Various Items",
+    "items": [
+      {
+        "description": "Various Items",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971535_197",
+    "sn": 7,
+    "reference": "26010808",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-01-16",
+    "dueDate": "2026-01-18",
+    "customerCode": "E-49",
+    "customerName": "National Unified Procurement Company for Medical Supplies ( NUPCO )",
+    "pgType": "P",
+    "origin": "NUPCO",
+    "salesPerson": "",
+    "rfq": "NDP0050/26",
+    "bid": "",
+    "quoteTime": "16:00",
+    "status": "CLOSED",
+    "contactName": "Mr. Firas ibrahim Alqunayan",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "No confirmation of available stock",
+    "itemText": "Various Items",
+    "items": [
+      {
+        "description": "Various Items",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971535_80",
+    "sn": 8,
+    "reference": "26011106",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-01-16",
+    "dueDate": "2026-01-18",
+    "customerCode": "849",
+    "customerName": "AKDITAL Al Olaya Hospital (fmr: DR ABDUL RAHMAN AL-MISHARI HOSPITAL)",
+    "pgType": "",
+    "origin": "",
+    "salesPerson": "",
+    "rfq": "",
+    "bid": "",
+    "quoteTime": "09:59",
+    "status": "NOT STARTED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "",
+    "items": [],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971535_359",
+    "sn": 9,
+    "reference": "26011206",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-01-16",
+    "dueDate": "2026-01-18",
+    "customerCode": "1264",
+    "customerName": "RaiDX Medical Labs",
+    "pgType": "",
+    "origin": "",
+    "salesPerson": "",
+    "rfq": "",
+    "bid": "",
+    "quoteTime": "09:59",
+    "status": "NOT STARTED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Various Items",
+    "items": [
+      {
+        "description": "Various Items",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971535_600",
+    "sn": 10,
+    "reference": "26011306",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-01-13",
+    "dueDate": "2026-01-15",
+    "customerCode": "995",
+    "customerName": "Tawuniya  ( On Behalf of  Meena Health Company)",
+    "pgType": "P",
+    "origin": "Email",
+    "salesPerson": "zainab",
+    "rfq": "",
+    "bid": "",
+    "quoteTime": "09:59",
+    "status": "SUBMITTED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 4,
+    "totalValue": 0,
+    "remarks": "13.01.26",
+    "itemText": "Needles",
+    "items": [
+      {
+        "description": "Needles",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971536_704",
+    "sn": 11,
+    "reference": "26011406",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-01-19",
+    "dueDate": "2026-01-20",
+    "customerCode": "H-75",
+    "customerName": "KING FAISAL SPECIALIST HOSPITAL  AND RESEARCH CENTER- RIYADH",
+    "pgType": "G",
+    "origin": "Epur",
+    "salesPerson": "",
+    "rfq": "4702076-2",
+    "bid": "",
+    "quoteTime": "09:59",
+    "status": "CANCELLED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "Quote Ready - RFQ cancelled",
+    "itemText": "Parafilm",
+    "items": [
+      {
+        "description": "Parafilm",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971536_607",
+    "sn": 12,
+    "reference": "26011407",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-01-14",
+    "dueDate": "2026-01-15",
+    "customerCode": "1265",
+    "customerName": "Al Sahem Al Mutamayez Trading Company",
+    "pgType": "P",
+    "origin": "HandOver",
+    "salesPerson": "Bilal",
+    "rfq": "",
+    "bid": "",
+    "quoteTime": "09:59",
+    "status": "NOT STARTED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Alcohol swab",
+    "items": [
+      {
+        "description": "Alcohol swab",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971537_546",
+    "sn": 13,
+    "reference": "26011506",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-01-15",
+    "dueDate": "2026-01-16",
+    "customerCode": "",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "Etimad",
+    "salesPerson": "",
+    "rfq": "",
+    "bid": "200",
+    "quoteTime": "09:59",
+    "status": "NOT STARTED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "",
+    "items": [],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971537_71",
+    "sn": 14,
+    "reference": "26011507",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-01-15",
+    "dueDate": "2026-01-20",
+    "customerCode": "F-57",
+    "customerName": "DR. SULAIMAN AL HABIB MEDICAL GROUP",
+    "pgType": "P",
+    "origin": "Sales",
+    "salesPerson": "OSama",
+    "rfq": "",
+    "bid": "",
+    "quoteTime": "09:59",
+    "status": "SUBMITTED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 1,
+    "totalValue": 0,
+    "remarks": "19.01.26",
+    "itemText": "Separator, Plasma PRSS.DB.00  QTY: 3",
+    "items": [
+      {
+        "description": "Separator, Plasma PRSS.DB.00  QTY: 3",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971537_823",
+    "sn": 15,
+    "reference": "26011806",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-01-18",
+    "dueDate": "2026-01-18",
+    "customerCode": "F-60",
+    "customerName": "KINGDOM HOSPITAL(KHCC GROUP)",
+    "pgType": "P",
+    "origin": "Sales",
+    "salesPerson": "zainab",
+    "rfq": "",
+    "bid": "",
+    "quoteTime": "09:59",
+    "status": "SUBMITTED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 2,
+    "totalValue": 0,
+    "remarks": "18.01.26",
+    "itemText": "Vaccutainer",
+    "items": [
+      {
+        "description": "Vaccutainer",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971538_233",
+    "sn": 16,
+    "reference": "26011807",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-01-18",
+    "dueDate": "2026-01-20",
+    "customerCode": "D-31",
+    "customerName": "SFH (SECURITY FORCES HOSPITAL)",
+    "pgType": "G",
+    "origin": "Etimad",
+    "salesPerson": "",
+    "rfq": "251239004338 (40047948)",
+    "bid": "200",
+    "quoteTime": "09:59",
+    "status": "SUBMITTED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 1,
+    "totalValue": 0,
+    "remarks": "19.01.26",
+    "itemText": "Tube Vacutainer for Blood Collection Red Top Clot Activator Vol 9 10 ml tube size 16 x 100mm QTY: 100000",
+    "items": [
+      {
+        "description": "Tube Vacutainer for Blood Collection Red Top Clot Activator Vol 9 10 ml tube size 16 x 100mm QTY: 100000",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971538_807",
+    "sn": 17,
+    "reference": "26011808",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-01-20",
+    "dueDate": "2026-01-21",
+    "customerCode": "H-75",
+    "customerName": "KING FAISAL SPECIALIST HOSPITAL  AND RESEARCH CENTER- RIYADH",
+    "pgType": "G",
+    "origin": "Epur",
+    "salesPerson": "",
+    "rfq": "4756089",
+    "bid": "",
+    "quoteTime": "09:59",
+    "status": "CLOSED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "No approval confirmation",
+    "itemText": "Blood collection tube",
+    "items": [
+      {
+        "description": "Blood collection tube",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971538_776",
+    "sn": 18,
+    "reference": "26011809",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-01-20",
+    "dueDate": "2026-01-21",
+    "customerCode": "H-75",
+    "customerName": "KING FAISAL SPECIALIST HOSPITAL  AND RESEARCH CENTER- RIYADH",
+    "pgType": "G",
+    "origin": "Epur",
+    "salesPerson": "",
+    "rfq": "4755081",
+    "bid": "",
+    "quoteTime": "09:59",
+    "status": "CLOSED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "No approval confirmation",
+    "itemText": "1.5 ml micro centrifuge",
+    "items": [
+      {
+        "description": "1.5 ml micro centrifuge",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971539_673",
+    "sn": 19,
+    "reference": "26011810",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-01-19",
+    "dueDate": "2026-01-21",
+    "customerCode": "995",
+    "customerName": "Tawuniya  ( On Behalf of  Meena Health Company)",
+    "pgType": "P",
+    "origin": "Sales",
+    "salesPerson": "zainab",
+    "rfq": "",
+    "bid": "",
+    "quoteTime": "09:59",
+    "status": "SUBMITTED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 1,
+    "totalValue": 0,
+    "remarks": "19.01.26",
+    "itemText": "slides",
+    "items": [
+      {
+        "description": "slides",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971539_745",
+    "sn": 20,
+    "reference": "26011906",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-01-19",
+    "dueDate": "2026-01-20",
+    "customerCode": "998",
+    "customerName": "Gama Hospital",
+    "pgType": "P",
+    "origin": "Sales",
+    "salesPerson": "zainab",
+    "rfq": "",
+    "bid": "",
+    "quoteTime": "09:59",
+    "status": "SUBMITTED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 1,
+    "totalValue": 0,
+    "remarks": "19.01.26",
+    "itemText": "blood smear dispenser",
+    "items": [
+      {
+        "description": "blood smear dispenser",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971539_330",
+    "sn": 21,
+    "reference": "26012106",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-04-19",
+    "dueDate": "2026-04-19",
+    "customerCode": "1266",
+    "customerName": "Attayer Factory Company for Plastic Medical Supplies",
+    "pgType": "G",
+    "origin": "Sales",
+    "salesPerson": "Osama",
+    "rfq": "",
+    "bid": "0",
+    "quoteTime": "",
+    "status": "SUBMITTED",
+    "contactName": "Mohamed Zaafan",
+    "phone": "",
+    "email": "Hany@attayerfactory.com",
+    "totalItems": 2,
+    "totalValue": 139.2,
+    "remarks": "21 01 2026 - unit price offer only",
+    "itemText": "Alcohol swab & Biohazard Bag QTY: 0",
+    "items": [
+      {
+        "description": "Alcohol swab & Biohazard Bag QTY: 0",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971540_893",
+    "sn": 22,
+    "reference": "26012107",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-01-30",
+    "dueDate": "2026-01-31",
+    "customerCode": "H-75",
+    "customerName": "KING FAISAL SPECIALIST HOSPITAL  AND RESEARCH CENTER- RIYADH",
+    "pgType": "G",
+    "origin": "Epur",
+    "salesPerson": "",
+    "rfq": "4760098",
+    "bid": "",
+    "quoteTime": "09:59",
+    "status": "SUBMITTED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 1,
+    "totalValue": 0,
+    "remarks": "22.01.26",
+    "itemText": "8 strips tube",
+    "items": [
+      {
+        "description": "8 strips tube",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971540_374",
+    "sn": 23,
+    "reference": "26012108",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-01-30",
+    "dueDate": "2026-01-31",
+    "customerCode": "H-75",
+    "customerName": "KING FAISAL SPECIALIST HOSPITAL  AND RESEARCH CENTER- RIYADH",
+    "pgType": "G",
+    "origin": "Epur",
+    "salesPerson": "",
+    "rfq": "4760099",
+    "bid": "",
+    "quoteTime": "09:59",
+    "status": "SUBMITTED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 1,
+    "totalValue": 0,
+    "remarks": "22.01.26",
+    "itemText": "Sealing film",
+    "items": [
+      {
+        "description": "Sealing film",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971541_214",
+    "sn": 24,
+    "reference": "26012506",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-01-25",
+    "dueDate": "2026-01-26",
+    "customerCode": "923",
+    "customerName": "Riyadh University Hospital",
+    "pgType": "P",
+    "origin": "Email",
+    "salesPerson": "Zainab",
+    "rfq": "",
+    "bid": "",
+    "quoteTime": "09:59",
+    "status": "SUBMITTED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 1,
+    "totalValue": 0,
+    "remarks": "25.01.26",
+    "itemText": "AmioTest",
+    "items": [
+      {
+        "description": "AmioTest",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971542_182",
+    "sn": 25,
+    "reference": "26012507",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-01-25",
+    "dueDate": "2026-01-26",
+    "customerCode": "995",
+    "customerName": "Tawuniya  ( On Behalf of  Meena Health Company)",
+    "pgType": "P",
+    "origin": "Email",
+    "salesPerson": "Zainab",
+    "rfq": "",
+    "bid": "",
+    "quoteTime": "09:59",
+    "status": "SUBMITTED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 1,
+    "totalValue": 0,
+    "remarks": "25.01.26",
+    "itemText": "Centrifuge tube",
+    "items": [
+      {
+        "description": "Centrifuge tube",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971542_445",
+    "sn": 26,
+    "reference": "26012508",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-01-25",
+    "dueDate": "2026-01-26",
+    "customerCode": "L-113",
+    "customerName": "KING ABDULAZIZ MEDICAL CITY- JEDDAH",
+    "pgType": "G",
+    "origin": "Etimad",
+    "salesPerson": "",
+    "rfq": "260139005226 (JR719653)",
+    "bid": "200",
+    "quoteTime": "09:59",
+    "status": "SUBMITTED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 1,
+    "totalValue": 0,
+    "remarks": "26.01.26",
+    "itemText": "Blood collection tube",
+    "items": [
+      {
+        "description": "Blood collection tube",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971542_792",
+    "sn": 27,
+    "reference": "26012606",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-01-26",
+    "dueDate": "2026-01-28",
+    "customerCode": "I-88",
+    "customerName": "KING FAHD UNIVERSITY OF PETROLEUM & MINERALS",
+    "pgType": "G",
+    "origin": "Email",
+    "salesPerson": "",
+    "rfq": "KFUPM-2026-RFQ45",
+    "bid": "",
+    "quoteTime": "09:59",
+    "status": "CLOSED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "not SUBMITTED - warehouse",
+    "itemText": "vials and blue cap",
+    "items": [
+      {
+        "description": "vials and blue cap",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971543_889",
+    "sn": 28,
+    "reference": "26012806",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-01-30",
+    "dueDate": "2026-01-31",
+    "customerCode": "1059",
+    "customerName": "National Guard - Taif",
+    "pgType": "G",
+    "origin": "Etimad",
+    "salesPerson": "",
+    "rfq": "2.60139E+11",
+    "bid": "200",
+    "quoteTime": "09:59",
+    "status": "CLOSED",
+    "contactName": "Saud Abdullah Al-Harbi",
+    "phone": "0125865024",
+    "email": "alharbisa57@mngha.med.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "Value too low",
+    "itemText": "Various Items",
+    "items": [
+      {
+        "description": "Various Items",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971544_726",
+    "sn": 29,
+    "reference": "26012807",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-01-02",
+    "dueDate": "2026-02-02",
+    "customerCode": "H-75",
+    "customerName": "KING FAISAL SPECIALIST HOSPITAL  AND RESEARCH CENTER- RIYADH",
+    "pgType": "G",
+    "origin": "Epur",
+    "salesPerson": "",
+    "rfq": "4765108",
+    "bid": "",
+    "quoteTime": "09:59",
+    "status": "NOT STARTED",
+    "contactName": "Amer Alzahrani",
+    "phone": "",
+    "email": "F1510071@kfshrc.edu.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Test Tube 75x12mm",
+    "items": [
+      {
+        "description": "Test Tube 75x12mm",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971544_271",
+    "sn": 30,
+    "reference": "26012906",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-01-30",
+    "dueDate": "2026-01-31",
+    "customerCode": "E-49",
+    "customerName": "National Unified Procurement Company for Medical Supplies ( NUPCO )",
+    "pgType": "P",
+    "origin": "NUPCO",
+    "salesPerson": "Market place",
+    "rfq": "15001152",
+    "bid": "",
+    "quoteTime": "09:59",
+    "status": "NOT STARTED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Microtome blade",
+    "items": [
+      {
+        "description": "Microtome blade",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971545_104",
+    "sn": 31,
+    "reference": "26012907",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-01-02",
+    "dueDate": "2026-03-02",
+    "customerCode": "E-46",
+    "customerName": "KING ABDULAZIZ MEDICAL CITY- RIYADH ( NGHA )",
+    "pgType": "G",
+    "origin": "Etimad",
+    "salesPerson": "",
+    "rfq": "260139008455 (2368999)",
+    "bid": "200",
+    "quoteTime": "09:59",
+    "status": "NOT STARTED",
+    "contactName": "Faras Al-Bassam",
+    "phone": "0118041695",
+    "email": "albassamfe@mngha.med.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Reaction plate 96 well microamp for pcr",
+    "items": [
+      {
+        "description": "Reaction plate 96 well microamp for pcr",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971545_355",
+    "sn": 32,
+    "reference": "26012908",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-01-30",
+    "dueDate": "2026-01-31",
+    "customerCode": "1059",
+    "customerName": "National Guard - Taif",
+    "pgType": "G",
+    "origin": "Etimad",
+    "salesPerson": "",
+    "rfq": "260139003937 (670)",
+    "bid": "200",
+    "quoteTime": "09:59",
+    "status": "NOT STARTED",
+    "contactName": "Saud Abdullah Al-Harbi",
+    "phone": "0125865024",
+    "email": "alharbisa57@mngha.med.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "adjustable pipette",
+    "items": [
+      {
+        "description": "adjustable pipette",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971546_572",
+    "sn": 33,
+    "reference": "26012909",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-01-29",
+    "dueDate": "2026-01-02",
+    "customerCode": "Q-162",
+    "customerName": "SAUDI GERMAN HOSPITALS - RIYADH",
+    "pgType": "P",
+    "origin": "Email",
+    "salesPerson": "Zainab",
+    "rfq": "",
+    "bid": "",
+    "quoteTime": "09:59",
+    "status": "NOT STARTED",
+    "contactName": "Yousef Al-Rewainy",
+    "phone": "9.66506E+11",
+    "email": "ymelrewainy@sghgroup.com",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Blood collection tube & Needles",
+    "items": [
+      {
+        "description": "Blood collection tube & Needles",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971546_42",
+    "sn": 34,
+    "reference": "26020106",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-01-02",
+    "dueDate": "2026-02-04",
+    "customerCode": "R-179",
+    "customerName": "INSURANCE HOSPITAL (RIYADH CARE HOSPITAL)",
+    "pgType": "P",
+    "origin": "Email",
+    "salesPerson": "Zainab",
+    "rfq": "",
+    "bid": "",
+    "quoteTime": "09:59",
+    "status": "SUBMITTED",
+    "contactName": "Salman Sultan Alkhaldi",
+    "phone": "9.66508E+11",
+    "email": "salkhaldi@care.med.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "SUBMITTED",
+    "itemText": "Alcohol Swabs",
+    "items": [
+      {
+        "description": "Alcohol Swabs",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971547_512",
+    "sn": 35,
+    "reference": "26020306",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-03-02",
+    "dueDate": "2026-04-02",
+    "customerCode": "995",
+    "customerName": "Tawuniya  ( On Behalf of  Meena Health Company)",
+    "pgType": "P",
+    "origin": "Email",
+    "salesPerson": "Zainab",
+    "rfq": "",
+    "bid": "",
+    "quoteTime": "09:59",
+    "status": "SUBMITTED",
+    "contactName": "Taraf Al-Shalaan",
+    "phone": "9.66504E+11",
+    "email": "t.alshalan@meena-health.com",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "SUBMITTED",
+    "itemText": "needles",
+    "items": [
+      {
+        "description": "needles",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971548_939",
+    "sn": 36,
+    "reference": "26020406",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-04-02",
+    "dueDate": "2026-05-02",
+    "customerCode": "772",
+    "customerName": "Danem International Trading Est",
+    "pgType": "P",
+    "origin": "Email",
+    "salesPerson": "Zainab",
+    "rfq": "",
+    "bid": "",
+    "quoteTime": "09:59",
+    "status": "NOT STARTED",
+    "contactName": "Joe Hilson",
+    "phone": "9.66541E+12",
+    "email": "jgrinn@familycare.com.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "parafilm and segment opener",
+    "items": [
+      {
+        "description": "parafilm and segment opener",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971548_360",
+    "sn": 37,
+    "reference": "26020806",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-08-02",
+    "dueDate": "2026-09-02",
+    "customerCode": "R-179",
+    "customerName": "INSURANCE HOSPITAL (RIYADH CARE HOSPITAL)",
+    "pgType": "P",
+    "origin": "Sales",
+    "salesPerson": "Zainab",
+    "rfq": "",
+    "bid": "",
+    "quoteTime": "09:59",
+    "status": "NOT STARTED",
+    "contactName": "Taiseer Ameer",
+    "phone": "9.66583E+11",
+    "email": "t.ameer@smgc.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Swivel Roller Mixer",
+    "items": [
+      {
+        "description": "Swivel Roller Mixer",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971551_966",
+    "sn": 38,
+    "reference": "26020906",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-09-02",
+    "dueDate": "2026-10-02",
+    "customerCode": "d-33",
+    "customerName": "",
+    "pgType": "G",
+    "origin": "Email",
+    "salesPerson": "osama",
+    "rfq": "MR-33267",
+    "bid": "200",
+    "quoteTime": "09:59",
+    "status": "SUBMITTED",
+    "contactName": "Abdulaziz",
+    "phone": "0114837777",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "SUBMITTED",
+    "itemText": "slee blades",
+    "items": [
+      {
+        "description": "slee blades",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971552_57",
+    "sn": 39,
+    "reference": "26021206",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-02-13",
+    "dueDate": "2026-02-14",
+    "customerCode": "1119",
+    "customerName": "King Abdullah Specialised Hospital - Qassim",
+    "pgType": "G",
+    "origin": "Etimad",
+    "salesPerson": "",
+    "rfq": "260239002067(2786)",
+    "bid": "200",
+    "quoteTime": "09:59",
+    "status": "NOT STARTED",
+    "contactName": "Naif Maijid Saud Al Fahd",
+    "phone": "0538387767",
+    "email": "Alfehaidna1@mngha.med.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Test Tube Borosilicate Glass 16 x 100mm Dispo",
+    "items": [
+      {
+        "description": "Test Tube Borosilicate Glass 16 x 100mm Dispo",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971552_951",
+    "sn": 40,
+    "reference": "26021506",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-02-15",
+    "dueDate": "2026-02-16",
+    "customerCode": "F-60",
+    "customerName": "KINGDOM HOSPITAL(KHCC GROUP)",
+    "pgType": "P",
+    "origin": "Sales",
+    "salesPerson": "Zainab",
+    "rfq": "",
+    "bid": "200",
+    "quoteTime": "09:59",
+    "status": "SUBMITTED",
+    "contactName": "Saber Hassan",
+    "phone": "055 738 9544",
+    "email": "shassan@kingdomhospital.com",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "SUBMITTED",
+    "itemText": "Slide Mailler & 630277",
+    "items": [
+      {
+        "description": "Slide Mailler & 630277",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971553_686",
+    "sn": 41,
+    "reference": "26021606",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-02-16",
+    "dueDate": "2026-02-16",
+    "customerCode": "838",
+    "customerName": "DR. MOHAMMAD ALFAGIH HOSPITAL",
+    "pgType": "P",
+    "origin": "",
+    "salesPerson": "osama",
+    "rfq": "",
+    "bid": "200",
+    "quoteTime": "09:59",
+    "status": "SUBMITTED",
+    "contactName": "abdullah marir",
+    "phone": "0552258875",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "SUBMITTED",
+    "itemText": "ab medical",
+    "items": [
+      {
+        "description": "ab medical",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971553_957",
+    "sn": 42,
+    "reference": "26021806",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-02-18",
+    "dueDate": "2026-02-18",
+    "customerCode": "838",
+    "customerName": "DR. MOHAMMAD ALFAGIH HOSPITAL",
+    "pgType": "P",
+    "origin": "",
+    "salesPerson": "Osama",
+    "rfq": "7543",
+    "bid": "200",
+    "quoteTime": "09:59",
+    "status": "SUBMITTED",
+    "contactName": "abdullah marir",
+    "phone": "0552258875",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "SUBMITTED",
+    "itemText": "lianfa",
+    "items": [
+      {
+        "description": "lianfa",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971554_763",
+    "sn": 43,
+    "reference": "26021807",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-02-23",
+    "dueDate": "2026-02-24",
+    "customerCode": "E-46",
+    "customerName": "KING ABDULAZIZ MEDICAL CITY- RIYADH ( NGHA )",
+    "pgType": "G",
+    "origin": "Etimad",
+    "salesPerson": "",
+    "rfq": "260239007730 (2375555)",
+    "bid": "200",
+    "quoteTime": "09:59",
+    "status": "NOT STARTED",
+    "contactName": "Firas Al-Bassam",
+    "phone": "T:0118041695",
+    "email": "E:albassamfe@mngha.med.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "pasteur pipette",
+    "items": [
+      {
+        "description": "pasteur pipette",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971554_341",
+    "sn": 44,
+    "reference": "26021808",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-02-23",
+    "dueDate": "2026-02-24",
+    "customerCode": "E-46",
+    "customerName": "KING ABDULAZIZ MEDICAL CITY- RIYADH ( NGHA )",
+    "pgType": "G",
+    "origin": "Etimad",
+    "salesPerson": "",
+    "rfq": "260239008128 (2365889)",
+    "bid": "200",
+    "quoteTime": "09:59",
+    "status": "NOT STARTED",
+    "contactName": "Firas Al-Bassam",
+    "phone": "T:0118041695",
+    "email": "E:albassamfe@mngha.med.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "pipette tips",
+    "items": [
+      {
+        "description": "pipette tips",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971555_199",
+    "sn": 45,
+    "reference": "26021906",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-02-19",
+    "dueDate": "2026-02-24",
+    "customerCode": "620",
+    "customerName": "Al Borg Medical Laboratories (MEDICAL)",
+    "pgType": "P",
+    "origin": "Sales",
+    "salesPerson": "Zainab",
+    "rfq": "",
+    "bid": "200",
+    "quoteTime": "09:59",
+    "status": "NOT STARTED",
+    "contactName": "Mohammed Assiri",
+    "phone": "9.66531E+11",
+    "email": "m.asiri@alborgdx.com",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Various Items",
+    "items": [
+      {
+        "description": "Various Items",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971556_304",
+    "sn": 46,
+    "reference": "26022306",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-02-23",
+    "dueDate": "2026-02-24",
+    "customerCode": "838",
+    "customerName": "DR. MOHAMMAD ALFAGIH HOSPITAL",
+    "pgType": "P",
+    "origin": "",
+    "salesPerson": "Osama",
+    "rfq": "",
+    "bid": "200",
+    "quoteTime": "09:59",
+    "status": "NOT STARTED",
+    "contactName": "Salim Mohammad Alguthmi",
+    "phone": "",
+    "email": "salim.alguthmi@dmf.med.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "loop 1 ul BSV121",
+    "items": [
+      {
+        "description": "loop 1 ul BSV121",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971556_700",
+    "sn": 47,
+    "reference": "26022406",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-02-24",
+    "dueDate": "2026-02-25",
+    "customerCode": "D-33",
+    "customerName": "AL HAMMADI HOSPITAL",
+    "pgType": "P",
+    "origin": "",
+    "salesPerson": "OSAMA",
+    "rfq": "MR-33265",
+    "bid": "200",
+    "quoteTime": "09:59",
+    "status": "NOT STARTED",
+    "contactName": "Abdulaziz",
+    "phone": "0114837777",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "loop 1 ul BSV121",
+    "items": [
+      {
+        "description": "loop 1 ul BSV121",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971557_495",
+    "sn": 48,
+    "reference": "26022506",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-02-25",
+    "dueDate": "2026-02-25",
+    "customerCode": "E-49",
+    "customerName": "National Unified Procurement Company for Medical Supplies ( NUPCO )",
+    "pgType": "P",
+    "origin": "NUPCO",
+    "salesPerson": "",
+    "rfq": "NDP0238/26",
+    "bid": "",
+    "quoteTime": "09:59",
+    "status": "SUBMITTED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Various Items",
+    "items": [
+      {
+        "description": "Various Items",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971558_149",
+    "sn": 49,
+    "reference": "26030106",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-05-03",
+    "dueDate": "2026-05-03",
+    "customerCode": "1059",
+    "customerName": "National Guard - Taif",
+    "pgType": "G",
+    "origin": "Etimad",
+    "salesPerson": "",
+    "rfq": "",
+    "bid": "200",
+    "quoteTime": "09:59",
+    "status": "NOT STARTED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "",
+    "items": [],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971558_100",
+    "sn": 50,
+    "reference": "26030206",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-05-03",
+    "dueDate": "2026-05-03",
+    "customerCode": "L-113",
+    "customerName": "KING ABDULAZIZ MEDICAL CITY- JEDDAH",
+    "pgType": "G",
+    "origin": "Etimad",
+    "salesPerson": "",
+    "rfq": "",
+    "bid": "200",
+    "quoteTime": "09:59",
+    "status": "NOT STARTED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "",
+    "items": [],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971559_608",
+    "sn": 51,
+    "reference": "26030506",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-05-03",
+    "dueDate": "2026-08-03",
+    "customerCode": "1059",
+    "customerName": "National Guard - Taif",
+    "pgType": "G",
+    "origin": "Etimad",
+    "salesPerson": "",
+    "rfq": "260339001813(9512)",
+    "bid": "200",
+    "quoteTime": "09:59",
+    "status": "SUBMITTED",
+    "contactName": "Najwa Momen",
+    "phone": "0125865026",
+    "email": "momenna@mngha.med.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "TUBE TEST GLASS 12 X 75MM [105774] QTY: 6500",
+    "items": [
+      {
+        "description": "TUBE TEST GLASS 12 X 75MM [105774] QTY: 6500",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971560_299",
+    "sn": 52,
+    "reference": "26030507",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-09-03",
+    "dueDate": "2026-09-03",
+    "customerCode": "E-49",
+    "customerName": "National Unified Procurement Company for Medical Supplies ( NUPCO )",
+    "pgType": "P",
+    "origin": "NUPCO",
+    "salesPerson": "Badail",
+    "rfq": "115001122",
+    "bid": "",
+    "quoteTime": "09:59",
+    "status": "SUBMITTED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Safety Lancet",
+    "items": [
+      {
+        "description": "Safety Lancet",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971561_831",
+    "sn": 53,
+    "reference": "26030508",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-09-03",
+    "dueDate": "2026-09-03",
+    "customerCode": "E-49",
+    "customerName": "National Unified Procurement Company for Medical Supplies ( NUPCO )",
+    "pgType": "P",
+    "origin": "NUPCO",
+    "salesPerson": "Badail",
+    "rfq": "115001603",
+    "bid": "",
+    "quoteTime": "09:59",
+    "status": "SUBMITTED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Safety Lancet",
+    "items": [
+      {
+        "description": "Safety Lancet",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971561_913",
+    "sn": 54,
+    "reference": "26030806",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-08-03",
+    "dueDate": "2026-08-03",
+    "customerCode": "1267",
+    "customerName": "Atheer Care",
+    "pgType": "P",
+    "origin": "Sales",
+    "salesPerson": "Bilal",
+    "rfq": "",
+    "bid": "",
+    "quoteTime": "09:59",
+    "status": "SUBMITTED",
+    "contactName": "Mr. Najm",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Biohazrd Spill Kit MJZ017",
+    "items": [
+      {
+        "description": "Biohazrd Spill Kit MJZ017",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971563_591",
+    "sn": 55,
+    "reference": "25030807",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-09-03",
+    "dueDate": "2026-10-03",
+    "customerCode": "E-46",
+    "customerName": "KING ABDULAZIZ MEDICAL CITY- RIYADH ( NGHA )",
+    "pgType": "G",
+    "origin": "Etimad",
+    "salesPerson": "",
+    "rfq": "260239012627(2379657)",
+    "bid": "200",
+    "quoteTime": "09:59",
+    "status": "SUBMITTED",
+    "contactName": "Firas Al-Bassam",
+    "phone": "0118041695",
+    "email": "albassamfe@mngha.med.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Pipette Glass size 5 3/4 (pasteur type) 105773 qty: 6000",
+    "items": [
+      {
+        "description": "Pipette Glass size 5 3/4 (pasteur type) 105773 qty: 6000",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971564_166",
+    "sn": 56,
+    "reference": "25030906",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-09-03",
+    "dueDate": "2026-10-03",
+    "customerCode": "E-49",
+    "customerName": "National Unified Procurement Company for Medical Supplies ( NUPCO )",
+    "pgType": "P",
+    "origin": "NUPCO",
+    "salesPerson": "Badail",
+    "rfq": "15001603",
+    "bid": "",
+    "quoteTime": "09:59",
+    "status": "NOT STARTED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Various Items",
+    "items": [
+      {
+        "description": "Various Items",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971565_959",
+    "sn": 57,
+    "reference": "25030907",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-12-03",
+    "dueDate": "2026-03-15",
+    "customerCode": "E-49",
+    "customerName": "National Unified Procurement Company for Medical Supplies ( NUPCO )",
+    "pgType": "P",
+    "origin": "NUPCO",
+    "salesPerson": "DP",
+    "rfq": "NDP0293/26",
+    "bid": "",
+    "quoteTime": "09:59",
+    "status": "NOT STARTED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Various Items",
+    "items": [
+      {
+        "description": "Various Items",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971567_651",
+    "sn": 58,
+    "reference": "26030908",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-09-03",
+    "dueDate": "2026-11-03",
+    "customerCode": "R-179",
+    "customerName": "INSURANCE HOSPITAL (RIYADH CARE HOSPITAL)",
+    "pgType": "P",
+    "origin": "Sales",
+    "salesPerson": "Zainab",
+    "rfq": "",
+    "bid": "",
+    "quoteTime": "09:59",
+    "status": "NOT STARTED",
+    "contactName": "Salman Sultan Alkhaldi",
+    "phone": "9.66508E+11",
+    "email": "salkhaldi@care.med.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Alcohol Swab KM-QP018",
+    "items": [
+      {
+        "description": "Alcohol Swab KM-QP018",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971568_616",
+    "sn": 59,
+    "reference": "26030909",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-09-03",
+    "dueDate": "2026-10-03",
+    "customerCode": "D-33",
+    "customerName": "AL HAMMADI HOSPITAL",
+    "pgType": "P",
+    "origin": "Sales",
+    "salesPerson": "Osama",
+    "rfq": "",
+    "bid": "",
+    "quoteTime": "09:59",
+    "status": "NOT STARTED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "0810401  QTY: 100box",
+    "items": [
+      {
+        "description": "0810401  QTY: 100box",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971569_359",
+    "sn": 60,
+    "reference": "26031006",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-10-03",
+    "dueDate": "2026-11-03",
+    "customerCode": "R-179",
+    "customerName": "INSURANCE HOSPITAL (RIYADH CARE HOSPITAL)",
+    "pgType": "P",
+    "origin": "NUPCO",
+    "salesPerson": "SWS",
+    "rfq": "",
+    "bid": "",
+    "quoteTime": "09:59",
+    "status": "NOT STARTED",
+    "contactName": "Fasmin",
+    "phone": "9.66501E+11",
+    "email": "fmohamed@care.med.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "0101222 Cover Glass",
+    "items": [
+      {
+        "description": "0101222 Cover Glass",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971571_314",
+    "sn": 61,
+    "reference": "26031106",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-12-03",
+    "dueDate": "2026-12-03",
+    "customerCode": "E-49",
+    "customerName": "National Unified Procurement Company for Medical Supplies ( NUPCO )",
+    "pgType": "P",
+    "origin": "NUPCO",
+    "salesPerson": "SWS",
+    "rfq": "SWS0002672",
+    "bid": "",
+    "quoteTime": "09:59",
+    "status": "CLOSED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "Didn’t meet deadline",
+    "itemText": "Erlenmeyer Flask (4110207) QTY: 38pcs",
+    "items": [
+      {
+        "description": "Erlenmeyer Flask (4110207) QTY: 38pcs",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971572_926",
+    "sn": 62,
+    "reference": "26031107",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-12-03",
+    "dueDate": "2026-12-03",
+    "customerCode": "E-49",
+    "customerName": "National Unified Procurement Company for Medical Supplies ( NUPCO )",
+    "pgType": "P",
+    "origin": "NUPCO",
+    "salesPerson": "SWS",
+    "rfq": "SWS0002673",
+    "bid": "",
+    "quoteTime": "09:59",
+    "status": "CLOSED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "Didn’t meet deadline",
+    "itemText": "Erlenmeyer Flask (4110207) QTY: 38pcs",
+    "items": [
+      {
+        "description": "Erlenmeyer Flask (4110207) QTY: 38pcs",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971573_679",
+    "sn": 63,
+    "reference": "26031108",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-12-03",
+    "dueDate": "2026-12-03",
+    "customerCode": "E-49",
+    "customerName": "National Unified Procurement Company for Medical Supplies ( NUPCO )",
+    "pgType": "P",
+    "origin": "NUPCO",
+    "salesPerson": "SWS",
+    "rfq": "SWS0002683",
+    "bid": "",
+    "quoteTime": "09:59",
+    "status": "CLOSED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "Didn’t meet deadline",
+    "itemText": "Chroma Vial (C000962) QTY: 8,400pcs and Clot Activator (321502) QTY: 904000pcsx2",
+    "items": [
+      {
+        "description": "Chroma Vial (C000962) QTY: 8,400pcs and Clot Activator (321502) QTY: 904000pcsx2",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971575_277",
+    "sn": 64,
+    "reference": "26031109",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-12-03",
+    "dueDate": "2026-12-03",
+    "customerCode": "E-49",
+    "customerName": "National Unified Procurement Company for Medical Supplies ( NUPCO )",
+    "pgType": "P",
+    "origin": "NUPCO",
+    "salesPerson": "SWS",
+    "rfq": "SWS0002686",
+    "bid": "",
+    "quoteTime": "09:59",
+    "status": "SUBMITTED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 1,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Positive Charged Microscope Slides (0810501) QTY: 15,186pcs",
+    "items": [
+      {
+        "description": "Positive Charged Microscope Slides (0810501) QTY: 15,186pcs",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971576_663",
+    "sn": 65,
+    "reference": "26031110",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-12-03",
+    "dueDate": "2026-12-03",
+    "customerCode": "E-49",
+    "customerName": "National Unified Procurement Company for Medical Supplies ( NUPCO )",
+    "pgType": "P",
+    "origin": "NUPCO",
+    "salesPerson": "SWS",
+    "rfq": "SWS0002687",
+    "bid": "",
+    "quoteTime": "09:59",
+    "status": "SUBMITTED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 1,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Positive Charged Microscope Slides (0810501) QTY: 15,186pcs",
+    "items": [
+      {
+        "description": "Positive Charged Microscope Slides (0810501) QTY: 15,186pcs",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971578_820",
+    "sn": 66,
+    "reference": "26031206",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-03-15",
+    "dueDate": "2026-03-15",
+    "customerCode": "E-49",
+    "customerName": "National Unified Procurement Company for Medical Supplies ( NUPCO )",
+    "pgType": "P",
+    "origin": "NUPCO",
+    "salesPerson": "DP",
+    "rfq": "NDP0315/26",
+    "bid": "",
+    "quoteTime": "09:59",
+    "status": "NOT STARTED",
+    "contactName": "",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "First Aid Kits",
+    "items": [
+      {
+        "description": "First Aid Kits",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971579_732",
+    "sn": 67,
+    "reference": "26031506",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-03-16",
+    "dueDate": "2026-03-16",
+    "customerCode": "Q-169",
+    "customerName": "NATIONAL GUARD HOSPITAL- DAMMAM (Imam Abdulrahman Al Faisal Hospital )",
+    "pgType": "G",
+    "origin": "Etimad",
+    "salesPerson": "",
+    "rfq": "26039009864(DR220372)",
+    "bid": "200",
+    "quoteTime": "11:00",
+    "status": "NOT STARTED",
+    "contactName": "Nahi Al Shammari",
+    "phone": "0138532648",
+    "email": "shammariN12@mngha.med.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Slide Glass Microscope (76*26mm) Frosted End Both Sides with Finely Ground Edges Precleaned  QTY: 25,000",
+    "items": [
+      {
+        "description": "Slide Glass Microscope (76*26mm) Frosted End Both Sides with Finely Ground Edges Precleaned  QTY: 25,000",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971581_677",
+    "sn": 68,
+    "reference": "26031606",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-03-16",
+    "dueDate": "2026-03-17",
+    "customerCode": "1059",
+    "customerName": "National Guard - Taif",
+    "pgType": "G",
+    "origin": "Etimad",
+    "salesPerson": "",
+    "rfq": "260339001813(9512)",
+    "bid": "200",
+    "quoteTime": "09:59",
+    "status": "SUBMITTED",
+    "contactName": "Najwa Momen",
+    "phone": "0125865026",
+    "email": "momenna@mngha.med.sa",
+    "totalItems": 1,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "TUBE TEST GLASS 12 X 75MM [105774] QTY: 6500",
+    "items": [
+      {
+        "description": "TUBE TEST GLASS 12 X 75MM [105774] QTY: 6500",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971582_280",
+    "sn": 69,
+    "reference": "26031607",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-03-25",
+    "dueDate": "2026-03-31",
+    "customerCode": "M-129",
+    "customerName": "JAZAN UNIVERSITY",
+    "pgType": "G",
+    "origin": "Etimad",
+    "salesPerson": "",
+    "rfq": "260239007538(171234)",
+    "bid": "1000",
+    "quoteTime": "09:59",
+    "status": "NOT STARTED",
+    "contactName": "Raja Mohammed Moussa Majrashi",
+    "phone": "0550068982/0173298090",
+    "email": "ralmagrashiy@jazanu.edu.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Simulator",
+    "items": [
+      {
+        "description": "Simulator",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971583_429",
+    "sn": 70,
+    "reference": "26031608",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-03-25",
+    "dueDate": "2026-03-31",
+    "customerCode": "M-129",
+    "customerName": "JAZAN UNIVERSITY",
+    "pgType": "G",
+    "origin": "Etimad",
+    "salesPerson": "",
+    "rfq": "260239007546(44753)",
+    "bid": "800",
+    "quoteTime": "09:59",
+    "status": "NOT STARTED",
+    "contactName": "Dhiab Hussein Qasim Maashi",
+    "phone": "0507339211",
+    "email": "tmaashi@jazanu.edu.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Various Items",
+    "items": [
+      {
+        "description": "Various Items",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971585_624",
+    "sn": 71,
+    "reference": "26031706",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-10-04",
+    "dueDate": "2026-04-15",
+    "customerCode": "B-18",
+    "customerName": "KACST, TENDERS AND PURCHASING DEPARTMENT",
+    "pgType": "G",
+    "origin": "Etimad",
+    "salesPerson": "",
+    "rfq": "260339006384(42390)",
+    "bid": "1000",
+    "quoteTime": "09:59",
+    "status": "NOT STARTED",
+    "contactName": "-",
+    "phone": "-",
+    "email": "-",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Various Items",
+    "items": [
+      {
+        "description": "Various Items",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971586_808",
+    "sn": 72,
+    "reference": "26031707",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-03-18",
+    "dueDate": "2026-03-21",
+    "customerCode": "D-31",
+    "customerName": "SFH (SECURITY FORCES HOSPITAL)",
+    "pgType": "G",
+    "origin": "Etimad",
+    "salesPerson": "",
+    "rfq": "26033001317(40049798)",
+    "bid": "200",
+    "quoteTime": "09:59",
+    "status": "NOT STARTED",
+    "contactName": "Mohammed Al-Hasil",
+    "phone": "058028300",
+    "email": "malhasil@SFH.MED.SA",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Tube VAcutainer for Blood Collection Red Top Clot Activator (321502) QTY: 200000",
+    "items": [
+      {
+        "description": "Tube VAcutainer for Blood Collection Red Top Clot Activator (321502) QTY: 200000",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971588_763",
+    "sn": 73,
+    "reference": "26031708",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-03-28",
+    "dueDate": "2026-03-29",
+    "customerCode": "I-84",
+    "customerName": "KING ABDUL AZIZ NATIONAL GUARD HOSPITAL - AL HASA",
+    "pgType": "G",
+    "origin": "Etimad",
+    "salesPerson": "",
+    "rfq": "2603390077197(HR415455)",
+    "bid": "200",
+    "quoteTime": "09:59",
+    "status": "NOT STARTED",
+    "contactName": "Abdul-Ilah Al-Mulla",
+    "phone": "053930037",
+    "email": "almullaab1@mngha.med.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Tube VAcutainer for Blood Collection Red Top Clot Activator 10ml (300901) QTY: 20000",
+    "items": [
+      {
+        "description": "Tube VAcutainer for Blood Collection Red Top Clot Activator 10ml (300901) QTY: 20000",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971590_918",
+    "sn": 74,
+    "reference": "26031709",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-10-04",
+    "dueDate": "2026-04-15",
+    "customerCode": "B-18",
+    "customerName": "KACST, TENDERS AND PURCHASING DEPARTMENT",
+    "pgType": "G",
+    "origin": "Etimad",
+    "salesPerson": "",
+    "rfq": "260339006350(42392)",
+    "bid": "1000",
+    "quoteTime": "09:59",
+    "status": "NOT STARTED",
+    "contactName": "Mishari Ibrahim Al-Rabiah",
+    "phone": "0114883555",
+    "email": "mialrabiah@kacst.gov.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Various Items",
+    "items": [
+      {
+        "description": "Various Items",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971593_511",
+    "sn": 75,
+    "reference": "26031710",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-03-18",
+    "dueDate": "2026-03-18",
+    "customerCode": "D-33",
+    "customerName": "AL HAMMADI HOSPITAL",
+    "pgType": "P",
+    "origin": "Sales",
+    "salesPerson": "Osama",
+    "rfq": "MR-35027",
+    "bid": "",
+    "quoteTime": "09:59",
+    "status": "CLOSED",
+    "contactName": "Abdullah Alotaibi",
+    "phone": "0114837777-6230",
+    "email": "abdullah.alotaibi@unified.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "NO STOCK AVAILABLE",
+    "itemText": "Parafilm Rolls 4\" x 125 ft  QTY: 10pcs",
+    "items": [
+      {
+        "description": "Parafilm Rolls 4\" x 125 ft  QTY: 10pcs",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971594_295",
+    "sn": 76,
+    "reference": "26031711",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-04-20",
+    "dueDate": "2026-04-23",
+    "customerCode": "F-52",
+    "customerName": "KKESH (KING KHALED EYE SPECIALIST HOSPITAL)",
+    "pgType": "P",
+    "origin": "E-Purchasing",
+    "salesPerson": "",
+    "rfq": "881496",
+    "bid": "",
+    "quoteTime": "11:56",
+    "status": "NOT STARTED",
+    "contactName": "-",
+    "phone": "0118401343",
+    "email": "fzaidi@kkesh.med.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Specimen Bag 25x25cm QTY: 15,000pcs (Short Qty: 14,262pcs)\nSyringe w/o needled 5ml QTY: 35,000pcs (No Stock)\nTube Vacu Red Top 9ml  QTY: 40,000pcs (50,400 - Jun 2026, 24,700 - Sep 2026)",
+    "items": [
+      {
+        "description": "Specimen Bag 25x25cm QTY: 15,000pcs (Short Qty: 14,262pcs)",
+        "qty": 0
+      },
+      {
+        "description": "Syringe w/o needled 5ml QTY: 35,000pcs (No Stock)",
+        "qty": 0
+      },
+      {
+        "description": "Tube Vacu Red Top 9ml  QTY: 40,000pcs (50,400 - Jun 2026, 24,700 - Sep 2026)",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971595_372",
+    "sn": 77,
+    "reference": "26031712",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-03-26",
+    "dueDate": "2026-03-29",
+    "customerCode": "H-75",
+    "customerName": "KING FAISAL SPECIALIST HOSPITAL  AND RESEARCH CENTER- RIYADH",
+    "pgType": "G",
+    "origin": "E-Purchasing",
+    "salesPerson": "",
+    "rfq": "4805098",
+    "bid": "",
+    "quoteTime": "13:00",
+    "status": "NOT STARTED",
+    "contactName": "Yaser Alsudairy",
+    "phone": "",
+    "email": "F1502969@kfshrc.edu.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Lens Paper 4 x 6 Inch QTY: 48PAcks",
+    "items": [
+      {
+        "description": "Lens Paper 4 x 6 Inch QTY: 48PAcks",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971596_180",
+    "sn": 78,
+    "reference": "26031713",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-04-20",
+    "dueDate": "2026-04-23",
+    "customerCode": "F-52",
+    "customerName": "KKESH (KING KHALED EYE SPECIALIST HOSPITAL)",
+    "pgType": "G",
+    "origin": "E-Purchasing",
+    "salesPerson": "",
+    "rfq": "881492",
+    "bid": "",
+    "quoteTime": "11:56",
+    "status": "NOT STARTED",
+    "contactName": "Faisal bin Abdulaziz Al-Zaidi",
+    "phone": "0118401343",
+    "email": "fzaidi@kkesh.med.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Clinipette Yellow Small Tips QTY: 32,000pcs",
+    "items": [
+      {
+        "description": "Clinipette Yellow Small Tips QTY: 32,000pcs",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971597_629",
+    "sn": 79,
+    "reference": "26031806",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-03-29",
+    "dueDate": "2026-01-04",
+    "customerCode": "E-49",
+    "customerName": "National Unified Procurement Company for Medical Supplies ( NUPCO )",
+    "pgType": "P",
+    "origin": "NUPCO",
+    "salesPerson": "DP",
+    "rfq": "NDP0324/26",
+    "bid": "",
+    "quoteTime": "16:00",
+    "status": "SUBMITTED",
+    "contactName": "",
+    "phone": "",
+    "email": "Fiqunayan-c@nupco.com",
+    "totalItems": 43,
+    "totalValue": 0,
+    "remarks": "31.03.26",
+    "itemText": "Various Items",
+    "items": [
+      {
+        "description": "Various Items",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971598_220",
+    "sn": 80,
+    "reference": "26031807",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-03-18",
+    "dueDate": "2026-03-18",
+    "customerCode": "772",
+    "customerName": "Danem International Trading Est",
+    "pgType": "P",
+    "origin": "Sales",
+    "salesPerson": "Zainab",
+    "rfq": "400273-1",
+    "bid": "",
+    "quoteTime": "15:00",
+    "status": "NOT STARTED",
+    "contactName": "Joe Hilson",
+    "phone": "0548208624",
+    "email": "jgrinn@familycare.com.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Overwrap Bags, Standard Size (for plasma thawers) QTY: 2000pcs",
+    "items": [
+      {
+        "description": "Overwrap Bags, Standard Size (for plasma thawers) QTY: 2000pcs",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971599_324",
+    "sn": 81,
+    "reference": "26032906",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-01-04",
+    "dueDate": "2026-02-04",
+    "customerCode": "F-57",
+    "customerName": "DR. SULAIMAN AL HABIB MEDICAL GROUP",
+    "pgType": "P",
+    "origin": "Sales",
+    "salesPerson": "Osama",
+    "rfq": "-",
+    "bid": "",
+    "quoteTime": "17:00",
+    "status": "NOT STARTED",
+    "contactName": "Maaz Osman",
+    "phone": "5099425854",
+    "email": "maaz.osman@flowmedical.com",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Cell Counter QTY: 4pcs\nPh Meter QTY: 1pc\nWater Bath, Splint QTY: 2pcs",
+    "items": [
+      {
+        "description": "Cell Counter QTY: 4pcs",
+        "qty": 0
+      },
+      {
+        "description": "Ph Meter QTY: 1pc",
+        "qty": 0
+      },
+      {
+        "description": "Water Bath, Splint QTY: 2pcs",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971600_259",
+    "sn": 82,
+    "reference": "26033106",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-02-04",
+    "dueDate": "2026-02-04",
+    "customerCode": "398",
+    "customerName": "Al-alam Medical Center",
+    "pgType": "P",
+    "origin": "Sales",
+    "salesPerson": "Zainab",
+    "rfq": "-",
+    "bid": "",
+    "quoteTime": "17:00",
+    "status": "NOT STARTED",
+    "contactName": "Dr. Essa Al-Dhafiri",
+    "phone": "-",
+    "email": "alalam.director@gmail.com",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "KM-QP018 QTY: 2500box (100pcs per Box)",
+    "items": [
+      {
+        "description": "KM-QP018 QTY: 2500box (100pcs per Box)",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971601_824",
+    "sn": 83,
+    "reference": "26033107",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-02-04",
+    "dueDate": "2026-02-04",
+    "customerCode": "1085",
+    "customerName": "Royal Diagnostics Laboratory (MEDICAL)",
+    "pgType": "P",
+    "origin": "Sales",
+    "salesPerson": "Zainab",
+    "rfq": "-",
+    "bid": "",
+    "quoteTime": "17:00",
+    "status": "NOT STARTED",
+    "contactName": "Rashid (Purchasing Manager)",
+    "phone": "0574203342",
+    "email": "-",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "SN-105  QTY: 4000pcs\nKJ523 QTY: 100pcs\nA/001/008-AR  QTY: 100pcs",
+    "items": [
+      {
+        "description": "SN-105  QTY: 4000pcs",
+        "qty": 0
+      },
+      {
+        "description": "KJ523 QTY: 100pcs",
+        "qty": 0
+      },
+      {
+        "description": "A/001/008-AR  QTY: 100pcs",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971601_16",
+    "sn": 84,
+    "reference": "26033108",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-02-04",
+    "dueDate": "2026-02-04",
+    "customerCode": "617",
+    "customerName": "SEDER&Zahran GROUP",
+    "pgType": "P",
+    "origin": "Engineering",
+    "salesPerson": "Earl",
+    "rfq": "-",
+    "bid": "",
+    "quoteTime": "17:00",
+    "status": "NOT STARTED",
+    "contactName": "Eng. Mubarak Ali Ameer",
+    "phone": "0567753973",
+    "email": "ameerm@seder.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Electro board MPS C - ASM  QTY: 1 Unit\nTemperature Sensor QTY: 1 Set",
+    "items": [
+      {
+        "description": "Electro board MPS C - ASM  QTY: 1 Unit",
+        "qty": 0
+      },
+      {
+        "description": "Temperature Sensor QTY: 1 Set",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971602_296",
+    "sn": 85,
+    "reference": "26040206",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-03-04",
+    "dueDate": "2026-03-04",
+    "customerCode": "849",
+    "customerName": "AKDITAL Al Olaya Hospital (fmr: DR ABDUL RAHMAN AL-MISHARI HOSPITAL)",
+    "pgType": "P",
+    "origin": "Sales",
+    "salesPerson": "OSAMA",
+    "rfq": "",
+    "bid": "0",
+    "quoteTime": "10:12",
+    "status": "NOT STARTED",
+    "contactName": "Johna Marie Diego",
+    "phone": "920033266-1121",
+    "email": "j.diego@akdital.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Slide Rotator QTY: 1 Unit\nTube Rotator QTY: 2 units\nIce Box QTY: 2 pc",
+    "items": [
+      {
+        "description": "Slide Rotator QTY: 1 Unit",
+        "qty": 0
+      },
+      {
+        "description": "Tube Rotator QTY: 2 units",
+        "qty": 0
+      },
+      {
+        "description": "Ice Box QTY: 2 pc",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971604_76",
+    "sn": 86,
+    "reference": "26040606",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-08-04",
+    "dueDate": "2026-09-04",
+    "customerCode": "Q-169",
+    "customerName": "NATIONAL GUARD HOSPITAL- DAMMAM (Imam Abdulrahman Al Faisal Hospital )",
+    "pgType": "G",
+    "origin": "ETIMAD",
+    "salesPerson": "Direct Purchase",
+    "rfq": "260339003505 (DR220286)",
+    "bid": "200",
+    "quoteTime": "09:00",
+    "status": "NOT STARTED",
+    "contactName": "Nahi Al Shammari",
+    "phone": "0138532648",
+    "email": "shammariN12@mngha.med.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "TUBE TEST GLASS 12 X 75MM(105774) QTY: 30000",
+    "items": [
+      {
+        "description": "TUBE TEST GLASS 12 X 75MM(105774) QTY: 30000",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971605_823",
+    "sn": 87,
+    "reference": "26040706",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-08-04",
+    "dueDate": "2026-08-04",
+    "customerCode": "E-49",
+    "customerName": "National Unified Procurement Company for Medical Supplies ( NUPCO )",
+    "pgType": "G",
+    "origin": "NUPCO",
+    "salesPerson": "Direct Purchase",
+    "rfq": "NDP0350/26",
+    "bid": "0",
+    "quoteTime": "16:00",
+    "status": "NOT STARTED",
+    "contactName": "AASULIHEM@nupco.com",
+    "phone": "-",
+    "email": "-",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Various Items",
+    "items": [
+      {
+        "description": "Various Items",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971606_308",
+    "sn": 88,
+    "reference": "26040707",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-08-04",
+    "dueDate": "2026-08-04",
+    "customerCode": "798",
+    "customerName": "International quality Labs (MEDICAL)",
+    "pgType": "P",
+    "origin": "Sales",
+    "salesPerson": "Zainab",
+    "rfq": "",
+    "bid": "0",
+    "quoteTime": "08:12",
+    "status": "NOT STARTED",
+    "contactName": "Dr. Fekri Radi",
+    "phone": "055 050 8729",
+    "email": "f_radi@i-qlab.com",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "SN-105 Safety Blood Collection QTY: 4000 pieces",
+    "items": [
+      {
+        "description": "SN-105 Safety Blood Collection QTY: 4000 pieces",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971607_373",
+    "sn": 89,
+    "reference": "26040708",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-09-04",
+    "dueDate": "2026-09-04",
+    "customerCode": "E-49",
+    "customerName": "National Unified Procurement Company for Medical Supplies ( NUPCO )",
+    "pgType": "G",
+    "origin": "NUPCO",
+    "salesPerson": "Direct Purchase",
+    "rfq": "NDP0355/26",
+    "bid": "0",
+    "quoteTime": "16:00",
+    "status": "NOT STARTED",
+    "contactName": "kabalawi-c@NUPCO.com",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Film Polyester QTY: 3pcs\r\nTubes PS 12ml QTY: 10500\r\nApplicator, cotton 6inch QTY: 1800",
+    "items": [
+      {
+        "description": "Film Polyester QTY: 3pcs\r",
+        "qty": 0
+      },
+      {
+        "description": "Tubes PS 12ml QTY: 10500\r",
+        "qty": 0
+      },
+      {
+        "description": "Applicator, cotton 6inch QTY: 1800",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971607_590",
+    "sn": 90,
+    "reference": "26040709",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-08-04",
+    "dueDate": "2026-08-04",
+    "customerCode": "E-49",
+    "customerName": "National Unified Procurement Company for Medical Supplies ( NUPCO )",
+    "pgType": "G",
+    "origin": "NUPCO",
+    "salesPerson": "Direct Purchase",
+    "rfq": "NDP0369/26",
+    "bid": "0",
+    "quoteTime": "10:12",
+    "status": "NOT STARTED",
+    "contactName": "skholan@nupco.com",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Application Cotton tip 3in QTY: 10,000\r\nSyringe 10ml with 21Gx1.5in QTY: 4,800\r\nGauze Swab 12ply 10x10cm QTY: 120,000",
+    "items": [
+      {
+        "description": "Application Cotton tip 3in QTY: 10,000\r",
+        "qty": 0
+      },
+      {
+        "description": "Syringe 10ml with 21Gx1.5in QTY: 4,800\r",
+        "qty": 0
+      },
+      {
+        "description": "Gauze Swab 12ply 10x10cm QTY: 120,000",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971608_279",
+    "sn": 91,
+    "reference": "26040710",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-09-04",
+    "dueDate": "2026-09-04",
+    "customerCode": "E-49",
+    "customerName": "National Unified Procurement Company for Medical Supplies ( NUPCO )",
+    "pgType": "G",
+    "origin": "NUPCO",
+    "salesPerson": "Direct Purchase",
+    "rfq": "NDP0362/26",
+    "bid": "0",
+    "quoteTime": "16:00",
+    "status": "NOT STARTED",
+    "contactName": "kabalawi-c@NUPCO.com",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Slide Glass Blue Frost Ground 25x75x1 QTY: 50,000pcs",
+    "items": [
+      {
+        "description": "Slide Glass Blue Frost Ground 25x75x1 QTY: 50,000pcs",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971609_623",
+    "sn": 92,
+    "reference": "26040711",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-09-04",
+    "dueDate": "2026-09-04",
+    "customerCode": "E-49",
+    "customerName": "National Unified Procurement Company for Medical Supplies ( NUPCO )",
+    "pgType": "G",
+    "origin": "NUPCO",
+    "salesPerson": "Direct Purchase",
+    "rfq": "NDP0360/26",
+    "bid": "0",
+    "quoteTime": "16:00",
+    "status": "NOT STARTED",
+    "contactName": "kabalawi-c@NUPCO.com",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "CASSETTE TISSUE PROCESS EMBED BLUE W/LID QTY: 2500\nCARD FILTER WHITE CYTOSPIN INSTRUMENT QTY: 1200\nCASSETTE PINK W/LID PENCIL WRITING QTY: 2500\nSTRIP URINALYSIS 3 PARAMETER QTY: 600\nETC",
+    "items": [
+      {
+        "description": "CASSETTE TISSUE PROCESS EMBED BLUE W/LID QTY: 2500",
+        "qty": 0
+      },
+      {
+        "description": "CARD FILTER WHITE CYTOSPIN INSTRUMENT QTY: 1200",
+        "qty": 0
+      },
+      {
+        "description": "CASSETTE PINK W/LID PENCIL WRITING QTY: 2500",
+        "qty": 0
+      },
+      {
+        "description": "STRIP URINALYSIS 3 PARAMETER QTY: 600",
+        "qty": 0
+      },
+      {
+        "description": "ETC",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971610_277",
+    "sn": 93,
+    "reference": "26040712",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-08-04",
+    "dueDate": "2026-09-04",
+    "customerCode": "398",
+    "customerName": "Al-alam Medical Center",
+    "pgType": "P",
+    "origin": "Sales",
+    "salesPerson": "Zainab",
+    "rfq": "",
+    "bid": "0",
+    "quoteTime": "14:33",
+    "status": "NOT STARTED",
+    "contactName": "Dr. Essa Al-Dhafiri",
+    "phone": "-",
+    "email": "alalam.director@gmail.com",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Refrigerator MPR 530 QTY: 1 Unit",
+    "items": [
+      {
+        "description": "Refrigerator MPR 530 QTY: 1 Unit",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "qtn_1776492971611_898",
+    "sn": 94,
+    "reference": "26040906",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-04-13",
+    "dueDate": "2026-04-14",
+    "customerCode": "E-49",
+    "customerName": "National Unified Procurement Company for Medical Supplies ( NUPCO )",
+    "pgType": "G",
+    "origin": "NUPCO",
+    "salesPerson": "Direct Purchase",
+    "rfq": "NDP0377/26",
+    "bid": "0",
+    "quoteTime": "16:00",
+    "status": "NOT STARTED",
+    "contactName": "AASULIHEM@nupco.com",
+    "phone": "",
+    "email": "",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Biological Indicator QTY: 127pcs\r\nCloth Cleaning Flat 30.48x30.48cm QTY: 12,165",
+    "items": [
+      {
+        "description": "Biological Indicator QTY: 127pcs\r",
+        "qty": 0
+      },
+      {
+        "description": "Cloth Cleaning Flat 30.48x30.48cm QTY: 12,165",
+        "qty": 0
+      }
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  }
+]
