@@ -69,10 +69,6 @@
         }
       ],
       "activeTagGroupId": "origin",
-      "pages": {
-        "customers": true,
-        "archived": true
-      },
       "formLayout": [
         {
           "key": "sn",
@@ -420,75 +416,6 @@
           "order": 23
         }
       ],
-      "formLayoutCanvas": {
-        "width": 783,
-        "height": 300,
-        "colSize": 41
-      },
-      "dashboardWidgets": [
-        "quotes_by_month_line",
-        "weekly_activity_line",
-        "active_vs_completed",
-        "status_count_value_combo",
-        "status_distribution",
-        "origin_distribution",
-        "sales_distribution",
-        "pg_distribution",
-        "top_customers_by_count",
-        "top_customers_by_value",
-        "aging_overview",
-        "completion_ratio"
-      ],
-      "dashboardWidgetTypes": {
-        "status_distribution": "bar",
-        "origin_distribution": "pie",
-        "sales_distribution": "pie",
-        "pg_distribution": "donut",
-        "aging_overview": "cards",
-        "completion_ratio": "cards",
-        "active_vs_completed": "donut",
-        "top_customers_by_count": "bar",
-        "top_customers_by_value": "bar",
-        "top_origins_by_value": "bar",
-        "top_sales_by_value": "bar",
-        "avg_value_by_status": "bar",
-        "quotes_by_weekday": "line",
-        "quotes_by_month_line": "line",
-        "weekly_activity_line": "line",
-        "status_count_value_combo": "combo",
-        "recent_7day_created": "cards",
-        "zero_value_quotes": "cards",
-        "high_value_quotes": "cards",
-        "no_contact_quotes": "cards",
-        "approval_pipeline": "bar",
-        "due_soon_vs_later": "donut"
-      },
-      "dashboardWidgetOrder": [
-        "status_distribution",
-        "origin_distribution",
-        "sales_distribution",
-        "pg_distribution",
-        "aging_overview",
-        "completion_ratio",
-        "active_vs_completed",
-        "top_customers_by_count",
-        "top_customers_by_value",
-        "top_origins_by_value",
-        "top_sales_by_value",
-        "avg_value_by_status",
-        "quotes_by_weekday",
-        "quotes_by_month_line",
-        "weekly_activity_line",
-        "status_count_value_combo",
-        "recent_7day_created",
-        "zero_value_quotes",
-        "high_value_quotes",
-        "no_contact_quotes",
-        "approval_pipeline",
-        "due_soon_vs_later"
-      ],
-      "dashboardMaxWidgets": 20,
-      "dashboardColumns": 3,
       "customerFormLayout": [
         {
           "key": "custCode",
@@ -655,7 +582,80 @@
           "gridCols": 24,
           "order": 11
         }
-      ]
+      ],
+      "formLayoutCanvas": {
+        "width": 783,
+        "height": 300,
+        "colSize": 41
+      },
+      "dashboardWidgets": [
+        "quotes_by_month_line",
+        "weekly_activity_line",
+        "active_vs_completed",
+        "status_count_value_combo",
+        "status_distribution",
+        "origin_distribution",
+        "sales_distribution",
+        "pg_distribution",
+        "top_customers_by_count",
+        "top_customers_by_value",
+        "aging_overview",
+        "completion_ratio"
+      ],
+      "dashboardWidgetTypes": {
+        "status_distribution": "bar",
+        "origin_distribution": "pie",
+        "sales_distribution": "pie",
+        "pg_distribution": "donut",
+        "aging_overview": "cards",
+        "completion_ratio": "cards",
+        "active_vs_completed": "donut",
+        "top_customers_by_count": "bar",
+        "top_customers_by_value": "bar",
+        "top_origins_by_value": "bar",
+        "top_sales_by_value": "bar",
+        "avg_value_by_status": "bar",
+        "quotes_by_weekday": "line",
+        "quotes_by_month_line": "line",
+        "weekly_activity_line": "line",
+        "status_count_value_combo": "combo",
+        "recent_7day_created": "cards",
+        "zero_value_quotes": "cards",
+        "high_value_quotes": "cards",
+        "no_contact_quotes": "cards",
+        "approval_pipeline": "bar",
+        "due_soon_vs_later": "donut"
+      },
+      "dashboardWidgetOrder": [
+        "status_distribution",
+        "origin_distribution",
+        "sales_distribution",
+        "pg_distribution",
+        "aging_overview",
+        "completion_ratio",
+        "active_vs_completed",
+        "top_customers_by_count",
+        "top_customers_by_value",
+        "top_origins_by_value",
+        "top_sales_by_value",
+        "avg_value_by_status",
+        "quotes_by_weekday",
+        "quotes_by_month_line",
+        "weekly_activity_line",
+        "status_count_value_combo",
+        "recent_7day_created",
+        "zero_value_quotes",
+        "high_value_quotes",
+        "no_contact_quotes",
+        "approval_pipeline",
+        "due_soon_vs_later"
+      ],
+      "dashboardMaxWidgets": 20,
+      "dashboardColumns": 3,
+      "pages": {
+        "customers": true,
+        "archived": true
+      }
     },
     {
       "id": "gov_tender",
@@ -763,10 +763,6 @@
         }
       ],
       "activeTagGroupId": "origin",
-      "pages": {
-        "customers": true,
-        "archived": true
-      },
       "formLayout": [
         {
           "key": "sn",
@@ -1114,6 +1110,173 @@
           "order": 23
         }
       ],
+      "customerFormLayout": [
+        {
+          "key": "custCode",
+          "visible": true,
+          "width": "half",
+          "fieldBorder": true,
+          "locked": false,
+          "label": "",
+          "previewType": "auto",
+          "col": 1,
+          "row": 1,
+          "colSpan": 3,
+          "rowSpan": 1,
+          "gridCols": 24,
+          "order": 1
+        },
+        {
+          "key": "custName",
+          "visible": true,
+          "width": "half",
+          "fieldBorder": true,
+          "locked": false,
+          "label": "",
+          "previewType": "auto",
+          "col": 7,
+          "row": 2,
+          "colSpan": 7,
+          "rowSpan": 1,
+          "gridCols": 24,
+          "order": 2
+        },
+        {
+          "key": "custNameAr",
+          "visible": true,
+          "width": "half",
+          "fieldBorder": true,
+          "locked": false,
+          "label": "",
+          "previewType": "auto",
+          "col": 1,
+          "row": 2,
+          "colSpan": 6,
+          "rowSpan": 1,
+          "gridCols": 24,
+          "order": 3
+        },
+        {
+          "key": "custPgType",
+          "visible": true,
+          "width": "half",
+          "fieldBorder": true,
+          "locked": false,
+          "label": "",
+          "previewType": "auto",
+          "col": 7,
+          "row": 3,
+          "colSpan": 3,
+          "rowSpan": 1,
+          "gridCols": 24,
+          "order": 4
+        },
+        {
+          "key": "custWebsite",
+          "visible": true,
+          "width": "half",
+          "fieldBorder": true,
+          "locked": false,
+          "label": "",
+          "previewType": "auto",
+          "col": 1,
+          "row": 3,
+          "colSpan": 6,
+          "rowSpan": 1,
+          "gridCols": 24,
+          "order": 5
+        },
+        {
+          "key": "custSector",
+          "visible": true,
+          "width": "half",
+          "fieldBorder": true,
+          "locked": false,
+          "label": "",
+          "previewType": "auto",
+          "col": 10,
+          "row": 3,
+          "colSpan": 4,
+          "rowSpan": 1,
+          "gridCols": 24,
+          "order": 6
+        },
+        {
+          "key": "custAreaCode",
+          "visible": true,
+          "width": "half",
+          "fieldBorder": true,
+          "locked": false,
+          "label": "",
+          "previewType": "auto",
+          "col": 1,
+          "row": 4,
+          "colSpan": 3,
+          "rowSpan": 1,
+          "gridCols": 24,
+          "order": 7
+        },
+        {
+          "key": "custVT",
+          "visible": true,
+          "width": "half",
+          "fieldBorder": true,
+          "locked": false,
+          "label": "",
+          "previewType": "auto",
+          "col": 4,
+          "row": 4,
+          "colSpan": 10,
+          "rowSpan": 1,
+          "gridCols": 24,
+          "order": 8
+        },
+        {
+          "key": "custVendor",
+          "visible": true,
+          "width": "half",
+          "fieldBorder": true,
+          "locked": false,
+          "label": "",
+          "previewType": "auto",
+          "col": 1,
+          "row": 5,
+          "colSpan": 3,
+          "rowSpan": 1,
+          "gridCols": 24,
+          "order": 9
+        },
+        {
+          "key": "custRemark",
+          "visible": true,
+          "width": "half",
+          "fieldBorder": true,
+          "locked": false,
+          "label": "",
+          "previewType": "auto",
+          "col": 4,
+          "row": 5,
+          "colSpan": 8,
+          "rowSpan": 1,
+          "gridCols": 24,
+          "order": 10
+        },
+        {
+          "key": "custActions",
+          "visible": true,
+          "width": "half",
+          "fieldBorder": true,
+          "locked": false,
+          "label": "",
+          "previewType": "auto",
+          "col": 1,
+          "row": 6,
+          "colSpan": 13,
+          "rowSpan": 1,
+          "gridCols": 24,
+          "order": 11
+        }
+      ],
       "formLayoutCanvas": {
         "width": 783,
         "height": 300,
@@ -1182,7 +1345,11 @@
         "due_soon_vs_later"
       ],
       "dashboardMaxWidgets": 20,
-      "dashboardColumns": 3
+      "dashboardColumns": 3,
+      "pages": {
+        "customers": true,
+        "archived": true
+      }
     },
     {
       "id": "private_tender",
@@ -1253,10 +1420,6 @@
         }
       ],
       "activeTagGroupId": "origin",
-      "pages": {
-        "customers": true,
-        "archived": true
-      },
       "formLayout": [
         {
           "key": "sn",
@@ -1604,6 +1767,173 @@
           "order": 23
         }
       ],
+      "customerFormLayout": [
+        {
+          "key": "custCode",
+          "visible": true,
+          "width": "half",
+          "fieldBorder": true,
+          "locked": false,
+          "label": "",
+          "previewType": "auto",
+          "col": 1,
+          "row": 1,
+          "colSpan": 3,
+          "rowSpan": 1,
+          "gridCols": 24,
+          "order": 1
+        },
+        {
+          "key": "custName",
+          "visible": true,
+          "width": "half",
+          "fieldBorder": true,
+          "locked": false,
+          "label": "",
+          "previewType": "auto",
+          "col": 7,
+          "row": 2,
+          "colSpan": 7,
+          "rowSpan": 1,
+          "gridCols": 24,
+          "order": 2
+        },
+        {
+          "key": "custNameAr",
+          "visible": true,
+          "width": "half",
+          "fieldBorder": true,
+          "locked": false,
+          "label": "",
+          "previewType": "auto",
+          "col": 1,
+          "row": 2,
+          "colSpan": 6,
+          "rowSpan": 1,
+          "gridCols": 24,
+          "order": 3
+        },
+        {
+          "key": "custPgType",
+          "visible": true,
+          "width": "half",
+          "fieldBorder": true,
+          "locked": false,
+          "label": "",
+          "previewType": "auto",
+          "col": 7,
+          "row": 3,
+          "colSpan": 3,
+          "rowSpan": 1,
+          "gridCols": 24,
+          "order": 4
+        },
+        {
+          "key": "custWebsite",
+          "visible": true,
+          "width": "half",
+          "fieldBorder": true,
+          "locked": false,
+          "label": "",
+          "previewType": "auto",
+          "col": 1,
+          "row": 3,
+          "colSpan": 6,
+          "rowSpan": 1,
+          "gridCols": 24,
+          "order": 5
+        },
+        {
+          "key": "custSector",
+          "visible": true,
+          "width": "half",
+          "fieldBorder": true,
+          "locked": false,
+          "label": "",
+          "previewType": "auto",
+          "col": 10,
+          "row": 3,
+          "colSpan": 4,
+          "rowSpan": 1,
+          "gridCols": 24,
+          "order": 6
+        },
+        {
+          "key": "custAreaCode",
+          "visible": true,
+          "width": "half",
+          "fieldBorder": true,
+          "locked": false,
+          "label": "",
+          "previewType": "auto",
+          "col": 1,
+          "row": 4,
+          "colSpan": 3,
+          "rowSpan": 1,
+          "gridCols": 24,
+          "order": 7
+        },
+        {
+          "key": "custVT",
+          "visible": true,
+          "width": "half",
+          "fieldBorder": true,
+          "locked": false,
+          "label": "",
+          "previewType": "auto",
+          "col": 4,
+          "row": 4,
+          "colSpan": 10,
+          "rowSpan": 1,
+          "gridCols": 24,
+          "order": 8
+        },
+        {
+          "key": "custVendor",
+          "visible": true,
+          "width": "half",
+          "fieldBorder": true,
+          "locked": false,
+          "label": "",
+          "previewType": "auto",
+          "col": 1,
+          "row": 5,
+          "colSpan": 3,
+          "rowSpan": 1,
+          "gridCols": 24,
+          "order": 9
+        },
+        {
+          "key": "custRemark",
+          "visible": true,
+          "width": "half",
+          "fieldBorder": true,
+          "locked": false,
+          "label": "",
+          "previewType": "auto",
+          "col": 4,
+          "row": 5,
+          "colSpan": 8,
+          "rowSpan": 1,
+          "gridCols": 24,
+          "order": 10
+        },
+        {
+          "key": "custActions",
+          "visible": true,
+          "width": "half",
+          "fieldBorder": true,
+          "locked": false,
+          "label": "",
+          "previewType": "auto",
+          "col": 1,
+          "row": 6,
+          "colSpan": 13,
+          "rowSpan": 1,
+          "gridCols": 24,
+          "order": 11
+        }
+      ],
       "formLayoutCanvas": {
         "width": 783,
         "height": 300,
@@ -1672,7 +2002,11 @@
         "due_soon_vs_later"
       ],
       "dashboardMaxWidgets": 20,
-      "dashboardColumns": 3
+      "dashboardColumns": 3,
+      "pages": {
+        "customers": true,
+        "archived": true
+      }
     },
     {
       "id": "other_projects",
@@ -1776,10 +2110,6 @@
         }
       ],
       "activeTagGroupId": "origin",
-      "pages": {
-        "customers": true,
-        "archived": true
-      },
       "formLayout": [
         {
           "key": "sn",
@@ -2127,6 +2457,173 @@
           "order": 23
         }
       ],
+      "customerFormLayout": [
+        {
+          "key": "custCode",
+          "visible": true,
+          "width": "half",
+          "fieldBorder": true,
+          "locked": false,
+          "label": "",
+          "previewType": "auto",
+          "col": 1,
+          "row": 1,
+          "colSpan": 3,
+          "rowSpan": 1,
+          "gridCols": 24,
+          "order": 1
+        },
+        {
+          "key": "custName",
+          "visible": true,
+          "width": "half",
+          "fieldBorder": true,
+          "locked": false,
+          "label": "",
+          "previewType": "auto",
+          "col": 7,
+          "row": 2,
+          "colSpan": 7,
+          "rowSpan": 1,
+          "gridCols": 24,
+          "order": 2
+        },
+        {
+          "key": "custNameAr",
+          "visible": true,
+          "width": "half",
+          "fieldBorder": true,
+          "locked": false,
+          "label": "",
+          "previewType": "auto",
+          "col": 1,
+          "row": 2,
+          "colSpan": 6,
+          "rowSpan": 1,
+          "gridCols": 24,
+          "order": 3
+        },
+        {
+          "key": "custPgType",
+          "visible": true,
+          "width": "half",
+          "fieldBorder": true,
+          "locked": false,
+          "label": "",
+          "previewType": "auto",
+          "col": 7,
+          "row": 3,
+          "colSpan": 3,
+          "rowSpan": 1,
+          "gridCols": 24,
+          "order": 4
+        },
+        {
+          "key": "custWebsite",
+          "visible": true,
+          "width": "half",
+          "fieldBorder": true,
+          "locked": false,
+          "label": "",
+          "previewType": "auto",
+          "col": 1,
+          "row": 3,
+          "colSpan": 6,
+          "rowSpan": 1,
+          "gridCols": 24,
+          "order": 5
+        },
+        {
+          "key": "custSector",
+          "visible": true,
+          "width": "half",
+          "fieldBorder": true,
+          "locked": false,
+          "label": "",
+          "previewType": "auto",
+          "col": 10,
+          "row": 3,
+          "colSpan": 4,
+          "rowSpan": 1,
+          "gridCols": 24,
+          "order": 6
+        },
+        {
+          "key": "custAreaCode",
+          "visible": true,
+          "width": "half",
+          "fieldBorder": true,
+          "locked": false,
+          "label": "",
+          "previewType": "auto",
+          "col": 1,
+          "row": 4,
+          "colSpan": 3,
+          "rowSpan": 1,
+          "gridCols": 24,
+          "order": 7
+        },
+        {
+          "key": "custVT",
+          "visible": true,
+          "width": "half",
+          "fieldBorder": true,
+          "locked": false,
+          "label": "",
+          "previewType": "auto",
+          "col": 4,
+          "row": 4,
+          "colSpan": 10,
+          "rowSpan": 1,
+          "gridCols": 24,
+          "order": 8
+        },
+        {
+          "key": "custVendor",
+          "visible": true,
+          "width": "half",
+          "fieldBorder": true,
+          "locked": false,
+          "label": "",
+          "previewType": "auto",
+          "col": 1,
+          "row": 5,
+          "colSpan": 3,
+          "rowSpan": 1,
+          "gridCols": 24,
+          "order": 9
+        },
+        {
+          "key": "custRemark",
+          "visible": true,
+          "width": "half",
+          "fieldBorder": true,
+          "locked": false,
+          "label": "",
+          "previewType": "auto",
+          "col": 4,
+          "row": 5,
+          "colSpan": 8,
+          "rowSpan": 1,
+          "gridCols": 24,
+          "order": 10
+        },
+        {
+          "key": "custActions",
+          "visible": true,
+          "width": "half",
+          "fieldBorder": true,
+          "locked": false,
+          "label": "",
+          "previewType": "auto",
+          "col": 1,
+          "row": 6,
+          "colSpan": 13,
+          "rowSpan": 1,
+          "gridCols": 24,
+          "order": 11
+        }
+      ],
       "formLayoutCanvas": {
         "width": 783,
         "height": 300,
@@ -2195,7 +2692,11 @@
         "due_soon_vs_later"
       ],
       "dashboardMaxWidgets": 20,
-      "dashboardColumns": 3
+      "dashboardColumns": 3,
+      "pages": {
+        "customers": true,
+        "archived": true
+      }
     },
     {
       "id": "new_tracker",
@@ -2266,10 +2767,6 @@
         }
       ],
       "activeTagGroupId": "origin",
-      "pages": {
-        "customers": true,
-        "archived": true
-      },
       "formLayout": [
         {
           "key": "sn",
@@ -2617,6 +3114,173 @@
           "order": 23
         }
       ],
+      "customerFormLayout": [
+        {
+          "key": "custCode",
+          "visible": true,
+          "width": "half",
+          "fieldBorder": true,
+          "locked": false,
+          "label": "",
+          "previewType": "auto",
+          "col": 1,
+          "row": 1,
+          "colSpan": 3,
+          "rowSpan": 1,
+          "gridCols": 24,
+          "order": 1
+        },
+        {
+          "key": "custName",
+          "visible": true,
+          "width": "half",
+          "fieldBorder": true,
+          "locked": false,
+          "label": "",
+          "previewType": "auto",
+          "col": 7,
+          "row": 2,
+          "colSpan": 7,
+          "rowSpan": 1,
+          "gridCols": 24,
+          "order": 2
+        },
+        {
+          "key": "custNameAr",
+          "visible": true,
+          "width": "half",
+          "fieldBorder": true,
+          "locked": false,
+          "label": "",
+          "previewType": "auto",
+          "col": 1,
+          "row": 2,
+          "colSpan": 6,
+          "rowSpan": 1,
+          "gridCols": 24,
+          "order": 3
+        },
+        {
+          "key": "custPgType",
+          "visible": true,
+          "width": "half",
+          "fieldBorder": true,
+          "locked": false,
+          "label": "",
+          "previewType": "auto",
+          "col": 7,
+          "row": 3,
+          "colSpan": 3,
+          "rowSpan": 1,
+          "gridCols": 24,
+          "order": 4
+        },
+        {
+          "key": "custWebsite",
+          "visible": true,
+          "width": "half",
+          "fieldBorder": true,
+          "locked": false,
+          "label": "",
+          "previewType": "auto",
+          "col": 1,
+          "row": 3,
+          "colSpan": 6,
+          "rowSpan": 1,
+          "gridCols": 24,
+          "order": 5
+        },
+        {
+          "key": "custSector",
+          "visible": true,
+          "width": "half",
+          "fieldBorder": true,
+          "locked": false,
+          "label": "",
+          "previewType": "auto",
+          "col": 10,
+          "row": 3,
+          "colSpan": 4,
+          "rowSpan": 1,
+          "gridCols": 24,
+          "order": 6
+        },
+        {
+          "key": "custAreaCode",
+          "visible": true,
+          "width": "half",
+          "fieldBorder": true,
+          "locked": false,
+          "label": "",
+          "previewType": "auto",
+          "col": 1,
+          "row": 4,
+          "colSpan": 3,
+          "rowSpan": 1,
+          "gridCols": 24,
+          "order": 7
+        },
+        {
+          "key": "custVT",
+          "visible": true,
+          "width": "half",
+          "fieldBorder": true,
+          "locked": false,
+          "label": "",
+          "previewType": "auto",
+          "col": 4,
+          "row": 4,
+          "colSpan": 10,
+          "rowSpan": 1,
+          "gridCols": 24,
+          "order": 8
+        },
+        {
+          "key": "custVendor",
+          "visible": true,
+          "width": "half",
+          "fieldBorder": true,
+          "locked": false,
+          "label": "",
+          "previewType": "auto",
+          "col": 1,
+          "row": 5,
+          "colSpan": 3,
+          "rowSpan": 1,
+          "gridCols": 24,
+          "order": 9
+        },
+        {
+          "key": "custRemark",
+          "visible": true,
+          "width": "half",
+          "fieldBorder": true,
+          "locked": false,
+          "label": "",
+          "previewType": "auto",
+          "col": 4,
+          "row": 5,
+          "colSpan": 8,
+          "rowSpan": 1,
+          "gridCols": 24,
+          "order": 10
+        },
+        {
+          "key": "custActions",
+          "visible": true,
+          "width": "half",
+          "fieldBorder": true,
+          "locked": false,
+          "label": "",
+          "previewType": "auto",
+          "col": 1,
+          "row": 6,
+          "colSpan": 13,
+          "rowSpan": 1,
+          "gridCols": 24,
+          "order": 11
+        }
+      ],
       "formLayoutCanvas": {
         "width": 783,
         "height": 300,
@@ -2685,7 +3349,11 @@
         "due_soon_vs_later"
       ],
       "dashboardMaxWidgets": 20,
-      "dashboardColumns": 3
+      "dashboardColumns": 3,
+      "pages": {
+        "customers": true,
+        "archived": true
+      }
     }
   ],
   "activeWorkflowId": "direct_purchase",
@@ -3343,5 +4011,9 @@
   "originSalesMap": {},
   "ui": {
     "kanbanDensity": "compact"
+  },
+  "pages": {
+    "customers": true,
+    "archived": true
   }
 }
