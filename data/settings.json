@@ -18,7 +18,8 @@
           "substatuses": [
             "NOT STARTED",
             "UNDER REVIEW",
-            "FOR APPROVAL"
+            "FOR APPROVAL",
+            "Started"
           ],
           "isCompletion": false,
           "showOnBoard": true,
@@ -27,7 +28,8 @@
           "substatusColors": {
             "NOT STARTED": "#2563eb",
             "UNDER REVIEW": "#d97706",
-            "FOR APPROVAL": "#0f766e"
+            "FOR APPROVAL": "#0f766e",
+            "Started": "#24eb31"
           }
         },
         {
@@ -465,6 +467,7 @@
     "NOT STARTED",
     "UNDER REVIEW",
     "FOR APPROVAL",
+    "Started",
     "CLOSED",
     "CANCELLED",
     "DROPPED",
@@ -477,7 +480,8 @@
       "substatuses": [
         "NOT STARTED",
         "UNDER REVIEW",
-        "FOR APPROVAL"
+        "FOR APPROVAL",
+        "Started"
       ],
       "isCompletion": false,
       "showOnBoard": true,
@@ -486,7 +490,8 @@
       "substatusColors": {
         "NOT STARTED": "#2563eb",
         "UNDER REVIEW": "#d97706",
-        "FOR APPROVAL": "#0f766e"
+        "FOR APPROVAL": "#0f766e",
+        "Started": "#24eb31"
       }
     },
     {
