@@ -1,0 +1,7 @@
+{
+  "schemaVersion": 2,
+  "lastChangeAt": "2026-04-18T18:19:23.941Z",
+  "backedUpAt": "2026-04-18T18:19:23.941Z",
+  "source": "local-csv-import",
+  "note": "Updated customer backup JSON from customers-2026-04-18.csv; source CSV has empty Arabic column."
+}

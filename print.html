@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quotation Print View</title>
+  <link rel="stylesheet" href="css/app.css" />
+</head>
+<body class="print-body">
+  <main class="print-sheet">
+    <div class="print-header">
+      <h1>Quotation Print View</h1>
+      <button onclick="window.print()" class="btn btn-primary no-print">Print</button>
+    </div>
+    <div id="printContent"></div>
+  </main>
+
+  <script src="js/config.js"></script>
+  <script src="js/utils.js"></script>
+  <script src="js/storage.local.js"></script>
+  <script src="js/print.page.js"></script>
+</body>
+</html>

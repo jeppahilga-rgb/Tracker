@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Archived Quotations</title>
+  <link rel="stylesheet" href="css/app.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-left">
+      <h1>Archived Quotations</h1>
+      <div class="topbar-meta">
+        <div id="archivedSessionBadge" class="session-badge">Signed in</div>
+      </div>
+    </div>
+    <div class="toolbar">
+      <button id="btnBackMain" class="btn btn-secondary btn-sm">Back to App</button>
+    </div>
+  </header>
+
+  <main class="main-grid">
+    <section class="panel">
+      <h2>Archived List</h2>
+      <div class="filter-bar customer-filter">
+        <input id="archivedSearch" type="text" placeholder="Search reference, customer, tag, status..." />
+      </div>
+      <div id="archivedTableWrap"></div>
+    </section>
+  </main>
+
+  <script src="js/config.js"></script>
+  <script src="js/utils.js"></script>
+  <script src="js/storage.local.js"></script>
+  <script src="js/archived.page.js"></script>
+</body>
+</html>

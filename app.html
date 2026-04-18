@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Project Tracker</title>
+  <link rel="stylesheet" href="css/app.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-left">
+      <h1>Project Tracker</h1>
+      <div class="topbar-meta">
+        <div id="sessionBadge" class="session-badge">Not signed in</div>
+        <div id="syncStatusBadge" class="sync-badge sync-idle">Saved locally</div>
+      </div>
+    </div>
+    <div class="toolbar">
+      <div class="toolbar-tabs">
+        <button id="tabBoard" class="btn btn-secondary btn-sm tab-btn">Kanban</button>
+        <button id="tabDashboard" class="btn btn-secondary btn-sm tab-btn">Dashboard</button>
+        <button id="btnCustomers" class="btn btn-secondary btn-sm tab-btn">Customers</button>
+        <button id="btnArchived" class="btn btn-secondary btn-sm tab-btn">Archived</button>
+        <button id="btnSettings" class="btn btn-secondary btn-sm tab-btn">Settings</button>
+      </div>
+      <div class="toolbar-actions">
+        <button id="btnNewQuotation" class="btn btn-primary btn-sm">+ New</button>
+        <button id="btnImport" class="btn btn-secondary btn-sm icon-btn" title="Import CSV" aria-label="Import CSV">&#8681;</button>
+        <button id="btnExport" class="btn btn-secondary btn-sm icon-btn" title="Export CSV" aria-label="Export CSV">&#8679;</button>
+        <button id="btnSyncNow" class="btn btn-secondary btn-sm icon-btn" title="Sync Now" aria-label="Sync Now">&#8635;</button>
+        <button id="btnLogout" class="btn btn-danger btn-sm icon-btn" title="Logout" aria-label="Logout">&#9211;</button>
+      </div>
+      <input id="csvImportFile" type="file" accept=".csv,text/csv" class="hidden" />
+    </div>
+  </header>
+
+  <div class="global-tracker-bar">
+    <div class="tracker-switch-wrap global-tracker-switch">
+      <label class="visually-hidden">Tracker</label>
+      <div id="activeWorkflowTabs" class="tracker-tabs"></div>
+      <select id="activeWorkflow" class="hidden" style="min-width:240px;"></select>
+    </div>
+  </div>
+
+  <main class="main-grid">
+    <section id="viewBoard" class="panel">
+      <div class="board-head">
+        <h2 id="boardTitle">Kanban Board</h2>
+        <div class="view-switch">
+          <button id="btnBoardKanban" class="btn btn-secondary btn-sm is-active">Kanban View</button>
+          <button id="btnBoardList" class="btn btn-secondary btn-sm">List View</button>
+        </div>
+      </div>
+
+      <div class="filter-bar-wrap">
+        <div id="filterBarBody" class="filter-bar">
+          <input id="filterSearch" class="filter-search-input" type="text" placeholder="Search..." />
+          <select id="filterStatus"></select>
+          <select id="filterOrigin"></select>
+          <input id="filterCustomer" type="text" placeholder="Customer..." />
+          <select id="kanbanDensity" title="Card Density">
+            <option value="compact">Compact</option>
+            <option value="comfortable">Comfortable</option>
+          </select>
+          <button id="btnClearFilters" class="btn btn-secondary">Clear</button>
+          <div id="activeFilterChips" class="active-filter-chips hidden"></div>
+        </div>
+      </div>
+
+      <div class="kanban-workspace">
+        <div id="kanbanBoard" class="kanban-board"></div>
+        <div id="kanbanFinishZone" class="kanban-finish-zone">
+          <strong>Finish Task</strong>
+          <div>Drag card here</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="viewDashboard" class="panel hidden">
+      <h2>Dashboard</h2>
+      <div id="dashboardStats" class="stats-grid"></div>
+      <div id="dashboardVisuals" class="dashboard-visual-grid"></div>
+
+      <div id="dashboardTable"></div>
+    </section>
+  </main>
+
+  <div id="quotationModal" class="modal hidden">
+    <div class="modal-card modal-card-wide">
+      <div class="modal-header">
+        <h3>Quotation Entry</h3>
+        <button id="btnCloseQuotationModal" class="btn btn-danger btn-close-circle" aria-label="Close">X</button>
+      </div>
+
+      <form id="quotationForm" class="form-grid">
+        <div data-form-field="sn"><label>SN</label><input id="sn" type="number" readonly /></div>
+        <div data-form-field="reference"><label>Reference</label><input id="reference" type="text" readonly /></div>
+        <div data-form-field="targetDate"><label>Target Date</label><input id="targetDate" type="date" /></div>
+        <div data-form-field="dueDate"><label>Due Date</label><input id="dueDate" type="date" /></div>
+
+        <div data-form-field="customerCode">
+          <label>Customer Code</label>
+          <input id="customerCode" type="text" placeholder="Search code" />
+          <div id="customerCodeMatches" class="lookup-box hidden"></div>
+        </div>
+
+        <div data-form-field="customerName">
+          <label>Customer Name</label>
+          <input id="customerName" type="text" placeholder="Search customer" />
+          <div id="customerNameMatches" class="lookup-box hidden"></div>
+        </div>
+
+        <div data-form-field="workflow">
+          <label>Tracker</label>
+          <div id="quotationWorkflowTabs" class="tracker-tabs tracker-tabs-form"></div>
+          <select id="quotationWorkflow" class="hidden"></select>
+        </div>
+        <div data-form-field="pgType"><label>PG</label><input id="pgType" type="text" readonly /></div>
+        <div data-form-field="origin"><label>Tag</label><select id="origin"></select></div>
+        <div data-form-field="salesPerson"><label>Sub Tag</label><select id="salesPerson"></select></div>
+        <div data-form-field="rfq"><label>RFQ</label><input id="rfq" type="text" /></div>
+        <div data-form-field="bid"><label>Bid</label><input id="bid" type="text" /></div>
+        <div data-form-field="quoteTime"><label>Time</label><input id="quoteTime" type="time" /></div>
+        <div data-form-field="status"><label>Status</label><select id="status"></select></div>
+
+        <div data-form-field="contactName">
+          <label>Contact Name</label>
+          <input id="contactName" type="text" placeholder="Search contact" />
+          <div id="contactMatches" class="lookup-box hidden"></div>
+        </div>
+
+        <div data-form-field="phone"><label>Phone</label><input id="phone" type="text" /></div>
+        <div data-form-field="email"><label>Email</label><input id="email" type="email" /></div>
+        <div data-form-field="contactSaveAction" class="form-actions">
+          <button type="button" id="btnSaveContact" class="btn btn-success">Add Contact</button>
+        </div>
+        <div data-form-field="totalItems"><label>Total Items</label><input id="totalItems" type="number" min="0" /></div>
+        <div data-form-field="totalValue"><label>Total Value</label><input id="totalValue" type="number" min="0" step="0.01" /></div>
+
+        <div class="full-row" data-form-field="itemLines">
+          <label>Item Lines</label>
+          <div id="itemRows"></div>
+          <button type="button" id="btnAddItemRow" class="btn btn-secondary">+ Add Item</button>
+        </div>
+
+        <div class="full-row" data-form-field="remarks">
+          <label>Remarks</label>
+          <textarea id="remarks" rows="3"></textarea>
+        </div>
+
+        <div class="full-row form-actions" data-form-field="actions">
+          <button type="submit" class="btn btn-success"><span id="saveLabel">Save Quotation</span></button>
+          <button type="button" id="btnClear" class="btn btn-warning">Clear</button>
+          <button type="button" id="btnPrint" class="btn btn-secondary">Print</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div id="auditModal" class="modal hidden">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3>Audit Trail</h3>
+        <button id="btnCloseAudit" class="btn btn-danger btn-close-circle" aria-label="Close">X</button>
+      </div>
+      <div id="auditContent"></div>
+    </div>
+  </div>
+
+  <div id="approvalModal" class="modal hidden">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3>Approval Action</h3>
+        <button id="btnCloseApproval" class="btn btn-danger btn-close-circle" aria-label="Close">X</button>
+      </div>
+      <input type="hidden" id="approvalQuoteId" />
+      <input type="hidden" id="approvalActionType" />
+      <label>Approval Note</label>
+      <textarea id="approvalNote" rows="4" placeholder="Write approval or return note"></textarea>
+      <div class="form-actions" style="margin-top:12px;">
+        <button id="btnConfirmApproval" class="btn btn-success">Confirm</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="completeModal" class="modal hidden">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3>Complete Task</h3>
+        <button id="btnCloseCompleteModal" class="btn btn-danger btn-close-circle" aria-label="Close">X</button>
+      </div>
+      <input type="hidden" id="completeQuoteId" />
+      <label>Final Status</label>
+      <select id="completeStatusSelect"></select>
+      <div class="form-actions" style="margin-top:12px;">
+        <button id="btnConfirmComplete" class="btn btn-success">Confirm</button>
+      </div>
+    </div>
+  </div>
+
+  <aside id="quickEditDrawer" class="quick-drawer hidden">
+    <div class="quick-drawer-head">
+      <h3>Quick Edit</h3>
+      <button id="btnCloseQuickDrawer" class="btn btn-danger btn-close-circle" aria-label="Close">X</button>
+    </div>
+    <input type="hidden" id="quickEditId" />
+    <div class="quick-drawer-body">
+      <div><label>Reference</label><input id="quickReference" type="text" readonly /></div>
+      <div><label>Customer</label><input id="quickCustomer" type="text" readonly /></div>
+      <div><label>Status</label><select id="quickStatus"></select></div>
+      <div><label>Due Date</label><input id="quickDueDate" type="date" /></div>
+      <div><label>Sub Tag</label><input id="quickSales" type="text" /></div>
+      <div class="full-row"><label>Remarks</label><textarea id="quickRemarks" rows="3"></textarea></div>
+      <div class="full-row form-actions">
+        <button id="btnSaveQuickDrawer" class="btn btn-success" type="button">Save Changes</button>
+      </div>
+      <div class="full-row">
+        <h4>Activity Timeline</h4>
+        <div id="quickTimeline" class="quick-timeline"></div>
+      </div>
+    </div>
+  </aside>
+
+  <div id="importReviewModal" class="modal hidden">
+    <div class="modal-card modal-card-wide">
+      <div class="modal-header">
+        <h3>Import Review</h3>
+        <button id="btnCloseImportReview" class="btn btn-danger btn-close-circle" aria-label="Close">X</button>
+      </div>
+      <div id="importReviewSummary" class="info-box"></div>
+      <div id="importReviewDetails" class="table-wrap"></div>
+      <div class="form-actions" style="margin-top:12px;">
+        <button id="btnConfirmImportReview" class="btn btn-success" type="button">Apply Import</button>
+        <button id="btnCancelImportReview" class="btn btn-secondary" type="button">Cancel</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="toastContainer" class="toast-container"></div>
+
+  <script src="js/config.js"></script>
+  <script src="js/utils.js"></script>
+  <script src="js/toast.js"></script>
+  <script src="js/storage.local.js"></script>
+  <script src="js/storage.github.js"></script>
+  <script src="js/layout.engine.js"></script>
+  <script src="js/customer.manager.js"></script>
+  <script src="js/contact.manager.js"></script>
+  <script src="js/audit.js"></script>
+  <script src="js/approval.workflow.js"></script>
+  <script src="js/quotation.validation.js"></script>
+  <script src="js/quotation.workflow.js"></script>
+  <script src="js/quotation.form.js"></script>
+  <script src="js/search.filter.js"></script>
+  <script src="js/charts.js"></script>
+  <script src="js/kanban.js"></script>
+  <script src="js/dashboard.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

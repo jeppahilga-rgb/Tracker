@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Project Tracker Login</title>
+  <link rel="stylesheet" href="css/app.css" />
+</head>
+<body class="login-body">
+  <div class="login-card">
+    <h1>Project Tracker</h1>
+    <p>Cloud-ready quotation workflow rebuilt from your VBA process.</p>
+
+    <label for="loginName">Display Name</label>
+    <input id="loginName" type="text" placeholder="Your name" />
+
+    <label for="loginRole">Role</label>
+    <select id="loginRole">
+      <option value="admin">Admin</option>
+      <option value="user">User</option>
+      <option value="reviewer">Reviewer</option>
+      <option value="approver">Approver</option>
+      <option value="auditor">Auditor</option>
+    </select>
+
+    <div class="login-actions">
+      <button id="btnLogin" class="btn btn-primary">Enter App</button>
+      <button id="btnDemo" class="btn btn-secondary">Load Demo</button>
+    </div>
+
+    <div class="info-box">
+      Start in Local Mode. Later switch to GitHub or API mode in Settings.
+    </div>
+  </div>
+
+  <script>
+    document.getElementById("btnLogin").addEventListener("click", function () {
+      const name = document.getElementById("loginName").value.trim() || "User";
+      const role = document.getElementById("loginRole").value;
+      localStorage.setItem("qt.session", JSON.stringify({
+        id: "u_" + Date.now(),
+        name,
+        role,
+        loginAt: new Date().toISOString()
+      }));
+      window.location.href = "app.html";
+    });
+
+    document.getElementById("btnDemo").addEventListener("click", function () {
+      localStorage.setItem("qt.session", JSON.stringify({
+        id: "u_demo",
+        name: "Demo Admin",
+        role: "admin",
+        loginAt: new Date().toISOString()
+      }));
+      window.location.href = "app.html";
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Customer Master</title>
+  <link rel="stylesheet" href="css/app.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-left">
+      <h1>Customer Master</h1>
+      <div class="topbar-meta">
+        <div id="customerSessionBadge" class="session-badge">Signed in</div>
+      </div>
+    </div>
+    <div class="toolbar">
+      <button id="btnBackApp" class="btn btn-secondary btn-sm">Back to App</button>
+      <button id="btnNewCustomer" class="btn btn-primary btn-sm">+ New Customer</button>
+      <button id="btnNewClient" class="btn btn-secondary btn-sm">+ New Client</button>
+      <button id="btnImportCustomersCsv" class="btn btn-secondary btn-sm icon-btn" title="Import Customers CSV" aria-label="Import Customers CSV">&#8681;</button>
+      <button id="btnExportCustomersCsv" class="btn btn-secondary btn-sm icon-btn" title="Export Customers CSV" aria-label="Export Customers CSV">&#8679;</button>
+      <button id="btnImportClientsCsv" class="btn btn-secondary btn-sm icon-btn hidden" title="Import Clients CSV" aria-label="Import Clients CSV">&#8681;</button>
+      <button id="btnExportClientsCsv" class="btn btn-secondary btn-sm icon-btn hidden" title="Export Clients CSV" aria-label="Export Clients CSV">&#8679;</button>
+      <input id="customersCsvInput" type="file" accept=".csv,text/csv" class="hidden" />
+      <input id="clientsCsvInput" type="file" accept=".csv,text/csv" class="hidden" />
+    </div>
+  </header>
+
+  <main class="main-grid">
+    <section class="panel">
+      <div class="tab-switch">
+        <button id="btnTabCustomers" class="btn btn-secondary btn-sm is-active">Customers</button>
+        <button id="btnTabClients" class="btn btn-secondary btn-sm">Clients</button>
+      </div>
+
+      <div id="customersSection">
+        <h2>Customer List</h2>
+        <div class="filter-bar customer-filter">
+          <input id="customerSearch" type="text" placeholder="Search code, Arabic/English name, sector, website..." />
+        </div>
+        <div id="customerTableWrap"></div>
+      </div>
+
+      <div id="clientsSection" class="hidden">
+        <h2>Client List</h2>
+        <div class="filter-bar customer-filter">
+          <input id="clientSearch" type="text" placeholder="Search by customer code, customer name, contact name, phone, email..." />
+        </div>
+        <div id="clientTableWrap"></div>
+      </div>
+    </section>
+  </main>
+
+  <div id="customerModal" class="modal hidden">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3 id="customerModalTitle">Add Customer</h3>
+        <button id="btnCloseCustomerModal" class="btn btn-danger btn-close-circle" aria-label="Close">X</button>
+      </div>
+      <div id="customerForm" class="form-grid">
+        <div data-form-field="custCode"><label>Customer Code</label><input id="custCode" type="text" /></div>
+        <div data-form-field="custScope">
+          <label>Use In</label>
+          <select id="custDataScope">
+            <option value="current">Current Tracker Only</option>
+            <option value="selected">Selected Trackers</option>
+            <option value="all">All Trackers</option>
+          </select>
+        </div>
+        <div data-form-field="custTrackers" class="full-row hidden"><label>Selected Trackers</label><select id="custWorkflowIds" multiple size="4"></select></div>
+        <div data-form-field="custName"><label>Customer Name</label><input id="custName" type="text" /></div>
+        <div data-form-field="custNameAr"><label>Customer Name (Arabic)</label><input id="custNameAr" type="text" /></div>
+        <div data-form-field="custPgType">
+          <label>PG Type</label>
+          <select id="custPgType">
+            <option value="G">Government</option>
+            <option value="P">Private</option>
+          </select>
+        </div>
+        <div data-form-field="custWebsite"><label>Website</label><input id="custWebsite" type="text" placeholder="www.example.com" /></div>
+        <div data-form-field="custSector"><label>Sector</label><input id="custSector" type="text" placeholder="C / L / S" /></div>
+        <div data-form-field="custAreaCode"><label>Area Code</label><input id="custAreaCode" type="text" /></div>
+        <div data-form-field="custVT"><label>V/T</label><input id="custVT" type="text" /></div>
+        <div data-form-field="custVendor"><label>Vendor</label><input id="custVendor" type="text" /></div>
+        <div data-form-field="custRemark" class="full-row"><label>Remark</label><textarea id="custRemark" rows="3"></textarea></div>
+        <div data-form-field="custActions" class="full-row form-actions">
+          <button id="btnSaveCustomer" type="button" class="btn btn-success">Save Customer</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="customerDetailsModal" class="modal hidden">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3>Customer Details</h3>
+        <button id="btnCloseCustomerDetailsModal" class="btn btn-danger btn-close-circle" aria-label="Close">X</button>
+      </div>
+      <div id="customerDetailsContent" class="details-grid"></div>
+      <div class="form-actions" style="margin-top: 12px;">
+        <button id="btnEditFromDetails" type="button" class="btn btn-secondary">Edit Customer</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="clientModal" class="modal hidden">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3 id="clientModalTitle">Add Client</h3>
+        <button id="btnCloseClientModal" class="btn btn-danger btn-close-circle" aria-label="Close">X</button>
+      </div>
+      <div class="form-grid">
+        <div><label>Customer Code</label><input id="clientCustomerCode" type="text" /></div>
+        <div>
+          <label>Use In</label>
+          <select id="clientDataScope">
+            <option value="current">Current Tracker Only</option>
+            <option value="selected">Selected Trackers</option>
+            <option value="all">All Trackers</option>
+          </select>
+        </div>
+        <div class="full-row hidden"><label>Selected Trackers</label><select id="clientWorkflowIds" multiple size="4"></select></div>
+        <div><label>Customer Name</label><input id="clientCustomerName" type="text" readonly /></div>
+        <div><label>Contact Name</label><input id="clientName" type="text" /></div>
+        <div><label>Contact#</label><input id="clientPhone" type="text" /></div>
+        <div><label>Email</label><input id="clientEmail" type="email" /></div>
+        <div class="full-row form-actions">
+          <button id="btnSaveClient" type="button" class="btn btn-success">Save Client</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="toastContainer" class="toast-container"></div>
+
+  <script src="js/config.js"></script>
+  <script src="js/utils.js"></script>
+  <script src="js/toast.js"></script>
+  <script src="js/storage.local.js"></script>
+  <script src="js/storage.github.js"></script>
+  <script src="js/layout.engine.js"></script>
+  <script src="js/contact.manager.js"></script>
+  <script src="js/customer.manager.js"></script>
+  <script src="js/customers.page.js"></script>
+</body>
+</html>

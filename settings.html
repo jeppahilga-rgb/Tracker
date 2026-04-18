@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Settings</title>
+  <link rel="stylesheet" href="css/app.css" />
+</head>
+<body class="settings-page">
+  <header class="topbar">
+    <div class="topbar-left">
+      <h1>Settings</h1>
+      <div class="topbar-meta">
+        <div id="settingsSessionBadge" class="session-badge">Signed in</div>
+      </div>
+    </div>
+    <div class="toolbar">
+      <button id="btnBackToApp" class="btn btn-secondary btn-sm">Back to App</button>
+      <button id="btnSaveSettings" class="btn btn-success btn-sm">Save Settings</button>
+      <button id="btnTestGitHub" class="btn btn-primary btn-sm">Test Connection</button>
+    </div>
+  </header>
+
+  <div class="global-tracker-bar settings-tracker-bar">
+    <div class="tracker-switch-wrap global-tracker-switch">
+      <label class="visually-hidden">Tracker</label>
+      <div id="settingsWorkflowTabs" class="tracker-tabs"></div>
+    </div>
+  </div>
+
+  <main class="settings-shell">
+    <aside class="panel settings-nav-panel">
+      <h3>Settings</h3>
+
+      <div class="settings-nav-group">
+        <div class="settings-nav-group-title">Global Settings</div>
+        <button class="settings-nav-btn is-active" data-target="storage">Storage</button>
+        <button class="settings-nav-btn" data-target="tracker-management">Tracker Management</button>
+      </div>
+
+      <div class="settings-nav-group">
+        <div class="settings-nav-group-title">Tracker Settings</div>
+        <button class="settings-nav-btn" data-target="tracker">Selected Tracker</button>
+        <button class="settings-nav-btn" data-target="dashboard">Dashboard</button>
+        <button class="settings-nav-btn" data-target="formeditor">Form Editor</button>
+      </div>
+    </aside>
+
+    <section class="panel settings-content-panel">
+      <section class="settings-page-section is-active" data-section="storage">
+        <h3>Storage</h3>
+        <details class="settings-section-accordion" open>
+          <summary>Connection <span class="scope-pill scope-global">Global</span></summary>
+          <div class="form-grid settings-grid-3">
+            <div>
+              <label>Storage Mode</label>
+              <select id="storageMode">
+                <option value="local">Local</option>
+                <option value="github">GitHub</option>
+                <option value="api">API</option>
+              </select>
+            </div>
+            <div><label>Repo Owner</label><input id="githubRepoOwner" type="text" /></div>
+            <div><label>Repo Name</label><input id="githubRepoName" type="text" /></div>
+            <div><label>Branch</label><input id="githubBranch" type="text" /></div>
+            <div class="full-row"><label>GitHub Token</label><input id="githubToken" type="password" /></div>
+            <div class="full-row"><label>API Endpoint</label><input id="apiEndpoint" type="text" placeholder="https://your-worker-url" /></div>
+          </div>
+        </details>
+      </section>
+
+      <section class="settings-page-section" data-section="tracker-management">
+        <h3>Tracker Management</h3>
+        <details class="settings-section-accordion" open>
+          <summary>Tracker Management <span class="scope-pill scope-global">Global</span></summary>
+          <div class="form-grid settings-grid-3 settings-workflow-grid">
+            <div class="full-row">
+              <label>Trackers / Pipelines</label>
+              <div class="workflow-profile-toolbar">
+                <select id="workflowProfileSelect"></select>
+                <button id="btnAddWorkflowProfile" type="button" class="btn btn-secondary btn-sm">+ Add Tracker</button>
+                <button id="btnRenameWorkflowProfile" type="button" class="btn btn-secondary btn-sm">Rename</button>
+                <button id="btnDeleteWorkflowProfile" type="button" class="btn btn-danger btn-sm">Delete</button>
+                <button id="btnSetActiveWorkflowProfile" type="button" class="btn btn-primary btn-sm">Set Active</button>
+              </div>
+              <div id="workflowProfileInfo" class="info-box" style="margin-top:0.5rem;">Active tracker: -</div>
+            </div>
+          </div>
+        </details>
+      </section>
+
+      <section class="settings-page-section" data-section="tracker">
+        <h3>Tracker Settings</h3>
+        <details class="settings-section-accordion" open>
+          <summary>Tag Taxonomy <span class="scope-pill scope-tracker">Selected Tracker</span></summary>
+          <div class="form-grid settings-grid-3 settings-workflow-grid">
+            <div class="full-row">
+              <div class="info-box">Each tracker has its own Tag Groups, Tags, and Subtags. Changes apply only to selected tracker.</div>
+            </div>
+            <div class="full-row settings-col-span-2">
+              <label>Tag Groups</label>
+              <div id="tagGroupRows" class="settings-map-list"></div>
+              <button id="btnAddTagGroupRow" type="button" class="btn btn-secondary">+ Add Tag Group</button>
+              <div class="info-box">Each Tag Group contains Tags, and each Tag contains Subtags. Set one group as Active to use it in quotation form.</div>
+            </div>
+          </div>
+        </details>
+
+        <details class="settings-section-accordion" open>
+          <summary>Reference and Board <span class="scope-pill scope-tracker">Selected Tracker</span></summary>
+          <div class="form-grid settings-grid-3 settings-workflow-grid">
+            <div class="settings-compact-card">
+              <label>Kanban Columns By</label>
+              <select id="kanbanColumnModeInput">
+                <option value="main">Main Status</option>
+                <option value="sub">Sub-Status</option>
+              </select>
+            </div>
+            <div class="settings-compact-card"><label>Reference Formula</label><input id="referenceFormulaInput" type="text" placeholder="YYMMDD{SEQ}" /></div>
+            <div class="settings-compact-card"><label>Sequence Start</label><input id="referenceStartInput" type="number" min="0" /></div>
+            <div class="settings-compact-card"><label>Sequence Pad</label><input id="referencePadInput" type="number" min="1" /></div>
+            <div class="settings-compact-card">
+              <label>Pages</label>
+              <label class="checkbox-inline"><input type="checkbox" id="trackerShowCustomers" /> Customers</label>
+              <label class="checkbox-inline"><input type="checkbox" id="trackerShowArchived" /> Archived</label>
+            </div>
+            <div class="full-row info-box">Use tokens: <strong>YY</strong>, <strong>MM</strong>, <strong>DD</strong> and <strong>{SEQ}</strong>. Example: <code>YYMMDD{SEQ}</code> gives <code>26041206</code>.</div>
+          </div>
+        </details>
+
+        <details class="settings-section-accordion" open>
+          <summary>Status Columns <span class="scope-pill scope-tracker">Selected Tracker</span></summary>
+          <div class="form-grid settings-grid-3 settings-workflow-grid">
+            <div class="full-row">
+              <label>Kanban Columns and Sub-Statuses</label>
+              <div id="statusGroupRows" class="settings-map-list"></div>
+              <button id="btnAddStatusGroupRow" type="button" class="btn btn-secondary">+ Add Status Column</button>
+              <div class="info-box">Each status is an accordion box. Inside it, manage sub-statuses as colored text boxes and use + Add Substatus.</div>
+            </div>
+          </div>
+        </details>
+
+        <details class="settings-section-accordion" open>
+          <summary>Customer Schema <span class="scope-pill scope-tracker">Selected Tracker</span></summary>
+          <div class="form-grid settings-grid-3 settings-workflow-grid">
+            <div class="settings-compact-card">
+              <label>Entity Name</label>
+              <input id="customerEntityNameInput" type="text" placeholder="Customer" />
+            </div>
+            <div class="settings-compact-card">
+              <label>Entity Name Plural</label>
+              <input id="customerEntityPluralInput" type="text" placeholder="Customers" />
+            </div>
+            <div class="full-row">
+              <label>Field Labels</label>
+              <div class="settings-grid-3">
+                <div class="settings-compact-card"><label>Code</label><input id="customerLabelCodeInput" type="text" placeholder="Customer Code" /></div>
+                <div class="settings-compact-card"><label>Arabic Name</label><input id="customerLabelArabicInput" type="text" placeholder="Customer Name (Arabic)" /></div>
+                <div class="settings-compact-card"><label>Name</label><input id="customerLabelNameInput" type="text" placeholder="Customer Name" /></div>
+                <div class="settings-compact-card"><label>Website</label><input id="customerLabelWebsiteInput" type="text" placeholder="Web Site" /></div>
+                <div class="settings-compact-card"><label>Sector</label><input id="customerLabelSectorInput" type="text" placeholder="Sector" /></div>
+                <div class="settings-compact-card"><label>Area Code</label><input id="customerLabelAreaCodeInput" type="text" placeholder="Area Code" /></div>
+                <div class="settings-compact-card"><label>V/T</label><input id="customerLabelVtInput" type="text" placeholder="V/T" /></div>
+                <div class="settings-compact-card"><label>Vendor</label><input id="customerLabelVendorInput" type="text" placeholder="Vendor #" /></div>
+                <div class="settings-compact-card"><label>Remark</label><input id="customerLabelRemarkInput" type="text" placeholder="Remarks" /></div>
+              </div>
+            </div>
+            <div class="full-row">
+              <label>Visible Customer Columns</label>
+              <div class="settings-chips-grid">
+                <label class="checkbox-inline"><input type="checkbox" id="customerColumnCode" /> Code</label>
+                <label class="checkbox-inline"><input type="checkbox" id="customerColumnNameAr" /> Arabic Name</label>
+                <label class="checkbox-inline"><input type="checkbox" id="customerColumnName" /> Name</label>
+                <label class="checkbox-inline"><input type="checkbox" id="customerColumnWebsite" /> Website</label>
+                <label class="checkbox-inline"><input type="checkbox" id="customerColumnSector" /> Sector</label>
+                <label class="checkbox-inline"><input type="checkbox" id="customerColumnAreaCode" /> Area Code</label>
+                <label class="checkbox-inline"><input type="checkbox" id="customerColumnVt" /> V/T</label>
+                <label class="checkbox-inline"><input type="checkbox" id="customerColumnVendor" /> Vendor</label>
+                <label class="checkbox-inline"><input type="checkbox" id="customerColumnRemark" /> Remark</label>
+              </div>
+            </div>
+          </div>
+        </details>
+      </section>
+
+      <section class="settings-page-section" data-section="dashboard">
+        <h3>Dashboard</h3>
+        <details class="settings-section-accordion" open>
+          <summary>Visual Widgets <span class="scope-pill scope-tracker">Selected Tracker</span></summary>
+          <div class="form-grid settings-grid-2">
+            <div class="full-row">
+              <label>Dashboard Visuals (Choose up to 20)</label>
+              <div class="settings-box-list-wrap" style="margin-bottom:0.5rem;">
+                <button id="btnDashboardVisualsDefault" type="button" class="btn btn-secondary btn-sm">Default Set</button>
+                <button id="btnDashboardVisualsAll" type="button" class="btn btn-secondary btn-sm">Select First Max</button>
+                <button id="btnDashboardVisualsClear" type="button" class="btn btn-secondary btn-sm">Clear</button>
+                <button id="btnDashboardVisualTypesDefault" type="button" class="btn btn-secondary btn-sm">Default Chart Types</button>
+                <button id="btnDashboardAutoSequence" type="button" class="btn btn-secondary btn-sm">Auto Sequence</button>
+              </div>
+              <div class="dashboard-layout-controls">
+                <label>Max Visuals
+                  <input id="dashboardMaxWidgetsInput" type="number" min="1" max="50" />
+                </label>
+                <label>Dashboard Columns
+                  <select id="dashboardColumnsInput">
+                    <option value="2">2 Columns</option>
+                    <option value="3">3 Columns</option>
+                    <option value="4">4 Columns</option>
+                  </select>
+                </label>
+              </div>
+              <div class="info-box" style="margin-top:0; margin-bottom:0.5rem;">For each selected visual, choose chart style (Bar, Pie, Donut, Line, Combo) based on supported chart types.</div>
+              <div id="dashboardWidgetRows" class="dashboard-widget-grid"></div>
+              <div id="dashboardWidgetCountInfo" class="info-box" style="margin-top:0.5rem;">0 selected.</div>
+            </div>
+          </div>
+        </details>
+      </section>
+
+      <section class="settings-page-section" data-section="formeditor">
+        <h3>Form Editor</h3>
+        <details class="settings-section-accordion" open>
+          <summary>Layout Designer <span class="scope-pill scope-tracker">Selected Tracker</span></summary>
+          <div class="form-grid settings-grid-2">
+            <div class="full-row">
+              <label>Quotation Form Editor</label>
+              <div class="form-actions">
+                <button id="btnOpenLayoutEditor" type="button" class="btn btn-secondary">Open Layout Editor</button>
+              </div>
+              <div class="info-box">Open popup editor to drag fields, resize blocks, snap to grid, and resize the whole form canvas.</div>
+            </div>
+          </div>
+        </details>
+      </section>
+    </section>
+  </main>
+
+  <div id="formLayoutModal" class="modal hidden">
+    <div class="modal-card modal-card-wide form-layout-modal-card">
+      <div class="modal-header">
+        <h3>Form Layout Editor</h3>
+        <button id="btnCloseLayoutEditor" class="btn btn-danger btn-close-circle" aria-label="Close">X</button>
+      </div>
+      <div class="form-actions" style="margin-bottom: 8px;">
+        <label>Form
+          <select id="layoutTargetSelect" style="width:170px;">
+            <option value="quotation">Quotation Form</option>
+            <option value="customer">Customer Form</option>
+          </select>
+        </label>
+        <button id="btnSaveLayoutEditor" type="button" class="btn btn-success btn-sm">Save Layout</button>
+        <button id="btnPreviewLayout" type="button" class="btn btn-primary btn-sm">Exact Form</button>
+        <button id="btnResetFormLayout" type="button" class="btn btn-warning btn-sm">Reset Layout</button>
+        <div class="layout-align-tools">
+          <button id="btnAlignLeft" type="button" class="btn btn-secondary btn-sm">Align Left</button>
+          <button id="btnAlignCenter" type="button" class="btn btn-secondary btn-sm">Align Center</button>
+          <button id="btnAlignRight" type="button" class="btn btn-secondary btn-sm">Align Right</button>
+          <button id="btnAlignTop" type="button" class="btn btn-secondary btn-sm">Align Top</button>
+          <button id="btnAlignMiddle" type="button" class="btn btn-secondary btn-sm">Align Middle</button>
+          <button id="btnAlignBottom" type="button" class="btn btn-secondary btn-sm">Align Bottom</button>
+        </div>
+        <details class="inline-canvas-settings">
+          <summary>Canvas Size</summary>
+          <div class="inline-canvas-settings-row">
+            <label>W <input id="formCanvasWidthInput" type="number" min="520" step="10" style="width:90px;" /></label>
+            <label>H <input id="formCanvasHeightInput" type="number" min="300" step="10" style="width:90px;" /></label>
+            <button id="btnApplyCanvasSize" type="button" class="btn btn-secondary btn-sm">Apply</button>
+          </div>
+        </details>
+      </div>
+      <div class="form-layout-editor-grid">
+        <div class="form-layout-canvas-wrap">
+          <div id="formLayoutCanvas" class="form-layout-canvas">
+            <div id="formCanvasResizeHandle" class="form-canvas-resize-handle" title="Drag to resize canvas"></div>
+          </div>
+        </div>
+        <aside class="form-layout-props">
+          <h4>Field Properties</h4>
+          <div id="layoutNoSelection" class="muted">Select a field in the canvas.</div>
+          <div id="layoutFieldProps" class="hidden">
+            <label>Field Key <input id="layoutPropKey" type="text" readonly /></label>
+            <label>Label <input id="layoutPropLabel" type="text" /></label>
+            <label>Type
+              <select id="layoutPropType">
+                <option value="auto">Auto</option>
+                <option value="input">Text Input</option>
+                <option value="select">Dropdown</option>
+                <option value="textarea">Textarea</option>
+                <option value="button">Button</option>
+                <option value="display">Display Only</option>
+              </select>
+            </label>
+            <label class="checkbox-inline"><input id="layoutPropVisible" type="checkbox" /> Show Field</label>
+            <label class="checkbox-inline"><input id="layoutPropBorder" type="checkbox" /> Field Border</label>
+            <label class="checkbox-inline"><input id="layoutPropLocked" type="checkbox" /> Lock Field</label>
+            <div class="layout-props-xywh">
+              <label>X <input id="layoutPropX" type="number" min="1" /></label>
+              <label>Y <input id="layoutPropY" type="number" min="1" /></label>
+              <label>W <input id="layoutPropW" type="number" min="1" /></label>
+              <label>H <input id="layoutPropH" type="number" min="1" /></label>
+            </div>
+          </div>
+        </aside>
+      </div>
+      <div id="formLayoutRows" class="settings-map-list form-editor-canvas hidden" style="margin-top: 10px;"></div>
+      <div class="info-box">Drag field blocks to move. Drag field corner to resize block. Drag canvas corner to resize whole form area.</div>
+    </div>
+  </div>
+
+  <div id="formPreviewModal" class="modal hidden">
+    <div class="modal-card modal-card-wide form-layout-modal-card">
+      <div class="modal-header">
+        <h3>Form Preview</h3>
+        <button id="btnCloseFormPreview" class="btn btn-danger btn-close-circle" aria-label="Close">X</button>
+      </div>
+      <div class="form-layout-canvas-wrap">
+        <div id="formPreviewCanvas" class="form-preview-canvas"></div>
+      </div>
+    </div>
+  </div>
+
+  <div id="toastContainer" class="toast-container"></div>
+
+  <script src="js/config.js"></script>
+  <script src="js/utils.js"></script>
+  <script src="js/toast.js"></script>
+  <script src="js/storage.local.js"></script>
+  <script src="js/storage.github.js"></script>
+  <script src="js/layout.engine.js"></script>
+  <script src="js/settings.page.js"></script>
+</body>
+</html>

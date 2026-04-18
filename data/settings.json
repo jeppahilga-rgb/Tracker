@@ -1,0 +1,40 @@
+{
+  "origins": [
+    "NUPCO",
+    "Etimad",
+    "E-Purchasing",
+    "Sales",
+    "Engineering"
+  ],
+  "statuses": [
+    "WIP",
+    "UNDER REVIEW",
+    "FOR APPROVAL",
+    "STD",
+    "CLOSED",
+    "DROPPED",
+    "CANCELLED"
+  ],
+  "originSalesMap": {
+    "NUPCO": [
+      "Adnan",
+      "Sales 2",
+      "Sales 3"
+    ],
+    "Etimad": [
+      "Adnan",
+      "Sales 2"
+    ],
+    "E-Purchasing": [
+      "Customer Code Based"
+    ],
+    "Sales": [
+      "Sales Team A",
+      "Sales Team B"
+    ],
+    "Engineering": [
+      "Engineer 1",
+      "Engineer 2"
+    ]
+  }
+}
