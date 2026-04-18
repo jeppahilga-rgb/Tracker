@@ -1283,18 +1283,18 @@
         "colSize": 41
       },
       "dashboardWidgets": [
-        "status_distribution",
         "quotes_by_month_line",
+        "weekly_activity_line",
+        "active_vs_completed",
         "status_count_value_combo",
+        "status_distribution",
         "origin_distribution",
         "sales_distribution",
         "pg_distribution",
-        "aging_overview",
-        "completion_ratio",
-        "active_vs_completed",
         "top_customers_by_count",
         "top_customers_by_value",
-        "weekly_activity_line"
+        "aging_overview",
+        "completion_ratio"
       ],
       "dashboardWidgetTypes": {
         "status_distribution": "bar",
@@ -1979,18 +1979,18 @@
         "colSize": 41
       },
       "dashboardWidgets": [
-        "status_distribution",
         "quotes_by_month_line",
+        "weekly_activity_line",
+        "active_vs_completed",
         "status_count_value_combo",
+        "status_distribution",
         "origin_distribution",
         "sales_distribution",
         "pg_distribution",
-        "aging_overview",
-        "completion_ratio",
-        "active_vs_completed",
         "top_customers_by_count",
         "top_customers_by_value",
-        "weekly_activity_line"
+        "aging_overview",
+        "completion_ratio"
       ],
       "dashboardWidgetTypes": {
         "status_distribution": "bar",
@@ -2669,18 +2669,18 @@
         "colSize": 41
       },
       "dashboardWidgets": [
-        "status_distribution",
         "quotes_by_month_line",
+        "weekly_activity_line",
+        "active_vs_completed",
         "status_count_value_combo",
+        "status_distribution",
         "origin_distribution",
         "sales_distribution",
         "pg_distribution",
-        "aging_overview",
-        "completion_ratio",
-        "active_vs_completed",
         "top_customers_by_count",
         "top_customers_by_value",
-        "weekly_activity_line"
+        "aging_overview",
+        "completion_ratio"
       ],
       "dashboardWidgetTypes": {
         "status_distribution": "bar",
@@ -4050,5 +4050,9 @@
   "originSalesMap": {},
   "ui": {
     "kanbanDensity": "compact"
+  },
+  "pages": {
+    "customers": true,
+    "archived": true
   }
 }
