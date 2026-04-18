@@ -1,0 +1,1134 @@
+{
+  "workflowProfiles": [
+    {
+      "id": "direct_purchase",
+      "name": "Direct Purchase Quotation",
+      "tagLabel": "Origin",
+      "subTagLabel": "Sub Tag",
+      "origins": [
+        "NUPCO",
+        "Etimad",
+        "E-Purchasing",
+        "Sales",
+        "Engineering"
+      ],
+      "statusGroups": [
+        {
+          "name": "WIP",
+          "substatuses": [
+            "NOT STARTED",
+            "UNDER REVIEW",
+            "FOR APPROVAL"
+          ],
+          "isCompletion": false,
+          "showOnBoard": true,
+          "columnView": "default",
+          "color": "#2563eb",
+          "substatusColors": {
+            "NOT STARTED": "#2563eb",
+            "UNDER REVIEW": "#d97706",
+            "FOR APPROVAL": "#0f766e"
+          }
+        },
+        {
+          "name": "NO BID",
+          "substatuses": [
+            "CLOSED",
+            "CANCELLED",
+            "DROPPED"
+          ],
+          "isCompletion": true,
+          "showOnBoard": false,
+          "columnView": "default",
+          "color": "#dc2626",
+          "substatusColors": {
+            "CLOSED": "#475569",
+            "CANCELLED": "#dc2626",
+            "DROPPED": "#7c3aed"
+          }
+        },
+        {
+          "name": "SUBMITTED",
+          "substatuses": [
+            "SUBMITTED"
+          ],
+          "isCompletion": true,
+          "showOnBoard": false,
+          "columnView": "default",
+          "color": "#16a34a",
+          "substatusColors": {
+            "SUBMITTED": "#16a34a"
+          }
+        }
+      ],
+      "referenceFormula": "YYMMDD{SEQ}",
+      "referenceStartSequence": 6,
+      "referenceSequencePad": 2,
+      "originSalesMap": {
+        "NUPCO": [
+          "Adnan",
+          "Sales 2",
+          "Sales 3"
+        ],
+        "Etimad": [
+          "Adnan",
+          "Sales 2"
+        ],
+        "E-Purchasing": [
+          "Customer Code Based"
+        ],
+        "Sales": [
+          "Sales Team A",
+          "Sales Team B"
+        ],
+        "Engineering": [
+          "Engineer 1",
+          "Engineer 2"
+        ]
+      },
+      "tagGroups": [
+        {
+          "id": "origin",
+          "name": "Origin",
+          "tags": [
+            {
+              "name": "NUPCO",
+              "subtags": [
+                "Adnan",
+                "Sales 2",
+                "Sales 3"
+              ]
+            },
+            {
+              "name": "Etimad",
+              "subtags": [
+                "Adnan",
+                "Sales 2"
+              ]
+            },
+            {
+              "name": "E-Purchasing",
+              "subtags": [
+                "Customer Code Based"
+              ]
+            },
+            {
+              "name": "Sales",
+              "subtags": [
+                "Sales Team A",
+                "Sales Team B"
+              ]
+            },
+            {
+              "name": "Engineering",
+              "subtags": [
+                "Engineer 1",
+                "Engineer 2"
+              ]
+            }
+          ]
+        }
+      ],
+      "activeTagGroupId": "origin"
+    },
+    {
+      "id": "gov_tender",
+      "name": "Purchased Tender (Government)",
+      "tagLabel": "Origin",
+      "subTagLabel": "Sub Tag",
+      "origins": [
+        "Etimad",
+        "NUPCO",
+        "Sales"
+      ],
+      "statusGroups": [
+        {
+          "name": "WIP",
+          "substatuses": [
+            "NOT STARTED",
+            "UNDER REVIEW",
+            "FOR APPROVAL"
+          ],
+          "isCompletion": false,
+          "showOnBoard": true,
+          "columnView": "default",
+          "color": "#1d4ed8",
+          "substatusColors": {
+            "NOT STARTED": "#1d4ed8",
+            "UNDER REVIEW": "#d97706",
+            "FOR APPROVAL": "#0f766e"
+          }
+        },
+        {
+          "name": "SUBMITTED",
+          "substatuses": [
+            "SUBMITTED"
+          ],
+          "isCompletion": true,
+          "showOnBoard": true,
+          "columnView": "default",
+          "color": "#16a34a",
+          "substatusColors": {
+            "SUBMITTED": "#16a34a"
+          }
+        },
+        {
+          "name": "NO BID",
+          "substatuses": [
+            "CLOSED",
+            "CANCELLED"
+          ],
+          "isCompletion": true,
+          "showOnBoard": true,
+          "columnView": "default",
+          "color": "#dc2626",
+          "substatusColors": {
+            "CLOSED": "#475569",
+            "CANCELLED": "#dc2626"
+          }
+        }
+      ],
+      "referenceFormula": "YYMMDD{SEQ}",
+      "referenceStartSequence": 6,
+      "referenceSequencePad": 2,
+      "originSalesMap": {
+        "Etimad": [
+          "Adnan",
+          "Sales 2"
+        ],
+        "NUPCO": [
+          "Adnan",
+          "Sales 2",
+          "Sales 3"
+        ],
+        "Sales": [
+          "Sales Team A",
+          "Sales Team B"
+        ]
+      },
+      "tagGroups": [
+        {
+          "id": "origin",
+          "name": "Origin",
+          "tags": [
+            {
+              "name": "Etimad",
+              "subtags": [
+                "Adnan",
+                "Sales 2"
+              ]
+            },
+            {
+              "name": "NUPCO",
+              "subtags": [
+                "Adnan",
+                "Sales 2",
+                "Sales 3"
+              ]
+            },
+            {
+              "name": "Sales",
+              "subtags": [
+                "Sales Team A",
+                "Sales Team B"
+              ]
+            }
+          ]
+        }
+      ],
+      "activeTagGroupId": "origin"
+    },
+    {
+      "id": "private_tender",
+      "name": "Private Tender",
+      "tagLabel": "Origin",
+      "subTagLabel": "Sub Tag",
+      "origins": [
+        "Sales",
+        "Engineering",
+        "NUPCO"
+      ],
+      "statusGroups": [
+        {
+          "name": "WIP",
+          "substatuses": [
+            "NOT STARTED",
+            "UNDER REVIEW",
+            "FOR APPROVAL"
+          ],
+          "isCompletion": false,
+          "showOnBoard": true,
+          "columnView": "default",
+          "color": "#2563eb",
+          "substatusColors": {
+            "NOT STARTED": "#2563eb",
+            "UNDER REVIEW": "#d97706",
+            "FOR APPROVAL": "#0f766e"
+          }
+        },
+        {
+          "name": "SUBMITTED",
+          "substatuses": [
+            "SUBMITTED"
+          ],
+          "isCompletion": true,
+          "showOnBoard": true,
+          "columnView": "default",
+          "color": "#16a34a",
+          "substatusColors": {
+            "SUBMITTED": "#16a34a"
+          }
+        },
+        {
+          "name": "NO BID",
+          "substatuses": [
+            "CLOSED",
+            "CANCELLED",
+            "DROPPED"
+          ],
+          "isCompletion": true,
+          "showOnBoard": true,
+          "columnView": "default",
+          "color": "#dc2626",
+          "substatusColors": {
+            "CLOSED": "#475569",
+            "CANCELLED": "#dc2626",
+            "DROPPED": "#7c3aed"
+          }
+        }
+      ],
+      "referenceFormula": "YYMMDD{SEQ}",
+      "referenceStartSequence": 6,
+      "referenceSequencePad": 2,
+      "originSalesMap": {
+        "Sales": [
+          "Sales Team A",
+          "Sales Team B"
+        ],
+        "Engineering": [
+          "Engineer 1",
+          "Engineer 2"
+        ],
+        "NUPCO": [
+          "Adnan",
+          "Sales 2",
+          "Sales 3"
+        ]
+      },
+      "tagGroups": [
+        {
+          "id": "origin",
+          "name": "Origin",
+          "tags": [
+            {
+              "name": "Sales",
+              "subtags": [
+                "Sales Team A",
+                "Sales Team B"
+              ]
+            },
+            {
+              "name": "Engineering",
+              "subtags": [
+                "Engineer 1",
+                "Engineer 2"
+              ]
+            },
+            {
+              "name": "NUPCO",
+              "subtags": [
+                "Adnan",
+                "Sales 2",
+                "Sales 3"
+              ]
+            }
+          ]
+        }
+      ],
+      "activeTagGroupId": "origin"
+    },
+    {
+      "id": "other_projects",
+      "name": "Other Projects",
+      "tagLabel": "Origin",
+      "subTagLabel": "Sub Tag",
+      "origins": [
+        "Sales",
+        "Engineering",
+        "E-Purchasing"
+      ],
+      "statusGroups": [
+        {
+          "name": "WIP",
+          "substatuses": [
+            "NOT STARTED",
+            "UNDER REVIEW"
+          ],
+          "isCompletion": false,
+          "showOnBoard": true,
+          "columnView": "default",
+          "color": "#2563eb",
+          "substatusColors": {
+            "NOT STARTED": "#2563eb",
+            "UNDER REVIEW": "#d97706"
+          }
+        },
+        {
+          "name": "SUBMITTED",
+          "substatuses": [
+            "SUBMITTED"
+          ],
+          "isCompletion": true,
+          "showOnBoard": true,
+          "columnView": "default",
+          "color": "#16a34a",
+          "substatusColors": {
+            "SUBMITTED": "#16a34a"
+          }
+        },
+        {
+          "name": "NO BID",
+          "substatuses": [
+            "CLOSED",
+            "CANCELLED",
+            "DROPPED"
+          ],
+          "isCompletion": true,
+          "showOnBoard": true,
+          "columnView": "default",
+          "color": "#dc2626",
+          "substatusColors": {
+            "CLOSED": "#475569",
+            "CANCELLED": "#dc2626",
+            "DROPPED": "#7c3aed"
+          }
+        }
+      ],
+      "referenceFormula": "YYMMDD{SEQ}",
+      "referenceStartSequence": 6,
+      "referenceSequencePad": 2,
+      "originSalesMap": {
+        "Sales": [
+          "Sales Team A",
+          "Sales Team B"
+        ],
+        "Engineering": [
+          "Engineer 1",
+          "Engineer 2"
+        ],
+        "E-Purchasing": [
+          "Customer Code Based"
+        ]
+      },
+      "tagGroups": [
+        {
+          "id": "origin",
+          "name": "Origin",
+          "tags": [
+            {
+              "name": "Sales",
+              "subtags": [
+                "Sales Team A",
+                "Sales Team B"
+              ]
+            },
+            {
+              "name": "Engineering",
+              "subtags": [
+                "Engineer 1",
+                "Engineer 2"
+              ]
+            },
+            {
+              "name": "E-Purchasing",
+              "subtags": [
+                "Customer Code Based"
+              ]
+            }
+          ]
+        }
+      ],
+      "activeTagGroupId": "origin"
+    }
+  ],
+  "activeWorkflowId": "direct_purchase",
+  "tagLabel": "Origin",
+  "subTagLabel": "Sub Tag",
+  "origins": [
+    "NUPCO",
+    "Etimad",
+    "E-Purchasing",
+    "Sales",
+    "Engineering"
+  ],
+  "statuses": [
+    "NOT STARTED",
+    "UNDER REVIEW",
+    "FOR APPROVAL",
+    "CLOSED",
+    "CANCELLED",
+    "DROPPED",
+    "SUBMITTED"
+  ],
+  "kanbanColumnMode": "sub",
+  "statusGroups": [
+    {
+      "name": "WIP",
+      "substatuses": [
+        "NOT STARTED",
+        "UNDER REVIEW",
+        "FOR APPROVAL"
+      ],
+      "isCompletion": false,
+      "showOnBoard": true,
+      "columnView": "default",
+      "color": "#2563eb",
+      "substatusColors": {
+        "NOT STARTED": "#2563eb",
+        "UNDER REVIEW": "#d97706",
+        "FOR APPROVAL": "#0f766e"
+      }
+    },
+    {
+      "name": "NO BID",
+      "substatuses": [
+        "CLOSED",
+        "CANCELLED",
+        "DROPPED"
+      ],
+      "isCompletion": true,
+      "showOnBoard": false,
+      "columnView": "default",
+      "color": "#dc2626",
+      "substatusColors": {
+        "CLOSED": "#475569",
+        "CANCELLED": "#dc2626",
+        "DROPPED": "#7c3aed"
+      }
+    },
+    {
+      "name": "SUBMITTED",
+      "substatuses": [
+        "SUBMITTED"
+      ],
+      "isCompletion": true,
+      "showOnBoard": false,
+      "columnView": "default",
+      "color": "#16a34a",
+      "substatusColors": {
+        "SUBMITTED": "#16a34a"
+      }
+    }
+  ],
+  "referenceFormula": "YYMMDD{SEQ}",
+  "referenceStartSequence": 6,
+  "referenceSequencePad": 2,
+  "formLayout": [
+    {
+      "key": "sn",
+      "visible": true,
+      "width": "half",
+      "fieldBorder": true,
+      "locked": false,
+      "label": "",
+      "previewType": "auto",
+      "col": 1,
+      "row": 1,
+      "colSpan": 12,
+      "rowSpan": 1,
+      "gridCols": 24,
+      "order": 1
+    },
+    {
+      "key": "reference",
+      "visible": true,
+      "width": "half",
+      "fieldBorder": true,
+      "locked": false,
+      "label": "",
+      "previewType": "auto",
+      "col": 13,
+      "row": 1,
+      "colSpan": 12,
+      "rowSpan": 1,
+      "gridCols": 24,
+      "order": 2
+    },
+    {
+      "key": "targetDate",
+      "visible": true,
+      "width": "half",
+      "fieldBorder": true,
+      "locked": false,
+      "label": "",
+      "previewType": "auto",
+      "col": 1,
+      "row": 2,
+      "colSpan": 12,
+      "rowSpan": 1,
+      "gridCols": 24,
+      "order": 3
+    },
+    {
+      "key": "dueDate",
+      "visible": true,
+      "width": "half",
+      "fieldBorder": true,
+      "locked": false,
+      "label": "",
+      "previewType": "auto",
+      "col": 13,
+      "row": 2,
+      "colSpan": 12,
+      "rowSpan": 1,
+      "gridCols": 24,
+      "order": 4
+    },
+    {
+      "key": "customerCode",
+      "visible": true,
+      "width": "half",
+      "fieldBorder": true,
+      "locked": false,
+      "label": "",
+      "previewType": "auto",
+      "col": 1,
+      "row": 3,
+      "colSpan": 12,
+      "rowSpan": 1,
+      "gridCols": 24,
+      "order": 5
+    },
+    {
+      "key": "customerName",
+      "visible": true,
+      "width": "half",
+      "fieldBorder": true,
+      "locked": false,
+      "label": "",
+      "previewType": "auto",
+      "col": 13,
+      "row": 3,
+      "colSpan": 12,
+      "rowSpan": 1,
+      "gridCols": 24,
+      "order": 6
+    },
+    {
+      "key": "workflow",
+      "visible": true,
+      "width": "half",
+      "fieldBorder": true,
+      "locked": false,
+      "label": "",
+      "previewType": "auto",
+      "col": 1,
+      "row": 4,
+      "colSpan": 12,
+      "rowSpan": 1,
+      "gridCols": 24,
+      "order": 7
+    },
+    {
+      "key": "pgType",
+      "visible": true,
+      "width": "half",
+      "fieldBorder": true,
+      "locked": false,
+      "label": "",
+      "previewType": "auto",
+      "col": 13,
+      "row": 4,
+      "colSpan": 12,
+      "rowSpan": 1,
+      "gridCols": 24,
+      "order": 8
+    },
+    {
+      "key": "origin",
+      "visible": true,
+      "width": "half",
+      "fieldBorder": true,
+      "locked": false,
+      "label": "",
+      "previewType": "auto",
+      "col": 1,
+      "row": 5,
+      "colSpan": 12,
+      "rowSpan": 1,
+      "gridCols": 24,
+      "order": 9
+    },
+    {
+      "key": "salesPerson",
+      "visible": true,
+      "width": "half",
+      "fieldBorder": true,
+      "locked": false,
+      "label": "",
+      "previewType": "auto",
+      "col": 13,
+      "row": 5,
+      "colSpan": 12,
+      "rowSpan": 1,
+      "gridCols": 24,
+      "order": 10
+    },
+    {
+      "key": "rfq",
+      "visible": true,
+      "width": "half",
+      "fieldBorder": true,
+      "locked": false,
+      "label": "",
+      "previewType": "auto",
+      "col": 1,
+      "row": 6,
+      "colSpan": 12,
+      "rowSpan": 1,
+      "gridCols": 24,
+      "order": 11
+    },
+    {
+      "key": "bid",
+      "visible": true,
+      "width": "half",
+      "fieldBorder": true,
+      "locked": false,
+      "label": "",
+      "previewType": "auto",
+      "col": 13,
+      "row": 6,
+      "colSpan": 12,
+      "rowSpan": 1,
+      "gridCols": 24,
+      "order": 12
+    },
+    {
+      "key": "quoteTime",
+      "visible": true,
+      "width": "half",
+      "fieldBorder": true,
+      "locked": false,
+      "label": "",
+      "previewType": "auto",
+      "col": 1,
+      "row": 7,
+      "colSpan": 12,
+      "rowSpan": 1,
+      "gridCols": 24,
+      "order": 13
+    },
+    {
+      "key": "status",
+      "visible": true,
+      "width": "half",
+      "fieldBorder": true,
+      "locked": false,
+      "label": "",
+      "previewType": "auto",
+      "col": 13,
+      "row": 7,
+      "colSpan": 12,
+      "rowSpan": 1,
+      "gridCols": 24,
+      "order": 14
+    },
+    {
+      "key": "contactName",
+      "visible": true,
+      "width": "half",
+      "fieldBorder": true,
+      "locked": false,
+      "label": "",
+      "previewType": "auto",
+      "col": 1,
+      "row": 8,
+      "colSpan": 12,
+      "rowSpan": 1,
+      "gridCols": 24,
+      "order": 15
+    },
+    {
+      "key": "phone",
+      "visible": true,
+      "width": "half",
+      "fieldBorder": true,
+      "locked": false,
+      "label": "",
+      "previewType": "auto",
+      "col": 13,
+      "row": 8,
+      "colSpan": 12,
+      "rowSpan": 1,
+      "gridCols": 24,
+      "order": 16
+    },
+    {
+      "key": "email",
+      "visible": true,
+      "width": "half",
+      "fieldBorder": true,
+      "locked": false,
+      "label": "",
+      "previewType": "auto",
+      "col": 1,
+      "row": 9,
+      "colSpan": 12,
+      "rowSpan": 1,
+      "gridCols": 24,
+      "order": 17
+    },
+    {
+      "key": "contactSaveAction",
+      "visible": true,
+      "width": "half",
+      "fieldBorder": true,
+      "locked": false,
+      "label": "",
+      "previewType": "auto",
+      "col": 13,
+      "row": 9,
+      "colSpan": 12,
+      "rowSpan": 1,
+      "gridCols": 24,
+      "order": 18
+    },
+    {
+      "key": "totalItems",
+      "visible": true,
+      "width": "half",
+      "fieldBorder": true,
+      "locked": false,
+      "label": "",
+      "previewType": "auto",
+      "col": 1,
+      "row": 10,
+      "colSpan": 12,
+      "rowSpan": 1,
+      "gridCols": 24,
+      "order": 19
+    },
+    {
+      "key": "totalValue",
+      "visible": true,
+      "width": "half",
+      "fieldBorder": true,
+      "locked": false,
+      "label": "",
+      "previewType": "auto",
+      "col": 13,
+      "row": 10,
+      "colSpan": 12,
+      "rowSpan": 1,
+      "gridCols": 24,
+      "order": 20
+    },
+    {
+      "key": "itemLines",
+      "visible": true,
+      "width": "full",
+      "fieldBorder": true,
+      "locked": false,
+      "label": "",
+      "previewType": "auto",
+      "col": 1,
+      "row": 11,
+      "colSpan": 24,
+      "rowSpan": 1,
+      "gridCols": 24,
+      "order": 21
+    },
+    {
+      "key": "remarks",
+      "visible": true,
+      "width": "full",
+      "fieldBorder": true,
+      "locked": false,
+      "label": "",
+      "previewType": "auto",
+      "col": 1,
+      "row": 12,
+      "colSpan": 24,
+      "rowSpan": 1,
+      "gridCols": 24,
+      "order": 22
+    },
+    {
+      "key": "actions",
+      "visible": true,
+      "width": "full",
+      "fieldBorder": true,
+      "locked": false,
+      "label": "",
+      "previewType": "auto",
+      "col": 1,
+      "row": 13,
+      "colSpan": 24,
+      "rowSpan": 1,
+      "gridCols": 24,
+      "order": 23
+    }
+  ],
+  "customerFormLayout": [
+    {
+      "key": "custCode",
+      "visible": true,
+      "width": "half",
+      "fieldBorder": true,
+      "locked": false,
+      "label": "",
+      "previewType": "auto",
+      "col": 1,
+      "row": 1,
+      "colSpan": 3,
+      "rowSpan": 1,
+      "gridCols": 24,
+      "order": 1
+    },
+    {
+      "key": "custName",
+      "visible": true,
+      "width": "half",
+      "fieldBorder": true,
+      "locked": false,
+      "label": "",
+      "previewType": "auto",
+      "col": 7,
+      "row": 2,
+      "colSpan": 7,
+      "rowSpan": 1,
+      "gridCols": 24,
+      "order": 2
+    },
+    {
+      "key": "custNameAr",
+      "visible": true,
+      "width": "half",
+      "fieldBorder": true,
+      "locked": false,
+      "label": "",
+      "previewType": "auto",
+      "col": 1,
+      "row": 2,
+      "colSpan": 6,
+      "rowSpan": 1,
+      "gridCols": 24,
+      "order": 3
+    },
+    {
+      "key": "custPgType",
+      "visible": true,
+      "width": "half",
+      "fieldBorder": true,
+      "locked": false,
+      "label": "",
+      "previewType": "auto",
+      "col": 7,
+      "row": 3,
+      "colSpan": 3,
+      "rowSpan": 1,
+      "gridCols": 24,
+      "order": 4
+    },
+    {
+      "key": "custWebsite",
+      "visible": true,
+      "width": "half",
+      "fieldBorder": true,
+      "locked": false,
+      "label": "",
+      "previewType": "auto",
+      "col": 1,
+      "row": 3,
+      "colSpan": 6,
+      "rowSpan": 1,
+      "gridCols": 24,
+      "order": 5
+    },
+    {
+      "key": "custSector",
+      "visible": true,
+      "width": "half",
+      "fieldBorder": true,
+      "locked": false,
+      "label": "",
+      "previewType": "auto",
+      "col": 10,
+      "row": 3,
+      "colSpan": 4,
+      "rowSpan": 1,
+      "gridCols": 24,
+      "order": 6
+    },
+    {
+      "key": "custAreaCode",
+      "visible": true,
+      "width": "half",
+      "fieldBorder": true,
+      "locked": false,
+      "label": "",
+      "previewType": "auto",
+      "col": 1,
+      "row": 4,
+      "colSpan": 3,
+      "rowSpan": 1,
+      "gridCols": 24,
+      "order": 7
+    },
+    {
+      "key": "custVT",
+      "visible": true,
+      "width": "half",
+      "fieldBorder": true,
+      "locked": false,
+      "label": "",
+      "previewType": "auto",
+      "col": 4,
+      "row": 4,
+      "colSpan": 10,
+      "rowSpan": 1,
+      "gridCols": 24,
+      "order": 8
+    },
+    {
+      "key": "custVendor",
+      "visible": true,
+      "width": "half",
+      "fieldBorder": true,
+      "locked": false,
+      "label": "",
+      "previewType": "auto",
+      "col": 1,
+      "row": 5,
+      "colSpan": 3,
+      "rowSpan": 1,
+      "gridCols": 24,
+      "order": 9
+    },
+    {
+      "key": "custRemark",
+      "visible": true,
+      "width": "half",
+      "fieldBorder": true,
+      "locked": false,
+      "label": "",
+      "previewType": "auto",
+      "col": 4,
+      "row": 5,
+      "colSpan": 8,
+      "rowSpan": 1,
+      "gridCols": 24,
+      "order": 10
+    },
+    {
+      "key": "custActions",
+      "visible": true,
+      "width": "half",
+      "fieldBorder": true,
+      "locked": false,
+      "label": "",
+      "previewType": "auto",
+      "col": 1,
+      "row": 6,
+      "colSpan": 13,
+      "rowSpan": 1,
+      "gridCols": 24,
+      "order": 11
+    }
+  ],
+  "dashboardWidgets": [
+    "quotes_by_month_line",
+    "weekly_activity_line",
+    "active_vs_completed",
+    "status_count_value_combo",
+    "status_distribution",
+    "origin_distribution",
+    "sales_distribution",
+    "pg_distribution",
+    "top_customers_by_count",
+    "top_customers_by_value",
+    "aging_overview",
+    "completion_ratio"
+  ],
+  "dashboardWidgetTypes": {
+    "status_distribution": "bar",
+    "origin_distribution": "pie",
+    "sales_distribution": "pie",
+    "pg_distribution": "donut",
+    "aging_overview": "cards",
+    "completion_ratio": "cards",
+    "active_vs_completed": "donut",
+    "top_customers_by_count": "bar",
+    "top_customers_by_value": "bar",
+    "top_origins_by_value": "bar",
+    "top_sales_by_value": "bar",
+    "avg_value_by_status": "bar",
+    "quotes_by_weekday": "line",
+    "quotes_by_month_line": "line",
+    "weekly_activity_line": "line",
+    "status_count_value_combo": "combo",
+    "recent_7day_created": "cards",
+    "zero_value_quotes": "cards",
+    "high_value_quotes": "cards",
+    "no_contact_quotes": "cards",
+    "approval_pipeline": "bar",
+    "due_soon_vs_later": "donut"
+  },
+  "dashboardWidgetOrder": [
+    "status_distribution",
+    "origin_distribution",
+    "sales_distribution",
+    "pg_distribution",
+    "aging_overview",
+    "completion_ratio",
+    "active_vs_completed",
+    "top_customers_by_count",
+    "top_customers_by_value",
+    "top_origins_by_value",
+    "top_sales_by_value",
+    "avg_value_by_status",
+    "quotes_by_weekday",
+    "quotes_by_month_line",
+    "weekly_activity_line",
+    "status_count_value_combo",
+    "recent_7day_created",
+    "zero_value_quotes",
+    "high_value_quotes",
+    "no_contact_quotes",
+    "approval_pipeline",
+    "due_soon_vs_later"
+  ],
+  "dashboardMaxWidgets": 20,
+  "dashboardColumns": 3,
+  "formLayoutCanvas": {
+    "width": 783,
+    "height": 300,
+    "colSize": 41
+  },
+  "originSalesMap": {
+    "NUPCO": [
+      "Adnan",
+      "Sales 2",
+      "Sales 3"
+    ],
+    "Etimad": [
+      "Adnan",
+      "Sales 2"
+    ],
+    "E-Purchasing": [
+      "Customer Code Based"
+    ],
+    "Sales": [
+      "Sales Team A",
+      "Sales Team B"
+    ],
+    "Engineering": [
+      "Engineer 1",
+      "Engineer 2"
+    ]
+  },
+  "ui": {
+    "kanbanDensity": "compact"
+  }
+}
