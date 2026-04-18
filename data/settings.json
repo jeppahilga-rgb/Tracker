@@ -69,6 +69,10 @@
         }
       ],
       "activeTagGroupId": "origin",
+      "pages": {
+        "customers": true,
+        "archived": true
+      },
       "formLayout": [
         {
           "key": "sn",
@@ -80,7 +84,7 @@
           "previewType": "auto",
           "col": 1,
           "row": 1,
-          "colSpan": 12,
+          "colSpan": 2,
           "rowSpan": 1,
           "gridCols": 24,
           "order": 1
@@ -93,9 +97,9 @@
           "locked": false,
           "label": "",
           "previewType": "auto",
-          "col": 13,
+          "col": 3,
           "row": 1,
-          "colSpan": 12,
+          "colSpan": 3,
           "rowSpan": 1,
           "gridCols": 24,
           "order": 2
@@ -109,8 +113,8 @@
           "label": "",
           "previewType": "auto",
           "col": 1,
-          "row": 2,
-          "colSpan": 12,
+          "row": 3,
+          "colSpan": 3,
           "rowSpan": 1,
           "gridCols": 24,
           "order": 3
@@ -123,9 +127,9 @@
           "locked": false,
           "label": "",
           "previewType": "auto",
-          "col": 13,
-          "row": 2,
-          "colSpan": 12,
+          "col": 4,
+          "row": 3,
+          "colSpan": 3,
           "rowSpan": 1,
           "gridCols": 24,
           "order": 4
@@ -139,8 +143,8 @@
           "label": "",
           "previewType": "auto",
           "col": 1,
-          "row": 3,
-          "colSpan": 12,
+          "row": 2,
+          "colSpan": 3,
           "rowSpan": 1,
           "gridCols": 24,
           "order": 5
@@ -153,9 +157,9 @@
           "locked": false,
           "label": "",
           "previewType": "auto",
-          "col": 13,
-          "row": 3,
-          "colSpan": 12,
+          "col": 4,
+          "row": 2,
+          "colSpan": 8,
           "rowSpan": 1,
           "gridCols": 24,
           "order": 6
@@ -168,9 +172,9 @@
           "locked": false,
           "label": "",
           "previewType": "auto",
-          "col": 1,
-          "row": 4,
-          "colSpan": 12,
+          "col": 6,
+          "row": 1,
+          "colSpan": 4,
           "rowSpan": 1,
           "gridCols": 24,
           "order": 7
@@ -183,9 +187,9 @@
           "locked": false,
           "label": "",
           "previewType": "auto",
-          "col": 13,
-          "row": 4,
-          "colSpan": 12,
+          "col": 3,
+          "row": 6,
+          "colSpan": 2,
           "rowSpan": 1,
           "gridCols": 24,
           "order": 8
@@ -198,9 +202,9 @@
           "locked": false,
           "label": "",
           "previewType": "auto",
-          "col": 1,
-          "row": 5,
-          "colSpan": 12,
+          "col": 9,
+          "row": 3,
+          "colSpan": 3,
           "rowSpan": 1,
           "gridCols": 24,
           "order": 9
@@ -213,9 +217,9 @@
           "locked": false,
           "label": "",
           "previewType": "auto",
-          "col": 13,
-          "row": 5,
-          "colSpan": 12,
+          "col": 5,
+          "row": 6,
+          "colSpan": 2,
           "rowSpan": 1,
           "gridCols": 24,
           "order": 10
@@ -229,8 +233,8 @@
           "label": "",
           "previewType": "auto",
           "col": 1,
-          "row": 6,
-          "colSpan": 12,
+          "row": 4,
+          "colSpan": 5,
           "rowSpan": 1,
           "gridCols": 24,
           "order": 11
@@ -243,9 +247,9 @@
           "locked": false,
           "label": "",
           "previewType": "auto",
-          "col": 13,
+          "col": 1,
           "row": 6,
-          "colSpan": 12,
+          "colSpan": 2,
           "rowSpan": 1,
           "gridCols": 24,
           "order": 12
@@ -258,9 +262,9 @@
           "locked": false,
           "label": "",
           "previewType": "auto",
-          "col": 1,
-          "row": 7,
-          "colSpan": 12,
+          "col": 7,
+          "row": 3,
+          "colSpan": 2,
           "rowSpan": 1,
           "gridCols": 24,
           "order": 13
@@ -273,9 +277,9 @@
           "locked": false,
           "label": "",
           "previewType": "auto",
-          "col": 13,
-          "row": 7,
-          "colSpan": 12,
+          "col": 10,
+          "row": 1,
+          "colSpan": 2,
           "rowSpan": 1,
           "gridCols": 24,
           "order": 14
@@ -288,9 +292,9 @@
           "locked": false,
           "label": "",
           "previewType": "auto",
-          "col": 1,
-          "row": 8,
-          "colSpan": 12,
+          "col": 6,
+          "row": 4,
+          "colSpan": 6,
           "rowSpan": 1,
           "gridCols": 24,
           "order": 15
@@ -303,9 +307,9 @@
           "locked": false,
           "label": "",
           "previewType": "auto",
-          "col": 13,
-          "row": 8,
-          "colSpan": 12,
+          "col": 5,
+          "row": 5,
+          "colSpan": 4,
           "rowSpan": 1,
           "gridCols": 24,
           "order": 16
@@ -319,8 +323,8 @@
           "label": "",
           "previewType": "auto",
           "col": 1,
-          "row": 9,
-          "colSpan": 12,
+          "row": 5,
+          "colSpan": 4,
           "rowSpan": 1,
           "gridCols": 24,
           "order": 17
@@ -333,9 +337,9 @@
           "locked": false,
           "label": "",
           "previewType": "auto",
-          "col": 13,
-          "row": 9,
-          "colSpan": 12,
+          "col": 9,
+          "row": 5,
+          "colSpan": 3,
           "rowSpan": 1,
           "gridCols": 24,
           "order": 18
@@ -348,9 +352,9 @@
           "locked": false,
           "label": "",
           "previewType": "auto",
-          "col": 1,
-          "row": 10,
-          "colSpan": 12,
+          "col": 4,
+          "row": 8,
+          "colSpan": 4,
           "rowSpan": 1,
           "gridCols": 24,
           "order": 19
@@ -363,9 +367,9 @@
           "locked": false,
           "label": "",
           "previewType": "auto",
-          "col": 13,
-          "row": 10,
-          "colSpan": 12,
+          "col": 8,
+          "row": 8,
+          "colSpan": 4,
           "rowSpan": 1,
           "gridCols": 24,
           "order": 20
@@ -373,14 +377,14 @@
         {
           "key": "itemLines",
           "visible": true,
-          "width": "full",
+          "width": "half",
           "fieldBorder": true,
           "locked": false,
           "label": "",
           "previewType": "auto",
           "col": 1,
-          "row": 11,
-          "colSpan": 24,
+          "row": 7,
+          "colSpan": 11,
           "rowSpan": 1,
           "gridCols": 24,
           "order": 21
@@ -388,14 +392,14 @@
         {
           "key": "remarks",
           "visible": true,
-          "width": "full",
+          "width": "half",
           "fieldBorder": true,
           "locked": false,
           "label": "",
           "previewType": "auto",
           "col": 1,
-          "row": 12,
-          "colSpan": 24,
+          "row": 9,
+          "colSpan": 11,
           "rowSpan": 1,
           "gridCols": 24,
           "order": 22
@@ -403,19 +407,88 @@
         {
           "key": "actions",
           "visible": true,
-          "width": "full",
+          "width": "half",
           "fieldBorder": true,
           "locked": false,
           "label": "",
           "previewType": "auto",
           "col": 1,
-          "row": 13,
-          "colSpan": 24,
+          "row": 10,
+          "colSpan": 11,
           "rowSpan": 1,
           "gridCols": 24,
           "order": 23
         }
       ],
+      "formLayoutCanvas": {
+        "width": 783,
+        "height": 300,
+        "colSize": 41
+      },
+      "dashboardWidgets": [
+        "quotes_by_month_line",
+        "weekly_activity_line",
+        "active_vs_completed",
+        "status_count_value_combo",
+        "status_distribution",
+        "origin_distribution",
+        "sales_distribution",
+        "pg_distribution",
+        "top_customers_by_count",
+        "top_customers_by_value",
+        "aging_overview",
+        "completion_ratio"
+      ],
+      "dashboardWidgetTypes": {
+        "status_distribution": "bar",
+        "origin_distribution": "pie",
+        "sales_distribution": "pie",
+        "pg_distribution": "donut",
+        "aging_overview": "cards",
+        "completion_ratio": "cards",
+        "active_vs_completed": "donut",
+        "top_customers_by_count": "bar",
+        "top_customers_by_value": "bar",
+        "top_origins_by_value": "bar",
+        "top_sales_by_value": "bar",
+        "avg_value_by_status": "bar",
+        "quotes_by_weekday": "line",
+        "quotes_by_month_line": "line",
+        "weekly_activity_line": "line",
+        "status_count_value_combo": "combo",
+        "recent_7day_created": "cards",
+        "zero_value_quotes": "cards",
+        "high_value_quotes": "cards",
+        "no_contact_quotes": "cards",
+        "approval_pipeline": "bar",
+        "due_soon_vs_later": "donut"
+      },
+      "dashboardWidgetOrder": [
+        "status_distribution",
+        "origin_distribution",
+        "sales_distribution",
+        "pg_distribution",
+        "aging_overview",
+        "completion_ratio",
+        "active_vs_completed",
+        "top_customers_by_count",
+        "top_customers_by_value",
+        "top_origins_by_value",
+        "top_sales_by_value",
+        "avg_value_by_status",
+        "quotes_by_weekday",
+        "quotes_by_month_line",
+        "weekly_activity_line",
+        "status_count_value_combo",
+        "recent_7day_created",
+        "zero_value_quotes",
+        "high_value_quotes",
+        "no_contact_quotes",
+        "approval_pipeline",
+        "due_soon_vs_later"
+      ],
+      "dashboardMaxWidgets": 20,
+      "dashboardColumns": 3,
       "customerFormLayout": [
         {
           "key": "custCode",
@@ -582,80 +655,7 @@
           "gridCols": 24,
           "order": 11
         }
-      ],
-      "formLayoutCanvas": {
-        "width": 783,
-        "height": 300,
-        "colSize": 41
-      },
-      "dashboardWidgets": [
-        "quotes_by_month_line",
-        "weekly_activity_line",
-        "active_vs_completed",
-        "status_count_value_combo",
-        "status_distribution",
-        "origin_distribution",
-        "sales_distribution",
-        "pg_distribution",
-        "top_customers_by_count",
-        "top_customers_by_value",
-        "aging_overview",
-        "completion_ratio"
-      ],
-      "dashboardWidgetTypes": {
-        "status_distribution": "bar",
-        "origin_distribution": "pie",
-        "sales_distribution": "pie",
-        "pg_distribution": "donut",
-        "aging_overview": "cards",
-        "completion_ratio": "cards",
-        "active_vs_completed": "donut",
-        "top_customers_by_count": "bar",
-        "top_customers_by_value": "bar",
-        "top_origins_by_value": "bar",
-        "top_sales_by_value": "bar",
-        "avg_value_by_status": "bar",
-        "quotes_by_weekday": "line",
-        "quotes_by_month_line": "line",
-        "weekly_activity_line": "line",
-        "status_count_value_combo": "combo",
-        "recent_7day_created": "cards",
-        "zero_value_quotes": "cards",
-        "high_value_quotes": "cards",
-        "no_contact_quotes": "cards",
-        "approval_pipeline": "bar",
-        "due_soon_vs_later": "donut"
-      },
-      "dashboardWidgetOrder": [
-        "status_distribution",
-        "origin_distribution",
-        "sales_distribution",
-        "pg_distribution",
-        "aging_overview",
-        "completion_ratio",
-        "active_vs_completed",
-        "top_customers_by_count",
-        "top_customers_by_value",
-        "top_origins_by_value",
-        "top_sales_by_value",
-        "avg_value_by_status",
-        "quotes_by_weekday",
-        "quotes_by_month_line",
-        "weekly_activity_line",
-        "status_count_value_combo",
-        "recent_7day_created",
-        "zero_value_quotes",
-        "high_value_quotes",
-        "no_contact_quotes",
-        "approval_pipeline",
-        "due_soon_vs_later"
-      ],
-      "dashboardMaxWidgets": 20,
-      "dashboardColumns": 3,
-      "pages": {
-        "customers": true,
-        "archived": true
-      }
+      ]
     },
     {
       "id": "gov_tender",
@@ -763,6 +763,10 @@
         }
       ],
       "activeTagGroupId": "origin",
+      "pages": {
+        "customers": true,
+        "archived": true
+      },
       "formLayout": [
         {
           "key": "sn",
@@ -1110,173 +1114,6 @@
           "order": 23
         }
       ],
-      "customerFormLayout": [
-        {
-          "key": "custCode",
-          "visible": true,
-          "width": "half",
-          "fieldBorder": true,
-          "locked": false,
-          "label": "",
-          "previewType": "auto",
-          "col": 1,
-          "row": 1,
-          "colSpan": 3,
-          "rowSpan": 1,
-          "gridCols": 24,
-          "order": 1
-        },
-        {
-          "key": "custName",
-          "visible": true,
-          "width": "half",
-          "fieldBorder": true,
-          "locked": false,
-          "label": "",
-          "previewType": "auto",
-          "col": 7,
-          "row": 2,
-          "colSpan": 7,
-          "rowSpan": 1,
-          "gridCols": 24,
-          "order": 2
-        },
-        {
-          "key": "custNameAr",
-          "visible": true,
-          "width": "half",
-          "fieldBorder": true,
-          "locked": false,
-          "label": "",
-          "previewType": "auto",
-          "col": 1,
-          "row": 2,
-          "colSpan": 6,
-          "rowSpan": 1,
-          "gridCols": 24,
-          "order": 3
-        },
-        {
-          "key": "custPgType",
-          "visible": true,
-          "width": "half",
-          "fieldBorder": true,
-          "locked": false,
-          "label": "",
-          "previewType": "auto",
-          "col": 7,
-          "row": 3,
-          "colSpan": 3,
-          "rowSpan": 1,
-          "gridCols": 24,
-          "order": 4
-        },
-        {
-          "key": "custWebsite",
-          "visible": true,
-          "width": "half",
-          "fieldBorder": true,
-          "locked": false,
-          "label": "",
-          "previewType": "auto",
-          "col": 1,
-          "row": 3,
-          "colSpan": 6,
-          "rowSpan": 1,
-          "gridCols": 24,
-          "order": 5
-        },
-        {
-          "key": "custSector",
-          "visible": true,
-          "width": "half",
-          "fieldBorder": true,
-          "locked": false,
-          "label": "",
-          "previewType": "auto",
-          "col": 10,
-          "row": 3,
-          "colSpan": 4,
-          "rowSpan": 1,
-          "gridCols": 24,
-          "order": 6
-        },
-        {
-          "key": "custAreaCode",
-          "visible": true,
-          "width": "half",
-          "fieldBorder": true,
-          "locked": false,
-          "label": "",
-          "previewType": "auto",
-          "col": 1,
-          "row": 4,
-          "colSpan": 3,
-          "rowSpan": 1,
-          "gridCols": 24,
-          "order": 7
-        },
-        {
-          "key": "custVT",
-          "visible": true,
-          "width": "half",
-          "fieldBorder": true,
-          "locked": false,
-          "label": "",
-          "previewType": "auto",
-          "col": 4,
-          "row": 4,
-          "colSpan": 10,
-          "rowSpan": 1,
-          "gridCols": 24,
-          "order": 8
-        },
-        {
-          "key": "custVendor",
-          "visible": true,
-          "width": "half",
-          "fieldBorder": true,
-          "locked": false,
-          "label": "",
-          "previewType": "auto",
-          "col": 1,
-          "row": 5,
-          "colSpan": 3,
-          "rowSpan": 1,
-          "gridCols": 24,
-          "order": 9
-        },
-        {
-          "key": "custRemark",
-          "visible": true,
-          "width": "half",
-          "fieldBorder": true,
-          "locked": false,
-          "label": "",
-          "previewType": "auto",
-          "col": 4,
-          "row": 5,
-          "colSpan": 8,
-          "rowSpan": 1,
-          "gridCols": 24,
-          "order": 10
-        },
-        {
-          "key": "custActions",
-          "visible": true,
-          "width": "half",
-          "fieldBorder": true,
-          "locked": false,
-          "label": "",
-          "previewType": "auto",
-          "col": 1,
-          "row": 6,
-          "colSpan": 13,
-          "rowSpan": 1,
-          "gridCols": 24,
-          "order": 11
-        }
-      ],
       "formLayoutCanvas": {
         "width": 783,
         "height": 300,
@@ -1345,29 +1182,22 @@
         "due_soon_vs_later"
       ],
       "dashboardMaxWidgets": 20,
-      "dashboardColumns": 3,
-      "pages": {
-        "customers": true,
-        "archived": true
-      }
+      "dashboardColumns": 3
     },
     {
       "id": "private_tender",
       "name": "Private Tender",
       "tagLabel": "Origin",
       "subTagLabel": "Sub Tag",
-      "origins": [
-        "Sales",
-        "Engineering",
-        "NUPCO"
-      ],
+      "origins": [],
       "statusGroups": [
         {
           "name": "WIP",
           "substatuses": [
             "NOT STARTED",
             "UNDER REVIEW",
-            "FOR APPROVAL"
+            "FOR APPROVAL",
+            "STD"
           ],
           "isCompletion": false,
           "showOnBoard": true,
@@ -1376,20 +1206,8 @@
           "substatusColors": {
             "NOT STARTED": "#2563eb",
             "UNDER REVIEW": "#d97706",
-            "FOR APPROVAL": "#0f766e"
-          }
-        },
-        {
-          "name": "SUBMITTED",
-          "substatuses": [
-            "SUBMITTED"
-          ],
-          "isCompletion": true,
-          "showOnBoard": true,
-          "columnView": "default",
-          "color": "#16a34a",
-          "substatusColors": {
-            "SUBMITTED": "#16a34a"
+            "FOR APPROVAL": "#0f766e",
+            "STD": "#16a34a"
           }
         },
         {
@@ -1408,57 +1226,37 @@
             "CANCELLED": "#dc2626",
             "DROPPED": "#7c3aed"
           }
+        },
+        {
+          "name": "SUBMITTED",
+          "substatuses": [
+            "SUBMITTED"
+          ],
+          "isCompletion": true,
+          "showOnBoard": true,
+          "columnView": "default",
+          "color": "#16a34a",
+          "substatusColors": {
+            "SUBMITTED": "#16a34a"
+          }
         }
       ],
       "referenceFormula": "YYMMDD{SEQ}",
       "referenceStartSequence": 6,
       "referenceSequencePad": 2,
-      "originSalesMap": {
-        "Sales": [
-          "Sales Team A",
-          "Sales Team B"
-        ],
-        "Engineering": [
-          "Engineer 1",
-          "Engineer 2"
-        ],
-        "NUPCO": [
-          "Adnan",
-          "Sales 2",
-          "Sales 3"
-        ]
-      },
+      "originSalesMap": {},
       "tagGroups": [
         {
           "id": "origin",
           "name": "Origin",
-          "tags": [
-            {
-              "name": "Sales",
-              "subtags": [
-                "Sales Team A",
-                "Sales Team B"
-              ]
-            },
-            {
-              "name": "Engineering",
-              "subtags": [
-                "Engineer 1",
-                "Engineer 2"
-              ]
-            },
-            {
-              "name": "NUPCO",
-              "subtags": [
-                "Adnan",
-                "Sales 2",
-                "Sales 3"
-              ]
-            }
-          ]
+          "tags": []
         }
       ],
       "activeTagGroupId": "origin",
+      "pages": {
+        "customers": true,
+        "archived": true
+      },
       "formLayout": [
         {
           "key": "sn",
@@ -1806,173 +1604,6 @@
           "order": 23
         }
       ],
-      "customerFormLayout": [
-        {
-          "key": "custCode",
-          "visible": true,
-          "width": "half",
-          "fieldBorder": true,
-          "locked": false,
-          "label": "",
-          "previewType": "auto",
-          "col": 1,
-          "row": 1,
-          "colSpan": 3,
-          "rowSpan": 1,
-          "gridCols": 24,
-          "order": 1
-        },
-        {
-          "key": "custName",
-          "visible": true,
-          "width": "half",
-          "fieldBorder": true,
-          "locked": false,
-          "label": "",
-          "previewType": "auto",
-          "col": 7,
-          "row": 2,
-          "colSpan": 7,
-          "rowSpan": 1,
-          "gridCols": 24,
-          "order": 2
-        },
-        {
-          "key": "custNameAr",
-          "visible": true,
-          "width": "half",
-          "fieldBorder": true,
-          "locked": false,
-          "label": "",
-          "previewType": "auto",
-          "col": 1,
-          "row": 2,
-          "colSpan": 6,
-          "rowSpan": 1,
-          "gridCols": 24,
-          "order": 3
-        },
-        {
-          "key": "custPgType",
-          "visible": true,
-          "width": "half",
-          "fieldBorder": true,
-          "locked": false,
-          "label": "",
-          "previewType": "auto",
-          "col": 7,
-          "row": 3,
-          "colSpan": 3,
-          "rowSpan": 1,
-          "gridCols": 24,
-          "order": 4
-        },
-        {
-          "key": "custWebsite",
-          "visible": true,
-          "width": "half",
-          "fieldBorder": true,
-          "locked": false,
-          "label": "",
-          "previewType": "auto",
-          "col": 1,
-          "row": 3,
-          "colSpan": 6,
-          "rowSpan": 1,
-          "gridCols": 24,
-          "order": 5
-        },
-        {
-          "key": "custSector",
-          "visible": true,
-          "width": "half",
-          "fieldBorder": true,
-          "locked": false,
-          "label": "",
-          "previewType": "auto",
-          "col": 10,
-          "row": 3,
-          "colSpan": 4,
-          "rowSpan": 1,
-          "gridCols": 24,
-          "order": 6
-        },
-        {
-          "key": "custAreaCode",
-          "visible": true,
-          "width": "half",
-          "fieldBorder": true,
-          "locked": false,
-          "label": "",
-          "previewType": "auto",
-          "col": 1,
-          "row": 4,
-          "colSpan": 3,
-          "rowSpan": 1,
-          "gridCols": 24,
-          "order": 7
-        },
-        {
-          "key": "custVT",
-          "visible": true,
-          "width": "half",
-          "fieldBorder": true,
-          "locked": false,
-          "label": "",
-          "previewType": "auto",
-          "col": 4,
-          "row": 4,
-          "colSpan": 10,
-          "rowSpan": 1,
-          "gridCols": 24,
-          "order": 8
-        },
-        {
-          "key": "custVendor",
-          "visible": true,
-          "width": "half",
-          "fieldBorder": true,
-          "locked": false,
-          "label": "",
-          "previewType": "auto",
-          "col": 1,
-          "row": 5,
-          "colSpan": 3,
-          "rowSpan": 1,
-          "gridCols": 24,
-          "order": 9
-        },
-        {
-          "key": "custRemark",
-          "visible": true,
-          "width": "half",
-          "fieldBorder": true,
-          "locked": false,
-          "label": "",
-          "previewType": "auto",
-          "col": 4,
-          "row": 5,
-          "colSpan": 8,
-          "rowSpan": 1,
-          "gridCols": 24,
-          "order": 10
-        },
-        {
-          "key": "custActions",
-          "visible": true,
-          "width": "half",
-          "fieldBorder": true,
-          "locked": false,
-          "label": "",
-          "previewType": "auto",
-          "col": 1,
-          "row": 6,
-          "colSpan": 13,
-          "rowSpan": 1,
-          "gridCols": 24,
-          "order": 11
-        }
-      ],
       "formLayoutCanvas": {
         "width": 783,
         "height": 300,
@@ -2041,11 +1672,7 @@
         "due_soon_vs_later"
       ],
       "dashboardMaxWidgets": 20,
-      "dashboardColumns": 3,
-      "pages": {
-        "customers": true,
-        "archived": true
-      }
+      "dashboardColumns": 3
     },
     {
       "id": "other_projects",
@@ -2149,6 +1776,10 @@
         }
       ],
       "activeTagGroupId": "origin",
+      "pages": {
+        "customers": true,
+        "archived": true
+      },
       "formLayout": [
         {
           "key": "sn",
@@ -2496,173 +2127,6 @@
           "order": 23
         }
       ],
-      "customerFormLayout": [
-        {
-          "key": "custCode",
-          "visible": true,
-          "width": "half",
-          "fieldBorder": true,
-          "locked": false,
-          "label": "",
-          "previewType": "auto",
-          "col": 1,
-          "row": 1,
-          "colSpan": 3,
-          "rowSpan": 1,
-          "gridCols": 24,
-          "order": 1
-        },
-        {
-          "key": "custName",
-          "visible": true,
-          "width": "half",
-          "fieldBorder": true,
-          "locked": false,
-          "label": "",
-          "previewType": "auto",
-          "col": 7,
-          "row": 2,
-          "colSpan": 7,
-          "rowSpan": 1,
-          "gridCols": 24,
-          "order": 2
-        },
-        {
-          "key": "custNameAr",
-          "visible": true,
-          "width": "half",
-          "fieldBorder": true,
-          "locked": false,
-          "label": "",
-          "previewType": "auto",
-          "col": 1,
-          "row": 2,
-          "colSpan": 6,
-          "rowSpan": 1,
-          "gridCols": 24,
-          "order": 3
-        },
-        {
-          "key": "custPgType",
-          "visible": true,
-          "width": "half",
-          "fieldBorder": true,
-          "locked": false,
-          "label": "",
-          "previewType": "auto",
-          "col": 7,
-          "row": 3,
-          "colSpan": 3,
-          "rowSpan": 1,
-          "gridCols": 24,
-          "order": 4
-        },
-        {
-          "key": "custWebsite",
-          "visible": true,
-          "width": "half",
-          "fieldBorder": true,
-          "locked": false,
-          "label": "",
-          "previewType": "auto",
-          "col": 1,
-          "row": 3,
-          "colSpan": 6,
-          "rowSpan": 1,
-          "gridCols": 24,
-          "order": 5
-        },
-        {
-          "key": "custSector",
-          "visible": true,
-          "width": "half",
-          "fieldBorder": true,
-          "locked": false,
-          "label": "",
-          "previewType": "auto",
-          "col": 10,
-          "row": 3,
-          "colSpan": 4,
-          "rowSpan": 1,
-          "gridCols": 24,
-          "order": 6
-        },
-        {
-          "key": "custAreaCode",
-          "visible": true,
-          "width": "half",
-          "fieldBorder": true,
-          "locked": false,
-          "label": "",
-          "previewType": "auto",
-          "col": 1,
-          "row": 4,
-          "colSpan": 3,
-          "rowSpan": 1,
-          "gridCols": 24,
-          "order": 7
-        },
-        {
-          "key": "custVT",
-          "visible": true,
-          "width": "half",
-          "fieldBorder": true,
-          "locked": false,
-          "label": "",
-          "previewType": "auto",
-          "col": 4,
-          "row": 4,
-          "colSpan": 10,
-          "rowSpan": 1,
-          "gridCols": 24,
-          "order": 8
-        },
-        {
-          "key": "custVendor",
-          "visible": true,
-          "width": "half",
-          "fieldBorder": true,
-          "locked": false,
-          "label": "",
-          "previewType": "auto",
-          "col": 1,
-          "row": 5,
-          "colSpan": 3,
-          "rowSpan": 1,
-          "gridCols": 24,
-          "order": 9
-        },
-        {
-          "key": "custRemark",
-          "visible": true,
-          "width": "half",
-          "fieldBorder": true,
-          "locked": false,
-          "label": "",
-          "previewType": "auto",
-          "col": 4,
-          "row": 5,
-          "colSpan": 8,
-          "rowSpan": 1,
-          "gridCols": 24,
-          "order": 10
-        },
-        {
-          "key": "custActions",
-          "visible": true,
-          "width": "half",
-          "fieldBorder": true,
-          "locked": false,
-          "label": "",
-          "previewType": "auto",
-          "col": 1,
-          "row": 6,
-          "colSpan": 13,
-          "rowSpan": 1,
-          "gridCols": 24,
-          "order": 11
-        }
-      ],
       "formLayoutCanvas": {
         "width": 783,
         "height": 300,
@@ -2731,11 +2195,7 @@
         "due_soon_vs_later"
       ],
       "dashboardMaxWidgets": 20,
-      "dashboardColumns": 3,
-      "pages": {
-        "customers": true,
-        "archived": true
-      }
+      "dashboardColumns": 3
     },
     {
       "id": "new_tracker",
@@ -2806,6 +2266,10 @@
         }
       ],
       "activeTagGroupId": "origin",
+      "pages": {
+        "customers": true,
+        "archived": true
+      },
       "formLayout": [
         {
           "key": "sn",
@@ -3153,173 +2617,6 @@
           "order": 23
         }
       ],
-      "customerFormLayout": [
-        {
-          "key": "custCode",
-          "visible": true,
-          "width": "half",
-          "fieldBorder": true,
-          "locked": false,
-          "label": "",
-          "previewType": "auto",
-          "col": 1,
-          "row": 1,
-          "colSpan": 3,
-          "rowSpan": 1,
-          "gridCols": 24,
-          "order": 1
-        },
-        {
-          "key": "custName",
-          "visible": true,
-          "width": "half",
-          "fieldBorder": true,
-          "locked": false,
-          "label": "",
-          "previewType": "auto",
-          "col": 7,
-          "row": 2,
-          "colSpan": 7,
-          "rowSpan": 1,
-          "gridCols": 24,
-          "order": 2
-        },
-        {
-          "key": "custNameAr",
-          "visible": true,
-          "width": "half",
-          "fieldBorder": true,
-          "locked": false,
-          "label": "",
-          "previewType": "auto",
-          "col": 1,
-          "row": 2,
-          "colSpan": 6,
-          "rowSpan": 1,
-          "gridCols": 24,
-          "order": 3
-        },
-        {
-          "key": "custPgType",
-          "visible": true,
-          "width": "half",
-          "fieldBorder": true,
-          "locked": false,
-          "label": "",
-          "previewType": "auto",
-          "col": 7,
-          "row": 3,
-          "colSpan": 3,
-          "rowSpan": 1,
-          "gridCols": 24,
-          "order": 4
-        },
-        {
-          "key": "custWebsite",
-          "visible": true,
-          "width": "half",
-          "fieldBorder": true,
-          "locked": false,
-          "label": "",
-          "previewType": "auto",
-          "col": 1,
-          "row": 3,
-          "colSpan": 6,
-          "rowSpan": 1,
-          "gridCols": 24,
-          "order": 5
-        },
-        {
-          "key": "custSector",
-          "visible": true,
-          "width": "half",
-          "fieldBorder": true,
-          "locked": false,
-          "label": "",
-          "previewType": "auto",
-          "col": 10,
-          "row": 3,
-          "colSpan": 4,
-          "rowSpan": 1,
-          "gridCols": 24,
-          "order": 6
-        },
-        {
-          "key": "custAreaCode",
-          "visible": true,
-          "width": "half",
-          "fieldBorder": true,
-          "locked": false,
-          "label": "",
-          "previewType": "auto",
-          "col": 1,
-          "row": 4,
-          "colSpan": 3,
-          "rowSpan": 1,
-          "gridCols": 24,
-          "order": 7
-        },
-        {
-          "key": "custVT",
-          "visible": true,
-          "width": "half",
-          "fieldBorder": true,
-          "locked": false,
-          "label": "",
-          "previewType": "auto",
-          "col": 4,
-          "row": 4,
-          "colSpan": 10,
-          "rowSpan": 1,
-          "gridCols": 24,
-          "order": 8
-        },
-        {
-          "key": "custVendor",
-          "visible": true,
-          "width": "half",
-          "fieldBorder": true,
-          "locked": false,
-          "label": "",
-          "previewType": "auto",
-          "col": 1,
-          "row": 5,
-          "colSpan": 3,
-          "rowSpan": 1,
-          "gridCols": 24,
-          "order": 9
-        },
-        {
-          "key": "custRemark",
-          "visible": true,
-          "width": "half",
-          "fieldBorder": true,
-          "locked": false,
-          "label": "",
-          "previewType": "auto",
-          "col": 4,
-          "row": 5,
-          "colSpan": 8,
-          "rowSpan": 1,
-          "gridCols": 24,
-          "order": 10
-        },
-        {
-          "key": "custActions",
-          "visible": true,
-          "width": "half",
-          "fieldBorder": true,
-          "locked": false,
-          "label": "",
-          "previewType": "auto",
-          "col": 1,
-          "row": 6,
-          "colSpan": 13,
-          "rowSpan": 1,
-          "gridCols": 24,
-          "order": 11
-        }
-      ],
       "formLayoutCanvas": {
         "width": 783,
         "height": 300,
@@ -3388,11 +2685,7 @@
         "due_soon_vs_later"
       ],
       "dashboardMaxWidgets": 20,
-      "dashboardColumns": 3,
-      "pages": {
-        "customers": true,
-        "archived": true
-      }
+      "dashboardColumns": 3
     }
   ],
   "activeWorkflowId": "direct_purchase",
@@ -3475,7 +2768,7 @@
       "previewType": "auto",
       "col": 1,
       "row": 1,
-      "colSpan": 12,
+      "colSpan": 2,
       "rowSpan": 1,
       "gridCols": 24,
       "order": 1
@@ -3488,9 +2781,9 @@
       "locked": false,
       "label": "",
       "previewType": "auto",
-      "col": 13,
+      "col": 3,
       "row": 1,
-      "colSpan": 12,
+      "colSpan": 3,
       "rowSpan": 1,
       "gridCols": 24,
       "order": 2
@@ -3504,8 +2797,8 @@
       "label": "",
       "previewType": "auto",
       "col": 1,
-      "row": 2,
-      "colSpan": 12,
+      "row": 3,
+      "colSpan": 3,
       "rowSpan": 1,
       "gridCols": 24,
       "order": 3
@@ -3518,9 +2811,9 @@
       "locked": false,
       "label": "",
       "previewType": "auto",
-      "col": 13,
-      "row": 2,
-      "colSpan": 12,
+      "col": 4,
+      "row": 3,
+      "colSpan": 3,
       "rowSpan": 1,
       "gridCols": 24,
       "order": 4
@@ -3534,8 +2827,8 @@
       "label": "",
       "previewType": "auto",
       "col": 1,
-      "row": 3,
-      "colSpan": 12,
+      "row": 2,
+      "colSpan": 3,
       "rowSpan": 1,
       "gridCols": 24,
       "order": 5
@@ -3548,9 +2841,9 @@
       "locked": false,
       "label": "",
       "previewType": "auto",
-      "col": 13,
-      "row": 3,
-      "colSpan": 12,
+      "col": 4,
+      "row": 2,
+      "colSpan": 8,
       "rowSpan": 1,
       "gridCols": 24,
       "order": 6
@@ -3563,9 +2856,9 @@
       "locked": false,
       "label": "",
       "previewType": "auto",
-      "col": 1,
-      "row": 4,
-      "colSpan": 12,
+      "col": 6,
+      "row": 1,
+      "colSpan": 4,
       "rowSpan": 1,
       "gridCols": 24,
       "order": 7
@@ -3578,9 +2871,9 @@
       "locked": false,
       "label": "",
       "previewType": "auto",
-      "col": 13,
-      "row": 4,
-      "colSpan": 12,
+      "col": 3,
+      "row": 6,
+      "colSpan": 2,
       "rowSpan": 1,
       "gridCols": 24,
       "order": 8
@@ -3593,9 +2886,9 @@
       "locked": false,
       "label": "",
       "previewType": "auto",
-      "col": 1,
-      "row": 5,
-      "colSpan": 12,
+      "col": 9,
+      "row": 3,
+      "colSpan": 3,
       "rowSpan": 1,
       "gridCols": 24,
       "order": 9
@@ -3608,9 +2901,9 @@
       "locked": false,
       "label": "",
       "previewType": "auto",
-      "col": 13,
-      "row": 5,
-      "colSpan": 12,
+      "col": 5,
+      "row": 6,
+      "colSpan": 2,
       "rowSpan": 1,
       "gridCols": 24,
       "order": 10
@@ -3624,8 +2917,8 @@
       "label": "",
       "previewType": "auto",
       "col": 1,
-      "row": 6,
-      "colSpan": 12,
+      "row": 4,
+      "colSpan": 5,
       "rowSpan": 1,
       "gridCols": 24,
       "order": 11
@@ -3638,9 +2931,9 @@
       "locked": false,
       "label": "",
       "previewType": "auto",
-      "col": 13,
+      "col": 1,
       "row": 6,
-      "colSpan": 12,
+      "colSpan": 2,
       "rowSpan": 1,
       "gridCols": 24,
       "order": 12
@@ -3653,9 +2946,9 @@
       "locked": false,
       "label": "",
       "previewType": "auto",
-      "col": 1,
-      "row": 7,
-      "colSpan": 12,
+      "col": 7,
+      "row": 3,
+      "colSpan": 2,
       "rowSpan": 1,
       "gridCols": 24,
       "order": 13
@@ -3668,9 +2961,9 @@
       "locked": false,
       "label": "",
       "previewType": "auto",
-      "col": 13,
-      "row": 7,
-      "colSpan": 12,
+      "col": 10,
+      "row": 1,
+      "colSpan": 2,
       "rowSpan": 1,
       "gridCols": 24,
       "order": 14
@@ -3683,9 +2976,9 @@
       "locked": false,
       "label": "",
       "previewType": "auto",
-      "col": 1,
-      "row": 8,
-      "colSpan": 12,
+      "col": 6,
+      "row": 4,
+      "colSpan": 6,
       "rowSpan": 1,
       "gridCols": 24,
       "order": 15
@@ -3698,9 +2991,9 @@
       "locked": false,
       "label": "",
       "previewType": "auto",
-      "col": 13,
-      "row": 8,
-      "colSpan": 12,
+      "col": 5,
+      "row": 5,
+      "colSpan": 4,
       "rowSpan": 1,
       "gridCols": 24,
       "order": 16
@@ -3714,8 +3007,8 @@
       "label": "",
       "previewType": "auto",
       "col": 1,
-      "row": 9,
-      "colSpan": 12,
+      "row": 5,
+      "colSpan": 4,
       "rowSpan": 1,
       "gridCols": 24,
       "order": 17
@@ -3728,9 +3021,9 @@
       "locked": false,
       "label": "",
       "previewType": "auto",
-      "col": 13,
-      "row": 9,
-      "colSpan": 12,
+      "col": 9,
+      "row": 5,
+      "colSpan": 3,
       "rowSpan": 1,
       "gridCols": 24,
       "order": 18
@@ -3743,9 +3036,9 @@
       "locked": false,
       "label": "",
       "previewType": "auto",
-      "col": 1,
-      "row": 10,
-      "colSpan": 12,
+      "col": 4,
+      "row": 8,
+      "colSpan": 4,
       "rowSpan": 1,
       "gridCols": 24,
       "order": 19
@@ -3758,9 +3051,9 @@
       "locked": false,
       "label": "",
       "previewType": "auto",
-      "col": 13,
-      "row": 10,
-      "colSpan": 12,
+      "col": 8,
+      "row": 8,
+      "colSpan": 4,
       "rowSpan": 1,
       "gridCols": 24,
       "order": 20
@@ -3768,14 +3061,14 @@
     {
       "key": "itemLines",
       "visible": true,
-      "width": "full",
+      "width": "half",
       "fieldBorder": true,
       "locked": false,
       "label": "",
       "previewType": "auto",
       "col": 1,
-      "row": 11,
-      "colSpan": 24,
+      "row": 7,
+      "colSpan": 11,
       "rowSpan": 1,
       "gridCols": 24,
       "order": 21
@@ -3783,14 +3076,14 @@
     {
       "key": "remarks",
       "visible": true,
-      "width": "full",
+      "width": "half",
       "fieldBorder": true,
       "locked": false,
       "label": "",
       "previewType": "auto",
       "col": 1,
-      "row": 12,
-      "colSpan": 24,
+      "row": 9,
+      "colSpan": 11,
       "rowSpan": 1,
       "gridCols": 24,
       "order": 22
@@ -3798,14 +3091,14 @@
     {
       "key": "actions",
       "visible": true,
-      "width": "full",
+      "width": "half",
       "fieldBorder": true,
       "locked": false,
       "label": "",
       "previewType": "auto",
       "col": 1,
-      "row": 13,
-      "colSpan": 24,
+      "row": 10,
+      "colSpan": 11,
       "rowSpan": 1,
       "gridCols": 24,
       "order": 23
@@ -4050,9 +3343,5 @@
   "originSalesMap": {},
   "ui": {
     "kanbanDensity": "compact"
-  },
-  "pages": {
-    "customers": true,
-    "archived": true
   }
 }
