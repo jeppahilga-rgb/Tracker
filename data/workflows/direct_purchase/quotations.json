@@ -27,7 +27,11 @@
         "description": "Various Items",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971533_431",
@@ -57,7 +61,11 @@
         "description": "0101050 Cover glass QTY: 3000pcs",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971534_247",
@@ -82,7 +90,11 @@
     "totalValue": 0,
     "remarks": "",
     "itemText": "",
-    "items": []
+    "items": [],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971534_428",
@@ -112,7 +124,11 @@
         "description": "Various Items",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971534_939",
@@ -142,7 +158,11 @@
         "description": "Various items",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971534_760",
@@ -172,7 +192,11 @@
         "description": "Various Items",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971535_197",
@@ -202,7 +226,11 @@
         "description": "Various Items",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971535_80",
@@ -227,7 +255,11 @@
     "totalValue": 0,
     "remarks": "",
     "itemText": "",
-    "items": []
+    "items": [],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971535_359",
@@ -257,7 +289,11 @@
         "description": "Various Items",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971535_600",
@@ -287,7 +323,11 @@
         "description": "Needles",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971536_704",
@@ -317,7 +357,11 @@
         "description": "Parafilm",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971536_607",
@@ -347,7 +391,11 @@
         "description": "Alcohol swab",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971537_546",
@@ -372,7 +420,11 @@
     "totalValue": 0,
     "remarks": "",
     "itemText": "",
-    "items": []
+    "items": [],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971537_71",
@@ -402,7 +454,11 @@
         "description": "Separator, Plasma PRSS.DB.00  QTY: 3",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971537_823",
@@ -432,7 +488,11 @@
         "description": "Vaccutainer",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971538_233",
@@ -462,7 +522,11 @@
         "description": "Tube Vacutainer for Blood Collection Red Top Clot Activator Vol 9 10 ml tube size 16 x 100mm QTY: 100000",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971538_807",
@@ -492,7 +556,11 @@
         "description": "Blood collection tube",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971538_776",
@@ -522,7 +590,11 @@
         "description": "1.5 ml micro centrifuge",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971539_673",
@@ -552,7 +624,11 @@
         "description": "slides",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971539_745",
@@ -582,7 +658,11 @@
         "description": "blood smear dispenser",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971539_330",
@@ -612,7 +692,11 @@
         "description": "Alcohol swab & Biohazard Bag QTY: 0",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971540_893",
@@ -642,7 +726,11 @@
         "description": "8 strips tube",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971540_374",
@@ -672,7 +760,11 @@
         "description": "Sealing film",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971541_214",
@@ -702,7 +794,11 @@
         "description": "AmioTest",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971542_182",
@@ -732,7 +828,11 @@
         "description": "Centrifuge tube",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971542_445",
@@ -762,7 +862,11 @@
         "description": "Blood collection tube",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971542_792",
@@ -792,7 +896,11 @@
         "description": "vials and blue cap",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971543_889",
@@ -822,7 +930,11 @@
         "description": "Various Items",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971544_726",
@@ -852,7 +964,11 @@
         "description": "Test Tube 75x12mm",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971544_271",
@@ -882,7 +998,11 @@
         "description": "Microtome blade",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971545_104",
@@ -912,7 +1032,11 @@
         "description": "Reaction plate 96 well microamp for pcr",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971545_355",
@@ -942,7 +1066,11 @@
         "description": "adjustable pipette",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971546_572",
@@ -972,7 +1100,11 @@
         "description": "Blood collection tube & Needles",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971546_42",
@@ -1002,7 +1134,11 @@
         "description": "Alcohol Swabs",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971547_512",
@@ -1032,7 +1168,11 @@
         "description": "needles",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971548_939",
@@ -1062,7 +1202,11 @@
         "description": "parafilm and segment opener",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971548_360",
@@ -1092,7 +1236,11 @@
         "description": "Swivel Roller Mixer",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971551_966",
@@ -1122,7 +1270,11 @@
         "description": "slee blades",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971552_57",
@@ -1152,7 +1304,11 @@
         "description": "Test Tube Borosilicate Glass 16 x 100mm Dispo",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971552_951",
@@ -1182,7 +1338,11 @@
         "description": "Slide Mailler & 630277",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971553_686",
@@ -1212,7 +1372,11 @@
         "description": "ab medical",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971553_957",
@@ -1242,7 +1406,11 @@
         "description": "lianfa",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971554_763",
@@ -1272,7 +1440,11 @@
         "description": "pasteur pipette",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971554_341",
@@ -1302,7 +1474,11 @@
         "description": "pipette tips",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971555_199",
@@ -1332,7 +1508,11 @@
         "description": "Various Items",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971556_304",
@@ -1362,7 +1542,11 @@
         "description": "loop 1 ul BSV121",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971556_700",
@@ -1392,7 +1576,11 @@
         "description": "loop 1 ul BSV121",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971557_495",
@@ -1422,7 +1610,11 @@
         "description": "Various Items",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971558_149",
@@ -1447,7 +1639,11 @@
     "totalValue": 0,
     "remarks": "",
     "itemText": "",
-    "items": []
+    "items": [],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971558_100",
@@ -1472,7 +1668,11 @@
     "totalValue": 0,
     "remarks": "",
     "itemText": "",
-    "items": []
+    "items": [],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971559_608",
@@ -1502,7 +1702,11 @@
         "description": "TUBE TEST GLASS 12 X 75MM [105774] QTY: 6500",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971560_299",
@@ -1532,7 +1736,11 @@
         "description": "Safety Lancet",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971561_831",
@@ -1562,7 +1770,11 @@
         "description": "Safety Lancet",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971561_913",
@@ -1592,7 +1804,11 @@
         "description": "Biohazrd Spill Kit MJZ017",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971563_591",
@@ -1622,7 +1838,11 @@
         "description": "Pipette Glass size 5 3/4 (pasteur type) 105773 qty: 6000",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971564_166",
@@ -1652,7 +1872,11 @@
         "description": "Various Items",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971565_959",
@@ -1682,7 +1906,11 @@
         "description": "Various Items",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971567_651",
@@ -1712,7 +1940,11 @@
         "description": "Alcohol Swab KM-QP018",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971568_616",
@@ -1742,7 +1974,11 @@
         "description": "0810401  QTY: 100box",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971569_359",
@@ -1772,7 +2008,11 @@
         "description": "0101222 Cover Glass",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971571_314",
@@ -1802,7 +2042,11 @@
         "description": "Erlenmeyer Flask (4110207) QTY: 38pcs",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971572_926",
@@ -1832,7 +2076,11 @@
         "description": "Erlenmeyer Flask (4110207) QTY: 38pcs",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971573_679",
@@ -1862,7 +2110,11 @@
         "description": "Chroma Vial (C000962) QTY: 8,400pcs and Clot Activator (321502) QTY: 904000pcsx2",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971575_277",
@@ -1892,7 +2144,11 @@
         "description": "Positive Charged Microscope Slides (0810501) QTY: 15,186pcs",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971576_663",
@@ -1922,7 +2178,11 @@
         "description": "Positive Charged Microscope Slides (0810501) QTY: 15,186pcs",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971578_820",
@@ -1952,7 +2212,11 @@
         "description": "First Aid Kits",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971579_732",
@@ -1982,7 +2246,11 @@
         "description": "Slide Glass Microscope (76*26mm) Frosted End Both Sides with Finely Ground Edges Precleaned  QTY: 25,000",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971581_677",
@@ -2012,7 +2280,11 @@
         "description": "TUBE TEST GLASS 12 X 75MM [105774] QTY: 6500",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971582_280",
@@ -2042,7 +2314,11 @@
         "description": "Simulator",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971583_429",
@@ -2072,7 +2348,11 @@
         "description": "Various Items",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971585_624",
@@ -2102,7 +2382,11 @@
         "description": "Various Items",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971586_808",
@@ -2132,7 +2416,11 @@
         "description": "Tube VAcutainer for Blood Collection Red Top Clot Activator (321502) QTY: 200000",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971588_763",
@@ -2162,7 +2450,11 @@
         "description": "Tube VAcutainer for Blood Collection Red Top Clot Activator 10ml (300901) QTY: 20000",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971590_918",
@@ -2192,7 +2484,11 @@
         "description": "Various Items",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971593_511",
@@ -2222,7 +2518,11 @@
         "description": "Parafilm Rolls 4\" x 125 ft  QTY: 10pcs",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971594_295",
@@ -2260,7 +2560,11 @@
         "description": "Tube Vacu Red Top 9ml  QTY: 40,000pcs (50,400 - Jun 2026, 24,700 - Sep 2026)",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971595_372",
@@ -2290,7 +2594,11 @@
         "description": "Lens Paper 4 x 6 Inch QTY: 48PAcks",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971596_180",
@@ -2320,7 +2628,11 @@
         "description": "Clinipette Yellow Small Tips QTY: 32,000pcs",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971597_629",
@@ -2350,7 +2662,11 @@
         "description": "Various Items",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971598_220",
@@ -2380,7 +2696,11 @@
         "description": "Overwrap Bags, Standard Size (for plasma thawers) QTY: 2000pcs",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971599_324",
@@ -2418,7 +2738,11 @@
         "description": "Water Bath, Splint QTY: 2pcs",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971600_259",
@@ -2448,7 +2772,11 @@
         "description": "KM-QP018 QTY: 2500box (100pcs per Box)",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971601_824",
@@ -2486,7 +2814,11 @@
         "description": "A/001/008-AR  QTY: 100pcs",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971601_16",
@@ -2520,7 +2852,11 @@
         "description": "Temperature Sensor QTY: 1 Set",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971602_296",
@@ -2558,7 +2894,11 @@
         "description": "Ice Box QTY: 2 pc",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971604_76",
@@ -2588,7 +2928,11 @@
         "description": "TUBE TEST GLASS 12 X 75MM(105774) QTY: 30000",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971605_823",
@@ -2618,7 +2962,11 @@
         "description": "Various Items",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971606_308",
@@ -2648,7 +2996,11 @@
         "description": "SN-105 Safety Blood Collection QTY: 4000 pieces",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971607_373",
@@ -2686,7 +3038,11 @@
         "description": "Applicator, cotton 6inch QTY: 1800",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971607_590",
@@ -2724,7 +3080,11 @@
         "description": "Gauze Swab 12ply 10x10cm QTY: 120,000",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971608_279",
@@ -2754,7 +3114,11 @@
         "description": "Slide Glass Blue Frost Ground 25x75x1 QTY: 50,000pcs",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971609_623",
@@ -2800,7 +3164,11 @@
         "description": "ETC",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971610_277",
@@ -2830,7 +3198,11 @@
         "description": "Refrigerator MPR 530 QTY: 1 Unit",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   },
   {
     "id": "qtn_1776492971611_898",
@@ -2864,6 +3236,10 @@
         "description": "Cloth Cleaning Flat 30.48x30.48cm QTY: 12,165",
         "qty": 0
       }
-    ]
+    ],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   }
 ]
