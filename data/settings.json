@@ -3483,5 +3483,9 @@
   },
   "ui": {
     "kanbanDensity": "compact"
+  },
+  "pages": {
+    "customers": true,
+    "archived": true
   }
 }
