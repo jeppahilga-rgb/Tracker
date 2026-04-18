@@ -714,7 +714,11 @@
         "due_soon_vs_later"
       ],
       "dashboardMaxWidgets": 20,
-      "dashboardColumns": 3
+      "dashboardColumns": 3,
+      "pages": {
+        "customers": true,
+        "archived": true
+      }
     },
     {
       "id": "gov_tender",
@@ -1404,7 +1408,11 @@
         "due_soon_vs_later"
       ],
       "dashboardMaxWidgets": 20,
-      "dashboardColumns": 3
+      "dashboardColumns": 3,
+      "pages": {
+        "customers": true,
+        "archived": true
+      }
     },
     {
       "id": "private_tender",
@@ -2096,7 +2104,11 @@
         "due_soon_vs_later"
       ],
       "dashboardMaxWidgets": 20,
-      "dashboardColumns": 3
+      "dashboardColumns": 3,
+      "pages": {
+        "customers": true,
+        "archived": true
+      }
     },
     {
       "id": "other_projects",
@@ -2782,7 +2794,11 @@
         "due_soon_vs_later"
       ],
       "dashboardMaxWidgets": 20,
-      "dashboardColumns": 3
+      "dashboardColumns": 3,
+      "pages": {
+        "customers": true,
+        "archived": true
+      }
     }
   ],
   "activeWorkflowId": "direct_purchase",
