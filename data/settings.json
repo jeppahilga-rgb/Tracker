@@ -1,4 +1,2242 @@
 {
+  "workflowProfiles": [
+    {
+      "id": "direct_purchase",
+      "name": "Direct Purchase Quotation",
+      "tagLabel": "Origin",
+      "subTagLabel": "Sub Tag",
+      "origins": [
+        "NUPCO",
+        "Etimad",
+        "Sales",
+        "Email",
+        "Engineering",
+        "E-Purchasing"
+      ],
+      "statusGroups": [
+        {
+          "name": "WIP",
+          "substatuses": [
+            "NOT STARTED",
+            "STARTED",
+            "UNDER REVIEW",
+            "FOR APPROVAL"
+          ],
+          "isCompletion": false,
+          "showOnBoard": true,
+          "columnView": "sub",
+          "color": "#2563eb",
+          "substatusColors": {
+            "NOT STARTED": "#2563eb",
+            "STARTED": "#24eb31",
+            "UNDER REVIEW": "#d97706",
+            "FOR APPROVAL": "#0f766e"
+          }
+        },
+        {
+          "name": "NO BID",
+          "substatuses": [
+            "CLOSED",
+            "CANCELLED",
+            "DROPPED"
+          ],
+          "isCompletion": true,
+          "showOnBoard": false,
+          "columnView": "default",
+          "color": "#dc2626",
+          "substatusColors": {
+            "CLOSED": "#475569",
+            "CANCELLED": "#dc2626",
+            "DROPPED": "#7c3aed"
+          }
+        },
+        {
+          "name": "SUBMITTED",
+          "substatuses": [
+            "SUBMITTED",
+            "STD"
+          ],
+          "isCompletion": true,
+          "showOnBoard": false,
+          "columnView": "default",
+          "color": "#16a34a",
+          "substatusColors": {
+            "SUBMITTED": "#16a34a",
+            "STD": "#16a34a"
+          }
+        }
+      ],
+      "referenceFormula": "YYMMDD{SEQ}",
+      "referenceStartSequence": 6,
+      "referenceSequencePad": 2,
+      "originSalesMap": {
+        "NUPCO": [
+          "Direct Purchase",
+          "Badail",
+          "Swift",
+          "Marketplace"
+        ],
+        "Etimad": [
+          "Direct Puchase"
+        ],
+        "Sales": [
+          "Osama",
+          "Bilal",
+          "Zainab"
+        ],
+        "Email": [
+          "sales@dafco-sa.com",
+          "Adnan@dafco-sa.com",
+          "admin@dafco-sa.com"
+        ],
+        "Engineering": [
+          "Earl"
+        ],
+        "E-Purchasing": []
+      },
+      "tagGroups": [
+        {
+          "id": "origin",
+          "name": "Origin",
+          "tags": [
+            {
+              "name": "NUPCO",
+              "subtags": [
+                "Direct Purchase",
+                "Badail",
+                "Swift",
+                "Marketplace"
+              ]
+            },
+            {
+              "name": "Etimad",
+              "subtags": [
+                "Direct Puchase"
+              ]
+            },
+            {
+              "name": "Sales",
+              "subtags": [
+                "Osama",
+                "Bilal",
+                "Zainab"
+              ]
+            },
+            {
+              "name": "Email",
+              "subtags": [
+                "sales@dafco-sa.com",
+                "Adnan@dafco-sa.com",
+                "admin@dafco-sa.com"
+              ]
+            },
+            {
+              "name": "Engineering",
+              "subtags": [
+                "Earl"
+              ]
+            },
+            {
+              "name": "E-Purchasing",
+              "subtags": []
+            }
+          ]
+        }
+      ],
+      "activeTagGroupId": "origin",
+      "taskSettings": {
+        "entityName": "Quotation",
+        "entityNamePlural": "Quotations",
+        "fieldCount": 17,
+        "optionalFieldKeys": [],
+        "customFieldPool": [],
+        "labels": {
+          "sn": "File No.",
+          "reference": "Reference",
+          "targetDate": "Target Date",
+          "dueDate": "Due Date",
+          "customerCode": "Customer Code",
+          "customerName": "Customer Name",
+          "rfq": "RFQ",
+          "bid": "Bid",
+          "status": "Status",
+          "pgType": "PG",
+          "quoteTime": "Time",
+          "contactName": "Contact Name",
+          "phone": "Phone",
+          "email": "Email",
+          "totalItems": "Total Items",
+          "totalValue": "Total Value",
+          "itemLines": "Item Lines",
+          "remarks": "Remarks",
+          "contactSaveAction": "Add Contact",
+          "actions": "Form Actions"
+        },
+        "fields": {}
+      },
+      "formLayout": [
+        {
+          "key": "sn",
+          "visible": true,
+          "width": "half",
+          "fieldBorder": true,
+          "locked": false,
+          "label": "",
+          "previewType": "auto",
+          "col": 1,
+          "row": 1,
+          "colSpan": 4,
+          "rowSpan": 1,
+          "gridCols": 24,
+          "order": 1
+        },
+        {
+          "key": "reference",
+          "visible": true,
+          "width": "half",
+          "fieldBorder": true,
+          "locked": false,
+          "label": "",
+          "previewType": "auto",
+          "col": 5,
+          "row": 1,
+          "colSpan": 6,
+          "rowSpan": 1,
+          "gridCols": 24,
+          "order": 2
+        },
+        {
+          "key": "targetDate",
+          "visible": true,
+          "width": "half",
+          "fieldBorder": true,
+          "locked": false,
+          "label": "",
+          "previewType": "auto",
+          "col": 1,
+          "row": 3,
+          "colSpan": 6,
+          "rowSpan": 1,
+          "gridCols": 24,
+          "order": 3
+        },
+        {
+          "key": "dueDate",
+          "visible": true,
+          "width": "half",
+          "fieldBorder": true,
+          "locked": false,
+          "label": "",
+          "previewType": "auto",
+          "col": 7,
+          "row": 3,
+          "colSpan": 6,
+          "rowSpan": 1,
+          "gridCols": 24,
+          "order": 4
+        },
+        {
+          "key": "customerCode",
+          "visible": true,
+          "width": "half",
+          "fieldBorder": true,
+          "locked": false,
+          "label": "",
+          "previewType": "auto",
+          "col": 1,
+          "row": 2,
+          "colSpan": 6,
+          "rowSpan": 1,
+          "gridCols": 24,
+          "order": 5
+        },
+        {
+          "key": "customerName",
+          "visible": true,
+          "width": "half",
+          "fieldBorder": true,
+          "locked": false,
+          "label": "",
+          "previewType": "auto",
+          "col": 7,
+          "row": 2,
+          "colSpan": 16,
+          "rowSpan": 1,
+          "gridCols": 24,
+          "order": 6
+        },
+        {
+          "key": "workflow",
+          "visible": true,
+          "width": "half",
+          "fieldBorder": true,
+          "locked": false,
+          "label": "",
+          "previewType": "auto",
+          "col": 11,
+          "row": 1,
+          "colSpan": 8,
+          "rowSpan": 1,
+          "gridCols": 24,
+          "order": 7
+        },
+        {
+          "key": "pgType",
+          "visible": true,
+          "width": "half",
+          "fieldBorder": true,
+          "locked": false,
+          "label": "",
+          "previewType": "auto",
+          "col": 5,
+          "row": 6,
+          "colSpan": 4,
+          "rowSpan": 1,
+          "gridCols": 24,
+          "order": 8
+        },
+        {
+          "key": "origin",
+          "visible": true,
+          "width": "half",
+          "fieldBorder": true,
+          "locked": false,
+          "label": "",
+          "previewType": "auto",
+          "col": 17,
+          "row": 3,
+          "colSpan": 6,
+          "rowSpan": 1,
+          "gridCols": 24,
+          "order": 9
+        },
+        {
+          "key": "salesPerson",
+          "visible": true,
+          "width": "half",
+          "fieldBorder": true,
+          "locked": false,
+          "label": "",
+          "previewType": "auto",
+          "col": 9,
+          "row": 6,
+          "colSpan": 4,
+          "rowSpan": 1,
+          "gridCols": 24,
+          "order": 10
+        },
+        {
+          "key": "rfq",
+          "visible": true,
+          "width": "half",
+          "fieldBorder": true,
+          "locked": false,
+          "label": "",
+          "previewType": "auto",
+          "col": 1,
+          "row": 4,
+          "colSpan": 10,
+          "rowSpan": 1,
+          "gridCols": 24,
+          "order": 11
+        },
+        {
+          "key": "bid",
+          "visible": true,
+          "width": "half",
+          "fieldBorder": true,
+          "locked": false,
+          "label": "",
+          "previewType": "auto",
+          "col": 1,
+          "row": 6,
+          "colSpan": 4,
+          "rowSpan": 1,
+          "gridCols": 24,
+          "order": 12
+        },
+        {
+          "key": "quoteTime",
+          "visible": true,
+          "width": "half",
+          "fieldBorder": true,
+          "locked": false,
+          "label": "",
+          "previewType": "auto",
+          "col": 13,
+          "row": 3,
+          "colSpan": 4,
+          "rowSpan": 1,
+          "gridCols": 24,
+          "order": 13
+        },
+        {
+          "key": "status",
+          "visible": true,
+          "width": "half",
+          "fieldBorder": true,
+          "locked": false,
+          "label": "",
+          "previewType": "auto",
+          "col": 19,
+          "row": 1,
+          "colSpan": 4,
+          "rowSpan": 1,
+          "gridCols": 24,
+          "order": 14
+        },
+        {
+          "key": "contactName",
+          "visible": true,
+          "width": "half",
+          "fieldBorder": true,
+          "locked": false,
+          "label": "",
+          "previewType": "auto",
+          "col": 11,
+          "row": 4,
+          "colSpan": 12,
+          "rowSpan": 1,
+          "gridCols": 24,
+          "order": 15
+        },
+        {
+          "key": "phone",
+          "visible": true,
+          "width": "half",
+          "fieldBorder": true,
+          "locked": false,
+          "label": "",
+          "previewType": "auto",
+          "col": 9,
+          "row": 5,
+          "colSpan": 8,
+          "rowSpan": 1,
+          "gridCols": 24,
+          "order": 16
+        },
+        {
+          "key": "email",
+          "visible": true,
+          "width": "half",
+          "fieldBorder": true,
+          "locked": false,
+          "label": "",
+          "previewType": "auto",
+          "col": 1,
+          "row": 5,
+          "colSpan": 8,
+          "rowSpan": 1,
+          "gridCols": 24,
+          "order": 17
+        },
+        {
+          "key": "contactSaveAction",
+          "visible": true,
+          "width": "half",
+          "fieldBorder": true,
+          "locked": false,
+          "label": "",
+          "previewType": "auto",
+          "col": 17,
+          "row": 5,
+          "colSpan": 6,
+          "rowSpan": 1,
+          "gridCols": 24,
+          "order": 18
+        },
+        {
+          "key": "totalItems",
+          "visible": true,
+          "width": "half",
+          "fieldBorder": true,
+          "locked": false,
+          "label": "",
+          "previewType": "auto",
+          "col": 7,
+          "row": 8,
+          "colSpan": 8,
+          "rowSpan": 1,
+          "gridCols": 24,
+          "order": 19
+        },
+        {
+          "key": "totalValue",
+          "visible": true,
+          "width": "half",
+          "fieldBorder": true,
+          "locked": false,
+          "label": "",
+          "previewType": "auto",
+          "col": 15,
+          "row": 8,
+          "colSpan": 8,
+          "rowSpan": 1,
+          "gridCols": 24,
+          "order": 20
+        },
+        {
+          "key": "itemLines",
+          "visible": true,
+          "width": "half",
+          "fieldBorder": true,
+          "locked": false,
+          "label": "",
+          "previewType": "auto",
+          "col": 1,
+          "row": 7,
+          "colSpan": 22,
+          "rowSpan": 1,
+          "gridCols": 24,
+          "order": 21
+        },
+        {
+          "key": "remarks",
+          "visible": true,
+          "width": "half",
+          "fieldBorder": true,
+          "locked": false,
+          "label": "",
+          "previewType": "auto",
+          "col": 1,
+          "row": 9,
+          "colSpan": 22,
+          "rowSpan": 1,
+          "gridCols": 24,
+          "order": 22
+        },
+        {
+          "key": "actions",
+          "visible": true,
+          "width": "half",
+          "fieldBorder": true,
+          "locked": false,
+          "label": "",
+          "previewType": "auto",
+          "col": 1,
+          "row": 10,
+          "colSpan": 22,
+          "rowSpan": 1,
+          "gridCols": 24,
+          "order": 23
+        }
+      ],
+      "customerFormLayout": [
+        {
+          "key": "custCode",
+          "visible": true,
+          "width": "half",
+          "order": 1
+        },
+        {
+          "key": "custName",
+          "visible": true,
+          "width": "half",
+          "order": 2
+        },
+        {
+          "key": "custNameAr",
+          "visible": true,
+          "width": "half",
+          "order": 3
+        },
+        {
+          "key": "custPgType",
+          "visible": true,
+          "width": "half",
+          "order": 4
+        },
+        {
+          "key": "custWebsite",
+          "visible": true,
+          "width": "half",
+          "order": 5
+        },
+        {
+          "key": "custSector",
+          "visible": true,
+          "width": "half",
+          "order": 6
+        },
+        {
+          "key": "custAreaCode",
+          "visible": true,
+          "width": "half",
+          "order": 7
+        },
+        {
+          "key": "custVT",
+          "visible": true,
+          "width": "half",
+          "order": 8
+        },
+        {
+          "key": "custVendor",
+          "visible": true,
+          "width": "half",
+          "order": 9
+        },
+        {
+          "key": "custRemark",
+          "visible": true,
+          "width": "full",
+          "order": 10
+        },
+        {
+          "key": "custActions",
+          "visible": true,
+          "width": "full",
+          "order": 11
+        }
+      ],
+      "formLayoutCanvas": {
+        "width": 783,
+        "height": 300,
+        "colSize": 41
+      },
+      "dashboardWidgets": [
+        "quotes_by_month_line",
+        "weekly_activity_line",
+        "active_vs_completed",
+        "status_count_value_combo",
+        "status_distribution",
+        "origin_distribution",
+        "sales_distribution",
+        "pg_distribution",
+        "top_customers_by_count",
+        "top_customers_by_value",
+        "aging_overview",
+        "completion_ratio"
+      ],
+      "dashboardWidgetTypes": {
+        "status_distribution": "bar",
+        "origin_distribution": "pie",
+        "sales_distribution": "pie",
+        "pg_distribution": "donut",
+        "aging_overview": "cards",
+        "completion_ratio": "cards",
+        "active_vs_completed": "donut",
+        "top_customers_by_count": "bar",
+        "top_customers_by_value": "bar",
+        "top_origins_by_value": "bar",
+        "top_sales_by_value": "bar",
+        "avg_value_by_status": "bar",
+        "quotes_by_weekday": "line",
+        "quotes_by_month_line": "line",
+        "weekly_activity_line": "line",
+        "status_count_value_combo": "combo",
+        "recent_7day_created": "cards",
+        "zero_value_quotes": "cards",
+        "high_value_quotes": "cards",
+        "no_contact_quotes": "cards",
+        "approval_pipeline": "bar",
+        "due_soon_vs_later": "donut"
+      },
+      "dashboardWidgetOrder": [
+        "status_distribution",
+        "origin_distribution",
+        "sales_distribution",
+        "pg_distribution",
+        "aging_overview",
+        "completion_ratio",
+        "active_vs_completed",
+        "top_customers_by_count",
+        "top_customers_by_value",
+        "top_origins_by_value",
+        "top_sales_by_value",
+        "avg_value_by_status",
+        "quotes_by_weekday",
+        "quotes_by_month_line",
+        "weekly_activity_line",
+        "status_count_value_combo",
+        "recent_7day_created",
+        "zero_value_quotes",
+        "high_value_quotes",
+        "no_contact_quotes",
+        "approval_pipeline",
+        "due_soon_vs_later"
+      ],
+      "dashboardMaxWidgets": 20,
+      "dashboardColumns": 3,
+      "pages": {
+        "customers": true,
+        "archived": true
+      }
+    },
+    {
+      "id": "gov_tender",
+      "name": "Purchased Tender (Government)",
+      "tagLabel": "Origin",
+      "subTagLabel": "Sub Tag",
+      "origins": [
+        "Etimad",
+        "NUPCO",
+        "Sales"
+      ],
+      "statusGroups": [
+        {
+          "name": "WIP",
+          "substatuses": [
+            "NOT STARTED",
+            "UNDER REVIEW",
+            "FOR APPROVAL"
+          ],
+          "isCompletion": false,
+          "showOnBoard": true,
+          "columnView": "default",
+          "color": "#1d4ed8",
+          "substatusColors": {
+            "NOT STARTED": "#1d4ed8",
+            "UNDER REVIEW": "#d97706",
+            "FOR APPROVAL": "#0f766e"
+          }
+        },
+        {
+          "name": "SUBMITTED",
+          "substatuses": [
+            "SUBMITTED"
+          ],
+          "isCompletion": true,
+          "showOnBoard": true,
+          "columnView": "default",
+          "color": "#16a34a",
+          "substatusColors": {
+            "SUBMITTED": "#16a34a"
+          }
+        },
+        {
+          "name": "NO BID",
+          "substatuses": [
+            "CLOSED",
+            "CANCELLED"
+          ],
+          "isCompletion": true,
+          "showOnBoard": true,
+          "columnView": "default",
+          "color": "#dc2626",
+          "substatusColors": {
+            "CLOSED": "#475569",
+            "CANCELLED": "#dc2626"
+          }
+        }
+      ],
+      "referenceFormula": "YYMMDD{SEQ}",
+      "referenceStartSequence": 6,
+      "referenceSequencePad": 2,
+      "originSalesMap": {
+        "Etimad": [
+          "Adnan",
+          "Sales 2"
+        ],
+        "NUPCO": [
+          "Adnan",
+          "Sales 2",
+          "Sales 3"
+        ],
+        "Sales": [
+          "Sales Team A",
+          "Sales Team B"
+        ]
+      },
+      "tagGroups": [
+        {
+          "id": "origin",
+          "name": "Origin",
+          "tags": [
+            {
+              "name": "Etimad",
+              "subtags": [
+                "Adnan",
+                "Sales 2"
+              ]
+            },
+            {
+              "name": "NUPCO",
+              "subtags": [
+                "Adnan",
+                "Sales 2",
+                "Sales 3"
+              ]
+            },
+            {
+              "name": "Sales",
+              "subtags": [
+                "Sales Team A",
+                "Sales Team B"
+              ]
+            }
+          ]
+        }
+      ],
+      "activeTagGroupId": "origin",
+      "taskSettings": {
+        "entityName": "Quotation",
+        "entityNamePlural": "Quotations",
+        "fieldCount": 17,
+        "optionalFieldKeys": [],
+        "customFieldPool": [],
+        "labels": {
+          "sn": "File No.",
+          "reference": "Reference",
+          "targetDate": "Target Date",
+          "dueDate": "Due Date",
+          "customerCode": "Customer Code",
+          "customerName": "Customer Name",
+          "rfq": "RFQ",
+          "bid": "Bid",
+          "status": "Status",
+          "pgType": "PG",
+          "quoteTime": "Time",
+          "contactName": "Contact Name",
+          "phone": "Phone",
+          "email": "Email",
+          "totalItems": "Total Items",
+          "totalValue": "Total Value",
+          "itemLines": "Item Lines",
+          "remarks": "Remarks",
+          "contactSaveAction": "Add Contact",
+          "actions": "Form Actions"
+        },
+        "fields": {}
+      },
+      "formLayout": [
+        {
+          "key": "sn",
+          "visible": true,
+          "width": "half",
+          "order": 1
+        },
+        {
+          "key": "reference",
+          "visible": true,
+          "width": "half",
+          "order": 2
+        },
+        {
+          "key": "targetDate",
+          "visible": true,
+          "width": "half",
+          "order": 3
+        },
+        {
+          "key": "dueDate",
+          "visible": true,
+          "width": "half",
+          "order": 4
+        },
+        {
+          "key": "customerCode",
+          "visible": true,
+          "width": "half",
+          "order": 5
+        },
+        {
+          "key": "customerName",
+          "visible": true,
+          "width": "half",
+          "order": 6
+        },
+        {
+          "key": "pgType",
+          "visible": true,
+          "width": "half",
+          "order": 7
+        },
+        {
+          "key": "origin",
+          "visible": true,
+          "width": "half",
+          "order": 8
+        },
+        {
+          "key": "salesPerson",
+          "visible": true,
+          "width": "half",
+          "order": 9
+        },
+        {
+          "key": "rfq",
+          "visible": true,
+          "width": "half",
+          "order": 10
+        },
+        {
+          "key": "bid",
+          "visible": true,
+          "width": "half",
+          "order": 11
+        },
+        {
+          "key": "quoteTime",
+          "visible": true,
+          "width": "half",
+          "order": 12
+        },
+        {
+          "key": "status",
+          "visible": true,
+          "width": "half",
+          "order": 13
+        },
+        {
+          "key": "contactName",
+          "visible": true,
+          "width": "half",
+          "order": 14
+        },
+        {
+          "key": "phone",
+          "visible": true,
+          "width": "half",
+          "order": 15
+        },
+        {
+          "key": "email",
+          "visible": true,
+          "width": "half",
+          "order": 16
+        },
+        {
+          "key": "contactSaveAction",
+          "visible": true,
+          "width": "half",
+          "order": 17
+        },
+        {
+          "key": "totalItems",
+          "visible": true,
+          "width": "half",
+          "order": 18
+        },
+        {
+          "key": "totalValue",
+          "visible": true,
+          "width": "half",
+          "order": 19
+        },
+        {
+          "key": "itemLines",
+          "visible": true,
+          "width": "full",
+          "order": 20
+        },
+        {
+          "key": "remarks",
+          "visible": true,
+          "width": "full",
+          "order": 21
+        },
+        {
+          "key": "actions",
+          "visible": true,
+          "width": "full",
+          "order": 22
+        }
+      ],
+      "customerFormLayout": [
+        {
+          "key": "custCode",
+          "visible": true,
+          "width": "half",
+          "order": 1
+        },
+        {
+          "key": "custName",
+          "visible": true,
+          "width": "half",
+          "order": 2
+        },
+        {
+          "key": "custNameAr",
+          "visible": true,
+          "width": "half",
+          "order": 3
+        },
+        {
+          "key": "custPgType",
+          "visible": true,
+          "width": "half",
+          "order": 4
+        },
+        {
+          "key": "custWebsite",
+          "visible": true,
+          "width": "half",
+          "order": 5
+        },
+        {
+          "key": "custSector",
+          "visible": true,
+          "width": "half",
+          "order": 6
+        },
+        {
+          "key": "custAreaCode",
+          "visible": true,
+          "width": "half",
+          "order": 7
+        },
+        {
+          "key": "custVT",
+          "visible": true,
+          "width": "half",
+          "order": 8
+        },
+        {
+          "key": "custVendor",
+          "visible": true,
+          "width": "half",
+          "order": 9
+        },
+        {
+          "key": "custRemark",
+          "visible": true,
+          "width": "full",
+          "order": 10
+        },
+        {
+          "key": "custActions",
+          "visible": true,
+          "width": "full",
+          "order": 11
+        }
+      ],
+      "formLayoutCanvas": {
+        "width": 783,
+        "height": 300,
+        "colSize": 41
+      },
+      "dashboardWidgets": [
+        "quotes_by_month_line",
+        "weekly_activity_line",
+        "active_vs_completed",
+        "status_count_value_combo",
+        "status_distribution",
+        "origin_distribution",
+        "sales_distribution",
+        "pg_distribution",
+        "top_customers_by_count",
+        "top_customers_by_value",
+        "aging_overview",
+        "completion_ratio"
+      ],
+      "dashboardWidgetTypes": {
+        "status_distribution": "bar",
+        "origin_distribution": "pie",
+        "sales_distribution": "pie",
+        "pg_distribution": "donut",
+        "aging_overview": "cards",
+        "completion_ratio": "cards",
+        "active_vs_completed": "donut",
+        "top_customers_by_count": "bar",
+        "top_customers_by_value": "bar",
+        "top_origins_by_value": "bar",
+        "top_sales_by_value": "bar",
+        "avg_value_by_status": "bar",
+        "quotes_by_weekday": "line",
+        "quotes_by_month_line": "line",
+        "weekly_activity_line": "line",
+        "status_count_value_combo": "combo",
+        "recent_7day_created": "cards",
+        "zero_value_quotes": "cards",
+        "high_value_quotes": "cards",
+        "no_contact_quotes": "cards",
+        "approval_pipeline": "bar",
+        "due_soon_vs_later": "donut"
+      },
+      "dashboardWidgetOrder": [
+        "status_distribution",
+        "origin_distribution",
+        "sales_distribution",
+        "pg_distribution",
+        "aging_overview",
+        "completion_ratio",
+        "active_vs_completed",
+        "top_customers_by_count",
+        "top_customers_by_value",
+        "top_origins_by_value",
+        "top_sales_by_value",
+        "avg_value_by_status",
+        "quotes_by_weekday",
+        "quotes_by_month_line",
+        "weekly_activity_line",
+        "status_count_value_combo",
+        "recent_7day_created",
+        "zero_value_quotes",
+        "high_value_quotes",
+        "no_contact_quotes",
+        "approval_pipeline",
+        "due_soon_vs_later"
+      ],
+      "dashboardMaxWidgets": 20,
+      "dashboardColumns": 3,
+      "pages": {
+        "customers": true,
+        "archived": true
+      }
+    },
+    {
+      "id": "private_tender",
+      "name": "Private Tender",
+      "tagLabel": "Origin",
+      "subTagLabel": "Sub Tag",
+      "origins": [],
+      "statusGroups": [
+        {
+          "name": "WIP",
+          "substatuses": [
+            "NOT STARTED",
+            "UNDER REVIEW",
+            "FOR APPROVAL",
+            "STD"
+          ],
+          "isCompletion": false,
+          "showOnBoard": true,
+          "columnView": "default",
+          "color": "#2563eb",
+          "substatusColors": {
+            "NOT STARTED": "#2563eb",
+            "UNDER REVIEW": "#d97706",
+            "FOR APPROVAL": "#0f766e",
+            "STD": "#16a34a"
+          }
+        },
+        {
+          "name": "NO BID",
+          "substatuses": [
+            "CLOSED",
+            "CANCELLED",
+            "DROPPED"
+          ],
+          "isCompletion": true,
+          "showOnBoard": true,
+          "columnView": "default",
+          "color": "#dc2626",
+          "substatusColors": {
+            "CLOSED": "#475569",
+            "CANCELLED": "#dc2626",
+            "DROPPED": "#7c3aed"
+          }
+        },
+        {
+          "name": "SUBMITTED",
+          "substatuses": [
+            "SUBMITTED"
+          ],
+          "isCompletion": true,
+          "showOnBoard": true,
+          "columnView": "default",
+          "color": "#16a34a",
+          "substatusColors": {
+            "SUBMITTED": "#16a34a"
+          }
+        }
+      ],
+      "referenceFormula": "YYMMDD{SEQ}",
+      "referenceStartSequence": 6,
+      "referenceSequencePad": 2,
+      "originSalesMap": {},
+      "tagGroups": [
+        {
+          "id": "origin",
+          "name": "Origin",
+          "tags": []
+        }
+      ],
+      "activeTagGroupId": "origin",
+      "taskSettings": {
+        "entityName": "Quotation",
+        "entityNamePlural": "Quotations",
+        "fieldCount": 17,
+        "optionalFieldKeys": [],
+        "customFieldPool": [],
+        "labels": {
+          "sn": "File No.",
+          "reference": "Reference",
+          "targetDate": "Target Date",
+          "dueDate": "Due Date",
+          "customerCode": "Customer Code",
+          "customerName": "Customer Name",
+          "rfq": "RFQ",
+          "bid": "Bid",
+          "status": "Status",
+          "pgType": "PG",
+          "quoteTime": "Time",
+          "contactName": "Contact Name",
+          "phone": "Phone",
+          "email": "Email",
+          "totalItems": "Total Items",
+          "totalValue": "Total Value",
+          "itemLines": "Item Lines",
+          "remarks": "Remarks",
+          "contactSaveAction": "Add Contact",
+          "actions": "Form Actions"
+        },
+        "fields": {}
+      },
+      "formLayout": [
+        {
+          "key": "sn",
+          "visible": true,
+          "width": "half",
+          "order": 1
+        },
+        {
+          "key": "reference",
+          "visible": true,
+          "width": "half",
+          "order": 2
+        },
+        {
+          "key": "targetDate",
+          "visible": true,
+          "width": "half",
+          "order": 3
+        },
+        {
+          "key": "dueDate",
+          "visible": true,
+          "width": "half",
+          "order": 4
+        },
+        {
+          "key": "customerCode",
+          "visible": true,
+          "width": "half",
+          "order": 5
+        },
+        {
+          "key": "customerName",
+          "visible": true,
+          "width": "half",
+          "order": 6
+        },
+        {
+          "key": "pgType",
+          "visible": true,
+          "width": "half",
+          "order": 7
+        },
+        {
+          "key": "origin",
+          "visible": true,
+          "width": "half",
+          "order": 8
+        },
+        {
+          "key": "salesPerson",
+          "visible": true,
+          "width": "half",
+          "order": 9
+        },
+        {
+          "key": "rfq",
+          "visible": true,
+          "width": "half",
+          "order": 10
+        },
+        {
+          "key": "bid",
+          "visible": true,
+          "width": "half",
+          "order": 11
+        },
+        {
+          "key": "quoteTime",
+          "visible": true,
+          "width": "half",
+          "order": 12
+        },
+        {
+          "key": "status",
+          "visible": true,
+          "width": "half",
+          "order": 13
+        },
+        {
+          "key": "contactName",
+          "visible": true,
+          "width": "half",
+          "order": 14
+        },
+        {
+          "key": "phone",
+          "visible": true,
+          "width": "half",
+          "order": 15
+        },
+        {
+          "key": "email",
+          "visible": true,
+          "width": "half",
+          "order": 16
+        },
+        {
+          "key": "contactSaveAction",
+          "visible": true,
+          "width": "half",
+          "order": 17
+        },
+        {
+          "key": "totalItems",
+          "visible": true,
+          "width": "half",
+          "order": 18
+        },
+        {
+          "key": "totalValue",
+          "visible": true,
+          "width": "half",
+          "order": 19
+        },
+        {
+          "key": "itemLines",
+          "visible": true,
+          "width": "full",
+          "order": 20
+        },
+        {
+          "key": "remarks",
+          "visible": true,
+          "width": "full",
+          "order": 21
+        },
+        {
+          "key": "actions",
+          "visible": true,
+          "width": "full",
+          "order": 22
+        }
+      ],
+      "customerFormLayout": [
+        {
+          "key": "custCode",
+          "visible": true,
+          "width": "half",
+          "order": 1
+        },
+        {
+          "key": "custName",
+          "visible": true,
+          "width": "half",
+          "order": 2
+        },
+        {
+          "key": "custNameAr",
+          "visible": true,
+          "width": "half",
+          "order": 3
+        },
+        {
+          "key": "custPgType",
+          "visible": true,
+          "width": "half",
+          "order": 4
+        },
+        {
+          "key": "custWebsite",
+          "visible": true,
+          "width": "half",
+          "order": 5
+        },
+        {
+          "key": "custSector",
+          "visible": true,
+          "width": "half",
+          "order": 6
+        },
+        {
+          "key": "custAreaCode",
+          "visible": true,
+          "width": "half",
+          "order": 7
+        },
+        {
+          "key": "custVT",
+          "visible": true,
+          "width": "half",
+          "order": 8
+        },
+        {
+          "key": "custVendor",
+          "visible": true,
+          "width": "half",
+          "order": 9
+        },
+        {
+          "key": "custRemark",
+          "visible": true,
+          "width": "full",
+          "order": 10
+        },
+        {
+          "key": "custActions",
+          "visible": true,
+          "width": "full",
+          "order": 11
+        }
+      ],
+      "formLayoutCanvas": {
+        "width": 783,
+        "height": 300,
+        "colSize": 41
+      },
+      "dashboardWidgets": [
+        "quotes_by_month_line",
+        "weekly_activity_line",
+        "active_vs_completed",
+        "status_count_value_combo",
+        "status_distribution",
+        "origin_distribution",
+        "sales_distribution",
+        "pg_distribution",
+        "top_customers_by_count",
+        "top_customers_by_value",
+        "aging_overview",
+        "completion_ratio"
+      ],
+      "dashboardWidgetTypes": {
+        "status_distribution": "bar",
+        "origin_distribution": "pie",
+        "sales_distribution": "pie",
+        "pg_distribution": "donut",
+        "aging_overview": "cards",
+        "completion_ratio": "cards",
+        "active_vs_completed": "donut",
+        "top_customers_by_count": "bar",
+        "top_customers_by_value": "bar",
+        "top_origins_by_value": "bar",
+        "top_sales_by_value": "bar",
+        "avg_value_by_status": "bar",
+        "quotes_by_weekday": "line",
+        "quotes_by_month_line": "line",
+        "weekly_activity_line": "line",
+        "status_count_value_combo": "combo",
+        "recent_7day_created": "cards",
+        "zero_value_quotes": "cards",
+        "high_value_quotes": "cards",
+        "no_contact_quotes": "cards",
+        "approval_pipeline": "bar",
+        "due_soon_vs_later": "donut"
+      },
+      "dashboardWidgetOrder": [
+        "status_distribution",
+        "origin_distribution",
+        "sales_distribution",
+        "pg_distribution",
+        "aging_overview",
+        "completion_ratio",
+        "active_vs_completed",
+        "top_customers_by_count",
+        "top_customers_by_value",
+        "top_origins_by_value",
+        "top_sales_by_value",
+        "avg_value_by_status",
+        "quotes_by_weekday",
+        "quotes_by_month_line",
+        "weekly_activity_line",
+        "status_count_value_combo",
+        "recent_7day_created",
+        "zero_value_quotes",
+        "high_value_quotes",
+        "no_contact_quotes",
+        "approval_pipeline",
+        "due_soon_vs_later"
+      ],
+      "dashboardMaxWidgets": 20,
+      "dashboardColumns": 3,
+      "pages": {
+        "customers": true,
+        "archived": true
+      }
+    },
+    {
+      "id": "other_projects",
+      "name": "Other Projects",
+      "tagLabel": "Origin",
+      "subTagLabel": "Sub Tag",
+      "origins": [
+        "Sales",
+        "Engineering",
+        "E-Purchasing"
+      ],
+      "statusGroups": [
+        {
+          "name": "WIP",
+          "substatuses": [
+            "NOT STARTED",
+            "UNDER REVIEW"
+          ],
+          "isCompletion": false,
+          "showOnBoard": true,
+          "columnView": "default",
+          "color": "#2563eb",
+          "substatusColors": {
+            "NOT STARTED": "#2563eb",
+            "UNDER REVIEW": "#d97706"
+          }
+        },
+        {
+          "name": "SUBMITTED",
+          "substatuses": [
+            "SUBMITTED"
+          ],
+          "isCompletion": true,
+          "showOnBoard": true,
+          "columnView": "default",
+          "color": "#16a34a",
+          "substatusColors": {
+            "SUBMITTED": "#16a34a"
+          }
+        },
+        {
+          "name": "NO BID",
+          "substatuses": [
+            "CLOSED",
+            "CANCELLED",
+            "DROPPED"
+          ],
+          "isCompletion": true,
+          "showOnBoard": true,
+          "columnView": "default",
+          "color": "#dc2626",
+          "substatusColors": {
+            "CLOSED": "#475569",
+            "CANCELLED": "#dc2626",
+            "DROPPED": "#7c3aed"
+          }
+        }
+      ],
+      "referenceFormula": "YYMMDD{SEQ}",
+      "referenceStartSequence": 6,
+      "referenceSequencePad": 2,
+      "originSalesMap": {
+        "Sales": [
+          "Sales Team A",
+          "Sales Team B"
+        ],
+        "Engineering": [
+          "Engineer 1",
+          "Engineer 2"
+        ],
+        "E-Purchasing": [
+          "Customer Code Based"
+        ]
+      },
+      "tagGroups": [
+        {
+          "id": "origin",
+          "name": "Origin",
+          "tags": [
+            {
+              "name": "Sales",
+              "subtags": [
+                "Sales Team A",
+                "Sales Team B"
+              ]
+            },
+            {
+              "name": "Engineering",
+              "subtags": [
+                "Engineer 1",
+                "Engineer 2"
+              ]
+            },
+            {
+              "name": "E-Purchasing",
+              "subtags": [
+                "Customer Code Based"
+              ]
+            }
+          ]
+        }
+      ],
+      "activeTagGroupId": "origin",
+      "taskSettings": {
+        "entityName": "Quotation",
+        "entityNamePlural": "Quotations",
+        "fieldCount": 17,
+        "optionalFieldKeys": [],
+        "customFieldPool": [],
+        "labels": {
+          "sn": "File No.",
+          "reference": "Reference",
+          "targetDate": "Target Date",
+          "dueDate": "Due Date",
+          "customerCode": "Customer Code",
+          "customerName": "Customer Name",
+          "rfq": "RFQ",
+          "bid": "Bid",
+          "status": "Status",
+          "pgType": "PG",
+          "quoteTime": "Time",
+          "contactName": "Contact Name",
+          "phone": "Phone",
+          "email": "Email",
+          "totalItems": "Total Items",
+          "totalValue": "Total Value",
+          "itemLines": "Item Lines",
+          "remarks": "Remarks",
+          "contactSaveAction": "Add Contact",
+          "actions": "Form Actions"
+        },
+        "fields": {}
+      },
+      "formLayout": [
+        {
+          "key": "sn",
+          "visible": true,
+          "width": "half",
+          "order": 1
+        },
+        {
+          "key": "reference",
+          "visible": true,
+          "width": "half",
+          "order": 2
+        },
+        {
+          "key": "targetDate",
+          "visible": true,
+          "width": "half",
+          "order": 3
+        },
+        {
+          "key": "dueDate",
+          "visible": true,
+          "width": "half",
+          "order": 4
+        },
+        {
+          "key": "customerCode",
+          "visible": true,
+          "width": "half",
+          "order": 5
+        },
+        {
+          "key": "customerName",
+          "visible": true,
+          "width": "half",
+          "order": 6
+        },
+        {
+          "key": "pgType",
+          "visible": true,
+          "width": "half",
+          "order": 7
+        },
+        {
+          "key": "origin",
+          "visible": true,
+          "width": "half",
+          "order": 8
+        },
+        {
+          "key": "salesPerson",
+          "visible": true,
+          "width": "half",
+          "order": 9
+        },
+        {
+          "key": "rfq",
+          "visible": true,
+          "width": "half",
+          "order": 10
+        },
+        {
+          "key": "bid",
+          "visible": true,
+          "width": "half",
+          "order": 11
+        },
+        {
+          "key": "quoteTime",
+          "visible": true,
+          "width": "half",
+          "order": 12
+        },
+        {
+          "key": "status",
+          "visible": true,
+          "width": "half",
+          "order": 13
+        },
+        {
+          "key": "contactName",
+          "visible": true,
+          "width": "half",
+          "order": 14
+        },
+        {
+          "key": "phone",
+          "visible": true,
+          "width": "half",
+          "order": 15
+        },
+        {
+          "key": "email",
+          "visible": true,
+          "width": "half",
+          "order": 16
+        },
+        {
+          "key": "contactSaveAction",
+          "visible": true,
+          "width": "half",
+          "order": 17
+        },
+        {
+          "key": "totalItems",
+          "visible": true,
+          "width": "half",
+          "order": 18
+        },
+        {
+          "key": "totalValue",
+          "visible": true,
+          "width": "half",
+          "order": 19
+        },
+        {
+          "key": "itemLines",
+          "visible": true,
+          "width": "full",
+          "order": 20
+        },
+        {
+          "key": "remarks",
+          "visible": true,
+          "width": "full",
+          "order": 21
+        },
+        {
+          "key": "actions",
+          "visible": true,
+          "width": "full",
+          "order": 22
+        }
+      ],
+      "customerFormLayout": [
+        {
+          "key": "custCode",
+          "visible": true,
+          "width": "half",
+          "order": 1
+        },
+        {
+          "key": "custName",
+          "visible": true,
+          "width": "half",
+          "order": 2
+        },
+        {
+          "key": "custNameAr",
+          "visible": true,
+          "width": "half",
+          "order": 3
+        },
+        {
+          "key": "custPgType",
+          "visible": true,
+          "width": "half",
+          "order": 4
+        },
+        {
+          "key": "custWebsite",
+          "visible": true,
+          "width": "half",
+          "order": 5
+        },
+        {
+          "key": "custSector",
+          "visible": true,
+          "width": "half",
+          "order": 6
+        },
+        {
+          "key": "custAreaCode",
+          "visible": true,
+          "width": "half",
+          "order": 7
+        },
+        {
+          "key": "custVT",
+          "visible": true,
+          "width": "half",
+          "order": 8
+        },
+        {
+          "key": "custVendor",
+          "visible": true,
+          "width": "half",
+          "order": 9
+        },
+        {
+          "key": "custRemark",
+          "visible": true,
+          "width": "full",
+          "order": 10
+        },
+        {
+          "key": "custActions",
+          "visible": true,
+          "width": "full",
+          "order": 11
+        }
+      ],
+      "formLayoutCanvas": {
+        "width": 783,
+        "height": 300,
+        "colSize": 41
+      },
+      "dashboardWidgets": [
+        "quotes_by_month_line",
+        "weekly_activity_line",
+        "active_vs_completed",
+        "status_count_value_combo",
+        "status_distribution",
+        "origin_distribution",
+        "sales_distribution",
+        "pg_distribution",
+        "top_customers_by_count",
+        "top_customers_by_value",
+        "aging_overview",
+        "completion_ratio"
+      ],
+      "dashboardWidgetTypes": {
+        "status_distribution": "bar",
+        "origin_distribution": "pie",
+        "sales_distribution": "pie",
+        "pg_distribution": "donut",
+        "aging_overview": "cards",
+        "completion_ratio": "cards",
+        "active_vs_completed": "donut",
+        "top_customers_by_count": "bar",
+        "top_customers_by_value": "bar",
+        "top_origins_by_value": "bar",
+        "top_sales_by_value": "bar",
+        "avg_value_by_status": "bar",
+        "quotes_by_weekday": "line",
+        "quotes_by_month_line": "line",
+        "weekly_activity_line": "line",
+        "status_count_value_combo": "combo",
+        "recent_7day_created": "cards",
+        "zero_value_quotes": "cards",
+        "high_value_quotes": "cards",
+        "no_contact_quotes": "cards",
+        "approval_pipeline": "bar",
+        "due_soon_vs_later": "donut"
+      },
+      "dashboardWidgetOrder": [
+        "status_distribution",
+        "origin_distribution",
+        "sales_distribution",
+        "pg_distribution",
+        "aging_overview",
+        "completion_ratio",
+        "active_vs_completed",
+        "top_customers_by_count",
+        "top_customers_by_value",
+        "top_origins_by_value",
+        "top_sales_by_value",
+        "avg_value_by_status",
+        "quotes_by_weekday",
+        "quotes_by_month_line",
+        "weekly_activity_line",
+        "status_count_value_combo",
+        "recent_7day_created",
+        "zero_value_quotes",
+        "high_value_quotes",
+        "no_contact_quotes",
+        "approval_pipeline",
+        "due_soon_vs_later"
+      ],
+      "dashboardMaxWidgets": 20,
+      "dashboardColumns": 3,
+      "pages": {
+        "customers": true,
+        "archived": true
+      }
+    },
+    {
+      "id": "new_tracker",
+      "name": "New Tracker",
+      "tagLabel": "Origin",
+      "subTagLabel": "Sub Tag",
+      "origins": [],
+      "statusGroups": [
+        {
+          "name": "WIP",
+          "substatuses": [
+            "NOT STARTED",
+            "UNDER REVIEW",
+            "FOR APPROVAL",
+            "STD"
+          ],
+          "isCompletion": false,
+          "showOnBoard": true,
+          "columnView": "default",
+          "color": "#2563eb",
+          "substatusColors": {
+            "NOT STARTED": "#2563eb",
+            "UNDER REVIEW": "#d97706",
+            "FOR APPROVAL": "#0f766e",
+            "STD": "#16a34a"
+          }
+        },
+        {
+          "name": "NO BID",
+          "substatuses": [
+            "CLOSED",
+            "CANCELLED",
+            "DROPPED"
+          ],
+          "isCompletion": true,
+          "showOnBoard": true,
+          "columnView": "default",
+          "color": "#dc2626",
+          "substatusColors": {
+            "CLOSED": "#475569",
+            "CANCELLED": "#dc2626",
+            "DROPPED": "#7c3aed"
+          }
+        },
+        {
+          "name": "SUBMITTED",
+          "substatuses": [
+            "SUBMITTED"
+          ],
+          "isCompletion": true,
+          "showOnBoard": true,
+          "columnView": "default",
+          "color": "#16a34a",
+          "substatusColors": {
+            "SUBMITTED": "#16a34a"
+          }
+        }
+      ],
+      "referenceFormula": "YYMMDD{SEQ}",
+      "referenceStartSequence": 6,
+      "referenceSequencePad": 2,
+      "originSalesMap": {},
+      "tagGroups": [
+        {
+          "id": "origin",
+          "name": "Origin",
+          "tags": []
+        }
+      ],
+      "activeTagGroupId": "origin",
+      "taskSettings": {
+        "entityName": "Quotation",
+        "entityNamePlural": "Quotations",
+        "fieldCount": 17,
+        "optionalFieldKeys": [],
+        "customFieldPool": [],
+        "labels": {
+          "sn": "File No.",
+          "reference": "Reference",
+          "targetDate": "Target Date",
+          "dueDate": "Due Date",
+          "customerCode": "Customer Code",
+          "customerName": "Customer Name",
+          "rfq": "RFQ",
+          "bid": "Bid",
+          "status": "Status",
+          "pgType": "PG",
+          "quoteTime": "Time",
+          "contactName": "Contact Name",
+          "phone": "Phone",
+          "email": "Email",
+          "totalItems": "Total Items",
+          "totalValue": "Total Value",
+          "itemLines": "Item Lines",
+          "remarks": "Remarks",
+          "contactSaveAction": "Add Contact",
+          "actions": "Form Actions"
+        },
+        "fields": {}
+      },
+      "formLayout": [
+        {
+          "key": "sn",
+          "visible": true,
+          "width": "half",
+          "order": 1
+        },
+        {
+          "key": "reference",
+          "visible": true,
+          "width": "half",
+          "order": 2
+        },
+        {
+          "key": "targetDate",
+          "visible": true,
+          "width": "half",
+          "order": 3
+        },
+        {
+          "key": "dueDate",
+          "visible": true,
+          "width": "half",
+          "order": 4
+        },
+        {
+          "key": "customerCode",
+          "visible": true,
+          "width": "half",
+          "order": 5
+        },
+        {
+          "key": "customerName",
+          "visible": true,
+          "width": "half",
+          "order": 6
+        },
+        {
+          "key": "pgType",
+          "visible": true,
+          "width": "half",
+          "order": 7
+        },
+        {
+          "key": "origin",
+          "visible": true,
+          "width": "half",
+          "order": 8
+        },
+        {
+          "key": "salesPerson",
+          "visible": true,
+          "width": "half",
+          "order": 9
+        },
+        {
+          "key": "rfq",
+          "visible": true,
+          "width": "half",
+          "order": 10
+        },
+        {
+          "key": "bid",
+          "visible": true,
+          "width": "half",
+          "order": 11
+        },
+        {
+          "key": "quoteTime",
+          "visible": true,
+          "width": "half",
+          "order": 12
+        },
+        {
+          "key": "status",
+          "visible": true,
+          "width": "half",
+          "order": 13
+        },
+        {
+          "key": "contactName",
+          "visible": true,
+          "width": "half",
+          "order": 14
+        },
+        {
+          "key": "phone",
+          "visible": true,
+          "width": "half",
+          "order": 15
+        },
+        {
+          "key": "email",
+          "visible": true,
+          "width": "half",
+          "order": 16
+        },
+        {
+          "key": "contactSaveAction",
+          "visible": true,
+          "width": "half",
+          "order": 17
+        },
+        {
+          "key": "totalItems",
+          "visible": true,
+          "width": "half",
+          "order": 18
+        },
+        {
+          "key": "totalValue",
+          "visible": true,
+          "width": "half",
+          "order": 19
+        },
+        {
+          "key": "itemLines",
+          "visible": true,
+          "width": "full",
+          "order": 20
+        },
+        {
+          "key": "remarks",
+          "visible": true,
+          "width": "full",
+          "order": 21
+        },
+        {
+          "key": "actions",
+          "visible": true,
+          "width": "full",
+          "order": 22
+        }
+      ],
+      "customerFormLayout": [
+        {
+          "key": "custCode",
+          "visible": true,
+          "width": "half",
+          "order": 1
+        },
+        {
+          "key": "custName",
+          "visible": true,
+          "width": "half",
+          "order": 2
+        },
+        {
+          "key": "custNameAr",
+          "visible": true,
+          "width": "half",
+          "order": 3
+        },
+        {
+          "key": "custPgType",
+          "visible": true,
+          "width": "half",
+          "order": 4
+        },
+        {
+          "key": "custWebsite",
+          "visible": true,
+          "width": "half",
+          "order": 5
+        },
+        {
+          "key": "custSector",
+          "visible": true,
+          "width": "half",
+          "order": 6
+        },
+        {
+          "key": "custAreaCode",
+          "visible": true,
+          "width": "half",
+          "order": 7
+        },
+        {
+          "key": "custVT",
+          "visible": true,
+          "width": "half",
+          "order": 8
+        },
+        {
+          "key": "custVendor",
+          "visible": true,
+          "width": "half",
+          "order": 9
+        },
+        {
+          "key": "custRemark",
+          "visible": true,
+          "width": "full",
+          "order": 10
+        },
+        {
+          "key": "custActions",
+          "visible": true,
+          "width": "full",
+          "order": 11
+        }
+      ],
+      "formLayoutCanvas": {
+        "width": 783,
+        "height": 300,
+        "colSize": 41
+      },
+      "dashboardWidgets": [
+        "quotes_by_month_line",
+        "weekly_activity_line",
+        "active_vs_completed",
+        "status_count_value_combo",
+        "status_distribution",
+        "origin_distribution",
+        "sales_distribution",
+        "pg_distribution",
+        "top_customers_by_count",
+        "top_customers_by_value",
+        "aging_overview",
+        "completion_ratio"
+      ],
+      "dashboardWidgetTypes": {
+        "status_distribution": "bar",
+        "origin_distribution": "pie",
+        "sales_distribution": "pie",
+        "pg_distribution": "donut",
+        "aging_overview": "cards",
+        "completion_ratio": "cards",
+        "active_vs_completed": "donut",
+        "top_customers_by_count": "bar",
+        "top_customers_by_value": "bar",
+        "top_origins_by_value": "bar",
+        "top_sales_by_value": "bar",
+        "avg_value_by_status": "bar",
+        "quotes_by_weekday": "line",
+        "quotes_by_month_line": "line",
+        "weekly_activity_line": "line",
+        "status_count_value_combo": "combo",
+        "recent_7day_created": "cards",
+        "zero_value_quotes": "cards",
+        "high_value_quotes": "cards",
+        "no_contact_quotes": "cards",
+        "approval_pipeline": "bar",
+        "due_soon_vs_later": "donut"
+      },
+      "dashboardWidgetOrder": [
+        "status_distribution",
+        "origin_distribution",
+        "sales_distribution",
+        "pg_distribution",
+        "aging_overview",
+        "completion_ratio",
+        "active_vs_completed",
+        "top_customers_by_count",
+        "top_customers_by_value",
+        "top_origins_by_value",
+        "top_sales_by_value",
+        "avg_value_by_status",
+        "quotes_by_weekday",
+        "quotes_by_month_line",
+        "weekly_activity_line",
+        "status_count_value_combo",
+        "recent_7day_created",
+        "zero_value_quotes",
+        "high_value_quotes",
+        "no_contact_quotes",
+        "approval_pipeline",
+        "due_soon_vs_later"
+      ],
+      "dashboardMaxWidgets": 20,
+      "dashboardColumns": 3,
+      "pages": {
+        "customers": true,
+        "archived": true
+      }
+    }
+  ],
+  "activeWorkflowId": "direct_purchase",
+  "tagLabel": "Origin",
+  "subTagLabel": "Sub Tag",
   "origins": [
     "NUPCO",
     "Etimad",
@@ -15,6 +2253,545 @@
     "DROPPED",
     "CANCELLED"
   ],
+  "kanbanColumnMode": "sub",
+  "statusGroups": [
+    {
+      "name": "WIP",
+      "substatuses": [
+        "NOT STARTED",
+        "STARTED",
+        "UNDER REVIEW",
+        "FOR APPROVAL"
+      ],
+      "isCompletion": true,
+      "showOnBoard": false,
+      "columnView": "default",
+      "color": "#2563eb",
+      "substatusColors": {
+        "NOT STARTED": "#2563eb",
+        "STARTED": "#24eb31",
+        "UNDER REVIEW": "#d97706",
+        "FOR APPROVAL": "#0f766e"
+      }
+    },
+    {
+      "name": "NO BID",
+      "substatuses": [
+        "CLOSED",
+        "CANCELLED",
+        "DROPPED"
+      ],
+      "isCompletion": true,
+      "showOnBoard": false,
+      "columnView": "default",
+      "color": "#dc2626",
+      "substatusColors": {
+        "CLOSED": "#475569",
+        "CANCELLED": "#dc2626",
+        "DROPPED": "#7c3aed"
+      }
+    },
+    {
+      "name": "SUBMITTED",
+      "substatuses": [
+        "SUBMITTED"
+      ],
+      "isCompletion": true,
+      "showOnBoard": false,
+      "columnView": "default",
+      "color": "#16a34a",
+      "substatusColors": {
+        "SUBMITTED": "#16a34a"
+      }
+    }
+  ],
+  "referenceFormula": "YYMMDD{SEQ}",
+  "referenceStartSequence": 6,
+  "referenceSequencePad": 2,
+  "formLayout": [
+    {
+      "key": "sn",
+      "visible": true,
+      "width": "half",
+      "fieldBorder": true,
+      "locked": false,
+      "label": "",
+      "previewType": "auto",
+      "col": 1,
+      "row": 1,
+      "colSpan": 4,
+      "rowSpan": 1,
+      "gridCols": 24,
+      "order": 1
+    },
+    {
+      "key": "reference",
+      "visible": true,
+      "width": "half",
+      "fieldBorder": true,
+      "locked": false,
+      "label": "",
+      "previewType": "auto",
+      "col": 5,
+      "row": 1,
+      "colSpan": 6,
+      "rowSpan": 1,
+      "gridCols": 24,
+      "order": 2
+    },
+    {
+      "key": "targetDate",
+      "visible": true,
+      "width": "half",
+      "fieldBorder": true,
+      "locked": false,
+      "label": "",
+      "previewType": "auto",
+      "col": 1,
+      "row": 3,
+      "colSpan": 6,
+      "rowSpan": 1,
+      "gridCols": 24,
+      "order": 3
+    },
+    {
+      "key": "dueDate",
+      "visible": true,
+      "width": "half",
+      "fieldBorder": true,
+      "locked": false,
+      "label": "",
+      "previewType": "auto",
+      "col": 7,
+      "row": 3,
+      "colSpan": 6,
+      "rowSpan": 1,
+      "gridCols": 24,
+      "order": 4
+    },
+    {
+      "key": "customerCode",
+      "visible": true,
+      "width": "half",
+      "fieldBorder": true,
+      "locked": false,
+      "label": "",
+      "previewType": "auto",
+      "col": 1,
+      "row": 2,
+      "colSpan": 6,
+      "rowSpan": 1,
+      "gridCols": 24,
+      "order": 5
+    },
+    {
+      "key": "customerName",
+      "visible": true,
+      "width": "half",
+      "fieldBorder": true,
+      "locked": false,
+      "label": "",
+      "previewType": "auto",
+      "col": 7,
+      "row": 2,
+      "colSpan": 16,
+      "rowSpan": 1,
+      "gridCols": 24,
+      "order": 6
+    },
+    {
+      "key": "workflow",
+      "visible": true,
+      "width": "half",
+      "fieldBorder": true,
+      "locked": false,
+      "label": "",
+      "previewType": "auto",
+      "col": 11,
+      "row": 1,
+      "colSpan": 8,
+      "rowSpan": 1,
+      "gridCols": 24,
+      "order": 7
+    },
+    {
+      "key": "pgType",
+      "visible": true,
+      "width": "half",
+      "fieldBorder": true,
+      "locked": false,
+      "label": "",
+      "previewType": "auto",
+      "col": 5,
+      "row": 6,
+      "colSpan": 4,
+      "rowSpan": 1,
+      "gridCols": 24,
+      "order": 8
+    },
+    {
+      "key": "origin",
+      "visible": true,
+      "width": "half",
+      "fieldBorder": true,
+      "locked": false,
+      "label": "",
+      "previewType": "auto",
+      "col": 17,
+      "row": 3,
+      "colSpan": 6,
+      "rowSpan": 1,
+      "gridCols": 24,
+      "order": 9
+    },
+    {
+      "key": "salesPerson",
+      "visible": true,
+      "width": "half",
+      "fieldBorder": true,
+      "locked": false,
+      "label": "",
+      "previewType": "auto",
+      "col": 9,
+      "row": 6,
+      "colSpan": 4,
+      "rowSpan": 1,
+      "gridCols": 24,
+      "order": 10
+    },
+    {
+      "key": "rfq",
+      "visible": true,
+      "width": "half",
+      "fieldBorder": true,
+      "locked": false,
+      "label": "",
+      "previewType": "auto",
+      "col": 1,
+      "row": 4,
+      "colSpan": 10,
+      "rowSpan": 1,
+      "gridCols": 24,
+      "order": 11
+    },
+    {
+      "key": "bid",
+      "visible": true,
+      "width": "half",
+      "fieldBorder": true,
+      "locked": false,
+      "label": "",
+      "previewType": "auto",
+      "col": 1,
+      "row": 6,
+      "colSpan": 4,
+      "rowSpan": 1,
+      "gridCols": 24,
+      "order": 12
+    },
+    {
+      "key": "quoteTime",
+      "visible": true,
+      "width": "half",
+      "fieldBorder": true,
+      "locked": false,
+      "label": "",
+      "previewType": "auto",
+      "col": 13,
+      "row": 3,
+      "colSpan": 4,
+      "rowSpan": 1,
+      "gridCols": 24,
+      "order": 13
+    },
+    {
+      "key": "status",
+      "visible": true,
+      "width": "half",
+      "fieldBorder": true,
+      "locked": false,
+      "label": "",
+      "previewType": "auto",
+      "col": 19,
+      "row": 1,
+      "colSpan": 4,
+      "rowSpan": 1,
+      "gridCols": 24,
+      "order": 14
+    },
+    {
+      "key": "contactName",
+      "visible": true,
+      "width": "half",
+      "fieldBorder": true,
+      "locked": false,
+      "label": "",
+      "previewType": "auto",
+      "col": 11,
+      "row": 4,
+      "colSpan": 12,
+      "rowSpan": 1,
+      "gridCols": 24,
+      "order": 15
+    },
+    {
+      "key": "phone",
+      "visible": true,
+      "width": "half",
+      "fieldBorder": true,
+      "locked": false,
+      "label": "",
+      "previewType": "auto",
+      "col": 9,
+      "row": 5,
+      "colSpan": 8,
+      "rowSpan": 1,
+      "gridCols": 24,
+      "order": 16
+    },
+    {
+      "key": "email",
+      "visible": true,
+      "width": "half",
+      "fieldBorder": true,
+      "locked": false,
+      "label": "",
+      "previewType": "auto",
+      "col": 1,
+      "row": 5,
+      "colSpan": 8,
+      "rowSpan": 1,
+      "gridCols": 24,
+      "order": 17
+    },
+    {
+      "key": "contactSaveAction",
+      "visible": true,
+      "width": "half",
+      "fieldBorder": true,
+      "locked": false,
+      "label": "",
+      "previewType": "auto",
+      "col": 17,
+      "row": 5,
+      "colSpan": 6,
+      "rowSpan": 1,
+      "gridCols": 24,
+      "order": 18
+    },
+    {
+      "key": "totalItems",
+      "visible": true,
+      "width": "half",
+      "fieldBorder": true,
+      "locked": false,
+      "label": "",
+      "previewType": "auto",
+      "col": 7,
+      "row": 8,
+      "colSpan": 8,
+      "rowSpan": 1,
+      "gridCols": 24,
+      "order": 19
+    },
+    {
+      "key": "totalValue",
+      "visible": true,
+      "width": "half",
+      "fieldBorder": true,
+      "locked": false,
+      "label": "",
+      "previewType": "auto",
+      "col": 15,
+      "row": 8,
+      "colSpan": 8,
+      "rowSpan": 1,
+      "gridCols": 24,
+      "order": 20
+    },
+    {
+      "key": "itemLines",
+      "visible": true,
+      "width": "half",
+      "fieldBorder": true,
+      "locked": false,
+      "label": "",
+      "previewType": "auto",
+      "col": 1,
+      "row": 7,
+      "colSpan": 22,
+      "rowSpan": 1,
+      "gridCols": 24,
+      "order": 21
+    },
+    {
+      "key": "remarks",
+      "visible": true,
+      "width": "half",
+      "fieldBorder": true,
+      "locked": false,
+      "label": "",
+      "previewType": "auto",
+      "col": 1,
+      "row": 9,
+      "colSpan": 22,
+      "rowSpan": 1,
+      "gridCols": 24,
+      "order": 22
+    },
+    {
+      "key": "actions",
+      "visible": true,
+      "width": "half",
+      "fieldBorder": true,
+      "locked": false,
+      "label": "",
+      "previewType": "auto",
+      "col": 1,
+      "row": 10,
+      "colSpan": 22,
+      "rowSpan": 1,
+      "gridCols": 24,
+      "order": 23
+    }
+  ],
+  "customerFormLayout": [
+    {
+      "key": "custCode",
+      "visible": true,
+      "width": "half",
+      "order": 1
+    },
+    {
+      "key": "custName",
+      "visible": true,
+      "width": "half",
+      "order": 2
+    },
+    {
+      "key": "custNameAr",
+      "visible": true,
+      "width": "half",
+      "order": 3
+    },
+    {
+      "key": "custPgType",
+      "visible": true,
+      "width": "half",
+      "order": 4
+    },
+    {
+      "key": "custWebsite",
+      "visible": true,
+      "width": "half",
+      "order": 5
+    },
+    {
+      "key": "custSector",
+      "visible": true,
+      "width": "half",
+      "order": 6
+    },
+    {
+      "key": "custAreaCode",
+      "visible": true,
+      "width": "half",
+      "order": 7
+    },
+    {
+      "key": "custVT",
+      "visible": true,
+      "width": "half",
+      "order": 8
+    },
+    {
+      "key": "custVendor",
+      "visible": true,
+      "width": "half",
+      "order": 9
+    },
+    {
+      "key": "custRemark",
+      "visible": true,
+      "width": "full",
+      "order": 10
+    },
+    {
+      "key": "custActions",
+      "visible": true,
+      "width": "full",
+      "order": 11
+    }
+  ],
+  "dashboardWidgets": [
+    "quotes_by_month_line",
+    "weekly_activity_line",
+    "active_vs_completed",
+    "status_count_value_combo",
+    "status_distribution",
+    "origin_distribution",
+    "sales_distribution",
+    "pg_distribution",
+    "top_customers_by_count",
+    "top_customers_by_value",
+    "aging_overview",
+    "completion_ratio"
+  ],
+  "dashboardWidgetTypes": {
+    "status_distribution": "bar",
+    "origin_distribution": "pie",
+    "sales_distribution": "pie",
+    "pg_distribution": "donut",
+    "aging_overview": "cards",
+    "completion_ratio": "cards",
+    "active_vs_completed": "donut",
+    "top_customers_by_count": "bar",
+    "top_customers_by_value": "bar",
+    "top_origins_by_value": "bar",
+    "top_sales_by_value": "bar",
+    "avg_value_by_status": "bar",
+    "quotes_by_weekday": "line",
+    "quotes_by_month_line": "line",
+    "weekly_activity_line": "line",
+    "status_count_value_combo": "combo",
+    "recent_7day_created": "cards",
+    "zero_value_quotes": "cards",
+    "high_value_quotes": "cards",
+    "no_contact_quotes": "cards",
+    "approval_pipeline": "bar",
+    "due_soon_vs_later": "donut"
+  },
+  "dashboardWidgetOrder": [
+    "status_distribution",
+    "origin_distribution",
+    "sales_distribution",
+    "pg_distribution",
+    "aging_overview",
+    "completion_ratio",
+    "active_vs_completed",
+    "top_customers_by_count",
+    "top_customers_by_value",
+    "top_origins_by_value",
+    "top_sales_by_value",
+    "avg_value_by_status",
+    "quotes_by_weekday",
+    "quotes_by_month_line",
+    "weekly_activity_line",
+    "status_count_value_combo",
+    "recent_7day_created",
+    "zero_value_quotes",
+    "high_value_quotes",
+    "no_contact_quotes",
+    "approval_pipeline",
+    "due_soon_vs_later"
+  ],
+  "dashboardMaxWidgets": 20,
+  "dashboardColumns": 3,
+  "formLayoutCanvas": {
+    "width": 783,
+    "height": 300,
+    "colSize": 41
+  },
   "originSalesMap": {
     "NUPCO": [
       "Adnan",
@@ -36,5 +2813,42 @@
       "Engineer 1",
       "Engineer 2"
     ]
+  },
+  "ui": {
+    "kanbanDensity": "compact"
+  },
+  "pages": {
+    "customers": true,
+    "archived": true
+  },
+  "taskSettings": {
+    "entityName": "Quotation",
+    "entityNamePlural": "Quotations",
+    "fieldCount": 17,
+    "optionalFieldKeys": [],
+    "customFieldPool": [],
+    "labels": {
+      "sn": "File No.",
+      "reference": "Reference",
+      "targetDate": "Target Date",
+      "dueDate": "Due Date",
+      "customerCode": "Customer Code",
+      "customerName": "Customer Name",
+      "rfq": "RFQ",
+      "bid": "Bid",
+      "status": "Status",
+      "pgType": "PG",
+      "quoteTime": "Time",
+      "contactName": "Contact Name",
+      "phone": "Phone",
+      "email": "Email",
+      "totalItems": "Total Items",
+      "totalValue": "Total Value",
+      "itemLines": "Item Lines",
+      "remarks": "Remarks",
+      "contactSaveAction": "Add Contact",
+      "actions": "Form Actions"
+    },
+    "fields": {}
   }
 }
