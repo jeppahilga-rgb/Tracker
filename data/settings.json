@@ -1157,9 +1157,13 @@
       "taskSettings": {
         "entityName": "Quotation",
         "entityNamePlural": "Quotations",
-        "fieldCount": 0,
-        "optionalFieldKeys": [],
-        "customFieldPool": [],
+        "fieldCount": 1,
+        "optionalFieldKeys": [
+          "test_column"
+        ],
+        "customFieldPool": [
+          "test_column"
+        ],
         "labels": {
           "sn": "File No.",
           "reference": "Reference",
@@ -1180,7 +1184,8 @@
           "itemLines": "Item Lines",
           "remarks": "Remarks",
           "contactSaveAction": "Add Contact",
-          "actions": "Form Actions"
+          "actions": "Form Actions",
+          "test_column": "test column"
         },
         "fields": {
           "sn": {
@@ -1473,6 +1478,21 @@
             "label": "Form Actions",
             "type": "button",
             "databaseKey": "quotation record",
+            "taxonomy": "none",
+            "source": "",
+            "formula": "",
+            "options": "",
+            "relationColumn": "",
+            "buttonAction": "none",
+            "buttonTarget": "",
+            "showOnForm": true,
+            "required": false
+          },
+          "test_column": {
+            "key": "test_column",
+            "label": "test column",
+            "type": "text",
+            "databaseKey": "test_column",
             "taxonomy": "none",
             "source": "",
             "formula": "",
@@ -1873,6 +1893,21 @@
           "rowSpan": 1,
           "label": "Remarks",
           "previewType": "textarea"
+        },
+        {
+          "key": "test_column",
+          "label": "test column",
+          "width": "half",
+          "visible": true,
+          "fieldBorder": true,
+          "locked": false,
+          "order": 23,
+          "previewType": "input",
+          "col": 1,
+          "row": 1,
+          "colSpan": 12,
+          "rowSpan": 1,
+          "gridCols": 24
         }
       ],
       "customerFormLayout": [
@@ -5257,9 +5292,13 @@
   "taskSettings": {
     "entityName": "Quotation",
     "entityNamePlural": "Quotations",
-    "fieldCount": 0,
-    "optionalFieldKeys": [],
-    "customFieldPool": [],
+    "fieldCount": 1,
+    "optionalFieldKeys": [
+      "test_column"
+    ],
+    "customFieldPool": [
+      "test_column"
+    ],
     "labels": {
       "sn": "File No.",
       "reference": "Reference",
@@ -5280,7 +5319,8 @@
       "itemLines": "Item Lines",
       "remarks": "Remarks",
       "contactSaveAction": "Add Contact",
-      "actions": "Form Actions"
+      "actions": "Form Actions",
+      "test_column": "test column"
     },
     "fields": {
       "sn": {
@@ -5573,6 +5613,21 @@
         "label": "Form Actions",
         "type": "button",
         "databaseKey": "quotation record",
+        "taxonomy": "none",
+        "source": "",
+        "formula": "",
+        "options": "",
+        "relationColumn": "",
+        "buttonAction": "none",
+        "buttonTarget": "",
+        "showOnForm": true,
+        "required": false
+      },
+      "test_column": {
+        "key": "test_column",
+        "label": "test column",
+        "type": "text",
+        "databaseKey": "test_column",
         "taxonomy": "none",
         "source": "",
         "formula": "",
@@ -5981,6 +6036,21 @@
       "rowSpan": 1,
       "label": "Remarks",
       "previewType": "textarea"
+    },
+    {
+      "key": "test_column",
+      "label": "test column",
+      "width": "half",
+      "visible": true,
+      "fieldBorder": true,
+      "locked": false,
+      "order": 23,
+      "previewType": "input",
+      "col": 1,
+      "row": 1,
+      "colSpan": 12,
+      "rowSpan": 1,
+      "gridCols": 24
     }
   ],
   "customerFormLayout": [
