@@ -1100,7 +1100,8 @@
           "substatuses": [
             "NOT STARTED",
             "UNDER REVIEW",
-            "FOR APPROVAL"
+            "FOR APPROVAL",
+            "Attachment Uploading"
           ],
           "isCompletion": false,
           "showOnBoard": true,
@@ -1109,7 +1110,8 @@
           "substatusColors": {
             "NOT STARTED": "#1d4ed8",
             "UNDER REVIEW": "#d97706",
-            "FOR APPROVAL": "#0f766e"
+            "FOR APPROVAL": "#0f766e",
+            "Attachment Uploading": "#1d4ed8"
           }
         },
         {
@@ -5591,6 +5593,7 @@
     "NOT STARTED",
     "UNDER REVIEW",
     "FOR APPROVAL",
+    "Attachment Uploading",
     "SUBMITTED",
     "CLOSED",
     "CANCELLED"
@@ -5602,7 +5605,8 @@
       "substatuses": [
         "NOT STARTED",
         "UNDER REVIEW",
-        "FOR APPROVAL"
+        "FOR APPROVAL",
+        "Attachment Uploading"
       ],
       "isCompletion": false,
       "showOnBoard": true,
@@ -5611,7 +5615,8 @@
       "substatusColors": {
         "NOT STARTED": "#1d4ed8",
         "UNDER REVIEW": "#d97706",
-        "FOR APPROVAL": "#0f766e"
+        "FOR APPROVAL": "#0f766e",
+        "Attachment Uploading": "#1d4ed8"
       }
     },
     {
