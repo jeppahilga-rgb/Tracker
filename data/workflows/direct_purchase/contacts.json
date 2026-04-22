@@ -3898,5 +3898,29 @@
       "direct_purchase"
     ],
     "scopeAll": false
+  },
+  {
+    "id": "ct1",
+    "customerCode": "C001",
+    "name": "John Doe",
+    "phone": "+966500000001",
+    "email": "john@care.com",
+    "workflowId": "direct_purchase",
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  },
+  {
+    "id": "ct2",
+    "customerCode": "C002",
+    "name": "Jane Smith",
+    "phone": "+966500000002",
+    "email": "jane@dallah.com",
+    "workflowId": "direct_purchase",
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
   }
 ]
