@@ -1,1 +1,46 @@
-[]
+[
+  {
+    "id": "qtn_1777450852661_244",
+    "sn": 1,
+    "reference": "26010406",
+    "workflowId": "direct_purchase",
+    "targetDate": "2026-04-24",
+    "dueDate": "2026-04-24",
+    "customerCode": "1263",
+    "customerName": "Hasanah Laboratory",
+    "pgType": "P",
+    "origin": "Sales",
+    "salesPerson": "Zainab",
+    "rfq": "",
+    "bid": "",
+    "quoteTime": "",
+    "status": "For Submission",
+    "priority": "None",
+    "isDraft": false,
+    "draftSavedAt": "",
+    "completedAt": "",
+    "createdAt": "2026-04-29T08:20:52.661Z",
+    "updatedAt": "2026-04-29T08:20:52.661Z",
+    "contactName": "Islam Sleem",
+    "phone": "9.66545E+11",
+    "email": "esaid@hasanah.com.sa",
+    "totalItems": 0,
+    "totalValue": 0,
+    "remarks": "",
+    "itemText": "Various Items",
+    "items": [
+      {
+        "description": "Various Items",
+        "qty": 0
+      }
+    ],
+    "checklist": [],
+    "checklists": [],
+    "comments": [],
+    "attachments": [],
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false
+  }
+]
