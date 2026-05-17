@@ -167,6 +167,36 @@
           "contactSaveAction"
         ],
         "customFieldPool": [],
+        "lookupGroups": [
+          {
+            "name": "customer_group",
+            "fields": [
+              "customerName",
+              "customerCode",
+              "pgType"
+            ],
+            "primaryField": "customerName"
+          },
+          {
+            "name": "contact_group",
+            "fields": [
+              "contactName",
+              "phone",
+              "email"
+            ],
+            "primaryField": "contactName"
+          }
+        ],
+        "lookupRelations": [
+          {
+            "fromGroup": "customer_group",
+            "fromField": "customerCode",
+            "toGroup": "contact_group",
+            "toField": "col:Contacts:customerCode",
+            "mode": "equals",
+            "bidirectional": true
+          }
+        ],
         "labels": {
           "sn": "File No.",
           "reference": "Reference",
@@ -177,7 +207,6 @@
           "rfq": "RFQ",
           "bid": "Bid",
           "status": "Status",
-          "priority": "Priority",
           "pgType": "PG",
           "quoteTime": "Time",
           "contactName": "Contact Name",
@@ -188,7 +217,8 @@
           "itemLines": "Item Lines",
           "remarks": "Remarks",
           "contactSaveAction": "Add Contact",
-          "actions": "Add"
+          "actions": "Add",
+          "priority": "Priority"
         },
         "fields": {
           "sn": {
@@ -582,36 +612,6 @@
           "High": "#d97706",
           "Critical": "#dc2626"
         },
-        "lookupGroups": [
-          {
-            "name": "customer_group",
-            "fields": [
-              "customerName",
-              "customerCode",
-              "pgType"
-            ],
-            "primaryField": "customerName"
-          },
-          {
-            "name": "contact_group",
-            "fields": [
-              "contactName",
-              "phone",
-              "email"
-            ],
-            "primaryField": "contactName"
-          }
-        ],
-        "lookupRelations": [
-          {
-            "fromGroup": "customer_group",
-            "fromField": "customerCode",
-            "toGroup": "contact_group",
-            "toField": "col:Contacts:customerCode",
-            "mode": "equals",
-            "bidirectional": true
-          }
-        ],
         "lookupBehavior": {
           "autoFillOnSelect": true,
           "crossGroupAutoFill": true,
@@ -1071,43 +1071,6 @@
           ]
         }
       },
-      "customerSettings": {
-        "entityName": "Customer",
-        "entityNamePlural": "Customers",
-        "labels": {
-          "code": "Customer Code",
-          "nameAr": "Customer Name (Arabic)",
-          "name": "Customer Name",
-          "website": "Web Site",
-          "sector": "Sector",
-          "areaCode": "Area Code",
-          "vt": "V/T",
-          "vendor": "Vendor #",
-          "remark": "Remarks"
-        },
-        "columns": {
-          "code": true,
-          "nameAr": true,
-          "name": true,
-          "website": true,
-          "sector": true,
-          "areaCode": true,
-          "vt": true,
-          "vendor": true,
-          "remark": true
-        },
-        "required": {
-          "code": true,
-          "name": true,
-          "nameAr": false,
-          "website": false,
-          "sector": false,
-          "areaCode": false,
-          "vt": false,
-          "vendor": false,
-          "remark": false
-        }
-      },
       "formLayout": [
         {
           "key": "itemLines",
@@ -1414,7 +1377,7 @@
           "visible": true,
           "width": "half",
           "order": 16,
-          "col": 15,
+          "col": 14,
           "colSpan": 3,
           "gridCols": 24,
           "showMode": "always",
@@ -1430,49 +1393,10 @@
           "previewType": "button"
         },
         {
-          "key": "origin",
-          "visible": true,
-          "width": "half",
-          "order": 17,
-          "col": 1,
-          "colSpan": 12,
-          "gridCols": 24,
-          "row": 5,
-          "rowSpan": 4,
-          "rowUnit": "quarter"
-        },
-        {
-          "key": "salesPerson",
-          "visible": true,
-          "width": "half",
-          "order": 18,
-          "col": 13,
-          "colSpan": 12,
-          "gridCols": 24,
-          "row": 5,
-          "rowSpan": 4,
-          "rowUnit": "quarter"
-        },
-        {
-          "key": "status",
-          "visible": false,
-          "width": "half",
-          "order": 19,
-          "col": 1,
-          "colSpan": 12,
-          "gridCols": 24,
-          "row": 9,
-          "rowSpan": 4,
-          "rowUnit": "quarter",
-          "label": "Status",
-          "locked": false,
-          "previewType": "select"
-        },
-        {
           "key": "actions",
           "visible": false,
           "width": "full",
-          "order": 20,
+          "order": 17,
           "col": 1,
           "colSpan": 24,
           "gridCols": 24,
@@ -1778,169 +1702,7 @@
       "pages": {
         "customers": true,
         "archived": true
-      },
-      "clientFormLayout": [
-        {
-          "key": "clientCustomerCode",
-          "visible": true,
-          "width": "half",
-          "order": 1,
-          "col": 1,
-          "colSpan": 12,
-          "gridCols": 24,
-          "showMode": "always",
-          "fieldBorder": true,
-          "fieldBgClear": false,
-          "locked": false,
-          "groupId": "",
-          "groupName": "",
-          "row": 1,
-          "rowSpan": 4,
-          "rowUnit": "quarter",
-          "label": "",
-          "previewType": ""
-        },
-        {
-          "key": "clientScope",
-          "visible": true,
-          "width": "half",
-          "order": 2,
-          "col": 13,
-          "colSpan": 12,
-          "gridCols": 24,
-          "showMode": "always",
-          "fieldBorder": true,
-          "fieldBgClear": false,
-          "locked": false,
-          "groupId": "",
-          "groupName": "",
-          "row": 1,
-          "rowSpan": 4,
-          "rowUnit": "quarter",
-          "label": "",
-          "previewType": ""
-        },
-        {
-          "key": "clientTrackers",
-          "visible": true,
-          "width": "full",
-          "order": 3,
-          "col": 1,
-          "colSpan": 24,
-          "gridCols": 24,
-          "showMode": "always",
-          "fieldBorder": true,
-          "fieldBgClear": false,
-          "locked": false,
-          "groupId": "",
-          "groupName": "",
-          "row": 5,
-          "rowSpan": 4,
-          "rowUnit": "quarter",
-          "label": "",
-          "previewType": ""
-        },
-        {
-          "key": "clientCustomerName",
-          "visible": true,
-          "width": "half",
-          "order": 4,
-          "col": 1,
-          "colSpan": 12,
-          "gridCols": 24,
-          "showMode": "always",
-          "fieldBorder": true,
-          "fieldBgClear": false,
-          "locked": false,
-          "groupId": "",
-          "groupName": "",
-          "row": 9,
-          "rowSpan": 4,
-          "rowUnit": "quarter",
-          "label": "",
-          "previewType": ""
-        },
-        {
-          "key": "clientName",
-          "visible": true,
-          "width": "half",
-          "order": 5,
-          "col": 13,
-          "colSpan": 12,
-          "gridCols": 24,
-          "showMode": "always",
-          "fieldBorder": true,
-          "fieldBgClear": false,
-          "locked": false,
-          "groupId": "",
-          "groupName": "",
-          "row": 9,
-          "rowSpan": 4,
-          "rowUnit": "quarter",
-          "label": "",
-          "previewType": ""
-        },
-        {
-          "key": "clientPhone",
-          "visible": true,
-          "width": "half",
-          "order": 6,
-          "col": 1,
-          "colSpan": 12,
-          "gridCols": 24,
-          "showMode": "always",
-          "fieldBorder": true,
-          "fieldBgClear": false,
-          "locked": false,
-          "groupId": "",
-          "groupName": "",
-          "row": 13,
-          "rowSpan": 4,
-          "rowUnit": "quarter",
-          "label": "",
-          "previewType": ""
-        },
-        {
-          "key": "clientEmail",
-          "visible": true,
-          "width": "half",
-          "order": 7,
-          "col": 13,
-          "colSpan": 12,
-          "gridCols": 24,
-          "showMode": "always",
-          "fieldBorder": true,
-          "fieldBgClear": false,
-          "locked": false,
-          "groupId": "",
-          "groupName": "",
-          "row": 13,
-          "rowSpan": 4,
-          "rowUnit": "quarter",
-          "label": "",
-          "previewType": ""
-        },
-        {
-          "key": "clientActions",
-          "visible": true,
-          "width": "full",
-          "order": 8,
-          "col": 1,
-          "colSpan": 24,
-          "gridCols": 24,
-          "showMode": "always",
-          "fieldBorder": true,
-          "fieldBgClear": false,
-          "locked": false,
-          "groupId": "",
-          "groupName": "",
-          "row": 17,
-          "rowSpan": 4,
-          "rowUnit": "quarter",
-          "label": "",
-          "previewType": ""
-        }
-      ]
+      }
     },
     {
       "id": "new_tracker",
@@ -2048,6 +1810,18 @@
           "dueDate"
         ],
         "customFieldPool": [],
+        "lookupGroups": [
+          {
+            "name": "customer_group",
+            "fields": [
+              "customerName",
+              "customerCode",
+              "pgType"
+            ],
+            "primaryField": "customerName"
+          }
+        ],
+        "lookupRelations": [],
         "labels": {
           "sn": "File No.",
           "reference": "Reference",
@@ -2058,7 +1832,6 @@
           "rfq": "RFQ",
           "bid": "Bid",
           "status": "Status",
-          "priority": "Priority",
           "pgType": "PG",
           "quoteTime": "Time",
           "contactName": "Contact Name",
@@ -2069,7 +1842,8 @@
           "itemLines": "Item Lines",
           "remarks": "Remarks",
           "contactSaveAction": "Add Contact",
-          "actions": "Form Actions"
+          "actions": "Form Actions",
+          "priority": "Priority"
         },
         "fields": {
           "sn": {
@@ -2463,18 +2237,6 @@
           "High": "#d97706",
           "Critical": "#dc2626"
         },
-        "lookupGroups": [
-          {
-            "name": "customer_group",
-            "fields": [
-              "customerName",
-              "customerCode",
-              "pgType"
-            ],
-            "primaryField": "customerName"
-          }
-        ],
-        "lookupRelations": [],
         "lookupBehavior": {
           "autoFillOnSelect": true,
           "crossGroupAutoFill": true,
@@ -2888,43 +2650,6 @@
           ]
         }
       },
-      "customerSettings": {
-        "entityName": "Customer",
-        "entityNamePlural": "Customers",
-        "labels": {
-          "code": "Customer Code",
-          "nameAr": "Customer Name (Arabic)",
-          "name": "Customer Name",
-          "website": "Web Site",
-          "sector": "Sector",
-          "areaCode": "Area Code",
-          "vt": "V/T",
-          "vendor": "Vendor #",
-          "remark": "Remarks"
-        },
-        "columns": {
-          "code": true,
-          "nameAr": true,
-          "name": true,
-          "website": true,
-          "sector": true,
-          "areaCode": true,
-          "vt": true,
-          "vendor": true,
-          "remark": true
-        },
-        "required": {
-          "code": true,
-          "name": true,
-          "nameAr": false,
-          "website": false,
-          "sector": false,
-          "areaCode": false,
-          "vt": false,
-          "vendor": false,
-          "remark": false
-        }
-      },
       "formLayout": [
         {
           "key": "itemLines",
@@ -3047,25 +2772,10 @@
           "previewType": ""
         },
         {
-          "key": "pgType",
-          "visible": false,
-          "width": "half",
-          "order": 7,
-          "col": 1,
-          "colSpan": 12,
-          "gridCols": 24,
-          "row": 5,
-          "rowSpan": 4,
-          "rowUnit": "quarter",
-          "label": "PG",
-          "locked": false,
-          "previewType": "display"
-        },
-        {
           "key": "salesPerson",
           "visible": true,
           "width": "half",
-          "order": 8,
+          "order": 7,
           "col": 1,
           "colSpan": 12,
           "gridCols": 24,
@@ -3085,7 +2795,7 @@
           "key": "contactSaveAction",
           "visible": false,
           "width": "half",
-          "order": 9,
+          "order": 8,
           "col": 1,
           "colSpan": 12,
           "gridCols": 24,
@@ -3099,171 +2809,6 @@
           "rowSpan": 4,
           "rowUnit": "quarter",
           "label": "Add Contact",
-          "previewType": "button"
-        },
-        {
-          "key": "rfq",
-          "visible": false,
-          "width": "half",
-          "order": 10,
-          "col": 13,
-          "colSpan": 12,
-          "gridCols": 24,
-          "row": 5,
-          "rowSpan": 4,
-          "rowUnit": "quarter",
-          "label": "RFQ",
-          "locked": false,
-          "previewType": "input"
-        },
-        {
-          "key": "bid",
-          "visible": false,
-          "width": "half",
-          "order": 11,
-          "col": 1,
-          "colSpan": 12,
-          "gridCols": 24,
-          "row": 9,
-          "rowSpan": 4,
-          "rowUnit": "quarter",
-          "label": "Bid",
-          "locked": false,
-          "previewType": "input"
-        },
-        {
-          "key": "quoteTime",
-          "visible": false,
-          "width": "half",
-          "order": 12,
-          "col": 13,
-          "colSpan": 12,
-          "gridCols": 24,
-          "row": 9,
-          "rowSpan": 4,
-          "rowUnit": "quarter",
-          "label": "Time",
-          "locked": false,
-          "previewType": "input"
-        },
-        {
-          "key": "status",
-          "visible": false,
-          "width": "half",
-          "order": 13,
-          "col": 1,
-          "colSpan": 12,
-          "gridCols": 24,
-          "row": 13,
-          "rowSpan": 4,
-          "rowUnit": "quarter",
-          "label": "Status",
-          "locked": false,
-          "previewType": "select"
-        },
-        {
-          "key": "contactName",
-          "visible": false,
-          "width": "half",
-          "order": 14,
-          "col": 13,
-          "colSpan": 12,
-          "gridCols": 24,
-          "row": 13,
-          "rowSpan": 4,
-          "rowUnit": "quarter",
-          "label": "Contact Name",
-          "locked": false,
-          "previewType": "input"
-        },
-        {
-          "key": "phone",
-          "visible": false,
-          "width": "half",
-          "order": 15,
-          "col": 1,
-          "colSpan": 12,
-          "gridCols": 24,
-          "row": 17,
-          "rowSpan": 4,
-          "rowUnit": "quarter",
-          "label": "Phone",
-          "locked": false,
-          "previewType": "input"
-        },
-        {
-          "key": "email",
-          "visible": false,
-          "width": "half",
-          "order": 16,
-          "col": 13,
-          "colSpan": 12,
-          "gridCols": 24,
-          "row": 17,
-          "rowSpan": 4,
-          "rowUnit": "quarter",
-          "label": "Email",
-          "locked": false,
-          "previewType": "input"
-        },
-        {
-          "key": "totalItems",
-          "visible": false,
-          "width": "half",
-          "order": 17,
-          "col": 1,
-          "colSpan": 12,
-          "gridCols": 24,
-          "row": 21,
-          "rowSpan": 4,
-          "rowUnit": "quarter",
-          "label": "Total Items",
-          "locked": false,
-          "previewType": "input"
-        },
-        {
-          "key": "totalValue",
-          "visible": false,
-          "width": "half",
-          "order": 18,
-          "col": 13,
-          "colSpan": 12,
-          "gridCols": 24,
-          "row": 21,
-          "rowSpan": 4,
-          "rowUnit": "quarter",
-          "label": "Total Value",
-          "locked": false,
-          "previewType": "input"
-        },
-        {
-          "key": "remarks",
-          "visible": false,
-          "width": "full",
-          "order": 19,
-          "col": 1,
-          "colSpan": 24,
-          "gridCols": 24,
-          "row": 25,
-          "rowSpan": 4,
-          "rowUnit": "quarter",
-          "label": "Remarks",
-          "locked": false,
-          "previewType": "textarea"
-        },
-        {
-          "key": "actions",
-          "visible": false,
-          "width": "full",
-          "order": 20,
-          "col": 1,
-          "colSpan": 24,
-          "gridCols": 24,
-          "row": 29,
-          "rowSpan": 4,
-          "rowUnit": "quarter",
-          "label": "Form Actions",
-          "locked": false,
           "previewType": "button"
         }
       ],
@@ -4490,7 +4035,7 @@
       "visible": true,
       "width": "half",
       "order": 16,
-      "col": 15,
+      "col": 14,
       "colSpan": 3,
       "gridCols": 24,
       "showMode": "always",
@@ -4506,49 +4051,10 @@
       "previewType": "button"
     },
     {
-      "key": "origin",
-      "visible": true,
-      "width": "half",
-      "order": 17,
-      "col": 1,
-      "colSpan": 12,
-      "gridCols": 24,
-      "row": 5,
-      "rowSpan": 4,
-      "rowUnit": "quarter"
-    },
-    {
-      "key": "salesPerson",
-      "visible": true,
-      "width": "half",
-      "order": 18,
-      "col": 13,
-      "colSpan": 12,
-      "gridCols": 24,
-      "row": 5,
-      "rowSpan": 4,
-      "rowUnit": "quarter"
-    },
-    {
-      "key": "status",
-      "visible": false,
-      "width": "half",
-      "order": 19,
-      "col": 1,
-      "colSpan": 12,
-      "gridCols": 24,
-      "row": 9,
-      "rowSpan": 4,
-      "rowUnit": "quarter",
-      "label": "Status",
-      "locked": false,
-      "previewType": "select"
-    },
-    {
       "key": "actions",
       "visible": false,
       "width": "full",
-      "order": 20,
+      "order": 17,
       "col": 1,
       "colSpan": 24,
       "gridCols": 24,
