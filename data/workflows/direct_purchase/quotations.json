@@ -3083,7 +3083,7 @@
       "direct_purchase"
     ],
     "scopeAll": false,
-    "sync_status": "pending_sync",
+    "sync_status": "synced",
     "updatedAt": "2026-05-17T17:28:30.225Z",
     "createdAt": "2026-05-17T17:28:27.797Z",
     "version": 2,
