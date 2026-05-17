@@ -148,7 +148,7 @@
       "taskSettings": {
         "entityName": "Quotation",
         "entityNamePlural": "Quotations",
-        "fieldCount": 15,
+        "fieldCount": 16,
         "optionalFieldKeys": [
           "targetDate",
           "dueDate",
@@ -164,39 +164,10 @@
           "totalItems",
           "totalValue",
           "remarks",
-          "actions"
+          "actions",
+          "contactSaveAction"
         ],
         "customFieldPool": [],
-        "lookupGroups": [
-          {
-            "name": "customer_group",
-            "fields": [
-              "customerName",
-              "customerCode",
-              "pgType"
-            ],
-            "primaryField": "customerName"
-          },
-          {
-            "name": "contact_group",
-            "fields": [
-              "contactName",
-              "phone",
-              "email"
-            ],
-            "primaryField": "contactName"
-          }
-        ],
-        "lookupRelations": [
-          {
-            "fromGroup": "customer_group",
-            "fromField": "customerCode",
-            "toGroup": "contact_group",
-            "toField": "col:Contacts:customerCode",
-            "mode": "equals",
-            "bidirectional": true
-          }
-        ],
         "labels": {
           "sn": "File No.",
           "reference": "Reference",
@@ -207,6 +178,7 @@
           "rfq": "RFQ",
           "bid": "Bid",
           "status": "Status",
+          "priority": "Priority",
           "pgType": "PG",
           "quoteTime": "Time",
           "contactName": "Contact Name",
@@ -217,8 +189,7 @@
           "itemLines": "Item Lines",
           "remarks": "Remarks",
           "contactSaveAction": "Add Contact",
-          "actions": "Add",
-          "priority": "Priority"
+          "actions": "Add"
         },
         "fields": {
           "sn": {
@@ -612,6 +583,36 @@
           "High": "#d97706",
           "Critical": "#dc2626"
         },
+        "lookupGroups": [
+          {
+            "name": "customer_group",
+            "fields": [
+              "customerName",
+              "customerCode",
+              "pgType"
+            ],
+            "primaryField": "customerName"
+          },
+          {
+            "name": "contact_group",
+            "fields": [
+              "contactName",
+              "phone",
+              "email"
+            ],
+            "primaryField": "contactName"
+          }
+        ],
+        "lookupRelations": [
+          {
+            "fromGroup": "customer_group",
+            "fromField": "customerCode",
+            "toGroup": "contact_group",
+            "toField": "col:Contacts:customerCode",
+            "mode": "equals",
+            "bidirectional": true
+          }
+        ],
         "lookupBehavior": {
           "autoFillOnSelect": true,
           "crossGroupAutoFill": true,
@@ -1071,6 +1072,43 @@
           ]
         }
       },
+      "customerSettings": {
+        "entityName": "Customer",
+        "entityNamePlural": "Customers",
+        "labels": {
+          "code": "Customer Code",
+          "nameAr": "Customer Name (Arabic)",
+          "name": "Customer Name",
+          "website": "Web Site",
+          "sector": "Sector",
+          "areaCode": "Area Code",
+          "vt": "V/T",
+          "vendor": "Vendor #",
+          "remark": "Remarks"
+        },
+        "columns": {
+          "code": true,
+          "nameAr": true,
+          "name": true,
+          "website": true,
+          "sector": true,
+          "areaCode": true,
+          "vt": true,
+          "vendor": true,
+          "remark": true
+        },
+        "required": {
+          "code": true,
+          "name": true,
+          "nameAr": false,
+          "website": false,
+          "sector": false,
+          "areaCode": false,
+          "vt": false,
+          "vendor": false,
+          "remark": false
+        }
+      },
       "formLayout": [
         {
           "key": "itemLines",
@@ -1393,14 +1431,34 @@
           "previewType": "button"
         },
         {
-          "key": "origin",
+          "key": "contactSaveAction",
           "visible": true,
           "width": "half",
           "order": 17,
+          "col": 15,
+          "colSpan": 3,
+          "gridCols": 24,
+          "showMode": "always",
+          "fieldBorder": true,
+          "fieldBgClear": false,
+          "locked": false,
+          "groupId": "",
+          "groupName": "",
+          "row": 28,
+          "rowSpan": 4,
+          "rowUnit": "quarter",
+          "label": "Add Contact",
+          "previewType": "button"
+        },
+        {
+          "key": "origin",
+          "visible": true,
+          "width": "half",
+          "order": 18,
           "col": 1,
           "colSpan": 12,
           "gridCols": 24,
-          "row": 7,
+          "row": 5,
           "rowSpan": 4,
           "rowUnit": "quarter"
         },
@@ -1408,11 +1466,11 @@
           "key": "salesPerson",
           "visible": true,
           "width": "half",
-          "order": 18,
+          "order": 19,
           "col": 13,
           "colSpan": 12,
           "gridCols": 24,
-          "row": 7,
+          "row": 5,
           "rowSpan": 4,
           "rowUnit": "quarter"
         },
@@ -1420,7 +1478,7 @@
           "key": "status",
           "visible": false,
           "width": "half",
-          "order": 19,
+          "order": 20,
           "col": 1,
           "colSpan": 12,
           "gridCols": 24,
@@ -1430,21 +1488,6 @@
           "label": "Status",
           "locked": false,
           "previewType": "select"
-        },
-        {
-          "key": "contactSaveAction",
-          "visible": false,
-          "width": "half",
-          "order": 20,
-          "col": 13,
-          "colSpan": 12,
-          "gridCols": 24,
-          "row": 9,
-          "rowSpan": 4,
-          "rowUnit": "quarter",
-          "label": "Add Contact",
-          "locked": false,
-          "previewType": "button"
         }
       ],
       "customerFormLayout": [
@@ -1741,7 +1784,169 @@
       "pages": {
         "customers": true,
         "archived": true
-      }
+      },
+      "clientFormLayout": [
+        {
+          "key": "clientCustomerCode",
+          "visible": true,
+          "width": "half",
+          "order": 1,
+          "col": 1,
+          "colSpan": 12,
+          "gridCols": 24,
+          "showMode": "always",
+          "fieldBorder": true,
+          "fieldBgClear": false,
+          "locked": false,
+          "groupId": "",
+          "groupName": "",
+          "row": 1,
+          "rowSpan": 4,
+          "rowUnit": "quarter",
+          "label": "",
+          "previewType": ""
+        },
+        {
+          "key": "clientScope",
+          "visible": true,
+          "width": "half",
+          "order": 2,
+          "col": 13,
+          "colSpan": 12,
+          "gridCols": 24,
+          "showMode": "always",
+          "fieldBorder": true,
+          "fieldBgClear": false,
+          "locked": false,
+          "groupId": "",
+          "groupName": "",
+          "row": 1,
+          "rowSpan": 4,
+          "rowUnit": "quarter",
+          "label": "",
+          "previewType": ""
+        },
+        {
+          "key": "clientTrackers",
+          "visible": true,
+          "width": "full",
+          "order": 3,
+          "col": 1,
+          "colSpan": 24,
+          "gridCols": 24,
+          "showMode": "always",
+          "fieldBorder": true,
+          "fieldBgClear": false,
+          "locked": false,
+          "groupId": "",
+          "groupName": "",
+          "row": 5,
+          "rowSpan": 4,
+          "rowUnit": "quarter",
+          "label": "",
+          "previewType": ""
+        },
+        {
+          "key": "clientCustomerName",
+          "visible": true,
+          "width": "half",
+          "order": 4,
+          "col": 1,
+          "colSpan": 12,
+          "gridCols": 24,
+          "showMode": "always",
+          "fieldBorder": true,
+          "fieldBgClear": false,
+          "locked": false,
+          "groupId": "",
+          "groupName": "",
+          "row": 9,
+          "rowSpan": 4,
+          "rowUnit": "quarter",
+          "label": "",
+          "previewType": ""
+        },
+        {
+          "key": "clientName",
+          "visible": true,
+          "width": "half",
+          "order": 5,
+          "col": 13,
+          "colSpan": 12,
+          "gridCols": 24,
+          "showMode": "always",
+          "fieldBorder": true,
+          "fieldBgClear": false,
+          "locked": false,
+          "groupId": "",
+          "groupName": "",
+          "row": 9,
+          "rowSpan": 4,
+          "rowUnit": "quarter",
+          "label": "",
+          "previewType": ""
+        },
+        {
+          "key": "clientPhone",
+          "visible": true,
+          "width": "half",
+          "order": 6,
+          "col": 1,
+          "colSpan": 12,
+          "gridCols": 24,
+          "showMode": "always",
+          "fieldBorder": true,
+          "fieldBgClear": false,
+          "locked": false,
+          "groupId": "",
+          "groupName": "",
+          "row": 13,
+          "rowSpan": 4,
+          "rowUnit": "quarter",
+          "label": "",
+          "previewType": ""
+        },
+        {
+          "key": "clientEmail",
+          "visible": true,
+          "width": "half",
+          "order": 7,
+          "col": 13,
+          "colSpan": 12,
+          "gridCols": 24,
+          "showMode": "always",
+          "fieldBorder": true,
+          "fieldBgClear": false,
+          "locked": false,
+          "groupId": "",
+          "groupName": "",
+          "row": 13,
+          "rowSpan": 4,
+          "rowUnit": "quarter",
+          "label": "",
+          "previewType": ""
+        },
+        {
+          "key": "clientActions",
+          "visible": true,
+          "width": "full",
+          "order": 8,
+          "col": 1,
+          "colSpan": 24,
+          "gridCols": 24,
+          "showMode": "always",
+          "fieldBorder": true,
+          "fieldBgClear": false,
+          "locked": false,
+          "groupId": "",
+          "groupName": "",
+          "row": 17,
+          "rowSpan": 4,
+          "rowUnit": "quarter",
+          "label": "",
+          "previewType": ""
+        }
+      ]
     },
     {
       "id": "new_tracker",
@@ -1849,18 +2054,6 @@
           "dueDate"
         ],
         "customFieldPool": [],
-        "lookupGroups": [
-          {
-            "name": "customer_group",
-            "fields": [
-              "customerName",
-              "customerCode",
-              "pgType"
-            ],
-            "primaryField": "customerName"
-          }
-        ],
-        "lookupRelations": [],
         "labels": {
           "sn": "File No.",
           "reference": "Reference",
@@ -1871,6 +2064,7 @@
           "rfq": "RFQ",
           "bid": "Bid",
           "status": "Status",
+          "priority": "Priority",
           "pgType": "PG",
           "quoteTime": "Time",
           "contactName": "Contact Name",
@@ -1881,8 +2075,7 @@
           "itemLines": "Item Lines",
           "remarks": "Remarks",
           "contactSaveAction": "Add Contact",
-          "actions": "Form Actions",
-          "priority": "Priority"
+          "actions": "Form Actions"
         },
         "fields": {
           "sn": {
@@ -2276,6 +2469,18 @@
           "High": "#d97706",
           "Critical": "#dc2626"
         },
+        "lookupGroups": [
+          {
+            "name": "customer_group",
+            "fields": [
+              "customerName",
+              "customerCode",
+              "pgType"
+            ],
+            "primaryField": "customerName"
+          }
+        ],
+        "lookupRelations": [],
         "lookupBehavior": {
           "autoFillOnSelect": true,
           "crossGroupAutoFill": true,
@@ -2687,6 +2892,43 @@
               "uppercase": false
             }
           ]
+        }
+      },
+      "customerSettings": {
+        "entityName": "Customer",
+        "entityNamePlural": "Customers",
+        "labels": {
+          "code": "Customer Code",
+          "nameAr": "Customer Name (Arabic)",
+          "name": "Customer Name",
+          "website": "Web Site",
+          "sector": "Sector",
+          "areaCode": "Area Code",
+          "vt": "V/T",
+          "vendor": "Vendor #",
+          "remark": "Remarks"
+        },
+        "columns": {
+          "code": true,
+          "nameAr": true,
+          "name": true,
+          "website": true,
+          "sector": true,
+          "areaCode": true,
+          "vt": true,
+          "vendor": true,
+          "remark": true
+        },
+        "required": {
+          "code": true,
+          "name": true,
+          "nameAr": false,
+          "website": false,
+          "sector": false,
+          "areaCode": false,
+          "vt": false,
+          "vendor": false,
+          "remark": false
         }
       },
       "formLayout": [
@@ -3465,7 +3707,7 @@
   "taskSettings": {
     "entityName": "Quotation",
     "entityNamePlural": "Quotations",
-    "fieldCount": 15,
+    "fieldCount": 16,
     "optionalFieldKeys": [
       "targetDate",
       "dueDate",
@@ -3481,7 +3723,8 @@
       "totalItems",
       "totalValue",
       "remarks",
-      "actions"
+      "actions",
+      "contactSaveAction"
     ],
     "customFieldPool": [],
     "lookupGroups": [
@@ -4330,14 +4573,34 @@
       "previewType": "button"
     },
     {
-      "key": "origin",
+      "key": "contactSaveAction",
       "visible": true,
       "width": "half",
       "order": 17,
+      "col": 15,
+      "colSpan": 3,
+      "gridCols": 24,
+      "showMode": "always",
+      "fieldBorder": true,
+      "fieldBgClear": false,
+      "locked": false,
+      "groupId": "",
+      "groupName": "",
+      "row": 28,
+      "rowSpan": 4,
+      "rowUnit": "quarter",
+      "label": "Add Contact",
+      "previewType": "button"
+    },
+    {
+      "key": "origin",
+      "visible": true,
+      "width": "half",
+      "order": 18,
       "col": 1,
       "colSpan": 12,
       "gridCols": 24,
-      "row": 7,
+      "row": 5,
       "rowSpan": 4,
       "rowUnit": "quarter"
     },
@@ -4345,11 +4608,11 @@
       "key": "salesPerson",
       "visible": true,
       "width": "half",
-      "order": 18,
+      "order": 19,
       "col": 13,
       "colSpan": 12,
       "gridCols": 24,
-      "row": 7,
+      "row": 5,
       "rowSpan": 4,
       "rowUnit": "quarter"
     },
@@ -4357,7 +4620,7 @@
       "key": "status",
       "visible": false,
       "width": "half",
-      "order": 19,
+      "order": 20,
       "col": 1,
       "colSpan": 12,
       "gridCols": 24,
@@ -4367,21 +4630,6 @@
       "label": "Status",
       "locked": false,
       "previewType": "select"
-    },
-    {
-      "key": "contactSaveAction",
-      "visible": false,
-      "width": "half",
-      "order": 20,
-      "col": 13,
-      "colSpan": 12,
-      "gridCols": 24,
-      "row": 9,
-      "rowSpan": 4,
-      "rowUnit": "quarter",
-      "label": "Add Contact",
-      "locked": false,
-      "previewType": "button"
     }
   ],
   "customerFormLayout": [
