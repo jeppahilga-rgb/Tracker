@@ -3083,11 +3083,11 @@
       "direct_purchase"
     ],
     "scopeAll": false,
-    "sync_status": "pending_sync",
-    "updatedAt": "2026-05-17T20:54:11.429Z",
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T20:54:21.197Z",
     "createdAt": "2026-05-17T17:28:27.797Z",
-    "version": 3,
-    "isDraft": true,
+    "version": 4,
+    "isDraft": false,
     "completedAt": "",
     "priority": "None",
     "fieldValues": {},
@@ -3095,7 +3095,8 @@
     "checklists": [],
     "attachments": [],
     "comments": [],
-    "draftSavedAt": "2026-05-17T20:54:11.429Z"
+    "draftSavedAt": "2026-05-17T20:54:11.429Z",
+    "draftSubmittedAt": "2026-05-17T20:54:21.197Z"
   },
   {
     "id": "qtn_1776492971581_677",
