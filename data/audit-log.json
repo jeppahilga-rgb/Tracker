@@ -6055,14 +6055,5 @@
     "by": "User",
     "role": "admin",
     "remarks": "Board Move: UNDER REVIEW -> FOR APPROVAL"
-  },
-  {
-    "id": "audit_1779051251430_335",
-    "time": "2026-05-17T20:54:11.430Z",
-    "reference": "26031506",
-    "action": "Quotation Draft Saved",
-    "by": "User",
-    "role": "admin",
-    "remarks": "Saved as draft"
   }
 ]
