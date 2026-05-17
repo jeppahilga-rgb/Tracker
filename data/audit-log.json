@@ -5263,5 +5263,653 @@
     "by": "User",
     "role": "admin",
     "remarks": "Updated existing quotation from CSV"
+  },
+  {
+    "id": "audit_1779015041749_8",
+    "time": "2026-05-17T10:50:41.749Z",
+    "reference": "26010707",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
+  },
+  {
+    "id": "audit_1779015041751_850",
+    "time": "2026-05-17T10:50:41.751Z",
+    "reference": "26010708",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
+  },
+  {
+    "id": "audit_1779015041752_699",
+    "time": "2026-05-17T10:50:41.752Z",
+    "reference": "26010806",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
+  },
+  {
+    "id": "audit_1779015041753_341",
+    "time": "2026-05-17T10:50:41.753Z",
+    "reference": "26011106",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
+  },
+  {
+    "id": "audit_1779015041753_856",
+    "time": "2026-05-17T10:50:41.753Z",
+    "reference": "26011206",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
+  },
+  {
+    "id": "audit_1779015041754_452",
+    "time": "2026-05-17T10:50:41.754Z",
+    "reference": "26011407",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
+  },
+  {
+    "id": "audit_1779015041755_378",
+    "time": "2026-05-17T10:50:41.755Z",
+    "reference": "26011506",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
+  },
+  {
+    "id": "audit_1779015041756_474",
+    "time": "2026-05-17T10:50:41.756Z",
+    "reference": "26012807",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
+  },
+  {
+    "id": "audit_1779015041756_281",
+    "time": "2026-05-17T10:50:41.756Z",
+    "reference": "26012906",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
+  },
+  {
+    "id": "audit_1779015041757_932",
+    "time": "2026-05-17T10:50:41.757Z",
+    "reference": "26012907",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
+  },
+  {
+    "id": "audit_1779015041757_952",
+    "time": "2026-05-17T10:50:41.757Z",
+    "reference": "26012908",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
+  },
+  {
+    "id": "audit_1779015041758_106",
+    "time": "2026-05-17T10:50:41.758Z",
+    "reference": "26012909",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
+  },
+  {
+    "id": "audit_1779015047677_921",
+    "time": "2026-05-17T10:50:47.677Z",
+    "reference": "26020406",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
+  },
+  {
+    "id": "audit_1779015047679_702",
+    "time": "2026-05-17T10:50:47.679Z",
+    "reference": "26020806",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
+  },
+  {
+    "id": "audit_1779015047680_427",
+    "time": "2026-05-17T10:50:47.680Z",
+    "reference": "26021206",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
+  },
+  {
+    "id": "audit_1779015047681_615",
+    "time": "2026-05-17T10:50:47.681Z",
+    "reference": "26021807",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
+  },
+  {
+    "id": "audit_1779015047681_286",
+    "time": "2026-05-17T10:50:47.681Z",
+    "reference": "26021808",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
+  },
+  {
+    "id": "audit_1779015047683_340",
+    "time": "2026-05-17T10:50:47.683Z",
+    "reference": "26021906",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
+  },
+  {
+    "id": "audit_1779015047683_876",
+    "time": "2026-05-17T10:50:47.683Z",
+    "reference": "26022306",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
+  },
+  {
+    "id": "audit_1779015047684_267",
+    "time": "2026-05-17T10:50:47.684Z",
+    "reference": "26022406",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
+  },
+  {
+    "id": "audit_1779015047685_100",
+    "time": "2026-05-17T10:50:47.685Z",
+    "reference": "26030106",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
+  },
+  {
+    "id": "audit_1779015047686_684",
+    "time": "2026-05-17T10:50:47.686Z",
+    "reference": "26030206",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
+  },
+  {
+    "id": "audit_1779015047687_126",
+    "time": "2026-05-17T10:50:47.687Z",
+    "reference": "25030906",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
+  },
+  {
+    "id": "audit_1779015047687_288",
+    "time": "2026-05-17T10:50:47.687Z",
+    "reference": "25030907",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
+  },
+  {
+    "id": "audit_1779015052234_553",
+    "time": "2026-05-17T10:50:52.234Z",
+    "reference": "26030908",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
+  },
+  {
+    "id": "audit_1779015052237_922",
+    "time": "2026-05-17T10:50:52.237Z",
+    "reference": "26030909",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
+  },
+  {
+    "id": "audit_1779015052238_206",
+    "time": "2026-05-17T10:50:52.238Z",
+    "reference": "26031006",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
+  },
+  {
+    "id": "audit_1779015052239_221",
+    "time": "2026-05-17T10:50:52.239Z",
+    "reference": "26031206",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
+  },
+  {
+    "id": "audit_1779015052240_537",
+    "time": "2026-05-17T10:50:52.240Z",
+    "reference": "26031506",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
+  },
+  {
+    "id": "audit_1779015052240_224",
+    "time": "2026-05-17T10:50:52.240Z",
+    "reference": "26031607",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
+  },
+  {
+    "id": "audit_1779015052241_372",
+    "time": "2026-05-17T10:50:52.241Z",
+    "reference": "26031608",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
+  },
+  {
+    "id": "audit_1779015052241_780",
+    "time": "2026-05-17T10:50:52.241Z",
+    "reference": "26031706",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
+  },
+  {
+    "id": "audit_1779015052242_417",
+    "time": "2026-05-17T10:50:52.242Z",
+    "reference": "26031707",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
+  },
+  {
+    "id": "audit_1779015052242_951",
+    "time": "2026-05-17T10:50:52.242Z",
+    "reference": "26031708",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
+  },
+  {
+    "id": "audit_1779015052243_276",
+    "time": "2026-05-17T10:50:52.243Z",
+    "reference": "26031709",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
+  },
+  {
+    "id": "audit_1779015052244_657",
+    "time": "2026-05-17T10:50:52.244Z",
+    "reference": "26031711",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
+  },
+  {
+    "id": "audit_1779015056186_669",
+    "time": "2026-05-17T10:50:56.186Z",
+    "reference": "26031712",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
+  },
+  {
+    "id": "audit_1779015056189_663",
+    "time": "2026-05-17T10:50:56.189Z",
+    "reference": "26031713",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
+  },
+  {
+    "id": "audit_1779015056190_997",
+    "time": "2026-05-17T10:50:56.190Z",
+    "reference": "26031807",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
+  },
+  {
+    "id": "audit_1779015056191_685",
+    "time": "2026-05-17T10:50:56.191Z",
+    "reference": "26032906",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
+  },
+  {
+    "id": "audit_1779015056192_166",
+    "time": "2026-05-17T10:50:56.192Z",
+    "reference": "26033106",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
+  },
+  {
+    "id": "audit_1779015056193_129",
+    "time": "2026-05-17T10:50:56.193Z",
+    "reference": "26033107",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
+  },
+  {
+    "id": "audit_1779015056193_833",
+    "time": "2026-05-17T10:50:56.193Z",
+    "reference": "26033108",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
+  },
+  {
+    "id": "audit_1779015056194_299",
+    "time": "2026-05-17T10:50:56.194Z",
+    "reference": "26040206",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
+  },
+  {
+    "id": "audit_1779015056194_593",
+    "time": "2026-05-17T10:50:56.194Z",
+    "reference": "26040606",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
+  },
+  {
+    "id": "audit_1779015056195_681",
+    "time": "2026-05-17T10:50:56.195Z",
+    "reference": "26040706",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
+  },
+  {
+    "id": "audit_1779015056196_617",
+    "time": "2026-05-17T10:50:56.196Z",
+    "reference": "26040707",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
+  },
+  {
+    "id": "audit_1779015056197_849",
+    "time": "2026-05-17T10:50:56.197Z",
+    "reference": "26040708",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
+  },
+  {
+    "id": "audit_1779015061167_962",
+    "time": "2026-05-17T10:51:01.167Z",
+    "reference": "26040709",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
+  },
+  {
+    "id": "audit_1779015061169_3",
+    "time": "2026-05-17T10:51:01.169Z",
+    "reference": "26040710",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
+  },
+  {
+    "id": "audit_1779015061170_546",
+    "time": "2026-05-17T10:51:01.170Z",
+    "reference": "26040711",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
+  },
+  {
+    "id": "audit_1779015061171_128",
+    "time": "2026-05-17T10:51:01.171Z",
+    "reference": "26040712",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
+  },
+  {
+    "id": "audit_1779015061171_145",
+    "time": "2026-05-17T10:51:01.171Z",
+    "reference": "26040906",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
+  },
+  {
+    "id": "audit_1779015061172_877",
+    "time": "2026-05-17T10:51:01.172Z",
+    "reference": "26042601",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
+  },
+  {
+    "id": "audit_1779015061172_282",
+    "time": "2026-05-17T10:51:01.172Z",
+    "reference": "26010406",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
+  },
+  {
+    "id": "audit_1779015061173_53",
+    "time": "2026-05-17T10:51:01.173Z",
+    "reference": "26010706",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
+  },
+  {
+    "id": "audit_1779015061174_168",
+    "time": "2026-05-17T10:51:01.174Z",
+    "reference": "26010707",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
+  },
+  {
+    "id": "audit_1779015061175_783",
+    "time": "2026-05-17T10:51:01.175Z",
+    "reference": "26010708",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
+  },
+  {
+    "id": "audit_1779015061175_571",
+    "time": "2026-05-17T10:51:01.175Z",
+    "reference": "26010806",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
+  },
+  {
+    "id": "audit_1779015061176_740",
+    "time": "2026-05-17T10:51:01.176Z",
+    "reference": "26011106",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
+  },
+  {
+    "id": "audit_1779015065225_936",
+    "time": "2026-05-17T10:51:05.225Z",
+    "reference": "26011206",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
+  },
+  {
+    "id": "audit_1779015065228_30",
+    "time": "2026-05-17T10:51:05.228Z",
+    "reference": "26011407",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
+  },
+  {
+    "id": "audit_1779015065229_875",
+    "time": "2026-05-17T10:51:05.229Z",
+    "reference": "26011506",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
+  },
+  {
+    "id": "audit_1779015065231_982",
+    "time": "2026-05-17T10:51:05.231Z",
+    "reference": "26012807",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
+  },
+  {
+    "id": "audit_1779015065232_187",
+    "time": "2026-05-17T10:51:05.232Z",
+    "reference": "26012906",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
+  },
+  {
+    "id": "audit_1779015065233_456",
+    "time": "2026-05-17T10:51:05.233Z",
+    "reference": "26012907",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
+  },
+  {
+    "id": "audit_1779015065233_212",
+    "time": "2026-05-17T10:51:05.233Z",
+    "reference": "26012908",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
+  },
+  {
+    "id": "audit_1779015065234_864",
+    "time": "2026-05-17T10:51:05.234Z",
+    "reference": "26012909",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
+  },
+  {
+    "id": "audit_1779015065235_680",
+    "time": "2026-05-17T10:51:05.235Z",
+    "reference": "26020406",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
+  },
+  {
+    "id": "audit_1779015065236_378",
+    "time": "2026-05-17T10:51:05.236Z",
+    "reference": "26020806",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
+  },
+  {
+    "id": "audit_1779015065238_899",
+    "time": "2026-05-17T10:51:05.238Z",
+    "reference": "26021206",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
+  },
+  {
+    "id": "audit_1779015065240_77",
+    "time": "2026-05-17T10:51:05.240Z",
+    "reference": "26021807",
+    "action": "Bulk Deleted",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Deleted from list bulk action"
   }
 ]
