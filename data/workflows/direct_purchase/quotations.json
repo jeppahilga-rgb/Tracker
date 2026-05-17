@@ -3065,7 +3065,7 @@
     "rfq": "26039009864(DR220372)",
     "bid": "200",
     "quoteTime": "11:00",
-    "status": "NOT STARTED",
+    "status": "FOR APPROVAL",
     "contactName": "Nahi Al Shammari",
     "phone": "0138532648",
     "email": "shammariN12@mngha.med.sa",
@@ -3083,8 +3083,12 @@
       "direct_purchase"
     ],
     "scopeAll": false,
-    "sync_status": "synced",
-    "updatedAt": "2026-05-17T16:22:26.841Z"
+    "sync_status": "pending_sync",
+    "updatedAt": "2026-05-17T17:28:30.225Z",
+    "createdAt": "2026-05-17T17:28:27.797Z",
+    "version": 2,
+    "isDraft": false,
+    "completedAt": ""
   },
   {
     "id": "qtn_1776492971581_677",
