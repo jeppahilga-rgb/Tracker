@@ -41,6 +41,7 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced"
   }
 ]
