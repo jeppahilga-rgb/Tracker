@@ -41,7 +41,8 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced"
   },
   {
     "id": "qtn_1777450852665_951",
@@ -85,7 +86,8 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced"
   },
   {
     "id": "qtn_1777450852668_870",
@@ -129,7 +131,8 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced"
   },
   {
     "id": "qtn_1777450852669_697",
@@ -173,7 +176,8 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced"
   },
   {
     "id": "qtn_1777450852672_689",
@@ -217,7 +221,8 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced"
   },
   {
     "id": "qtn_1777450852673_775",
@@ -261,7 +266,8 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced"
   },
   {
     "id": "qtn_1777450852673_165",
@@ -305,7 +311,8 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced"
   },
   {
     "id": "qtn_1777450852674_227",
@@ -349,7 +356,8 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced"
   },
   {
     "id": "qtn_1777450852675_277",
@@ -393,7 +401,8 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced"
   },
   {
     "id": "qtn_1777450852676_988",
@@ -437,7 +446,8 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced"
   },
   {
     "id": "qtn_1777450852677_683",
@@ -481,7 +491,8 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced"
   },
   {
     "id": "qtn_1777450852678_49",
@@ -525,7 +536,8 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced"
   },
   {
     "id": "qtn_1777450852679_879",
@@ -569,7 +581,8 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced"
   },
   {
     "id": "qtn_1777450852680_475",
@@ -613,7 +626,8 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced"
   },
   {
     "id": "qtn_1777450852681_508",
@@ -657,7 +671,8 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced"
   },
   {
     "id": "qtn_1777450852682_961",
@@ -701,7 +716,8 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced"
   },
   {
     "id": "qtn_1777450852683_696",
@@ -745,7 +761,8 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced"
   },
   {
     "id": "qtn_1777450852684_56",
@@ -789,7 +806,8 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced"
   },
   {
     "id": "qtn_1777450852685_833",
@@ -833,7 +851,8 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced"
   },
   {
     "id": "qtn_1777450852692_372",
@@ -877,7 +896,8 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced"
   },
   {
     "id": "qtn_1777450852693_752",
@@ -921,7 +941,8 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced"
   },
   {
     "id": "qtn_1777450854505_704",
@@ -965,7 +986,8 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced"
   },
   {
     "id": "qtn_1777450854507_355",
@@ -1009,7 +1031,8 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced"
   },
   {
     "id": "qtn_1777450854508_672",
@@ -1053,7 +1076,8 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced"
   },
   {
     "id": "qtn_1777450854510_791",
@@ -1097,7 +1121,8 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced"
   },
   {
     "id": "qtn_1777450854517_16",
@@ -1141,7 +1166,8 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced"
   },
   {
     "id": "qtn_1777450854522_279",
@@ -1185,7 +1211,8 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced"
   },
   {
     "id": "qtn_1777450854523_971",
@@ -1229,7 +1256,8 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced"
   },
   {
     "id": "qtn_1777450854525_372",
@@ -1273,7 +1301,8 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced"
   },
   {
     "id": "qtn_1777450854526_827",
@@ -1317,7 +1346,8 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced"
   },
   {
     "id": "qtn_1777450854528_952",
@@ -1361,7 +1391,8 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced"
   },
   {
     "id": "qtn_1777450854536_342",
@@ -1405,7 +1436,8 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced"
   },
   {
     "id": "qtn_1777450854538_874",
@@ -1449,7 +1481,8 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced"
   },
   {
     "id": "qtn_1777450854540_171",
@@ -1493,7 +1526,8 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced"
   },
   {
     "id": "qtn_1777450854541_283",
@@ -1537,7 +1571,8 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced"
   },
   {
     "id": "qtn_1777450854543_410",
@@ -1581,7 +1616,8 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced"
   },
   {
     "id": "qtn_1777450854548_536",
@@ -1625,7 +1661,8 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced"
   },
   {
     "id": "qtn_1777450854558_244",
@@ -1669,7 +1706,8 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced"
   },
   {
     "id": "qtn_1777450854564_5",
@@ -1713,7 +1751,8 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced"
   },
   {
     "id": "qtn_1776492971534_760",
@@ -1747,7 +1786,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "qtn_1776492971535_197",
@@ -1781,7 +1822,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "qtn_1776492971535_600",
@@ -1815,7 +1858,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "qtn_1776492971536_704",
@@ -1849,7 +1894,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "qtn_1776492971537_71",
@@ -1883,7 +1930,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "qtn_1776492971537_823",
@@ -1917,7 +1966,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "qtn_1776492971538_233",
@@ -1951,7 +2002,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "qtn_1776492971538_807",
@@ -1985,7 +2038,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "qtn_1776492971538_776",
@@ -2019,7 +2074,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "qtn_1776492971539_673",
@@ -2053,7 +2110,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "qtn_1776492971539_745",
@@ -2087,7 +2146,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "qtn_1776492971539_330",
@@ -2121,7 +2182,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "qtn_1776492971540_893",
@@ -2155,7 +2218,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "qtn_1776492971540_374",
@@ -2189,7 +2254,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "qtn_1776492971541_214",
@@ -2223,7 +2290,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "qtn_1776492971542_182",
@@ -2257,7 +2326,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "qtn_1776492971542_445",
@@ -2291,7 +2362,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "qtn_1776492971542_792",
@@ -2325,7 +2398,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "qtn_1776492971543_889",
@@ -2359,7 +2434,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "qtn_1776492971546_42",
@@ -2393,7 +2470,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "qtn_1776492971547_512",
@@ -2427,7 +2506,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "qtn_1776492971551_966",
@@ -2461,7 +2542,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "qtn_1776492971552_951",
@@ -2495,7 +2578,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "qtn_1776492971553_686",
@@ -2529,7 +2614,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "qtn_1776492971553_957",
@@ -2563,7 +2650,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "qtn_1776492971557_495",
@@ -2597,7 +2686,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "qtn_1776492971559_608",
@@ -2631,7 +2722,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "qtn_1776492971560_299",
@@ -2665,7 +2758,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "qtn_1776492971561_831",
@@ -2699,7 +2794,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "qtn_1776492971561_913",
@@ -2733,7 +2830,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "qtn_1776492971563_591",
@@ -2767,7 +2866,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "qtn_1776492971571_314",
@@ -2801,7 +2902,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "qtn_1776492971572_926",
@@ -2835,7 +2938,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "qtn_1776492971573_679",
@@ -2869,7 +2974,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "qtn_1776492971575_277",
@@ -2903,7 +3010,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "qtn_1776492971576_663",
@@ -2937,7 +3046,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "qtn_1776492971579_732",
@@ -2971,7 +3082,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "qtn_1776492971581_677",
@@ -3005,7 +3118,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "qtn_1776492971582_280",
@@ -3039,7 +3154,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "qtn_1776492971583_429",
@@ -3073,7 +3190,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "qtn_1776492971585_624",
@@ -3107,7 +3226,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "qtn_1776492971586_808",
@@ -3141,7 +3262,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "qtn_1776492971588_763",
@@ -3175,7 +3298,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "qtn_1776492971590_918",
@@ -3209,7 +3334,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "qtn_1776492971593_511",
@@ -3243,7 +3370,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "qtn_1776492971594_295",
@@ -3285,7 +3414,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "qtn_1776492971595_372",
@@ -3319,7 +3450,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "qtn_1776492971596_180",
@@ -3353,7 +3486,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "qtn_1776492971597_629",
@@ -3387,7 +3522,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "qtn_1776492971598_220",
@@ -3421,7 +3558,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "qtn_1776492971599_324",
@@ -3463,7 +3602,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "qtn_1776492971600_259",
@@ -3497,7 +3638,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "qtn_1776492971601_824",
@@ -3539,7 +3682,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "qtn_1776492971601_16",
@@ -3577,7 +3722,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "qtn_1776492971602_296",
@@ -3619,7 +3766,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "qtn_1776492971604_76",
@@ -3653,7 +3802,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "qtn_1776492971605_823",
@@ -3687,7 +3838,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "qtn_1776492971606_308",
@@ -3721,7 +3874,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "qtn_1776492971607_373",
@@ -3763,7 +3918,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "qtn_1776492971607_590",
@@ -3805,7 +3962,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "qtn_1776492971608_279",
@@ -3839,7 +3998,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "qtn_1776492971609_623",
@@ -3889,7 +4050,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "qtn_1776492971610_277",
@@ -3923,7 +4086,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "qtn_1776492971611_898",
@@ -3961,6 +4126,8 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   }
 ]
