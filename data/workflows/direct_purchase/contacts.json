@@ -9,7 +9,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944368_325",
@@ -21,7 +23,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530178741_832",
@@ -33,7 +37,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944368_751",
@@ -45,7 +51,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530178744_409",
@@ -57,7 +65,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944367_63",
@@ -69,7 +79,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530178747_575",
@@ -81,7 +93,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944366_539",
@@ -93,7 +107,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944366_485",
@@ -105,7 +121,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530178751_858",
@@ -117,7 +135,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944361_471",
@@ -129,7 +149,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530178753_542",
@@ -141,7 +163,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944361_381",
@@ -153,7 +177,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944365_127",
@@ -165,7 +191,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944367_602",
@@ -177,7 +205,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944365_224",
@@ -189,7 +219,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530178759_697",
@@ -201,7 +233,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944364_345",
@@ -213,7 +247,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944363_108",
@@ -225,7 +261,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530178763_428",
@@ -237,7 +275,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530178764_354",
@@ -249,7 +289,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944361_853",
@@ -261,7 +303,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944365_427",
@@ -273,7 +317,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944361_167",
@@ -285,7 +331,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944361_584",
@@ -297,7 +345,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944363_571",
@@ -309,7 +359,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944361_957",
@@ -321,7 +373,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944366_827",
@@ -333,7 +387,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944366_889",
@@ -345,7 +401,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530178776_549",
@@ -357,7 +415,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944366_247",
@@ -369,7 +429,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944366_418",
@@ -381,7 +443,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944361_367",
@@ -393,7 +457,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530178781_488",
@@ -405,7 +471,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530178782_897",
@@ -417,7 +485,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944367_885",
@@ -429,7 +499,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530178784_505",
@@ -441,7 +513,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944366_795",
@@ -453,7 +527,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530178787_318",
@@ -465,7 +541,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530178788_992",
@@ -477,7 +555,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530178789_655",
@@ -489,7 +569,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530178791_384",
@@ -501,7 +583,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944368_926",
@@ -513,7 +597,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530178793_294",
@@ -525,7 +611,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530178794_425",
@@ -537,7 +625,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530178795_570",
@@ -549,7 +639,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530178797_830",
@@ -561,7 +653,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944367_537",
@@ -573,7 +667,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944367_998",
@@ -585,7 +681,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944361_194",
@@ -597,7 +695,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530178802_27",
@@ -609,7 +709,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530178803_476",
@@ -621,7 +723,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944367_758",
@@ -633,7 +737,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944365_852",
@@ -645,7 +751,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944361_617",
@@ -657,7 +765,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944365_642",
@@ -669,7 +779,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944366_49",
@@ -681,7 +793,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944364_575",
@@ -693,7 +807,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944361_291",
@@ -705,7 +821,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530178814_322",
@@ -717,7 +835,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944365_813",
@@ -729,7 +849,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530178817_948",
@@ -741,7 +863,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944366_56",
@@ -753,7 +877,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944367_318",
@@ -765,7 +891,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944367_909",
@@ -777,7 +905,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530178822_144",
@@ -789,7 +919,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944363_496",
@@ -801,7 +933,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530178824_271",
@@ -813,7 +947,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530178826_495",
@@ -825,7 +961,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944364_970",
@@ -837,7 +975,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530178828_897",
@@ -849,7 +989,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944365_479",
@@ -861,7 +1003,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944361_508",
@@ -873,7 +1017,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944362_772",
@@ -885,7 +1031,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944368_588",
@@ -897,7 +1045,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944361_499",
@@ -909,7 +1059,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944361_536",
@@ -921,7 +1073,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944366_25",
@@ -933,7 +1087,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944363_94",
@@ -945,7 +1101,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944364_367",
@@ -957,7 +1115,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944365_462",
@@ -969,7 +1129,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944365_947",
@@ -981,7 +1143,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944361_38",
@@ -993,7 +1157,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944366_112",
@@ -1005,7 +1171,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944367_554",
@@ -1017,7 +1185,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944361_542",
@@ -1029,7 +1199,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944367_16",
@@ -1041,7 +1213,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944366_870",
@@ -1053,7 +1227,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944367_162",
@@ -1065,7 +1241,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944365_396",
@@ -1077,7 +1255,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944361_132",
@@ -1089,7 +1269,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944367_551",
@@ -1101,7 +1283,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530178856_972",
@@ -1113,7 +1297,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944367_613",
@@ -1125,7 +1311,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944365_827",
@@ -1137,7 +1325,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530178859_427",
@@ -1149,7 +1339,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944366_990",
@@ -1161,7 +1353,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530178862_559",
@@ -1173,7 +1367,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530178863_488",
@@ -1185,7 +1381,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944365_10",
@@ -1197,7 +1395,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944367_407",
@@ -1209,7 +1409,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530178867_178",
@@ -1221,7 +1423,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530178868_827",
@@ -1233,7 +1437,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944361_342",
@@ -1245,7 +1451,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530178870_645",
@@ -1257,7 +1465,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530178872_985",
@@ -1269,7 +1479,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530178873_860",
@@ -1281,7 +1493,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944363_489",
@@ -1293,7 +1507,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944361_935",
@@ -1305,7 +1521,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944367_10",
@@ -1317,7 +1535,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944367_305",
@@ -1329,7 +1549,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944362_128",
@@ -1341,7 +1563,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944366_578",
@@ -1353,7 +1577,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944366_417",
@@ -1365,7 +1591,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530178884_652",
@@ -1377,7 +1605,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944367_787",
@@ -1389,7 +1619,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530178887_918",
@@ -1401,7 +1633,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944366_362",
@@ -1413,7 +1647,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530178889_562",
@@ -1425,7 +1661,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944366_993",
@@ -1437,7 +1675,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944366_950",
@@ -1449,7 +1689,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944367_813",
@@ -1461,7 +1703,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944363_975",
@@ -1473,7 +1717,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944362_207",
@@ -1485,7 +1731,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944365_831",
@@ -1497,7 +1745,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944365_927",
@@ -1509,7 +1759,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944364_752",
@@ -1521,7 +1773,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944368_413",
@@ -1533,7 +1787,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944361_973",
@@ -1545,7 +1801,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944366_459",
@@ -1557,7 +1815,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944367_740",
@@ -1569,7 +1829,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944361_54",
@@ -1581,7 +1843,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944364_767",
@@ -1593,7 +1857,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530178909_175",
@@ -1605,7 +1871,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944361_510",
@@ -1617,7 +1885,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944362_742",
@@ -1629,7 +1899,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944365_671",
@@ -1641,7 +1913,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944366_722",
@@ -1653,7 +1927,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530178917_386",
@@ -1665,7 +1941,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530178918_765",
@@ -1677,7 +1955,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530178919_848",
@@ -1689,7 +1969,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944367_248",
@@ -1701,7 +1983,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944366_161",
@@ -1713,7 +1997,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944368_653",
@@ -1725,7 +2011,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944365_571",
@@ -1737,7 +2025,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530178928_489",
@@ -1749,7 +2039,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944360_83",
@@ -1761,7 +2053,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944366_299",
@@ -1773,7 +2067,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530178932_18",
@@ -1785,7 +2081,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944365_600",
@@ -1797,7 +2095,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944366_74",
@@ -1809,7 +2109,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944366_269",
@@ -1821,7 +2123,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944366_277",
@@ -1833,7 +2137,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944362_507",
@@ -1845,7 +2151,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944367_970",
@@ -1857,7 +2165,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530178940_468",
@@ -1869,7 +2179,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944361_599",
@@ -1881,7 +2193,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944361_325",
@@ -1893,7 +2207,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944361_509",
@@ -1905,7 +2221,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944363_272",
@@ -1917,7 +2235,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944366_428",
@@ -1929,7 +2249,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944367_496",
@@ -1941,7 +2263,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530178949_887",
@@ -1953,7 +2277,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944361_92",
@@ -1965,7 +2291,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530178953_311",
@@ -1977,7 +2305,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944366_770",
@@ -1989,7 +2319,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944364_220",
@@ -2001,7 +2333,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944365_834",
@@ -2013,7 +2347,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944368_875",
@@ -2025,7 +2361,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944361_109",
@@ -2037,7 +2375,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944366_732",
@@ -2049,7 +2389,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530178962_843",
@@ -2061,7 +2403,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944364_738",
@@ -2073,7 +2417,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944366_271",
@@ -2085,7 +2431,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944367_405",
@@ -2097,7 +2445,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944363_311",
@@ -2109,7 +2459,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944366_283",
@@ -2121,7 +2473,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944363_472",
@@ -2133,7 +2487,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944361_673",
@@ -2145,7 +2501,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944363_286",
@@ -2157,7 +2515,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944363_625",
@@ -2169,7 +2529,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944367_140",
@@ -2181,7 +2543,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944364_164",
@@ -2193,7 +2557,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944368_735",
@@ -2205,7 +2571,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944362_898",
@@ -2217,7 +2585,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944365_368",
@@ -2229,7 +2599,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944364_69",
@@ -2241,7 +2613,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944364_583",
@@ -2253,7 +2627,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944364_450",
@@ -2265,7 +2641,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944362_611",
@@ -2277,7 +2655,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944366_885",
@@ -2289,7 +2669,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944361_235",
@@ -2301,7 +2683,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944363_514",
@@ -2313,7 +2697,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944367_275",
@@ -2325,7 +2711,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944368_904",
@@ -2337,7 +2725,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530178994_556",
@@ -2349,7 +2739,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530178995_776",
@@ -2361,7 +2753,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944368_257",
@@ -2373,7 +2767,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944368_54",
@@ -2385,7 +2781,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944361_46",
@@ -2397,7 +2795,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530179003_396",
@@ -2409,7 +2809,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944366_679",
@@ -2421,7 +2823,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944361_498",
@@ -2433,7 +2837,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944364_703",
@@ -2445,7 +2851,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944366_268",
@@ -2457,7 +2865,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530179011_260",
@@ -2469,7 +2879,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944365_453",
@@ -2481,7 +2893,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944366_488",
@@ -2493,7 +2907,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944366_341",
@@ -2505,7 +2921,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530179016_112",
@@ -2517,7 +2935,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530179018_703",
@@ -2529,7 +2949,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530179019_843",
@@ -2541,7 +2963,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530179020_394",
@@ -2553,7 +2977,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944367_872",
@@ -2565,7 +2991,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944360_652",
@@ -2577,7 +3005,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944361_995",
@@ -2589,7 +3019,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944367_710",
@@ -2601,7 +3033,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944365_54",
@@ -2613,7 +3047,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944366_583",
@@ -2625,7 +3061,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944367_930",
@@ -2637,7 +3075,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944367_193",
@@ -2649,7 +3089,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944362_818",
@@ -2661,7 +3103,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944361_815",
@@ -2673,7 +3117,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944368_915",
@@ -2685,7 +3131,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944361_17",
@@ -2697,7 +3145,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944363_27",
@@ -2709,7 +3159,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944367_137",
@@ -2721,7 +3173,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530179041_941",
@@ -2733,7 +3187,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530179043_876",
@@ -2745,7 +3201,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944368_983",
@@ -2757,7 +3215,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944362_241",
@@ -2769,7 +3229,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530179048_540",
@@ -2781,7 +3243,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944362_648",
@@ -2793,7 +3257,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944364_143",
@@ -2805,7 +3271,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530179051_839",
@@ -2817,7 +3285,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530179053_462",
@@ -2829,7 +3299,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530179054_828",
@@ -2841,7 +3313,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530179055_532",
@@ -2853,7 +3327,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530179057_477",
@@ -2865,7 +3341,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944363_793",
@@ -2877,7 +3355,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530179059_633",
@@ -2889,7 +3369,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944365_158",
@@ -2901,7 +3383,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530179062_988",
@@ -2913,7 +3397,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530179063_609",
@@ -2925,7 +3411,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530179065_821",
@@ -2937,7 +3425,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944366_878",
@@ -2949,7 +3439,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530179067_457",
@@ -2961,7 +3453,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944368_500",
@@ -2973,7 +3467,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944367_412",
@@ -2985,7 +3481,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944368_366",
@@ -2997,7 +3495,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944364_966",
@@ -3009,7 +3509,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944365_449",
@@ -3021,7 +3523,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944365_821",
@@ -3033,7 +3537,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944367_374",
@@ -3045,7 +3551,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944361_586",
@@ -3057,7 +3565,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944367_201",
@@ -3069,7 +3579,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944361_149",
@@ -3081,7 +3593,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944361_14",
@@ -3093,7 +3607,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944361_519",
@@ -3105,7 +3621,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944367_576",
@@ -3117,7 +3635,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944368_916",
@@ -3129,7 +3649,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944361_756",
@@ -3141,7 +3663,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944367_187",
@@ -3153,7 +3677,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944366_733",
@@ -3165,7 +3691,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944361_760",
@@ -3177,7 +3705,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944364_650",
@@ -3189,7 +3719,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944366_174",
@@ -3201,7 +3733,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944367_226",
@@ -3213,7 +3747,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944368_132",
@@ -3225,7 +3761,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944366_489",
@@ -3237,7 +3775,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944362_765",
@@ -3249,7 +3789,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944366_415",
@@ -3261,7 +3803,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944367_283",
@@ -3273,7 +3817,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944365_273",
@@ -3285,7 +3831,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944368_420",
@@ -3297,7 +3845,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944368_993",
@@ -3309,7 +3859,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944368_124",
@@ -3321,7 +3873,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944365_911",
@@ -3333,7 +3887,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944361_605",
@@ -3345,7 +3901,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944361_804",
@@ -3357,7 +3915,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944362_855",
@@ -3369,7 +3929,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944362_503",
@@ -3381,7 +3943,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944367_774",
@@ -3393,7 +3957,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944368_109",
@@ -3405,7 +3971,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944365_60",
@@ -3417,7 +3985,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944367_279",
@@ -3429,7 +3999,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944364_567",
@@ -3441,7 +4013,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944364_65",
@@ -3453,7 +4027,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944366_592",
@@ -3465,7 +4041,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944367_848",
@@ -3477,7 +4055,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944363_45",
@@ -3489,7 +4069,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944367_186",
@@ -3501,7 +4083,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944363_214",
@@ -3513,7 +4097,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944367_658",
@@ -3525,7 +4111,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530179135_147",
@@ -3537,7 +4125,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944363_43",
@@ -3549,7 +4139,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944365_881",
@@ -3561,7 +4153,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944363_354",
@@ -3573,7 +4167,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530179142_832",
@@ -3585,7 +4181,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530179144_166",
@@ -3597,7 +4195,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530179145_844",
@@ -3609,7 +4209,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530179146_621",
@@ -3621,7 +4223,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944366_688",
@@ -3633,7 +4237,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944366_579",
@@ -3645,7 +4251,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944368_665",
@@ -3657,7 +4265,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944362_665",
@@ -3669,7 +4279,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944368_519",
@@ -3681,7 +4293,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944364_15",
@@ -3693,7 +4307,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944364_944",
@@ -3705,7 +4321,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944366_902",
@@ -3717,7 +4335,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944367_19",
@@ -3729,7 +4349,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944361_12",
@@ -3741,7 +4363,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944368_970",
@@ -3753,7 +4377,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944365_53",
@@ -3765,7 +4391,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944367_471",
@@ -3777,7 +4405,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944368_566",
@@ -3789,7 +4419,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944361_530",
@@ -3801,7 +4433,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944366_698",
@@ -3813,7 +4447,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944367_800",
@@ -3825,7 +4461,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944361_547",
@@ -3837,7 +4475,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530179175_442",
@@ -3849,7 +4489,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530179177_727",
@@ -3861,7 +4503,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530179178_117",
@@ -3873,7 +4517,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530179179_862",
@@ -3885,7 +4531,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530179181_281",
@@ -3897,7 +4545,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944366_391",
@@ -3909,7 +4559,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944367_23",
@@ -3921,7 +4573,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530179185_347",
@@ -3933,7 +4587,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944361_657",
@@ -3945,7 +4601,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944365_478",
@@ -3957,7 +4615,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1777530179190_309",
@@ -3969,7 +4629,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944360_717",
@@ -3981,7 +4643,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944360_761",
@@ -3993,7 +4657,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944360_762",
@@ -4005,7 +4671,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944360_714",
@@ -4017,7 +4685,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944360_989",
@@ -4029,7 +4699,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944360_113",
@@ -4041,7 +4713,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944360_368",
@@ -4053,7 +4727,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944360_209",
@@ -4065,7 +4741,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944360_702",
@@ -4077,7 +4755,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944361_84",
@@ -4089,7 +4769,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944361_121",
@@ -4101,7 +4783,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944361_836",
@@ -4113,7 +4797,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944361_774",
@@ -4125,7 +4811,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944361_6",
@@ -4137,7 +4825,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944361_515",
@@ -4149,7 +4839,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944361_442",
@@ -4161,7 +4853,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944362_572",
@@ -4173,7 +4867,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944362_524",
@@ -4185,7 +4881,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944362_125",
@@ -4197,7 +4895,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944362_841",
@@ -4209,7 +4909,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944362_474",
@@ -4221,7 +4923,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944362_348",
@@ -4233,7 +4937,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944362_141",
@@ -4245,7 +4951,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944363_584",
@@ -4257,7 +4965,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944363_744",
@@ -4269,7 +4979,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944363_268",
@@ -4281,7 +4993,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944363_304",
@@ -4293,7 +5007,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944363_846",
@@ -4305,7 +5021,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944363_675",
@@ -4317,7 +5035,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944363_70",
@@ -4329,7 +5049,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944363_345",
@@ -4341,7 +5063,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944364_332",
@@ -4353,7 +5077,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944364_903",
@@ -4365,7 +5091,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944364_282",
@@ -4377,7 +5105,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944364_811",
@@ -4389,7 +5119,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944364_948",
@@ -4401,7 +5133,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944364_805",
@@ -4413,7 +5147,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944365_560",
@@ -4425,7 +5161,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944365_108",
@@ -4437,7 +5175,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944365_537",
@@ -4449,7 +5189,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944365_829",
@@ -4461,7 +5203,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944365_574",
@@ -4473,7 +5217,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944365_109",
@@ -4485,7 +5231,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944365_184",
@@ -4497,7 +5245,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944365_877",
@@ -4509,7 +5259,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944366_389",
@@ -4521,7 +5273,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944366_136",
@@ -4533,7 +5287,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944366_24",
@@ -4545,7 +5301,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944366_939",
@@ -4557,7 +5315,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944366_390",
@@ -4569,7 +5329,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944366_491",
@@ -4581,7 +5343,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944366_673",
@@ -4593,7 +5357,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944366_622",
@@ -4605,7 +5371,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944366_835",
@@ -4617,7 +5385,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944366_864",
@@ -4629,7 +5399,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944366_194",
@@ -4641,7 +5413,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944366_975",
@@ -4653,7 +5427,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944366_849",
@@ -4665,7 +5441,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944366_806",
@@ -4677,7 +5455,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944367_676",
@@ -4689,7 +5469,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944367_619",
@@ -4701,7 +5483,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944367_716",
@@ -4713,7 +5497,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944367_582",
@@ -4725,7 +5511,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944367_434",
@@ -4737,7 +5525,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944367_57",
@@ -4749,7 +5539,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944367_61",
@@ -4761,7 +5553,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944367_633",
@@ -4773,7 +5567,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944367_847",
@@ -4785,7 +5581,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944368_34",
@@ -4797,7 +5595,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944368_35",
@@ -4809,7 +5609,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944368_947",
@@ -4821,7 +5623,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944368_26",
@@ -4833,7 +5637,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944368_683",
@@ -4845,7 +5651,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944368_535",
@@ -4857,7 +5665,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944368_698",
@@ -4869,7 +5679,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct_1776492944368_730",
@@ -4881,7 +5693,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct1",
@@ -4893,7 +5707,9 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "ct2",
@@ -4905,6 +5721,22 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
+  },
+  {
+    "id": "ct_1776492944363_792",
+    "customerCode": "779",
+    "name": "Dr. Amer",
+    "phone": "-",
+    "email": "-",
+    "workflowId": "direct_purchase",
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   }
 ]
