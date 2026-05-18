@@ -4998,6 +4998,20 @@
     "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
+    "id": "ct_1776492944363_792",
+    "customerCode": "779",
+    "name": "Dr. Amer",
+    "phone": "-",
+    "email": "-",
+    "workflowId": "direct_purchase",
+    "workflowIds": [
+      "direct_purchase"
+    ],
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
+  },
+  {
     "id": "ct_1776492944363_304",
     "customerCode": "398",
     "name": "Dr. Essa Al-Dhafiri",
@@ -5717,20 +5731,6 @@
     "name": "Jane Smith",
     "phone": "+966500000002",
     "email": "jane@dallah.com",
-    "workflowId": "direct_purchase",
-    "workflowIds": [
-      "direct_purchase"
-    ],
-    "scopeAll": false,
-    "sync_status": "synced",
-    "updatedAt": "2026-05-17T16:22:26.841Z"
-  },
-  {
-    "id": "ct_1776492944363_792",
-    "customerCode": "779",
-    "name": "Dr. Amer",
-    "phone": "-",
-    "email": "-",
     "workflowId": "direct_purchase",
     "workflowIds": [
       "direct_purchase"
