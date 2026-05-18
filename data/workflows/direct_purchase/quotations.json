@@ -3151,7 +3151,7 @@
     "quoteTime": "09:59",
     "status": "NOT STARTED",
     "contactName": "Raja Mohammed Moussa Majrashi",
-    "phone": "0550068982/0173298090",
+    "phone": "0550068982",
     "email": "ralmagrashiy@jazanu.edu.sa",
     "totalItems": 0,
     "totalValue": 0,
@@ -3167,8 +3167,18 @@
       "direct_purchase"
     ],
     "scopeAll": false,
-    "sync_status": "synced",
-    "updatedAt": "2026-05-17T16:22:26.841Z"
+    "sync_status": "pending_sync",
+    "updatedAt": "2026-05-18T13:17:41.940Z",
+    "priority": "Critical",
+    "fieldValues": {},
+    "checklist": [],
+    "checklists": [],
+    "attachments": [],
+    "comments": [],
+    "createdAt": "2026-05-18T13:17:41.940Z",
+    "version": 1,
+    "isDraft": false,
+    "completedAt": ""
   },
   {
     "id": "qtn_1776492971583_429",
