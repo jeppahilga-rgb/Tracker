@@ -3167,7 +3167,7 @@
       "direct_purchase"
     ],
     "scopeAll": false,
-    "sync_status": "pending_sync",
+    "sync_status": "synced",
     "updatedAt": "2026-05-18T13:17:41.940Z",
     "priority": "Critical",
     "fieldValues": {},
