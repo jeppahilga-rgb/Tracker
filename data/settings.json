@@ -73,12 +73,13 @@
       "referenceSequencePad": 2,
       "originSalesMap": {
         "NUPCO": [
-          "NUPCO 1",
-          "NUPCO 2",
-          "NUPCO 3"
+          "Adnan",
+          "Sales 2",
+          "Sales 3"
         ],
         "Etimad": [
-          "Direct Purchase"
+          "Adnan",
+          "Sales 2"
         ],
         "E-Purchasing": [
           "Customer Code Based"
@@ -100,15 +101,16 @@
             {
               "name": "NUPCO",
               "subtags": [
-                "NUPCO 1",
-                "NUPCO 2",
-                "NUPCO 3"
+                "Adnan",
+                "Sales 2",
+                "Sales 3"
               ]
             },
             {
               "name": "Etimad",
               "subtags": [
-                "Direct Purchase"
+                "Adnan",
+                "Sales 2"
               ]
             },
             {
@@ -146,7 +148,7 @@
       "taskSettings": {
         "entityName": "Quotation",
         "entityNamePlural": "Quotations",
-        "fieldCount": 17,
+        "fieldCount": 15,
         "optionalFieldKeys": [
           "targetDate",
           "dueDate",
@@ -162,14 +164,9 @@
           "totalItems",
           "totalValue",
           "remarks",
-          "contactSaveAction",
-          "sales",
-          "origin"
+          "contactSaveAction"
         ],
-        "customFieldPool": [
-          "sales",
-          "origin"
-        ],
+        "customFieldPool": [],
         "lookupGroups": [
           {
             "name": "customer_group",
@@ -208,7 +205,7 @@
           "customerCode": "Customer Code",
           "customerName": "Customer Name",
           "rfq": "RFQ",
-          "bid": "Bid Amount",
+          "bid": "Bid",
           "status": "Status",
           "pgType": "PG",
           "quoteTime": "Time",
@@ -221,9 +218,7 @@
           "remarks": "Remarks",
           "contactSaveAction": "Add Contact",
           "actions": "Add",
-          "priority": "Priority",
-          "sales": "Sales",
-          "origin": "Origin"
+          "priority": "Priority"
         },
         "fields": {
           "sn": {
@@ -372,7 +367,7 @@
           },
           "bid": {
             "key": "bid",
-            "label": "Bid Amount",
+            "label": "Bid",
             "type": "text",
             "dateFormat": "",
             "timeFormat": "",
@@ -601,42 +596,6 @@
             "lookupGroup": "",
             "buttonAction": "upsert",
             "buttonTarget": "Contacts",
-            "showOnForm": true,
-            "required": false
-          },
-          "sales": {
-            "key": "sales",
-            "label": "Sales",
-            "type": "dropdown",
-            "dateFormat": "",
-            "timeFormat": "",
-            "databaseKey": "sales",
-            "taxonomy": "tagSubGroup:origin",
-            "source": "",
-            "formula": "",
-            "options": "",
-            "relationColumn": "",
-            "lookupGroup": "",
-            "buttonAction": "none",
-            "buttonTarget": "",
-            "showOnForm": true,
-            "required": false
-          },
-          "origin": {
-            "key": "origin",
-            "label": "Origin",
-            "type": "dropdown",
-            "dateFormat": "",
-            "timeFormat": "",
-            "databaseKey": "origin",
-            "taxonomy": "activeTag",
-            "source": "",
-            "formula": "",
-            "options": "",
-            "relationColumn": "",
-            "lookupGroup": "",
-            "buttonAction": "none",
-            "buttonTarget": "",
             "showOnForm": true,
             "required": false
           }
@@ -1127,7 +1086,7 @@
           "locked": false,
           "groupId": "",
           "groupName": "",
-          "row": 12,
+          "row": 11,
           "rowSpan": 6,
           "rowUnit": "quarter",
           "label": "Item Lines",
@@ -1147,7 +1106,7 @@
           "locked": false,
           "groupId": "",
           "groupName": "",
-          "row": 48,
+          "row": 6,
           "rowSpan": 4,
           "rowUnit": "quarter",
           "label": "Target Date",
@@ -1167,7 +1126,7 @@
           "locked": false,
           "groupId": "",
           "groupName": "",
-          "row": 48,
+          "row": 6,
           "rowSpan": 4,
           "rowUnit": "quarter",
           "label": "Due Date",
@@ -1250,7 +1209,7 @@
           "row": 6,
           "rowSpan": 4,
           "rowUnit": "quarter",
-          "label": "Bid Amount",
+          "label": "Bid",
           "previewType": "input"
         },
         {
@@ -1287,7 +1246,7 @@
           "locked": false,
           "groupId": "",
           "groupName": "",
-          "row": 48,
+          "row": 6,
           "rowSpan": 4,
           "rowUnit": "quarter",
           "label": "Time",
@@ -1434,81 +1393,14 @@
           "previewType": "button"
         },
         {
-          "key": "sales",
-          "visible": true,
-          "showMode": "always",
-          "width": "half",
-          "fieldBorder": true,
-          "fieldBgClear": false,
-          "locked": false,
-          "groupId": "",
-          "groupName": "",
-          "order": 17,
-          "col": 8,
-          "row": 8,
-          "colSpan": 4,
-          "rowSpan": 4,
-          "rowUnit": "quarter",
-          "label": "Sales",
-          "previewType": "input",
-          "gridCols": 24
-        },
-        {
-          "key": "origin",
-          "visible": true,
-          "width": "half",
-          "order": 18,
-          "col": 1,
-          "colSpan": 6,
-          "gridCols": 24,
-          "showMode": "always",
-          "fieldBorder": true,
-          "fieldBgClear": false,
-          "locked": false,
-          "groupId": "",
-          "groupName": "",
-          "row": 8,
-          "rowSpan": 4,
-          "rowUnit": "quarter",
-          "label": "",
-          "previewType": "auto"
-        },
-        {
-          "key": "salesPerson",
-          "visible": true,
-          "width": "half",
-          "order": 19,
-          "col": 1,
-          "colSpan": 12,
-          "gridCols": 24,
-          "row": 27,
-          "rowSpan": 4,
-          "rowUnit": "quarter"
-        },
-        {
-          "key": "status",
-          "visible": false,
-          "width": "half",
-          "order": 20,
-          "col": 13,
-          "colSpan": 12,
-          "gridCols": 24,
-          "row": 5,
-          "rowSpan": 4,
-          "rowUnit": "quarter",
-          "label": "Status",
-          "locked": false,
-          "previewType": "select"
-        },
-        {
           "key": "actions",
-          "visible": false,
+          "visible": true,
           "width": "full",
-          "order": 21,
+          "order": 17,
           "col": 1,
           "colSpan": 24,
           "gridCols": 24,
-          "row": 9,
+          "row": 27,
           "rowSpan": 4,
           "rowUnit": "quarter",
           "label": "Add",
@@ -3534,7 +3426,7 @@
   "taskSettings": {
     "entityName": "Quotation",
     "entityNamePlural": "Quotations",
-    "fieldCount": 17,
+    "fieldCount": 15,
     "optionalFieldKeys": [
       "targetDate",
       "dueDate",
@@ -3550,14 +3442,9 @@
       "totalItems",
       "totalValue",
       "remarks",
-      "contactSaveAction",
-      "sales",
-      "origin"
+      "contactSaveAction"
     ],
-    "customFieldPool": [
-      "sales",
-      "origin"
-    ],
+    "customFieldPool": [],
     "lookupGroups": [
       {
         "name": "customer_group",
@@ -3596,7 +3483,7 @@
       "customerCode": "Customer Code",
       "customerName": "Customer Name",
       "rfq": "RFQ",
-      "bid": "Bid Amount",
+      "bid": "Bid",
       "status": "Status",
       "pgType": "PG",
       "quoteTime": "Time",
@@ -3609,9 +3496,7 @@
       "remarks": "Remarks",
       "contactSaveAction": "Add Contact",
       "actions": "Add",
-      "priority": "Priority",
-      "sales": "Sales",
-      "origin": "Origin"
+      "priority": "Priority"
     },
     "fields": {
       "sn": {
@@ -3760,7 +3645,7 @@
       },
       "bid": {
         "key": "bid",
-        "label": "Bid Amount",
+        "label": "Bid",
         "type": "text",
         "dateFormat": "",
         "timeFormat": "",
@@ -3991,42 +3876,6 @@
         "buttonTarget": "Contacts",
         "showOnForm": true,
         "required": false
-      },
-      "sales": {
-        "key": "sales",
-        "label": "Sales",
-        "type": "dropdown",
-        "dateFormat": "",
-        "timeFormat": "",
-        "databaseKey": "sales",
-        "taxonomy": "tagSubGroup:origin",
-        "source": "",
-        "formula": "",
-        "options": "",
-        "relationColumn": "",
-        "lookupGroup": "",
-        "buttonAction": "none",
-        "buttonTarget": "",
-        "showOnForm": true,
-        "required": false
-      },
-      "origin": {
-        "key": "origin",
-        "label": "Origin",
-        "type": "dropdown",
-        "dateFormat": "",
-        "timeFormat": "",
-        "databaseKey": "origin",
-        "taxonomy": "activeTag",
-        "source": "",
-        "formula": "",
-        "options": "",
-        "relationColumn": "",
-        "lookupGroup": "",
-        "buttonAction": "none",
-        "buttonTarget": "",
-        "showOnForm": true,
-        "required": false
       }
     },
     "priorityOptions": [
@@ -4135,7 +3984,7 @@
       "locked": false,
       "groupId": "",
       "groupName": "",
-      "row": 12,
+      "row": 11,
       "rowSpan": 6,
       "rowUnit": "quarter",
       "label": "Item Lines",
@@ -4155,7 +4004,7 @@
       "locked": false,
       "groupId": "",
       "groupName": "",
-      "row": 48,
+      "row": 6,
       "rowSpan": 4,
       "rowUnit": "quarter",
       "label": "Target Date",
@@ -4175,7 +4024,7 @@
       "locked": false,
       "groupId": "",
       "groupName": "",
-      "row": 48,
+      "row": 6,
       "rowSpan": 4,
       "rowUnit": "quarter",
       "label": "Due Date",
@@ -4258,7 +4107,7 @@
       "row": 6,
       "rowSpan": 4,
       "rowUnit": "quarter",
-      "label": "Bid Amount",
+      "label": "Bid",
       "previewType": "input"
     },
     {
@@ -4295,7 +4144,7 @@
       "locked": false,
       "groupId": "",
       "groupName": "",
-      "row": 48,
+      "row": 6,
       "rowSpan": 4,
       "rowUnit": "quarter",
       "label": "Time",
@@ -4442,81 +4291,14 @@
       "previewType": "button"
     },
     {
-      "key": "sales",
-      "visible": true,
-      "showMode": "always",
-      "width": "half",
-      "fieldBorder": true,
-      "fieldBgClear": false,
-      "locked": false,
-      "groupId": "",
-      "groupName": "",
-      "order": 17,
-      "col": 8,
-      "row": 8,
-      "colSpan": 4,
-      "rowSpan": 4,
-      "rowUnit": "quarter",
-      "label": "Sales",
-      "previewType": "input",
-      "gridCols": 24
-    },
-    {
-      "key": "origin",
-      "visible": true,
-      "width": "half",
-      "order": 18,
-      "col": 1,
-      "colSpan": 6,
-      "gridCols": 24,
-      "showMode": "always",
-      "fieldBorder": true,
-      "fieldBgClear": false,
-      "locked": false,
-      "groupId": "",
-      "groupName": "",
-      "row": 8,
-      "rowSpan": 4,
-      "rowUnit": "quarter",
-      "label": "",
-      "previewType": "auto"
-    },
-    {
-      "key": "salesPerson",
-      "visible": true,
-      "width": "half",
-      "order": 19,
-      "col": 1,
-      "colSpan": 12,
-      "gridCols": 24,
-      "row": 27,
-      "rowSpan": 4,
-      "rowUnit": "quarter"
-    },
-    {
-      "key": "status",
-      "visible": false,
-      "width": "half",
-      "order": 20,
-      "col": 13,
-      "colSpan": 12,
-      "gridCols": 24,
-      "row": 5,
-      "rowSpan": 4,
-      "rowUnit": "quarter",
-      "label": "Status",
-      "locked": false,
-      "previewType": "select"
-    },
-    {
       "key": "actions",
-      "visible": false,
+      "visible": true,
       "width": "full",
-      "order": 21,
+      "order": 17,
       "col": 1,
       "colSpan": 24,
       "gridCols": 24,
-      "row": 9,
+      "row": 27,
       "rowSpan": 4,
       "rowUnit": "quarter",
       "label": "Add",
@@ -4838,7 +4620,7 @@
     ]
   },
   "ui": {
-    "kanbanDensity": "comfortable"
+    "kanbanDensity": "minimal"
   },
   "pages": {
     "customers": true,
