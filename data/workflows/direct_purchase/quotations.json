@@ -3144,8 +3144,8 @@
     "customerCode": "M-129",
     "customerName": "JAZAN UNIVERSITY",
     "pgType": "G",
-    "origin": "Sales",
-    "salesPerson": "Sales Team B",
+    "origin": "Etimad",
+    "salesPerson": "",
     "rfq": "260239007538(171234)",
     "bid": "1000",
     "quoteTime": "09:59",
@@ -3167,18 +3167,16 @@
       "direct_purchase"
     ],
     "scopeAll": false,
-    "sync_status": "pending_sync",
-    "updatedAt": "2026-05-18T17:08:12.555Z",
+    "sync_status": "synced",
+    "updatedAt": "2026-05-18T13:17:41.940Z",
     "priority": "Critical",
-    "fieldValues": {
-      "sales": "Sales Team B"
-    },
+    "fieldValues": {},
     "checklist": [],
     "checklists": [],
     "attachments": [],
     "comments": [],
     "createdAt": "2026-05-18T13:17:41.940Z",
-    "version": 4,
+    "version": 1,
     "isDraft": false,
     "completedAt": ""
   },
@@ -3192,8 +3190,8 @@
     "customerCode": "M-129",
     "customerName": "JAZAN UNIVERSITY",
     "pgType": "G",
-    "origin": "NUPCO",
-    "salesPerson": "NUPCO 3",
+    "origin": "Etimad",
+    "salesPerson": "",
     "rfq": "260239007546(44753)",
     "bid": "800",
     "quoteTime": "09:59",
@@ -3215,20 +3213,8 @@
       "direct_purchase"
     ],
     "scopeAll": false,
-    "sync_status": "pending_sync",
-    "updatedAt": "2026-05-18T17:07:39.230Z",
-    "priority": "None",
-    "fieldValues": {
-      "sales": "NUPCO 3"
-    },
-    "checklist": [],
-    "checklists": [],
-    "attachments": [],
-    "comments": [],
-    "createdAt": "2026-05-18T15:12:41.867Z",
-    "version": 5,
-    "isDraft": false,
-    "completedAt": ""
+    "sync_status": "synced",
+    "updatedAt": "2026-05-17T16:22:26.841Z"
   },
   {
     "id": "qtn_1776492971585_624",
