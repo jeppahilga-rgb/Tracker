@@ -5749,6 +5749,8 @@
     "workflowIds": [
       "direct_purchase"
     ],
-    "scopeAll": false
+    "scopeAll": false,
+    "sync_status": "synced",
+    "updatedAt": "2026-05-18T09:41:24.556Z"
   }
 ]
