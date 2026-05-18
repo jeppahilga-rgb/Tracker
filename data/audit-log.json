@@ -6091,5 +6091,14 @@
     "by": "User",
     "role": "admin",
     "remarks": "Updated quotation"
+  },
+  {
+    "id": "audit_1779117032927_904",
+    "time": "2026-05-18T15:10:32.927Z",
+    "reference": "26031607",
+    "action": "Quotation Updated",
+    "by": "User",
+    "role": "admin",
+    "remarks": "Updated quotation"
   }
 ]
