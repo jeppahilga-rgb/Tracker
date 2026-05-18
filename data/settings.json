@@ -148,7 +148,7 @@
       "taskSettings": {
         "entityName": "Quotation",
         "entityNamePlural": "Quotations",
-        "fieldCount": 16,
+        "fieldCount": 15,
         "optionalFieldKeys": [
           "targetDate",
           "dueDate",
@@ -164,12 +164,9 @@
           "totalItems",
           "totalValue",
           "remarks",
-          "contactSaveAction",
-          "sales"
+          "contactSaveAction"
         ],
-        "customFieldPool": [
-          "sales"
-        ],
+        "customFieldPool": [],
         "lookupGroups": [
           {
             "name": "customer_group",
@@ -221,8 +218,7 @@
           "remarks": "Remarks",
           "contactSaveAction": "Add Contact",
           "actions": "Add",
-          "priority": "Priority",
-          "sales": "Sales"
+          "priority": "Priority"
         },
         "fields": {
           "sn": {
@@ -600,24 +596,6 @@
             "lookupGroup": "",
             "buttonAction": "upsert",
             "buttonTarget": "Contacts",
-            "showOnForm": true,
-            "required": false
-          },
-          "sales": {
-            "key": "sales",
-            "label": "Sales",
-            "type": "dropdown",
-            "dateFormat": "",
-            "timeFormat": "",
-            "databaseKey": "sales",
-            "taxonomy": "tagSubGroup:origin",
-            "source": "",
-            "formula": "",
-            "options": "",
-            "relationColumn": "",
-            "lookupGroup": "",
-            "buttonAction": "none",
-            "buttonTarget": "",
             "showOnForm": true,
             "required": false
           }
@@ -1415,73 +1393,14 @@
           "previewType": "button"
         },
         {
-          "key": "sales",
-          "visible": true,
-          "showMode": "always",
-          "width": "half",
-          "fieldBorder": true,
-          "fieldBgClear": false,
-          "locked": false,
-          "groupId": "",
-          "groupName": "",
-          "order": 17,
-          "col": 1,
-          "row": 27,
-          "colSpan": 12,
-          "rowSpan": 4,
-          "rowUnit": "quarter",
-          "label": "Sales",
-          "previewType": "input",
-          "gridCols": 24
-        },
-        {
-          "key": "origin",
-          "visible": true,
-          "width": "half",
-          "order": 18,
-          "col": 1,
-          "colSpan": 12,
-          "gridCols": 24,
-          "row": 44,
-          "rowSpan": 4,
-          "rowUnit": "quarter"
-        },
-        {
-          "key": "salesPerson",
-          "visible": true,
-          "width": "half",
-          "order": 19,
-          "col": 13,
-          "colSpan": 12,
-          "gridCols": 24,
-          "row": 27,
-          "rowSpan": 4,
-          "rowUnit": "quarter"
-        },
-        {
-          "key": "status",
-          "visible": false,
-          "width": "half",
-          "order": 20,
-          "col": 1,
-          "colSpan": 12,
-          "gridCols": 24,
-          "row": 9,
-          "rowSpan": 4,
-          "rowUnit": "quarter",
-          "label": "Status",
-          "locked": false,
-          "previewType": "select"
-        },
-        {
           "key": "actions",
-          "visible": false,
+          "visible": true,
           "width": "full",
-          "order": 21,
+          "order": 17,
           "col": 1,
           "colSpan": 24,
           "gridCols": 24,
-          "row": 9,
+          "row": 27,
           "rowSpan": 4,
           "rowUnit": "quarter",
           "label": "Add",
@@ -3507,7 +3426,7 @@
   "taskSettings": {
     "entityName": "Quotation",
     "entityNamePlural": "Quotations",
-    "fieldCount": 16,
+    "fieldCount": 15,
     "optionalFieldKeys": [
       "targetDate",
       "dueDate",
@@ -3523,12 +3442,9 @@
       "totalItems",
       "totalValue",
       "remarks",
-      "contactSaveAction",
-      "sales"
+      "contactSaveAction"
     ],
-    "customFieldPool": [
-      "sales"
-    ],
+    "customFieldPool": [],
     "lookupGroups": [
       {
         "name": "customer_group",
@@ -3580,8 +3496,7 @@
       "remarks": "Remarks",
       "contactSaveAction": "Add Contact",
       "actions": "Add",
-      "priority": "Priority",
-      "sales": "Sales"
+      "priority": "Priority"
     },
     "fields": {
       "sn": {
@@ -3959,24 +3874,6 @@
         "lookupGroup": "",
         "buttonAction": "upsert",
         "buttonTarget": "Contacts",
-        "showOnForm": true,
-        "required": false
-      },
-      "sales": {
-        "key": "sales",
-        "label": "Sales",
-        "type": "dropdown",
-        "dateFormat": "",
-        "timeFormat": "",
-        "databaseKey": "sales",
-        "taxonomy": "tagSubGroup:origin",
-        "source": "",
-        "formula": "",
-        "options": "",
-        "relationColumn": "",
-        "lookupGroup": "",
-        "buttonAction": "none",
-        "buttonTarget": "",
         "showOnForm": true,
         "required": false
       }
@@ -4394,73 +4291,14 @@
       "previewType": "button"
     },
     {
-      "key": "sales",
-      "visible": true,
-      "showMode": "always",
-      "width": "half",
-      "fieldBorder": true,
-      "fieldBgClear": false,
-      "locked": false,
-      "groupId": "",
-      "groupName": "",
-      "order": 17,
-      "col": 1,
-      "row": 27,
-      "colSpan": 12,
-      "rowSpan": 4,
-      "rowUnit": "quarter",
-      "label": "Sales",
-      "previewType": "input",
-      "gridCols": 24
-    },
-    {
-      "key": "origin",
-      "visible": true,
-      "width": "half",
-      "order": 18,
-      "col": 1,
-      "colSpan": 12,
-      "gridCols": 24,
-      "row": 44,
-      "rowSpan": 4,
-      "rowUnit": "quarter"
-    },
-    {
-      "key": "salesPerson",
-      "visible": true,
-      "width": "half",
-      "order": 19,
-      "col": 13,
-      "colSpan": 12,
-      "gridCols": 24,
-      "row": 27,
-      "rowSpan": 4,
-      "rowUnit": "quarter"
-    },
-    {
-      "key": "status",
-      "visible": false,
-      "width": "half",
-      "order": 20,
-      "col": 1,
-      "colSpan": 12,
-      "gridCols": 24,
-      "row": 9,
-      "rowSpan": 4,
-      "rowUnit": "quarter",
-      "label": "Status",
-      "locked": false,
-      "previewType": "select"
-    },
-    {
       "key": "actions",
-      "visible": false,
+      "visible": true,
       "width": "full",
-      "order": 21,
+      "order": 17,
       "col": 1,
       "colSpan": 24,
       "gridCols": 24,
-      "row": 9,
+      "row": 27,
       "rowSpan": 4,
       "rowUnit": "quarter",
       "label": "Add",
