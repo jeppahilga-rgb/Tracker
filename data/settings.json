@@ -4620,7 +4620,7 @@
     ]
   },
   "ui": {
-    "kanbanDensity": "comfortable"
+    "kanbanDensity": "minimal"
   },
   "pages": {
     "customers": true,
